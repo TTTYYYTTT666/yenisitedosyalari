@@ -1,0 +1,256 @@
+{
+    "name": "Kronikne - YouTube Review Analyzer",
+    "nodes": [
+        {
+            "parameters": {
+                "rule": {
+                    "interval": [
+                        {
+                            "field": "days",
+                            "daysInterval": 7
+                        }
+                    ]
+                }
+            },
+            "id": "weekly-schedule",
+            "name": "Weekly Schedule",
+            "type": "n8n-nodes-base.scheduleTrigger",
+            "typeVersion": 1.1,
+            "position": [
+                0,
+                0
+            ]
+        },
+        {
+            "parameters": {
+                "url": "={{$env.KRONIKNE_API_URL}}/api/cars?format=minimal",
+                "options": {}
+            },
+            "id": "get-cars",
+            "name": "Get Car List",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                220,
+                0
+            ]
+        },
+        {
+            "parameters": {
+                "batchSize": 1,
+                "options": {}
+            },
+            "id": "loop-cars",
+            "name": "Loop Cars",
+            "type": "n8n-nodes-base.splitInBatches",
+            "typeVersion": 3,
+            "position": [
+                440,
+                0
+            ]
+        },
+        {
+            "parameters": {
+                "url": "=https://www.googleapis.com/youtube/v3/search?part=snippet&q={{ encodeURIComponent($json.brand + ' ' + $json.model + ' inceleme sorun arıza') }}&type=video&maxResults=5&key={{$env.YOUTUBE_API_KEY}}",
+                "options": {}
+            },
+            "id": "youtube-search",
+            "name": "YouTube Search",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                660,
+                0
+            ]
+        },
+        {
+            "parameters": {
+                "jsCode": "// Extract video IDs and titles\nconst items = $input.all()[0].json.items || [];\nconst videos = items.map(item => ({\n  videoId: item.id.videoId,\n  title: item.snippet.title,\n  description: item.snippet.description,\n  channelTitle: item.snippet.channelTitle\n}));\n\nreturn videos.map(v => ({ json: { ...v, carSlug: $input.all()[0].json.carSlug, brand: $input.all()[0].json.brand, model: $input.all()[0].json.model } }));"
+            },
+            "id": "extract-videos",
+            "name": "Extract Videos",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                880,
+                0
+            ]
+        },
+        {
+            "parameters": {
+                "url": "=https://www.youtube.com/api/timedtext?lang=tr&v={{ $json.videoId }}",
+                "options": {
+                    "response": {
+                        "response": {
+                            "responseFormat": "text"
+                        }
+                    }
+                }
+            },
+            "id": "get-transcript",
+            "name": "Get Transcript",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                1100,
+                0
+            ]
+        },
+        {
+            "parameters": {
+                "modelId": {
+                    "__rl": true,
+                    "mode": "list",
+                    "value": "llama3.1:70b-instruct-q4_K_M"
+                },
+                "messages": {
+                    "values": [
+                        {
+                            "content": "=YouTube video analizi yap. Araç için kronik bilgi çıkar.\n\nAraç: {{ $json.brand }} {{ $json.model }}\nVideo: {{ $json.title }}\nTranskript: {{ $json.transcript.substring(0, 3000) }}\n\nJSON formatında yanıt ver (sadece bu videoda bahsedilen konular):\n{\n  \"issues\": [{\"title\": \"\", \"description\": \"\", \"category\": \"motor|sanziman|elektronik|govde|fren|suspansiyon\", \"riskLevel\": \"HIGH|MEDIUM|LOW\"}],\n  \"pros\": [],\n  \"cons\": [],\n  \"buyingTips\": []\n}"
+                        }
+                    ]
+                },
+                "options": {
+                    "baseUrl": "={{$env.OLLAMA_URL || 'http://localhost:11434'}}"
+                }
+            },
+            "id": "ai-analyze",
+            "name": "AI Analyze Video",
+            "type": "@n8n/n8n-nodes-langchain.lmChatOllama",
+            "typeVersion": 1,
+            "position": [
+                1320,
+                0
+            ]
+        },
+        {
+            "parameters": {
+                "method": "POST",
+                "url": "={{$env.KRONIKNE_API_URL}}/api/chronicle",
+                "sendHeaders": true,
+                "headerParameters": {
+                    "parameters": [
+                        {
+                            "name": "x-api-key",
+                            "value": "={{$env.KRONIKNE_API_KEY}}"
+                        },
+                        {
+                            "name": "Content-Type",
+                            "value": "application/json"
+                        }
+                    ]
+                },
+                "sendBody": true,
+                "specifyBody": "json",
+                "jsonBody": "={\n  \"carSlug\": \"{{ $json.carSlug }}\",\n  \"issues\": {{ JSON.stringify($json.parsed.issues || []) }},\n  \"pros\": {{ JSON.stringify($json.parsed.pros || []) }},\n  \"cons\": {{ JSON.stringify($json.parsed.cons || []) }},\n  \"buyingTips\": {{ JSON.stringify($json.parsed.buyingTips || []) }},\n  \"source\": \"youtube\",\n  \"sourceUrl\": \"https://youtube.com/watch?v={{ $json.videoId }}\"\n}",
+                "options": {}
+            },
+            "id": "save-chronicle",
+            "name": "Save to Kronikne",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4.2,
+            "position": [
+                1540,
+                0
+            ]
+        }
+    ],
+    "connections": {
+        "Weekly Schedule": {
+            "main": [
+                [
+                    {
+                        "node": "Get Car List",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Get Car List": {
+            "main": [
+                [
+                    {
+                        "node": "Loop Cars",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Loop Cars": {
+            "main": [
+                [
+                    {
+                        "node": "YouTube Search",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "YouTube Search": {
+            "main": [
+                [
+                    {
+                        "node": "Extract Videos",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Extract Videos": {
+            "main": [
+                [
+                    {
+                        "node": "Get Transcript",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Get Transcript": {
+            "main": [
+                [
+                    {
+                        "node": "AI Analyze Video",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "AI Analyze Video": {
+            "main": [
+                [
+                    {
+                        "node": "Save to Kronikne",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Save to Kronikne": {
+            "main": [
+                [
+                    {
+                        "node": "Loop Cars",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "tags": [
+        "kronikne",
+        "youtube",
+        "automation"
+    ]
+}
