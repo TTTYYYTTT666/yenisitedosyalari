@@ -2,6 +2,7 @@
 import { NextResponse } from "next/server";
 import { generateVerificationToken } from "@/lib/token";
 import { sendOtpEmail } from "@/lib/mail";
+import { prisma } from "@/lib/db";
 
 export async function POST(req: Request) {
     try {
@@ -10,6 +11,17 @@ export async function POST(req: Request) {
 
         if (!email) {
             return new NextResponse("Email gerekli", { status: 400 });
+        }
+
+        // Check if user exists (Prevent spam/open registration exploit)
+        // User requested: "bütün maillere gönderiliyor kayıt olup olmaması onemlı deıl" (Complaint)
+        const userExists = await prisma.user.findUnique({
+            where: { email }
+        });
+
+        if (!userExists) {
+            // Return success to avoid enumeration, but DO NOT send email
+            return NextResponse.json({ success: true });
         }
 
         // Verify Turnstile Token

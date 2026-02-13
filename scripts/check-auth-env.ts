@@ -11,7 +11,9 @@ const requiredVars = [
     'NEXTAUTH_SECRET',
     'GOOGLE_CLIENT_ID',
     'GOOGLE_CLIENT_SECRET',
-    'DATABASE_URL'
+    'DATABASE_URL',
+    'NEXT_PUBLIC_CLOUDFLARE_SITE_KEY',
+    'CLOUDFLARE_SECRET_KEY'
 ];
 
 let hasError = false;
