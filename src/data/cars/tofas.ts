@@ -12,7 +12,7 @@ export const tofasCars: Car[] = [
         expertNote: "Motoru her usta yapar, parçası bakkalda bile var. Ama şasisi çürükse uzak dur, ortadan ikiye ayrılır.",
         price: 250000,
         reliabilityScore: 60,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 50000,
         issues: [
             {
@@ -41,6 +41,24 @@ export const tofasCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "Yaz Ayları",
                 repairCost: "7.000 TL"
+            },
+            {
+                id: "sahin-s-1-6-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "sahin-s-1-6-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -68,7 +86,7 @@ export const tofasCars: Car[] = [
         expertNote: "Bunun hastası başkadır. ie motor (enjeksiyonlu) tüpte bazen patlatma yapar, düz karbüratörlüsü daha makbuldür.",
         price: 350000,
         reliabilityScore: 65,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 45000,
         issues: [
             {
@@ -88,6 +106,24 @@ export const tofasCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
                 repairCost: "2.000 TL"
+            },
+            {
+                id: "dogan-slx-1-6-ie-auto-3",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "dogan-slx-1-6-ie-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -102,5 +138,5 @@ export const tofasCars: Car[] = [
         buyingTips: [
             "Koltukları yırtıksa orijinalini bulmak zor. Torpido çatlağına dikkat."
         ]
-    },
+    }
 ];

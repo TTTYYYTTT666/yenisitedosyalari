@@ -15,7 +15,7 @@ export const dsCars: Car[] = [
         price: 1300000,
         expertNote: "EB2ADTS 1.2 PureTech 130 HP + EAT8. DS markasının giriş seviye crossover'ı. Küçük ama inanılmaz şık — iç mekan gerçekten premium hissettiriyor. Elmas motifli iç mekan detayları dikkat çekici. AMA PureTech wet belt riski aynen geçerli. Türkiye'de az satıldı, ikinci el zor gider.",
         reliabilityScore: 74,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 3000,
         issues: [
             {
@@ -44,6 +44,24 @@ export const dsCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "Kış / Nem",
                 repairCost: "5.000 - 15.000 TL"
+            },
+            {
+                id: "3-crossback-puretech-auto-4",
+                title: "12V Akü Boşalması",
+                description: "12V yardımcı akünün uzun park halinde boşalması.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "3.000 - 5.000 TL"
+            },
+            {
+                id: "3-crossback-puretech-auto-5",
+                title: "Şarj Kapağı Sorunu",
+                description: "Şarj kapağının donması veya mekanik olarak açılmaması.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Kış ayları",
+                repairCost: "1.500 - 3.000 TL"
             }
         ],
         pros: [
@@ -80,7 +98,7 @@ export const dsCars: Car[] = [
         price: 2300000,
         expertNote: "EP6FADTXD 1.6 PureTech 180 HP + EAT8. DS markasının C segmenti silahı. İç mekan kalitesi ve tasarımı gerçekten üst düzey — Opera donanımı Nappa deri ve Focal ses sistemiyle geliyor. Yolda dikkat çekiyor çünkü kimse tanımıyor. PureTech 1.6 motor wet belt değil ama yağ tüketimi olabilir.",
         reliabilityScore: 82,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 10000,
         issues: [
             {
@@ -109,6 +127,24 @@ export const dsCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
                 repairCost: "Çözümsüz (Tasarım)"
+            },
+            {
+                id: "4-puretech-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "4-puretech-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -144,7 +180,7 @@ export const dsCars: Car[] = [
         price: 2000000,
         expertNote: "EP6FADTXD 1.6 PureTech 180 HP + EAT8. DS'in amiral gemisi SUV. Fransa Cumhurbaşkanlığı makam aracı olan model. İç mekan gerçekten lüks — BRM saat, elmas kaplama, Nappa deri. PureTech 1.6 motorda wet belt yok ama zincir ve yağ tüketimi sorunları var.",
         reliabilityScore: 75,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 6000,
         issues: [
             {
@@ -173,6 +209,24 @@ export const dsCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
                 repairCost: "10.000 - 20.000 TL"
+            },
+            {
+                id: "7-crossback-puretech-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "7-crossback-puretech-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -209,7 +263,7 @@ export const dsCars: Car[] = [
         price: 2500000,
         expertNote: "1.6 PureTech + 2 elektrik motor toplam 300 HP + 4x4. DS7'nin plug-in hibrit versiyonu. ÖTV avantajıyla Türkiye'de ilgi gördü. 58 km elektrik menzil. 300 HP ile çok hızlı ama şarjsız kullanılırsa çok yakar. İkinci el çok belirsiz.",
         reliabilityScore: 73,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 4000,
         issues: [
             {
@@ -238,6 +292,24 @@ export const dsCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "18 ay+",
                 repairCost: "3.000 - 6.000 TL"
+            },
+            {
+                id: "7-crossback-e-tense-phev-auto-4",
+                title: "12V Akü Boşalması",
+                description: "Hibrit sistemin 12V yardımcı aküyü hızla tüketmesi. Araç yatabilir.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "2.500 - 5.000 TL"
+            },
+            {
+                id: "7-crossback-e-tense-phev-auto-5",
+                title: "Rejeneratif Fren Hissi",
+                description: "Rejeneratif frenlemenin suni ve alışılmadık hissettirmesi.",
+                category: "fren",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Normal (Tasarım)"
             }
         ],
         pros: [
@@ -332,5 +404,5 @@ export const dsCars: Car[] = [
             "Motor zinciri kontrol ettirin",
             "Elektronik sistemleri detaylı test edin"
         ]
-    },
+    }
 ];

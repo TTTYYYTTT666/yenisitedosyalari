@@ -15,7 +15,7 @@ export const mercedesCars: Car[] = [
         price: 1650000,
         expertNote: "Türkiye'nin en çok satan Mercedes modellerinden biri. M274 1.6 Turbo motor güvenilir ancak turbo yağ kaçağı ve zincir gergi sorunlarına dikkat edilmeli. Düşük yakıt tüketimi ve yıldız prestiji bir arada.",
         reliabilityScore: 76,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 28000,
         issues: [
             {
@@ -44,6 +44,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "Çözümsüz"
+            },
+            {
+                id: "c180-w205-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "c180-w205-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -75,7 +93,7 @@ export const mercedesCars: Car[] = [
         price: 1900000,
         expertNote: "M274 2.0 Turbo 184 HP motor ile Türkiye'de çok popüler. C180'den daha güçlü ama benzer kronik sorunları paylaşır. NOx sensörü arızası en yaygın şikayet.",
         reliabilityScore: 78,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 20000,
         issues: [
             {
@@ -95,6 +113,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "Çözümsüz"
+            },
+            {
+                id: "c200-w205-auto-3",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "c200-w205-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -124,7 +160,7 @@ export const mercedesCars: Car[] = [
         price: 2400000,
         expertNote: "OM626 1.6 Dizel 136 HP motor Türkiye'de en çok tercih edilen C Serisi varyantı. AMG Line paketiyle ikinci elde çok değerli. İmzalı seri (dikişli göğüs) olanlar prim yapar.",
         reliabilityScore: 88,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 42000,
         issues: [
             {
@@ -144,6 +180,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "80.000+ km",
                 repairCost: "15.000 - 25.000 TL"
+            },
+            {
+                id: "c200d-w205-auto-3",
+                title: "DPF Tıkanması",
+                description: "Şehir içi kısa mesafe kullanımda DPF filtresinin dolması.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "Şehir içi kullanım",
+                repairCost: "5.000 - 12.000 TL"
+            },
+            {
+                id: "c200d-w205-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -172,7 +226,7 @@ export const mercedesCars: Car[] = [
         price: 3800000,
         expertNote: "M254 1.5 Turbo + 48V mild-hybrid motor. Fütüristik iç mekan, dev ekranlar, ama 48V batarya arızaları ilk yıllarda ciddi sorun oldu. Garanti dahilinde olmasını mutlaka kontrol edin.",
         reliabilityScore: 75,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 22000,
         issues: [
             {
@@ -192,6 +246,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Yazılımsal",
                 repairCost: "Yazılım Güncellemesi"
+            },
+            {
+                id: "c200-w206-auto-3",
+                title: "12V Akü Boşalması",
+                description: "Hibrit sistemin 12V yardımcı aküyü hızla tüketmesi. Araç yatabilir.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "2.500 - 5.000 TL"
+            },
+            {
+                id: "c200-w206-auto-4",
+                title: "Rejeneratif Fren Hissi",
+                description: "Rejeneratif frenlemenin suni ve alışılmadık hissettirmesi.",
+                category: "fren",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Normal (Tasarım)"
             }
         ],
         pros: [
@@ -225,7 +297,7 @@ export const mercedesCars: Car[] = [
         price: 1500000,
         expertNote: "M271 1.8 Turbo 204 HP motor ile Türkiye'de efsaneleşmiş model. Tank gibi sağlam gövde ama M271 motorun eksantrik dişlisi sıyırması pahalı onarımlara yol açabilir. Motor çalıştırıldığında çıt çıt sesi varsa uzak durun.",
         reliabilityScore: 80,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 18000,
         issues: [
             {
@@ -245,6 +317,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "5.000 - 10.000 TL"
+            },
+            {
+                id: "e250-w212-auto-3",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "e250-w212-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -274,7 +364,7 @@ export const mercedesCars: Car[] = [
         price: 2800000,
         expertNote: "M274 2.0 Turbo 184 HP benzinli motor. Türkiye'de dizel kadar yaygın olmasa da şehir içi kullanım için ideal. NOx sensörü dışında ciddi bir problemi yok.",
         reliabilityScore: 83,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 14000,
         issues: [
             {
@@ -285,6 +375,33 @@ export const mercedesCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "80.000+ km",
                 repairCost: "15.000 - 25.000 TL"
+            },
+            {
+                id: "e200-w213-auto-2",
+                title: "DPF Tıkanması",
+                description: "Şehir içi kısa mesafe kullanımda DPF filtresinin dolması.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "Şehir içi kullanım",
+                repairCost: "5.000 - 12.000 TL"
+            },
+            {
+                id: "e200-w213-auto-3",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
+            },
+            {
+                id: "e200-w213-auto-4",
+                title: "Süspansiyon Burcu Aşınması",
+                description: "Ön/arka süspansiyon burçlarının aşınması. Kasiste vuruntu sesi.",
+                category: "suspansiyon",
+                riskLevel: "LOW",
+                affectedKm: "60.000+ km",
+                repairCost: "2.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -313,7 +430,7 @@ export const mercedesCars: Car[] = [
         price: 3200000,
         expertNote: "OM654 2.0 Dizel 194 HP Türkiye'nin en popüler E Serisi motoru. AdBlue pompası ve EGR valfi en yaygın sorunlar. Uzun yol yapanlar için ideal, 4-5L/100km yakar. 4Matic versiyonu kış aylarında büyük avantaj.",
         reliabilityScore: 82,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 19000,
         issues: [
             {
@@ -342,6 +459,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "80.000+ km",
                 repairCost: "15.000 - 25.000 TL"
+            },
+            {
+                id: "e220d-w213-auto-4",
+                title: "DPF Tıkanması",
+                description: "Şehir içi kısa mesafe kullanımda DPF filtresinin dolması.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "Şehir içi kullanım",
+                repairCost: "5.000 - 12.000 TL"
+            },
+            {
+                id: "e220d-w213-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -376,7 +511,7 @@ export const mercedesCars: Car[] = [
         price: 1800000,
         expertNote: "M282 1.3 Turbo 136 HP motor (Renault ortak geliştirme). Giriş seviye Mercedes ama iç mekan premium hissiyat veriyor. MBUX sistemi sınıfının en iyisi. AMG Line sert süspansiyonu şehir içinde rahatsız edebilir.",
         reliabilityScore: 82,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 14000,
         issues: [
             {
@@ -396,6 +531,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
                 repairCost: "Çözümsüz (Tasarım)"
+            },
+            {
+                id: "a180-w177-auto-3",
+                title: "12V Akü Boşalması",
+                description: "12V yardımcı akünün uzun park halinde boşalması.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "3.000 - 5.000 TL"
+            },
+            {
+                id: "a180-w177-auto-4",
+                title: "Şarj Kapağı Sorunu",
+                description: "Şarj kapağının donması veya mekanik olarak açılmaması.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Kış ayları",
+                repairCost: "1.500 - 3.000 TL"
             }
         ],
         pros: [
@@ -426,7 +579,7 @@ export const mercedesCars: Car[] = [
         price: 2300000,
         expertNote: "OM608 1.5 Dizel 116 HP (Renault ortak motor). Türkiye'de sedan versiyonu çok tutuluyor. AMG Line paketiyle ikinci elde premium fiyat. Teknoloji paketi (büyük ekran) olmazsa olmaz.",
         reliabilityScore: 86,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 25000,
         issues: [
             {
@@ -437,6 +590,33 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "-",
                 repairCost: "Yazılım ile kapatılabilir"
+            },
+            {
+                id: "a180d-sedan-v177-auto-2",
+                title: "DPF Tıkanması",
+                description: "Şehir içi kısa mesafe kullanımda DPF filtresinin dolması.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "Şehir içi kullanım",
+                repairCost: "5.000 - 12.000 TL"
+            },
+            {
+                id: "a180d-sedan-v177-auto-3",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
+            },
+            {
+                id: "a180d-sedan-v177-auto-4",
+                title: "Süspansiyon Burcu Aşınması",
+                description: "Ön/arka süspansiyon burçlarının aşınması. Kasiste vuruntu sesi.",
+                category: "suspansiyon",
+                riskLevel: "LOW",
+                affectedKm: "60.000+ km",
+                repairCost: "2.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -470,7 +650,7 @@ export const mercedesCars: Car[] = [
         price: 2500000,
         expertNote: "M282 1.3 Turbo 163 HP. A Serisi platformunun coupe versiyonu. Çerçevesiz camlar ve sportif tasarım dikkat çekiyor. DCT (çift kavramalı) şanzıman düşük hızlarda titreme yapabilir.",
         reliabilityScore: 83,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 11000,
         issues: [
             {
@@ -490,6 +670,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
                 repairCost: "3.000 - 8.000 TL"
+            },
+            {
+                id: "cla-200-auto-3",
+                title: "12V Akü Boşalması",
+                description: "12V yardımcı akünün uzun park halinde boşalması.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "3.000 - 5.000 TL"
+            },
+            {
+                id: "cla-200-auto-4",
+                title: "Şarj Kapağı Sorunu",
+                description: "Şarj kapağının donması veya mekanik olarak açılmaması.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Kış ayları",
+                repairCost: "1.500 - 3.000 TL"
             }
         ],
         pros: [
@@ -519,7 +717,7 @@ export const mercedesCars: Car[] = [
         price: 1750000,
         expertNote: "OM607 1.5 Dizel 109 HP (Renault motor). İlk nesil CLA Türkiye'de çok tutuldu. Çerçevesiz camlar zamana rağmen dikkat çekiyor. Sert süspansiyon ve iç trim sesleri en büyük şikayet.",
         reliabilityScore: 84,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 26000,
         issues: [
             {
@@ -530,6 +728,33 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "40.000+ km",
                 repairCost: "İzolasyon ile azaltılabilir"
+            },
+            {
+                id: "cla-180d-c117-auto-2",
+                title: "12V Akü Boşalması",
+                description: "12V yardımcı akünün uzun park halinde boşalması.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "3.000 - 5.000 TL"
+            },
+            {
+                id: "cla-180d-c117-auto-3",
+                title: "Şarj Kapağı Sorunu",
+                description: "Şarj kapağının donması veya mekanik olarak açılmaması.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Kış ayları",
+                repairCost: "1.500 - 3.000 TL"
+            },
+            {
+                id: "cla-180d-c117-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -563,7 +788,7 @@ export const mercedesCars: Car[] = [
         price: 2600000,
         expertNote: "M282 1.3 Turbo 163 HP. A Serisi platformunun SUV versiyonu. Yüksek sürüş pozisyonu ve premium iç mekan. Elektronik termostat arızası ve geri görüş kamerası kapağı en yaygın sorunlar.",
         reliabilityScore: 84,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 10000,
         issues: [
             {
@@ -592,6 +817,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "60.000+ km",
                 repairCost: "8.000 - 12.000 TL"
+            },
+            {
+                id: "gla-200-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "gla-200-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -625,7 +868,7 @@ export const mercedesCars: Car[] = [
         price: 2800000,
         expertNote: "M282 1.3 Turbo 163 HP. Mercedes'in 7 kişilik kompakt SUV'u. Türkiye'de aile aracı olarak çok popüler. GLA'dan daha geniş iç mekan ve opsiyonel 3. sıra koltuk. DCT titremesi ve MBUX donması dikkat edilmesi gereken noktalar.",
         reliabilityScore: 82,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 12000,
         issues: [
             {
@@ -654,6 +897,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "60.000+ km",
                 repairCost: "8.000 - 12.000 TL"
+            },
+            {
+                id: "glb-200-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "glb-200-auto-5",
+                title: "Süspansiyon Burcu Aşınması",
+                description: "Ön/arka süspansiyon burçlarının aşınması. Kasiste vuruntu sesi.",
+                category: "suspansiyon",
+                riskLevel: "LOW",
+                affectedKm: "60.000+ km",
+                repairCost: "2.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -690,7 +951,7 @@ export const mercedesCars: Car[] = [
         price: 2600000,
         expertNote: "OM651 2.1 Dizel 204 HP. Türkiye'de çok tutulan premium orta boy SUV. 4Matic dört çeker sistemi kış aylarında büyük avantaj. Akustik cam yoksa rüzgar sesi rahatsız edebilir.",
         reliabilityScore: 80,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 13000,
         issues: [
             {
@@ -710,6 +971,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "Akustik cam retrofiti mümkün değil"
+            },
+            {
+                id: "glc-250d-auto-3",
+                title: "DPF Tıkanması",
+                description: "Şehir içi kısa mesafe kullanımda DPF filtresinin dolması.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "Şehir içi kullanım",
+                repairCost: "5.000 - 12.000 TL"
+            },
+            {
+                id: "glc-250d-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -739,7 +1018,7 @@ export const mercedesCars: Car[] = [
         price: 4200000,
         expertNote: "M254 2.0 Turbo 197 HP + 48V mild-hybrid. Yeni nesil GLC tamamen yenilendi. Daha büyük iç mekan, dev tablet ekran. 48V sistemi W206 C Serisi'ndeki sorunların giderilmiş versiyonu ama yine de dikkatli olmak gerek.",
         reliabilityScore: 79,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 9000,
         issues: [
             {
@@ -759,6 +1038,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Yazılımsal",
                 repairCost: "Yazılım Güncellemesi"
+            },
+            {
+                id: "glc-200-x254-auto-3",
+                title: "12V Akü Boşalması",
+                description: "Hibrit sistemin 12V yardımcı aküyü hızla tüketmesi. Araç yatabilir.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "2.500 - 5.000 TL"
+            },
+            {
+                id: "glc-200-x254-auto-4",
+                title: "Rejeneratif Fren Hissi",
+                description: "Rejeneratif frenlemenin suni ve alışılmadık hissettirmesi.",
+                category: "fren",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Normal (Tasarım)"
             }
         ],
         pros: [
@@ -793,7 +1090,7 @@ export const mercedesCars: Car[] = [
         price: 2900000,
         expertNote: "OM654 2.0 Dizel 194 HP. GLC'nin sportif coupe versiyonu. Türkiye'de çok rağbet gören model, ikinci elde değer kaybı düşük. Normal GLC ile aynı teknik altyapıyı paylaşır ama bagaj hacmi daha kısıtlı.",
         reliabilityScore: 81,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 8000,
         issues: [
             {
@@ -813,6 +1110,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "50.000+ km",
                 repairCost: "5.000 - 15.000 TL"
+            },
+            {
+                id: "glc-220d-coupe-c253-auto-3",
+                title: "DPF Tıkanması",
+                description: "Şehir içi kısa mesafe kullanımda DPF filtresinin dolması.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "Şehir içi kullanım",
+                repairCost: "5.000 - 12.000 TL"
+            },
+            {
+                id: "glc-220d-coupe-c253-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -846,7 +1161,7 @@ export const mercedesCars: Car[] = [
         price: 5500000,
         expertNote: "OM656 3.0 V6 Dizel 272 HP. Mercedes'in büyük SUV'u, Türkiye'nin lüks SUV segmentinde çok popüler. Hava süspansiyonu konfor sağlıyor ama arızalandığında maliyetli. AdBlue sistemi sorunları da yaygın.",
         reliabilityScore: 77,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 7000,
         issues: [
             {
@@ -875,6 +1190,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
                 repairCost: "Garanti/Yazılım"
+            },
+            {
+                id: "gle-350d-v167-auto-4",
+                title: "DPF Tıkanması",
+                description: "Şehir içi kısa mesafe kullanımda DPF filtresinin dolması.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "Şehir içi kullanım",
+                repairCost: "5.000 - 12.000 TL"
+            },
+            {
+                id: "gle-350d-v167-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -911,7 +1244,7 @@ export const mercedesCars: Car[] = [
         price: 8500000,
         expertNote: "OM656 3.0 Dizel 286 HP. Otomobil dünyasının amiral gemisi. Türkiye'de CEO'ların, işadamlarının tercihi. Arka aks direksiyonu devrimsel ama arızalandığında astronomik maliyetli. MBUX Hyperscreen çizilmeye hassas.",
         reliabilityScore: 74,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 5000,
         issues: [
             {
@@ -940,6 +1273,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "HIGH",
                 affectedKm: "50.000+ km",
                 repairCost: "60.000 - 120.000 TL"
+            },
+            {
+                id: "s350d-w223-auto-4",
+                title: "12V Akü Boşalması",
+                description: "12V yardımcı akünün uzun park halinde boşalması.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "3.000 - 5.000 TL"
+            },
+            {
+                id: "s350d-w223-auto-5",
+                title: "Şarj Kapağı Sorunu",
+                description: "Şarj kapağının donması veya mekanik olarak açılmaması.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Kış ayları",
+                repairCost: "1.500 - 3.000 TL"
             }
         ],
         pros: [
@@ -977,7 +1328,7 @@ export const mercedesCars: Car[] = [
         price: 2200000,
         expertNote: "OM651 2.1 Dizel 136 HP. Türkiye'de VIP transfer ve aile aracı olarak çok popüler. Geniş iç mekan, çok yönlü kullanım ama enjektör ve turbo aktuatör arızaları sıkça yaşanıyor. Ticari kullanımda yüksek km'lilerden kaçının.",
         reliabilityScore: 73,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 15000,
         issues: [
             {
@@ -1006,6 +1357,24 @@ export const mercedesCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "50.000+ km",
                 repairCost: "8.000 - 15.000 TL"
+            },
+            {
+                id: "vito-tourer-114-cdi-auto-4",
+                title: "DPF Tıkanması",
+                description: "Şehir içi kısa mesafe kullanımda DPF filtresinin dolması.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "Şehir içi kullanım",
+                repairCost: "5.000 - 12.000 TL"
+            },
+            {
+                id: "vito-tourer-114-cdi-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -1027,5 +1396,401 @@ export const mercedesCars: Car[] = [
             "Ticari kullanılmış olanlardan kaçının (yıpranma fazla)",
             "Sürgülü kapıları defalarca açıp kapatın"
         ]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "mercedes-a180d-amg-v177",
+        slug: "mercedes-a180d-amg-v177",
+        brand: "Mercedes",
+        model: "A Serisi",
+        variant: "A180d Sedan AMG",
+        years: "2019-2025",
+        generation: "V177",
+        price: 1700000,
+        expertNote: "Giriş seviye Mercedes sedan. MBUX sistemi harikadır. 1.5 dCi motor Renault'dan gelir — evet doğru duydun, Renault K9K. Ama Mercedes kalitesinde monte edilmiştir. AMG Line paketi şarttır.",
+        reliabilityScore: 83,
+        totalIssues: 5,
+        searchCount: 28000,
+        issues: [
+            {
+                id: "a180d-amg-1",
+                title: "DCT Şanzıman Sarsıntısı",
+                description: "8G-DCT çift kavramalı şanzımanda düşük hızlarda sarsıntı ve vites kararsızlığı.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "40.000+ km",
+                repairCost: "Yazılım / Kavrama (30.000+ TL)"
+            },
+            {
+                id: "a180d-amg-2",
+                title: "MBUX Donma",
+                description: "MBUX multimedya sisteminin donması, kararması ve sesli asistanın tepkisiz kalması.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "Rastgele",
+                repairCost: "Yazılım Güncellemesi"
+            },
+            {
+                id: "a180d-amg-3",
+                title: "Sunroof Drenaj Tıkanması",
+                description: "Sunroof tahliye kanallarının tıkanması ve araç içine su sızması.",
+                category: "govde",
+                riskLevel: "MEDIUM",
+                affectedKm: "Yaprak dökümü döneminde",
+                repairCost: "Temizlik / 3.000 TL"
+            },
+            {
+                id: "a180d-amg-4",
+                title: "Start-Stop Akü Zayıflığı",
+                description: "AGM aküyü start-stop sistemiyle hızlı bitirmesi.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "24 ay+",
+                repairCost: "5.000 - 8.000 TL (AGM Akü)"
+            },
+            {
+                id: "a180d-amg-5",
+                title: "Arka Süspansiyon Gıcırtısı",
+                description: "Arka torsion bar süspansiyonun burçlarından gelen gıcırtı.",
+                category: "suspansiyon",
+                riskLevel: "LOW",
+                affectedKm: "40.000+ km",
+                repairCost: "3.000 - 6.000 TL"
+            }
+        ],
+        pros: [
+            "Mercedes prestiji",
+            "MBUX sistemi",
+            "AMG Line görünüşü"
+        ],
+        cons: [
+            "Torsion bar arka süspansiyon",
+            "Renault motoru",
+            "Fiyat"
+        ],
+        buyingTips: [
+            "AMG Line paketsiz almayın",
+            "Sunroof drenajını kontrol ettirin",
+            "DCT geçişlerini test edin"
+        ]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "mercedes-c180-w204-kompressor",
+        slug: "mercedes-c180-w204-kompressor",
+        brand: "Mercedes-Benz",
+        model: "C Serisi",
+        variant: "C180 Kompressor W204",
+        years: "2007-2014",
+        generation: "W204",
+        price: 600000,
+        reliabilityScore: 74,
+        totalIssues: 6,
+        searchCount: 13000,
+        expertNote: "W204 C180 TR'de çok satıldı. 1.6 kompresörlü (M271) motor güçlü ve nispeten güvenilir ama triger zinciri uzaması kritik. Yağ filtre gövdesi kaçağı ve direksiyon pompası sorunları yaygın.",
+        issues: [
+            { id: "w204-1", title: "M271 Triger Zinciri Uzaması", description: "1.6 kompresörlü M271 motorun triger zincirinde erken uzama. Zamanla motor zamanlaması kayar, zincir atlarsa motor hasar görür.", category: "motor", riskLevel: "CRITICAL", affectedKm: "80.000 - 120.000 km", repairCost: "10.000 - 25.000 TL" },
+            { id: "w204-2", title: "Direksiyon Pompası Arızası", description: "Elektro-hidrolik direksiyon pompasının arızalanması. Direksiyon ağırlaşır.", category: "suspansiyon", riskLevel: "HIGH", affectedKm: "80.000+ km", repairCost: "8.000 - 15.000 TL" },
+            { id: "w204-3", title: "Yağ Filtre Gövdesi Kaçağı", description: "Plastik yağ filtre gövdesinden yağ sızıntısı. Motor alt koruma sacında yağ birikmesi.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "3.000 - 6.000 TL" },
+            { id: "w204-4", title: "Arka SAM Modül Arızası", description: "Arka sinyal kontrol modülünde su teması sonucu kısa devre. Stop lambaları çalışmaz.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "Yaş kaynaklı", repairCost: "5.000 - 10.000 TL" },
+            { id: "w204-5", title: "Süspansiyon Salıncak Burcu", description: "Ön salıncak burçlarının aşınması. Kasis geçişlerinde vuruntu.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "60.000+ km", repairCost: "3.000 - 6.000 TL" },
+            { id: "w204-6", title: "Klima Kompresörü", description: "Klima kompresör manyetik kavramasının aşınması. Soğutma kaybı.", category: "elektronik", riskLevel: "LOW", affectedKm: "100.000+ km", repairCost: "5.000 - 12.000 TL" }
+        ],
+        pros: ["Mercedes prestiji", "M271 motor güçlü", "Konforlu sürüş", "Kaliteli iç mekan"],
+        cons: ["Triger zinciri kritik", "Servis çok pahalı", "Yaşı nedeniyle elektronik sorunlar"],
+        buyingTips: ["Triger zinciri ne zaman değişmiş mutlaka sorun", "Soğuk motorla çalıştırıp zincir sesi dinleyin", "Direksiyon ağırlığı test edin"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "mercedes-e200-w211",
+        slug: "mercedes-e200-w211",
+        brand: "Mercedes-Benz",
+        model: "E Serisi",
+        variant: "E200 Kompressor W211",
+        years: "2003-2009",
+        generation: "W211",
+        price: 500000,
+        reliabilityScore: 70,
+        totalIssues: 6,
+        searchCount: 10000,
+        expertNote: "W211 Mercedes'in en ikonik E Serisi. E200 Kompressor TR'de çok satıldı. Motor güvenilir ama yaşı nedeniyle elektronik sorunlar kaçınılmaz. Hava süspansiyonlu Airmatic versiyonları parasını yer. YILDIZ SIS önemli.",
+        issues: [
+            { id: "w211-1", title: "SBC Fren Sistemi Arızası", description: "Sensotronic Brake Control (SBC) elektro-hidrolik fren sisteminin arızalanması. Fren kaybı riski. Mercedes geri çağırma yaptı.", category: "fren", riskLevel: "CRITICAL", affectedKm: "80.000+ km", repairCost: "10.000 - 25.000 TL" },
+            { id: "w211-2", title: "Airmatic Süspansiyon (Varsa)", description: "Hava süspansiyon körüklerinin patlaması veya kompresörün arızalanması. Araç bir tarafa yatar.", category: "suspansiyon", riskLevel: "HIGH", affectedKm: "80.000+ km", repairCost: "10.000 - 25.000 TL (Körük başı)" },
+            { id: "w211-3", title: "Triger Zinciri Uzaması (M271)", description: "M271 kompresörlü motorun triger zincirinde uzama.", category: "motor", riskLevel: "HIGH", affectedKm: "80.000+ km", repairCost: "10.000 - 20.000 TL" },
+            { id: "w211-4", title: "SAM Modül Arızası", description: "Sinyal kontrol modülünde nem/kısa devre. Farlar, silecekler veya cam motorları çalışmaz.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "Yaş kaynaklı", repairCost: "5.000 - 12.000 TL" },
+            { id: "w211-5", title: "Direksiyon Kilidi (ELV)", description: "Elektronik direksiyon kilidi arızası. Kontak açılmaz.", category: "elektronik", riskLevel: "HIGH", affectedKm: "Yaş kaynaklı", repairCost: "5.000 - 10.000 TL" },
+            { id: "w211-6", title: "Klima Evaporatör Sızıntısı", description: "Klima evaporatöründen gaz kaçağı. Klima soğutmaz.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "100.000+ km", repairCost: "5.000 - 10.000 TL" }
+        ],
+        pros: ["İkonik Mercedes tasarımı", "Çok konforlu sürüş", "Güçlü motor seçenekleri", "Yüksek prestij"],
+        cons: ["SBC fren riski", "Airmatic çok pahalı", "Elektronik arızalar", "Bakım çok yüksek"],
+        buyingTips: ["SBC fren sistemi kontrol ettirin", "Airmatic varsa iki kez düşünün", "SAM modülü test edin", "Triger zinciri kontrol ettirin"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "mercedes-b180d-w247",
+        slug: "mercedes-b180d-w247",
+        brand: "Mercedes-Benz",
+        model: "B Serisi",
+        variant: "B180d",
+        years: "2019-2024",
+        generation: "W247",
+        price: 2000000,
+        reliabilityScore: 78,
+        totalIssues: 5,
+        searchCount: 5500,
+        expertNote: "B Serisi Mercedes'in aile aracıdır. 1.5 dCi Renault motoru kullanır (evet, Renault motoru). Konforlu ve sessizdir ama triger kayışı bakımını aksatmayın, kopma riski var.",
+        issues: [
+            { id: "b180d-1", title: "Renault 1.5 dCi Triger Kayışı Riski", description: "Mercedes B180d'de kullanılan Renault kaynaklı 1.5 dCi motorun triger kayışı 120.000 km veya 5 yılda değiştirilmeli. Kayış koparsa motor total zarar görür. Periyodik bakım kritiktir.", category: "motor", riskLevel: "CRITICAL", affectedKm: "120.000 km / 5 Yıl", repairCost: "8.000 - 12.000 TL (Kayış) / Motor (Koparsa)" },
+            { id: "b180d-2", title: "DCT 8G-DCT Şanzıman Titreşimi", description: "Çift kavramalı 8 ileri şanzımanda düşük hızlarda ve park manevralarında titreşim. Kavrama adaptasyonu sıfırlanması ile iyileşir.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "40.000+ km", repairCost: "Yazılım / 25.000 TL (Kavrama)" },
+            { id: "b180d-3", title: "MBUX Multimedya Hataları", description: "MBUX ekranının donması, 'Hey Mercedes' sesli asistanın tepkisiz kalması veya Apple CarPlay bağlantı kopması.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "Yazılım Güncelleme" },
+            { id: "b180d-4", title: "Arka Fren Diski Korozyonu", description: "Düşük fren kullanımı nedeniyle arka disklerde pas birikmesi ve fren sesi oluşması.", category: "fren", riskLevel: "LOW", affectedKm: "20.000+ km", repairCost: "3.000 - 5.000 TL" },
+            { id: "b180d-5", title: "DPF Rejenerasyon Talebi", description: "Kısa mesafe şehir içi kullanımda partikül filtresi dolması ve rejenerasyon uyarısı.", category: "motor", riskLevel: "MEDIUM", affectedKm: "Şehir içi", repairCost: "5.000 - 15.000 TL" }
+        ],
+        pros: ["Geniş iç hacim (A Serisi'nden büyük)", "MBUX teknolojisi", "Konforlu süspansiyon", "Mercedes prestiji"],
+        cons: ["Renault dizel motoru (Algı)", "Bakım maliyeti yüksek", "İkinci el ağır değer kaybı"],
+        buyingTips: ["Triger kayışı ne zaman değişmiş mutlaka sorun", "DCT şanzımanı düşük hızda test edin", "Servis geçmişi eksiksiz olmalı"]
+    }
+,
+    {
+            "id": "mercedes-e220d-w212",
+            "slug": "mercedes-e220d-w212",
+            "brand": "Mercedes-Benz",
+            "model": "E Serisi (W212)",
+            "variant": "E220 CDI 2.1 Dizel",
+            "years": "2009-2016",
+            "generation": "W212",
+            "price": 1200000,
+            "expertNote": "OM651 2.1 CDI 170 HP. W212 Türkiye'de efsaneleşmiş model. Tank gibi sağlam gövde ama enjektör ve turbo sorunlarına dikkat. Facelift (2013+) tercih edilmeli.",
+            "reliabilityScore": 79,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "e220d-w212-1",
+                            "title": "Enjektör Arızası",
+                            "description": "OM651 enjektörlerin sızıntı yapması. Siyah duman.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "10.000 - 25.000 TL"
+                    },
+                    {
+                            "id": "e220d-w212-2",
+                            "title": "Turbo Aktuatör",
+                            "description": "Turbo elektronik aktuatörünün arızası. Güç kaybı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "e220d-w212-3",
+                            "title": "Yağ Soğutucu Contası",
+                            "description": "Motor yağ soğutucusu contasından sızıntı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "e220d-w212-4",
+                            "title": "LED Stop Arızası",
+                            "description": "Arka LED stop lambalarının sönük yanması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "e220d-w212-5",
+                            "title": "Süspansiyon Burcu",
+                            "description": "Ön süspansiyon burçlarının aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Tank gibi yapı",
+                    "Konfor",
+                    "Prestij",
+                    "Ses yalıtımı"
+            ],
+            "cons": [
+                    "Enjektör riski",
+                    "Turbo bakımı",
+                    "Parça fiyatları"
+            ],
+            "buyingTips": [
+                    "Enjektör testi yaptırın",
+                    "Facelift 2013+ tercih edin",
+                    "Bakım geçmişi şart"
+            ]
+    }
+,
+    {
+            "id": "mercedes-c180-w204",
+            "slug": "mercedes-c180-w204",
+            "brand": "Mercedes-Benz",
+            "model": "C Serisi (W204)",
+            "variant": "C180 Kompressor 1.6",
+            "years": "2007-2014",
+            "generation": "W204",
+            "price": 800000,
+            "expertNote": "M271 1.6 Kompressor 156 HP. W204 Türkiye'de premium C segment klasiği. Kompressor motor güvenilir ama zincir uzaması var. Facelift (2011+) çok daha iyi.",
+            "reliabilityScore": 76,
+            "totalIssues": 5,
+            "searchCount": 15000,
+            "issues": [
+                    {
+                            "id": "w204-1",
+                            "title": "Zincir Uzaması",
+                            "description": "M271 motor triger zinciri uzaması. Motor çalışmama riski.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "10.000 - 20.000 TL"
+                    },
+                    {
+                            "id": "w204-2",
+                            "title": "Direksiyon Pompası",
+                            "description": "Elektrikli direksiyon pompası arızası.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "8.000 - 15.000 TL"
+                    },
+                    {
+                            "id": "w204-3",
+                            "title": "Yağ Soğutucu Contası",
+                            "description": "Motor yağ soğutucusu contasından sızıntı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "w204-4",
+                            "title": "7G-Tronic Sarsıntısı",
+                            "description": "7 ileri otomatik şanzımanda vites sarsıntısı.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "Yağ / Konductör Plaka"
+                    },
+                    {
+                            "id": "w204-5",
+                            "title": "COMAND Donma",
+                            "description": "COMAND multimedya sistemi donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Yazılım"
+                    }
+            ],
+            "pros": [
+                    "Premium hissiyat",
+                    "Kompressor performans",
+                    "Mercedes prestiji",
+                    "Sağlam gövde"
+            ],
+            "cons": [
+                    "Zincir uzama riski",
+                    "Bakım pahalı",
+                    "Parça fiyatları"
+            ],
+            "buyingTips": [
+                    "Zincir sesini dinleyin",
+                    "Facelift 2011+ tercih edin",
+                    "AMG paket göze hitap eder"
+            ]
+    }
+,
+    {
+            "id": "mercedes-a180-w176",
+            "slug": "mercedes-a180-w176",
+            "brand": "Mercedes-Benz",
+            "model": "A Serisi (W176)",
+            "variant": "A180 CDI 1.5",
+            "years": "2012-2018",
+            "generation": "W176",
+            "price": 900000,
+            "expertNote": "Renault K9K 1.5 CDI 109 HP. W176 Mercedes'in gençlere yönelik modeli. Renault dizel motor ekonomik ama Mercedes hissiyatı değil. Çift kavramalı şanzıman hassas.",
+            "reliabilityScore": 75,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "w176-1",
+                            "title": "DCT Şanzıman Titremesi",
+                            "description": "7G-DCT çift kavramalı şanzımanda düşük hızlarda titreme.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "15.000 - 30.000 TL"
+                    },
+                    {
+                            "id": "w176-2",
+                            "title": "DPF Tıkanması",
+                            "description": "Şehir içi kullanımda DPF dolması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "w176-3",
+                            "title": "Enjektör Arızası",
+                            "description": "1.5 CDI enjektör tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "8.000 - 15.000 TL"
+                    },
+                    {
+                            "id": "w176-4",
+                            "title": "Arka Fren Kaliperi",
+                            "description": "Arka fren kaliperi tutması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "w176-5",
+                            "title": "COMAND Ekran",
+                            "description": "COMAND Online ekranının yavaşlaması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Yazılım"
+                    }
+            ],
+            "pros": [
+                    "Mercedes logosu",
+                    "Genç tasarım",
+                    "Kompakt boyut",
+                    "Ekonomik dizel"
+            ],
+            "cons": [
+                    "DCT hassasiyeti",
+                    "Renault motoru",
+                    "Bakım pahalı"
+            ],
+            "buyingTips": [
+                    "DCT trafikte test edin",
+                    "Benzinli versiyonu daha güvenilir",
+                    "AMG Line tercih edin"
+            ]
     }
 ];

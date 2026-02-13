@@ -10,7 +10,7 @@ export const hyundaiCars: Car[] = [
         years: "2020-2024",
         generation: "BC3",
         reliabilityScore: 89,
-        totalIssues: 2,
+        totalIssues: 5,
         searchCount: 9500,
         issues: [
             {
@@ -82,7 +82,7 @@ export const hyundaiCars: Car[] = [
         years: "2021-2024",
         generation: "NX4",
         reliabilityScore: 86,
-        totalIssues: 2,
+        totalIssues: 5,
         searchCount: 11000,
         issues: [
             {
@@ -154,7 +154,7 @@ export const hyundaiCars: Car[] = [
         years: "2020-2024",
         generation: "AC3",
         reliabilityScore: 88,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 6000,
         issues: [
             {
@@ -217,7 +217,7 @@ export const hyundaiCars: Car[] = [
         years: "2021-2024",
         generation: "BC3 CUV",
         reliabilityScore: 87,
-        totalIssues: 2,
+        totalIssues: 5,
         searchCount: 8500,
         issues: [
             {
@@ -288,7 +288,7 @@ export const hyundaiCars: Car[] = [
         years: "2021-2024",
         generation: "CN7",
         reliabilityScore: 89,
-        totalIssues: 2,
+        totalIssues: 5,
         searchCount: 5500,
         issues: [
             {
@@ -360,7 +360,7 @@ export const hyundaiCars: Car[] = [
         generation: "GB",
         price: 1050000,
         reliabilityScore: 92,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 16000,
         issues: [
             {
@@ -371,6 +371,33 @@ export const hyundaiCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "60.000+ km",
                 repairCost: "5.000 - 10.000 TL"
+            },
+            {
+                id: "i20-1-4-mpi-auto-2",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "i20-1-4-mpi-auto-3",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
+            },
+            {
+                id: "i20-1-4-mpi-auto-4",
+                title: "Süspansiyon Burcu Aşınması",
+                description: "Ön/arka süspansiyon burçlarının aşınması. Kasiste vuruntu sesi.",
+                category: "suspansiyon",
+                riskLevel: "LOW",
+                affectedKm: "60.000+ km",
+                repairCost: "2.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -396,7 +423,7 @@ export const hyundaiCars: Car[] = [
         generation: "NX4",
         price: 1950000,
         reliabilityScore: 89,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 38000,
         issues: [
             {
@@ -416,6 +443,24 @@ export const hyundaiCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Trafik",
                 repairCost: "Kullanıcı Hatası"
+            },
+            {
+                id: "tucson-1-6-tgdi-auto-3",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "tucson-1-6-tgdi-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -442,7 +487,7 @@ export const hyundaiCars: Car[] = [
         expertNote: "Roket gibi gider, az yakar. Şirketlerin favorisidir. DCT şanzıman ısınırsa kenara çek bekle. Direksiyonu zamanla soyulur.",
         price: 750000,
         reliabilityScore: 84,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 19000,
         issues: [
             {
@@ -471,6 +516,24 @@ export const hyundaiCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "80.000+ km",
                 repairCost: "3.000 - 6.000 TL"
+            },
+            {
+                id: "accent-blue-1-6-crdi-auto-4",
+                title: "DPF Tıkanması",
+                description: "Şehir içi kısa mesafe kullanımda DPF filtresinin dolması.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "Şehir içi kullanım",
+                repairCost: "5.000 - 12.000 TL"
+            },
+            {
+                id: "accent-blue-1-6-crdi-auto-5",
+                title: "DCT Kavrama Titremesi",
+                description: "Çift kavramalı şanzımanda düşük hızlarda titreşim.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "40.000+ km",
+                repairCost: "10.000 - 25.000 TL"
             }
         ],
         pros: [
@@ -497,7 +560,7 @@ export const hyundaiCars: Car[] = [
         years: "2017-2023",
         generation: "OS",
         reliabilityScore: 86,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 9000,
         issues: [
             {
@@ -508,6 +571,33 @@ export const hyundaiCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Trafikte",
                 repairCost: "Soğutma Beklemesi"
+            },
+            {
+                id: "kona-1-0-tgdi-auto-2",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "kona-1-0-tgdi-auto-3",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
+            },
+            {
+                id: "kona-1-0-tgdi-auto-4",
+                title: "Süspansiyon Burcu Aşınması",
+                description: "Ön/arka süspansiyon burçlarının aşınması. Kasiste vuruntu sesi.",
+                category: "suspansiyon",
+                riskLevel: "LOW",
+                affectedKm: "60.000+ km",
+                repairCost: "2.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -534,7 +624,7 @@ export const hyundaiCars: Car[] = [
         expertNote: "Tucson'un babası. LPG'siz binilmez, LPG varsa da subap eritme riski vardır. Motoru sağlamdır, kaportası kavidir.",
         price: 750000,
         reliabilityScore: 80,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 10000,
         issues: [
             {
@@ -563,6 +653,24 @@ export const hyundaiCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
                 repairCost: "2.000 - 4.000 TL"
+            },
+            {
+                id: "ix35-1-6-gdi-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "ix35-1-6-gdi-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -588,7 +696,7 @@ export const hyundaiCars: Car[] = [
         years: "2009-2014",
         generation: "PB",
         reliabilityScore: 85,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 9000,
         issues: [
             {
@@ -608,6 +716,24 @@ export const hyundaiCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "60.000 km",
                 repairCost: "5.000 TL"
+            },
+            {
+                id: "i20-troy-1-4-auto-3",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "i20-troy-1-4-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -634,7 +760,7 @@ export const hyundaiCars: Car[] = [
         expertNote: "Şaka makinesi. 177 beygirle çoğu spor arabayı üzer. Ama o DCT şanzıman var ya, trafikte ısınırsa üzer. Yakıtı da performansına göre makuldür (9-10L).",
         price: 1050000,
         reliabilityScore: 86,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 11000,
         issues: [
             {
@@ -654,6 +780,24 @@ export const hyundaiCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
                 repairCost: "Yazılım"
+            },
+            {
+                id: "kona-1-6-tgdi-auto-3",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "kona-1-6-tgdi-auto-4",
+                title: "DCT Kavrama Titremesi",
+                description: "Çift kavramalı şanzımanda düşük hızlarda titreşim.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "40.000+ km",
+                repairCost: "10.000 - 25.000 TL"
             }
         ],
         pros: [
@@ -746,5 +890,400 @@ export const hyundaiCars: Car[] = [
             "Geri çağırma yapılmış mı kontrol edin (2019-2020 üretim)",
             "DC hızlı şarj bağlantısını test edin"
         ]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "hyundai-accent-era-1-5-crdi",
+        slug: "hyundai-accent-era-1-5-crdi",
+        brand: "Hyundai",
+        model: "Accent",
+        variant: "Era 1.5 CRDi",
+        years: "2006-2012",
+        generation: "MC",
+        price: 280000,
+        reliabilityScore: 73,
+        totalIssues: 6,
+        searchCount: 9000,
+        expertNote: "Accent Era taksi, kurye ve öğrenci aracı olarak milyonlarca satıldı. 1.5 CRDi motor dayanıklı ama enjektörler ve turbo yüksek km'de sorun çıkarır. Debriyaj basık değilse sağlam araçtır.",
+        issues: [
+            { id: "aera-1", title: "Enjektör Arızası", description: "1.5 CRDi enjektörlerin tıkanması veya sızıntısı. Rölantide titreşim, güç kaybı, siyah duman.", category: "motor", riskLevel: "HIGH", affectedKm: "100.000+ km", repairCost: "6.000 - 15.000 TL" },
+            { id: "aera-2", title: "Turbo Yağ Kaçağı", description: "Turbo yağ keçelerinden sızıntı. Egzozdan mavi duman ve yağ tüketimi artışı.", category: "motor", riskLevel: "HIGH", affectedKm: "120.000+ km", repairCost: "5.000 - 12.000 TL" },
+            { id: "aera-3", title: "Debriyaj Balata Aşınması", description: "Trafik yoğun şehirlerde debriyaj balatası hızla aşınır. Kavrama kaçırma ve sert vites geçişleri.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "60.000 - 80.000 km", repairCost: "4.000 - 8.000 TL" },
+            { id: "aera-4", title: "Ön Rot ve Rotil Aşınması", description: "Ön rot başları ve rotillerin erken aşınması. Direksiyon boşluğu, titreşim.", category: "suspansiyon", riskLevel: "MEDIUM", affectedKm: "40.000+ km", repairCost: "1.500 - 3.000 TL" },
+            { id: "aera-5", title: "Egzoz Manifoldu Çatlağı", description: "Egzoz manifoldunda çatlama. Metal ses ve egzoz gürültüsü artışı.", category: "motor", riskLevel: "LOW", affectedKm: "100.000+ km", repairCost: "2.000 - 4.000 TL" },
+            { id: "aera-6", title: "Silecek Motor Arızası", description: "Ön silecek motorunun zayıflaması veya durması. Yağmurda tehlikeli.", category: "elektronik", riskLevel: "LOW", affectedKm: "Yaş kaynaklı", repairCost: "1.000 - 2.500 TL" }
+        ],
+        pros: ["Çok ucuz bakım", "Dayanıklı motor", "Bol yedek parça", "Düşük alım fiyatı"],
+        cons: ["İç mekan kalitesi çok düşük", "Gürültü yalıtımı yok denecek kadar az", "Güvenlik donanımı minimal"],
+        buyingTips: ["Enjektör sesi dinleyin", "Egzozdan duman rengi kontrol edin", "Debriyaj kaçını test edin"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "hyundai-getz-1-5-crdi",
+        slug: "hyundai-getz-1-5-crdi",
+        brand: "Hyundai",
+        model: "Getz",
+        variant: "1.5 CRDi",
+        years: "2005-2011",
+        generation: "TB",
+        price: 220000,
+        reliabilityScore: 73,
+        totalIssues: 5,
+        searchCount: 8000,
+        expertNote: "Getz öğrenci ve kadın sürücülerin favorisiydi. 1.5 CRDi motor güvenilir ve ekonomik. Küçük ama pratik. Yüksek km'de enjektör ve turbo sorun çıkarır ama bakımı ucuz.",
+        issues: [
+            { id: "getz-1", title: "Enjektör Arızası", description: "1.5 CRDi enjektörlerin yüksek km'de tıkanması. Rölantide titreşim ve duman.", category: "motor", riskLevel: "HIGH", affectedKm: "120.000+ km", repairCost: "5.000 - 12.000 TL" },
+            { id: "getz-2", title: "Turbo Yağ Kaçağı", description: "Turbo yağ keçelerinden sızıntı. Mavi egzoz dumanı.", category: "motor", riskLevel: "MEDIUM", affectedKm: "100.000+ km", repairCost: "4.000 - 8.000 TL" },
+            { id: "getz-3", title: "Ön Rot ve Rotil", description: "Ön rot başları ve rotillerin erken aşınması.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "40.000+ km", repairCost: "1.000 - 2.000 TL" },
+            { id: "getz-4", title: "Silecek Motoru Zayıflaması", description: "Ön silecek motorunun zayıflaması veya durması.", category: "elektronik", riskLevel: "LOW", affectedKm: "Yaş kaynaklı", repairCost: "1.000 - 2.000 TL" },
+            { id: "getz-5", title: "Kapı Menteşe Sarkması", description: "Kapı menteşelerinin aşınması nedeniyle kapı sarkması ve kapanmama.", category: "govde", riskLevel: "LOW", affectedKm: "Yaş kaynaklı", repairCost: "500 - 1.500 TL" }
+        ],
+        pros: ["Çok ucuz bakım", "Küçük ve pratik", "Ekonomik dizel", "Şehir içi ideal"],
+        cons: ["Çok küçük kabin", "Güvenlik düşük", "Otoyolda yetersiz"],
+        buyingTips: ["Enjektör sesi dinleyin", "Egzozdan duman kontrolü", "Yaş kaynaklı pas kontrolü"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "hyundai-santafe-2-2-crdi",
+        slug: "hyundai-santafe-2-2-crdi",
+        brand: "Hyundai",
+        model: "Santa Fe",
+        variant: "2.2 CRDi",
+        years: "2019-2024",
+        generation: "TM",
+        price: 2500000,
+        reliabilityScore: 79,
+        totalIssues: 6,
+        searchCount: 8000,
+        expertNote: "Santa Fe 2.2 CRDi güçlü bir motordur ama bu motorun enjektörleri ve DPF sistemi hassastır. 8 ileri otomatik şanzıman çok kaliteli. 4x4 sistemi olmayanlar SUV görünümlü otomobildir.",
+        issues: [
+            { id: "santafe-1", title: "Dizel Enjektör Arızası", description: "2.2 CRDi motorun piezo enjektörlerinin arızalanması. Hızlanmada tereddüt, titreme ve beyaz/siyah duman. Kötü yakıt kullanımı ömrü kısaltır.", category: "motor", riskLevel: "HIGH", affectedKm: "80.000 - 120.000 km", repairCost: "20.000 - 40.000 TL" },
+            { id: "santafe-2", title: "DPF Tıkanması ve Rejenerasyon", description: "Şehir içi kullanımda partikül filtresi dolması. Zorlanmış rejenerasyon uyarısı ve güç kaybı. Uzun yol yapılması veya servis müdahalesi gerekir.", category: "motor", riskLevel: "HIGH", affectedKm: "50.000+ km (Şehir içi)", repairCost: "10.000 - 25.000 TL" },
+            { id: "santafe-3", title: "Transfer Case Arızası (4WD)", description: "4x4 transfer kutusu aktüatörünün arızalanması. 4WD modları arasında geçiş yapılamaması veya hata vermesi.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "80.000+ km", repairCost: "15.000 - 30.000 TL" },
+            { id: "santafe-4", title: "Elektrikli Bagaj Kapağı Arızası", description: "Elektrikli bagaj kapağı motorunun veya sensörünün bozulması. Kapak yarıda kalabilir veya kapatma işlevi çalışmayabilir.", category: "elektronik", riskLevel: "LOW", affectedKm: "50.000+ km", repairCost: "5.000 - 10.000 TL" },
+            { id: "santafe-5", title: "Ön Amortisör Takozu Sesi", description: "Kasis geçişlerinde ve direksiyon çevirirken ön takımdan gelen 'gıcırtı' sesi. Amortisör üst takozu ve rulman değişimi gerekir.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "40.000+ km", repairCost: "4.000 - 8.000 TL" },
+            { id: "santafe-6", title: "Cam Tavan Motor/Ray Arızası", description: "Panoramik cam tavan motorunun sıkışması veya rayların aşınması. Tavan açılıp kapanmayabilir veya sıkışabilir.", category: "govde", riskLevel: "LOW", affectedKm: "60.000+ km", repairCost: "8.000 - 15.000 TL" }
+        ],
+        pros: ["Güçlü 2.2 CRDi motor (200hp)", "8 ileri şanzıman kalitesi", "Geniş 7 kişilik opsiyon", "Zengin donanım"],
+        cons: ["Enjektör masrafı yüksek", "DPF bakımı gerektirir", "Yüksek satın alma fiyatı"],
+        buyingTips: ["Enjektör sesi dinleyin (Vuruntu var mı?)", "DPF doluluk oranını taratın", "4WD modlarını test edin"]
+    }
+,
+    {
+            "id": "hyundai-tucson-nx4-1-6-tgdi",
+            "slug": "hyundai-tucson-nx4-1-6-tgdi",
+            "brand": "Hyundai",
+            "model": "Tucson (NX4)",
+            "variant": "1.6 T-GDI 4x4 DCT",
+            "years": "2021-2025",
+            "generation": "NX4",
+            "price": 2200000,
+            "expertNote": "Smartstream G1.6 T-GDI 180 HP + 7DCT. Yeni nesil Tucson cesur tasarımıyla dikkat çekiyor. Parametrik gizli farlar ve geniş iç mekan. DCT şanzıman hassas olabilir.",
+            "reliabilityScore": 80,
+            "totalIssues": 5,
+            "searchCount": 20000,
+            "issues": [
+                    {
+                            "id": "nx4-1",
+                            "title": "DCT Titremesi",
+                            "description": "7 ileri DCT şanzımanda düşük devirde titreme ve sarsıntı.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "30.000+ km",
+                            "repairCost": "15.000 - 30.000 TL"
+                    },
+                    {
+                            "id": "nx4-2",
+                            "title": "Turbo Lag",
+                            "description": "Düşük devirlerde belirgin turbo gecikmesi.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Karakteristik",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "nx4-3",
+                            "title": "12V Akü Boşalma",
+                            "description": "Start-stop sisteminin aküyü hızla tüketmesi.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "3.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "nx4-4",
+                            "title": "Panoramik Tavan Sesi",
+                            "description": "Panoramik cam tavandan kasis geçişlerinde ses.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Bozuk yollar",
+                            "repairCost": "Fitil ayarı"
+                    },
+                    {
+                            "id": "nx4-5",
+                            "title": "Navigasyon Donması",
+                            "description": "10.25 inç ekranın donması ve yeniden başlaması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "Yazılım Güncelleme"
+                    }
+            ],
+            "pros": [
+                    "Cesur tasarım",
+                    "Geniş iç mekan",
+                    "4x4 güvenliği",
+                    "Teknoloji paketi"
+            ],
+            "cons": [
+                    "DCT hassasiyeti",
+                    "Turbo lag",
+                    "Parça fiyatları yükseliyor"
+            ],
+            "buyingTips": [
+                    "DCT'yi trafikte test edin",
+                    "Panoramik tavan fitillerini kontrol edin",
+                    "Elite donanım tercih edin"
+            ]
+    }
+,
+    {
+            "id": "hyundai-i30-1-6-crdi",
+            "slug": "hyundai-i30-1-6-crdi",
+            "brand": "Hyundai",
+            "model": "i30 (GD)",
+            "variant": "1.6 CRDi DCT Elite",
+            "years": "2012-2017",
+            "generation": "GD",
+            "price": 650000,
+            "expertNote": "U2 1.6 CRDi 136 HP + 7DCT. Kore'nin Golf'e cevabı. Türkiye'de uygun fiyata kaliteli C segment arayanlara ideal. DCT şanzıman hassas ama motor sağlam.",
+            "reliabilityScore": 79,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "i30gd-1",
+                            "title": "DCT Kavrama Titremesi",
+                            "description": "7DCT şanzımanda düşük hızlarda titreme. Kavrama seti aşınması.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "12.000 - 22.000 TL"
+                    },
+                    {
+                            "id": "i30gd-2",
+                            "title": "EGR Karbon Birikimi",
+                            "description": "EGR valfinde kurum birikimi. Motor performans kaybı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "i30gd-3",
+                            "title": "Direksiyon Kolon Sesi",
+                            "description": "Direksiyon çevirirken gıcırtı sesi.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "i30gd-4",
+                            "title": "Klima Kompresörü",
+                            "description": "Klima kompresörü kavramasının aşınması.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "i30gd-5",
+                            "title": "Arka Fren Diski Eğrilmesi",
+                            "description": "Arka fren disklerinin erken eğrilmesi. Frende titreşim.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Uygun fiyat",
+                    "Geniş iç mekan",
+                    "Güvenlik donanımları",
+                    "5 yıl garanti"
+            ],
+            "cons": [
+                    "DCT hassasiyeti",
+                    "Marka algısı",
+                    "İkinci el değer kaybı"
+            ],
+            "buyingTips": [
+                    "DCT titremesi var mı test edin",
+                    "EGR temizliği yapılmış mı sorun",
+                    "Elite donanım tercih edin"
+            ]
+    }
+,
+    {
+            "id": "hyundai-i20-n-line",
+            "slug": "hyundai-i20-n-line-1-0-tgdi",
+            "brand": "Hyundai",
+            "model": "i20 (BC3)",
+            "variant": "1.0 T-GDI 48V N Line DCT",
+            "years": "2020-2025",
+            "generation": "BC3",
+            "price": 1100000,
+            "expertNote": "Kappa 1.0 T-GDI 100 HP + 48V mild hybrid + 7DCT. Yeni nesil i20 çok agresif tasarıma sahip. N Line versiyonu sportif görünüm sunuyor. DCT şanzıman ve 48V sistem modern.",
+            "reliabilityScore": 81,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "i20n-1",
+                            "title": "DCT Titremesi",
+                            "description": "7DCT şanzımanda düşük hızlarda hafif titreme.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "30.000+ km",
+                            "repairCost": "10.000 - 22.000 TL"
+                    },
+                    {
+                            "id": "i20n-2",
+                            "title": "48V Sistem",
+                            "description": "Mild hybrid 48V sisteminin devre dışı kalması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "Yazılım / Akü"
+                    },
+                    {
+                            "id": "i20n-3",
+                            "title": "Turbo Lag",
+                            "description": "1.0 turbo düşük devirde gecikme.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Karakteristik",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "i20n-4",
+                            "title": "Arka Süspansiyon",
+                            "description": "Arka torsion bar süspansiyonda kasiste sertlik.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Bozuk yollar",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "i20n-5",
+                            "title": "Bağlantı Sorunları",
+                            "description": "Bluelink bağlantı kopmaları.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "Yazılım"
+                    }
+            ],
+            "pros": [
+                    "Agresif tasarım",
+                    "N Line sportif",
+                    "48V mild hybrid",
+                    "Modern teknoloji"
+            ],
+            "cons": [
+                    "DCT hassasiyeti",
+                    "1.0 motor otoyolda yetersiz",
+                    "Arka alan dar"
+            ],
+            "buyingTips": [
+                    "DCT trafikte test edin",
+                    "N Line alın",
+                    "SmartSense paket şart"
+            ]
+    }
+,
+    {
+            "id": "hyundai-accent-blue-1-4",
+            "slug": "hyundai-accent-blue-1-4-cvvt",
+            "brand": "Hyundai",
+            "model": "Accent Blue (RB)",
+            "variant": "1.4 CVVT Mode Plus",
+            "years": "2011-2018",
+            "generation": "RB",
+            "price": 450000,
+            "expertNote": "Gamma 1.4 CVVT 100 HP + 6AT. Accent Blue TR'de çok satılan B sedan. Motor doğal emişli ve çok güvenilir. 6AT sorunsuz. Ucuz bakım ve düşük yakıt.",
+            "reliabilityScore": 83,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "ab14-1",
+                            "title": "Direksiyon Pompası",
+                            "description": "Elektrikli direksiyon pompasından vızıltı sesi.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "ab14-2",
+                            "title": "Klima Kompresörü",
+                            "description": "Klima kompresörü kavrama arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "ab14-3",
+                            "title": "Arka Fren Kampana",
+                            "description": "Arka kampanalı fren aşınması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "ab14-4",
+                            "title": "Cam Fitili Sesi",
+                            "description": "Kapı cam fitillerinin sertleşmesi. Rüzgar sesi.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "ab14-5",
+                            "title": "Otomatik Vites Sarsıntısı",
+                            "description": "6AT soğukta hafif sert vites geçişi.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Soğuk hava",
+                            "repairCost": "Yağ Değişimi"
+                    }
+            ],
+            "pros": [
+                    "Çok güvenilir motor",
+                    "Ucuz bakım",
+                    "6AT sorunsuz",
+                    "Düşük yakıt"
+            ],
+            "cons": [
+                    "Tasarımı sade",
+                    "İç mekan plastik",
+                    "Performans düşük"
+            ],
+            "buyingTips": [
+                    "Otomatik alın sorunsuz",
+                    "Mode Plus donanım yeterli",
+                    "Klima kontrolü"
+            ]
     }
 ];

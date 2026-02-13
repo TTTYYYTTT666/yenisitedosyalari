@@ -627,7 +627,7 @@ export const audiCars: Car[] = [
         generation: "B9",
         price: 2500000,
         reliabilityScore: 89,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 16000,
         issues: [
             {
@@ -656,6 +656,24 @@ export const audiCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "70.000+ km",
                 repairCost: "8.000 TL"
+            },
+            {
+                id: "a4-b9-2-0-tfsi-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "a4-b9-2-0-tfsi-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -976,5 +994,217 @@ export const audiCars: Car[] = [
             "EGR soğutucu ve triger zinciri bakımlarını sorgulayın",
             "Ön süspansiyon kontrolü yaptırın"
         ]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "audi-q7-3-0-tdi",
+        slug: "audi-q7-3-0-tdi",
+        brand: "Audi",
+        model: "Q7",
+        variant: "3.0 TDI",
+        years: "2015-2023",
+        generation: "4M",
+        price: 3500000,
+        reliabilityScore: 74,
+        totalIssues: 6,
+        searchCount: 7000,
+        expertNote: "Q7 3.0 TDI muazzam bir motordur ama bakım masrafları korkunçtur. Pnömatik süspansiyon patlarsa tek tarafı bile 30 bin TL'dir. Servise girdin mi cüzdanını bırak çık.",
+        issues: [
+            { id: "q7-1", title: "Pnömatik Süspansiyon Arızası", description: "Hava yastığı süspansiyonun delinmesi veya kompresörün arızalanması. Araç bir tarafa yatar veya sürüş yüksekliği ayarlanamaz. Kompresör ömrü 80-120 bin km civarıdır.", category: "suspansiyon", riskLevel: "HIGH", affectedKm: "80.000 - 120.000 km", repairCost: "20.000 - 40.000 TL (Taraf başı)" },
+            { id: "q7-2", title: "AdBlue Dozajlama Arızası", description: "SCR sistemi AdBlue dozajlama ünitesinin kristalleşme sonucu tıkanması. Motor çalışmayacak uyarısı ve acil servis talebi.", category: "motor", riskLevel: "HIGH", affectedKm: "50.000 - 80.000 km", repairCost: "25.000 - 45.000 TL" },
+            { id: "q7-3", title: "Triger Zincir Uzaması", description: "3.0 TDI V6 motorun triger zincirinin uzaması. Motor çalışırken hafif şıkırtı sesi. Zincir koparsa motor total zarar görür. Zincir seti değişimi çok pahalıdır.", category: "motor", riskLevel: "CRITICAL", affectedKm: "120.000+ km", repairCost: "30.000 - 60.000 TL" },
+            { id: "q7-4", title: "Turbo Aktüatör Arızası", description: "Değişken geometrili turbo aktüatörünün sıkışması. Motor güç kaybı ve arıza lambası. Temizlik veya aktüatör değişimi gerekir.", category: "motor", riskLevel: "MEDIUM", affectedKm: "100.000+ km", repairCost: "15.000 - 30.000 TL" },
+            { id: "q7-5", title: "MMI Multimedya Arızası", description: "MMI ekranının kararması, dokunmatiğin kaybolması veya sistemin kendini resetlemesi.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "Yazılım / 15.000 TL (Ünite)" },
+            { id: "q7-6", title: "Transfer Case ve Diferansiyel Sesi", description: "Quattro 4x4 transfer kutusu veya arka diferansiyelden gelen uğultu sesi. Yağ değişimi ile erken teşhis önemlidir.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "100.000+ km", repairCost: "15.000 - 30.000 TL" }
+        ],
+        pros: ["Muazzam 3.0 V6 motor (272hp)", "Quattro 4x4 güveni", "Premium iç mekan", "7 koltuk opsiyonu"],
+        cons: ["Bakım masrafı çok yüksek", "Pnömatik süspansiyon riski", "Yüksek yakıt tüketimi (8-10L)"],
+        buyingTips: ["Pnömatik süspansiyonu kontrol ettirin (Araç yatar mı?)", "AdBlue sistemi hata veriyor mu?", "Zincir sesini soğuk motorla dinleyin"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "audi-a4-b7-2-0-tdi",
+        slug: "audi-a4-b7-2-0-tdi",
+        brand: "Audi",
+        model: "A4",
+        variant: "B7 2.0 TDI",
+        years: "2004-2008",
+        generation: "B7",
+        price: 400000,
+        reliabilityScore: 72,
+        totalIssues: 6,
+        searchCount: 9000,
+        expertNote: "A4 B7 Audi'nin en güzel sedanlarından. 2.0 TDI motor güçlü (140hp) ve ekonomik ama yağ pompası zinciri ve DPF sorunları var. Multitronic CVT şanzımandan kesinlikle uzak durun, düz vites veya Tiptronic tercih edin.",
+        issues: [
+            { id: "a4b7-1", title: "Yağ Pompası Zinciri Kopması", description: "2.0 TDI motorun yağ pompası tahrik zincirinin kopması. Motor yağsız kalır ve total hasar görür. Sessiz gidendir, belirti vermez.", category: "motor", riskLevel: "CRITICAL", affectedKm: "100.000+ km", repairCost: "10.000 - 20.000 TL (Önlem) / Motor (Koparsa)" },
+            { id: "a4b7-2", title: "Multitronic CVT Arızası", description: "Multitronic versiyon: CVT şanzımanda zincir uzaması ve kayması. Ani güç kaybı ve şanzıman arızası.", category: "sanziman", riskLevel: "CRITICAL", affectedKm: "100.000+ km", repairCost: "20.000 - 40.000 TL" },
+            { id: "a4b7-3", title: "DPF Tıkanması", description: "Partikül filtresi şehir içi kullanımda tıkanır.", category: "motor", riskLevel: "HIGH", affectedKm: "60.000+ km", repairCost: "5.000 - 15.000 TL" },
+            { id: "a4b7-4", title: "Turbo Aktuatör", description: "Turbo VNT aktuatörünün sıkışması veya bozulması.", category: "motor", riskLevel: "MEDIUM", affectedKm: "80.000+ km", repairCost: "5.000 - 10.000 TL" },
+            { id: "a4b7-5", title: "Ön Alt Kol Burçları", description: "Ön süspansiyon çoklu bağlantı (multi-link) burçlarının aşınması. 8 adet burç var.", category: "suspansiyon", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "5.000 - 10.000 TL" },
+            { id: "a4b7-6", title: "Cam Tavan Su Tahliye", description: "Cam tavan su tahliye kanallarının tıkanması. Tavan döşemesine su sızması.", category: "govde", riskLevel: "LOW", affectedKm: "Yaş kaynaklı", repairCost: "1.000 - 3.000 TL" }
+        ],
+        pros: ["Kaliteli iç mekan", "Güçlü 2.0 TDI", "Quattro seçeneği", "Şık tasarım"],
+        cons: ["Yağ pompası zinciri kritik", "Multitronic çok riskli", "Bakım pahalı"],
+        buyingTips: ["Multitronic'ten uzak durun", "Yağ pompası zinciri değişmiş mi sorun", "DPF tarattırın"]
+    }
+,
+    {
+            "id": "audi-a3-8p-2-0-tdi",
+            "slug": "audi-a3-8p-2-0-tdi",
+            "brand": "Audi",
+            "model": "A3 (8P)",
+            "variant": "2.0 TDI S-Tronic",
+            "years": "2003-2012",
+            "generation": "8P",
+            "price": 550000,
+            "expertNote": "PD/CR 2.0 TDI 140 HP. İlk nesil A3'ün son hali. Türkiye'de uygun fiyata premium segmente giriş. S-Tronic (DSG) şanzıman ve Quattro opsiyonu mevcut.",
+            "reliabilityScore": 77,
+            "totalIssues": 5,
+            "searchCount": 11000,
+            "issues": [
+                    {
+                            "id": "a38p-1",
+                            "title": "DSG/S-Tronic Mechatronik",
+                            "description": "S-Tronic şanzıman mechatronik arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "15.000 - 30.000 TL"
+                    },
+                    {
+                            "id": "a38p-2",
+                            "title": "Turbo Kartuş",
+                            "description": "Turbo kartuşunun aşınması. Yağ tüketimi ve güç kaybı.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "8.000 - 15.000 TL"
+                    },
+                    {
+                            "id": "a38p-3",
+                            "title": "EGR Tıkanması",
+                            "description": "EGR valfinde karbon birikimi.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "a38p-4",
+                            "title": "Cam Tavan Dreni",
+                            "description": "Cam tavan drenaj kanallarının tıkanması. İç mekana su sızması.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "a38p-5",
+                            "title": "Ön Salıncak Bilyası",
+                            "description": "Ön süspansiyon salıncak bilyası aşınması. Ses.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Premium hissiyat",
+                    "Sağlam yapı",
+                    "Quattro opsiyonu",
+                    "Uygun fiyat"
+            ],
+            "cons": [
+                    "Yaşı nedeniyle bakım gerektir",
+                    "DSG hassasiyeti",
+                    "Parça fiyatları"
+            ],
+            "buyingTips": [
+                    "DSG yağ bakımı yapılmış mı sorun",
+                    "Turbo sesi dinleyin",
+                    "Cam tavan drenajını kontrol edin"
+            ]
+    }
+,
+    {
+            "id": "audi-a4-b8-1-8-tfsi",
+            "slug": "audi-a4-b8-1-8-tfsi",
+            "brand": "Audi",
+            "model": "A4 (B8)",
+            "variant": "1.8 TFSI Multitronic",
+            "years": "2008-2015",
+            "generation": "B8",
+            "price": 700000,
+            "expertNote": "EA888 Gen1 1.8 TFSI 160 HP. B8 A4 Türkiye'de premium D segmentin uygun fiyatlısı. Multitronic (CVT) şanzıman sorunlu, S-Tronic tercih edin. Yağ tüketimi kronik.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 13000,
+            "issues": [
+                    {
+                            "id": "b8-18-1",
+                            "title": "Multitronic CVT Arıza",
+                            "description": "CVT şanzıman düşük hızlarda titreme ve kayma. Yüksek km'de total arıza.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "20.000 - 40.000 TL"
+                    },
+                    {
+                            "id": "b8-18-2",
+                            "title": "Yağ Tüketimi",
+                            "description": "EA888 Gen1 motorlarda kronik yağ tüketimi. Piston segmanları.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "Takip / 15.000 TL"
+                    },
+                    {
+                            "id": "b8-18-3",
+                            "title": "Zincir Gergi",
+                            "description": "Triger zincir gergisinin zayıflaması.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "8.000 - 15.000 TL"
+                    },
+                    {
+                            "id": "b8-18-4",
+                            "title": "Termostat",
+                            "description": "Termostat arızası. Motor ısınma sorunu.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "b8-18-5",
+                            "title": "MMI Donma",
+                            "description": "MMI multimedya sistemi donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Yazılım"
+                    }
+            ],
+            "pros": [
+                    "Premium hissiyat",
+                    "Quattro opsiyonu",
+                    "Kaliteli iç mekan",
+                    "Sağlam gövde"
+            ],
+            "cons": [
+                    "Multitronic KRİTİK",
+                    "Yağ tüketimi",
+                    "Bakım pahalı"
+            ],
+            "buyingTips": [
+                    "Multitronic DEĞİL S-Tronic alın",
+                    "Yağ tüketimini sorun",
+                    "Facelift (2012+) tercih edin"
+            ]
     }
 ];

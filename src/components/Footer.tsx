@@ -11,7 +11,7 @@ export default function Footer() {
                         <div className="flex items-center gap-2.5 mb-3">
                             <div className="relative w-7 h-7">
                                 <Image
-                                    src="/logo.png"
+                                    src="/logo-transparent.png"
                                     alt="OTORAPORU"
                                     fill
                                     className="object-contain"

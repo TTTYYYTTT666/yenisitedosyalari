@@ -463,4 +463,318 @@ export const seatCars: Car[] = [
             "FR paketi tercih edin — ikinci elde çok daha hızlı satılır"
         ]
     },
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "seat-ibiza-iv-1-4-tdi",
+        slug: "seat-ibiza-iv-1-4-tdi",
+        brand: "Seat",
+        model: "Ibiza",
+        variant: "IV 1.4 TDI",
+        years: "2008-2015",
+        generation: "6J",
+        price: 300000,
+        reliabilityScore: 75,
+        totalIssues: 5,
+        searchCount: 6500,
+        expertNote: "Ibiza IV VW Polo platformu üzerinde kurulu sportif hatch. 1.4 TDI motor güvenilir ama 3 silindirli olduğu için titreşim karakteristik. DSG yoktu bu motorda, sadece 5MT. Sade ama eğlenceli.",
+        issues: [
+            { id: "ibiza4-1", title: "3 Silindirli Motor Titreşimi", description: "1.4 TDI 3 silindirli motorun rölantide ve düşük devirlerde yapısal titreşimi.", category: "motor", riskLevel: "LOW", affectedKm: "Karakteristik", repairCost: "Motor Takozu (2.000 TL)" },
+            { id: "ibiza4-2", title: "EGR Valfi", description: "EGR valfinde kurum birikimi. Motor düzensizliği.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "2.000 - 4.000 TL" },
+            { id: "ibiza4-3", title: "Debriyaj Balata", description: "Şehir içi kullanımda debriyaj balatası aşınması.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "4.000 - 7.000 TL" },
+            { id: "ibiza4-4", title: "Ön Fren Disk Eğrilmesi", description: "Ön fren disklerinin eğrilmesi. Direksiyon titremesi.", category: "fren", riskLevel: "MEDIUM", affectedKm: "40.000+ km", repairCost: "2.000 - 4.000 TL" },
+            { id: "ibiza4-5", title: "Ayna Katlanma Motoru", description: "Elektrikli katlanır dış ayna motorunun bozulması.", category: "elektronik", riskLevel: "LOW", affectedKm: "60.000+ km", repairCost: "1.500 - 3.000 TL" }
+        ],
+        pros: ["Polo kalitesi ucuza", "Sportif tasarım", "Ekonomik 1.4 TDI", "Eğlenceli sürüş"],
+        cons: ["3 silindir titreşimi", "Seat servisi az", "İç mekan sade"],
+        buyingTips: ["Motor titreşimini rölantide hissedin", "EGR temizliği sorun", "Fren disklerini kontrol edin"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "seat-tarraco-2-0-tdi",
+        slug: "seat-tarraco-2-0-tdi",
+        brand: "Seat",
+        model: "Tarraco",
+        variant: "2.0 TDI",
+        years: "2019-2024",
+        generation: "KN2",
+        price: 2100000,
+        reliabilityScore: 80,
+        totalIssues: 5,
+        searchCount: 5500,
+        expertNote: "Tarraco aslında Tiguan Allspace'in İspanyol kardeşidir, aynı MQB platformu. 2.0 TDI motor güvenilirdir ama DSG şanzıman VW grubunun kronik sorununu taşır. 7 koltuklu versiyonu çok pratik.",
+        issues: [
+            { id: "tarraco-1", title: "DSG DQ381 Mekatronik Arızası", description: "Islak kavramalı 7 ileri DSG şanzımanda mekatronik kart arızası. Vites geçişlerinde kararsızlık ve titreşim. DQ200'den daha güvenilir olsa da sorunsuz değil.", category: "sanziman", riskLevel: "HIGH", affectedKm: "70.000+ km", repairCost: "25.000 - 45.000 TL" },
+            { id: "tarraco-2", title: "AdBlue Sistem Arızası", description: "SCR sistemi AdBlue dozajlama modülünün arızalanması. Motor çalışmayacak uyarısı.", category: "motor", riskLevel: "HIGH", affectedKm: "50.000+ km", repairCost: "20.000 - 35.000 TL" },
+            { id: "tarraco-3", title: "Panoramik Tavan Su Sızdırma", description: "Cam tavan giderlerinin tıkanması sonucu yağmurda içeri su sızdırması. VW grubu ortak problemi.", category: "govde", riskLevel: "MEDIUM", affectedKm: "Bakıma bağlı", repairCost: "Temizlik / 5.000 TL" },
+            { id: "tarraco-4", title: "Ön Fren Disk Eğrilmesi", description: "2.0 TDI'ın ağırlığı nedeniyle ön fren disklerinin erken eğrilmesi ve frenleme titremesi.", category: "fren", riskLevel: "LOW", affectedKm: "40.000+ km", repairCost: "4.000 - 8.000 TL" },
+            { id: "tarraco-5", title: "Multimedya ve SOS Hataları", description: "VW grubu ortak multimedya donması ve SOS acil çağrı hatası. Yazılım güncelleme ile çözülür.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "Yazılım Güncelleme" }
+        ],
+        pros: ["VW grubu kalitesi düşük fiyata", "7 koltuk opsiyonu", "Güçlü 2.0 TDI (150/190hp)", "Geniş iç hacim"],
+        cons: ["DSG şanzıman riski", "Marka bilinirliği düşük", "Parça temininde gecikme"],
+        buyingTips: ["DSG kavrama testini yapın", "AdBlue hatası var mı?", "Cam tavan giderlerini temizletin"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "seat-leon-mk2-1-6-tdi",
+        slug: "seat-leon-mk2-1-6-tdi",
+        brand: "Seat",
+        model: "Leon",
+        variant: "Mk2 1.6 TDI",
+        years: "2009-2013",
+        generation: "1P",
+        price: 400000,
+        reliabilityScore: 75,
+        totalIssues: 5,
+        searchCount: 7000,
+        expertNote: "Leon Mk2 Golf 5/6 platformu üzerine kurulu sportif hatch. 1.6 TDI motor aynı güvenilir VW ünitesi. DSG yerine 5MT ve 6MT seçenekleri vardı. Spor süspansiyon sert ama eğlenceli.",
+        issues: [
+            { id: "leon2-1", title: "EGR Valfi Tıkanması", description: "EGR valfinde kurum birikimi. Motor performans kaybı ve arıza lambası.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "3.000 - 6.000 TL" },
+            { id: "leon2-2", title: "Çift Kütleli Volan", description: "Rölantide metalik şıkırtı. Kavrama seti ile değiştirilmeli.", category: "sanziman", riskLevel: "HIGH", affectedKm: "80.000+ km", repairCost: "10.000 - 18.000 TL" },
+            { id: "leon2-3", title: "Devirdaim Pompası", description: "Plastik gövdeli devirdaim pompasından kaçak.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "4.000 - 8.000 TL" },
+            { id: "leon2-4", title: "Ön Fren Disk Eğrilmesi", description: "Sport sürüş sonrası ön fren disklerinin eğrilmesi. Direksiyon titremesi.", category: "fren", riskLevel: "MEDIUM", affectedKm: "40.000+ km", repairCost: "3.000 - 6.000 TL" },
+            { id: "leon2-5", title: "Kapı Kilit Modülü", description: "Kapı kilidi mikro switch arızası. Anahtar algılama sorunu.", category: "elektronik", riskLevel: "LOW", affectedKm: "Yaş kaynaklı", repairCost: "1.500 - 3.000 TL" }
+        ],
+        pros: ["Golf kalitesi ucuza", "Sportif sürüş", "Ekonomik dizel", "Eğlenceli tasarım"],
+        cons: ["Seat servis ağı dar", "Yedek parça VW fiyatına", "Spor süspansiyon sert"],
+        buyingTips: ["Volan sesini dinleyin", "EGR temizliği yaptırılmış mı sorun", "Devirdaim pompası kontrol edin"]
+    }
+,
+    {
+            "id": "seat-leon-mk3-1-4-tsi",
+            "slug": "seat-leon-mk3-1-4-tsi",
+            "brand": "Seat",
+            "model": "Leon (Mk3)",
+            "variant": "1.4 TSI FR DSG",
+            "years": "2012-2020",
+            "generation": "5F",
+            "price": 900000,
+            "expertNote": "EA211 1.4 TSI 150 HP + DSG7. VW Golf'ün sportif İspanyol kardeşi. Leon FR Türkiye'de gençlerin favorisi. Sert süspansiyon ama mükemmel yol tutuşu.",
+            "reliabilityScore": 80,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "leon3-1",
+                            "title": "DSG Mechatronik",
+                            "description": "DSG7 mechatronik ünitesi arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "15.000 - 35.000 TL"
+                    },
+                    {
+                            "id": "leon3-2",
+                            "title": "Turbo Wastegate",
+                            "description": "Turbo wastegate titremesi ve ses.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "leon3-3",
+                            "title": "Far Buğulanması",
+                            "description": "Full LED farlarda nem birikimi.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "Fitil / 3.000 TL"
+                    },
+                    {
+                            "id": "leon3-4",
+                            "title": "Direksiyon Sesi",
+                            "description": "Direksiyon çevirirken plastik gıcırtısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "leon3-5",
+                            "title": "Klima Kompresörü",
+                            "description": "Klima kompresörü arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Sportif sürüş",
+                    "FR tasarım",
+                    "VW güvenilirliği",
+                    "Uygun fiyat"
+            ],
+            "cons": [
+                    "DSG hassasiyeti",
+                    "Sert süspansiyon",
+                    "Marka bilinirliği düşük"
+            ],
+            "buyingTips": [
+                    "DSG yağ değişim geçmişi",
+                    "FR donanım tercih edin",
+                    "Cam tavan güzel opsiyondur"
+            ]
+    }
+,
+    {
+            "id": "seat-ibiza-6j-1-4-tdi",
+            "slug": "seat-ibiza-6j-1-4-tdi",
+            "brand": "Seat",
+            "model": "Ibiza (6J/6P)",
+            "variant": "1.4 TDI Style DSG",
+            "years": "2008-2017",
+            "generation": "6J/6P",
+            "price": 450000,
+            "expertNote": "EA288 1.4 TDI 90 HP + DSG7. Ibiza 6J Türkiye'de gençlerin favorisi. VW Polo platformu ama daha sportif. DSG şanzıman hassas. Motor çok ekonomik.",
+            "reliabilityScore": 78,
+            "totalIssues": 5,
+            "searchCount": 9000,
+            "issues": [
+                    {
+                            "id": "ib6j-1",
+                            "title": "DSG7 Mechatronik",
+                            "description": "DSG7 mechatronik ünitesi arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "12.000 - 28.000 TL"
+                    },
+                    {
+                            "id": "ib6j-2",
+                            "title": "EGR Karbon",
+                            "description": "EGR valfinde kurum birikimi.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "ib6j-3",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması arızası.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "ib6j-4",
+                            "title": "Arka Kampana",
+                            "description": "Arka kampanalı fren aşınması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "ib6j-5",
+                            "title": "Klima",
+                            "description": "Klima kompresörü arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "4.000 - 8.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Sportif tasarım",
+                    "VW kalitesi",
+                    "Ekonomik TDI",
+                    "Genç kitle"
+            ],
+            "cons": [
+                    "DSG hassasiyeti",
+                    "Arka alan dar",
+                    "Marka bilinirliği düşük"
+            ],
+            "buyingTips": [
+                    "DSG yağ bakımı yapılmış mı",
+                    "Style donanım alın",
+                    "Manuel de güzel seçenek"
+            ]
+    }
+,
+    {
+            "id": "seat-toledo-1-6-tdi",
+            "slug": "seat-toledo-1-6-tdi-style",
+            "brand": "Seat",
+            "model": "Toledo (KG)",
+            "variant": "1.6 TDI Style DSG",
+            "years": "2013-2019",
+            "generation": "KG (NH)",
+            "price": 550000,
+            "expertNote": "1.6 TDI 90 HP + DSG7. Toledo VW Rapid'in Seat versiyonu. Skoda Rapid ile kardeş. TR'de uygun fiyata VW grubu kalitesi. DSG7 hassas.",
+            "reliabilityScore": 78,
+            "totalIssues": 5,
+            "searchCount": 7000,
+            "issues": [
+                    {
+                            "id": "tol-1",
+                            "title": "DSG7 Mechatronik",
+                            "description": "DSG7 mechatronik ünitesi arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "15.000 - 30.000 TL"
+                    },
+                    {
+                            "id": "tol-2",
+                            "title": "EGR Tıkanması",
+                            "description": "EGR valfinde kurum birikimi.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "tol-3",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön alt kol bilyası aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "tol-4",
+                            "title": "Debriyaj Rulmanı",
+                            "description": "Debriyaj baskı rulmanı sesi.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "tol-5",
+                            "title": "Multimedya",
+                            "description": "Multimedya sistemi yavaşlaması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Yazılım"
+                    }
+            ],
+            "pros": [
+                    "VW grubu kalitesi",
+                    "Uygun fiyat",
+                    "Ekonomik TDI",
+                    "Geniş sedan"
+            ],
+            "cons": [
+                    "DSG7 riski",
+                    "Marka bilinirliği düşük",
+                    "Tasarımı sade"
+            ],
+            "buyingTips": [
+                    "MANUEL tercih edin DSG'den uzak durun",
+                    "Style donanım alın",
+                    "EGR temizliği"
+            ]
+    }
 ];

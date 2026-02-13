@@ -36,9 +36,7 @@ import { mitsubishiCars } from './mitsubishi';
 import { subaruCars } from './subaru';
 import { jaguarCars } from './jaguar';
 import { tofasCars } from './tofas';
-import { newCars } from './new-cars';
-import { newCars2 } from './new-cars-2';
-import { newCars3 } from './new-cars-3';
+import { chevroletCars } from './chevrolet';
 
 export const cars: Car[] = [
     ...fiatCars,
@@ -77,9 +75,7 @@ export const cars: Car[] = [
     ...subaruCars,
     ...jaguarCars,
     ...tofasCars,
-    ...newCars,
-    ...newCars2,
-    ...newCars3,
+    ...chevroletCars,
 ];
 
 export const getTrendingCars = (): Car[] => {

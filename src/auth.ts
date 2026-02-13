@@ -5,6 +5,7 @@ import Credentials from "next-auth/providers/credentials"
 import { PrismaAdapter } from "@auth/prisma-adapter"
 import { prisma } from "@/lib/db"
 import bcrypt from "bcryptjs"
+import { rateLimit } from "@/lib/rate-limit"
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
     adapter: PrismaAdapter(prisma),
@@ -54,12 +55,23 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
                     const securityName = credentials.securityName as string;
                     const password = credentials.password as string;
 
-                    // Hardcoded Security Check for "God Mode" Admin
-                    if (username === 'dexaxtalhakronik' && securityName === 'Talha') {
+                    // Rate limit admin login: max 5 attempts per 15 minutes
+                    const adminRl = rateLimit(`admin-login:${username}`, { maxRequests: 5, windowSeconds: 900 });
+                    if (!adminRl.success) {
+                        throw new Error("Çok fazla giriş denemesi. Lütfen 15 dakika sonra tekrar deneyin.");
+                    }
+
+                    // Security Check from environment variables
+                    const adminUsername = process.env.ADMIN_USERNAME;
+                    const adminSecurityName = process.env.ADMIN_SECURITY_NAME;
+
+                    if (!adminUsername || !adminSecurityName) return null;
+
+                    if (username === adminUsername && securityName === adminSecurityName) {
                         const user = await prisma.user.findFirst({
                             where: {
                                 OR: [
-                                    { email: 'dexaxtalhakronik' }, // How we stored it in DB
+                                    { email: adminUsername },
                                     { name: 'Talha (Admin)' }
                                 ]
                             }
@@ -125,8 +137,16 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
 
                 // Scenario 2: Password Login (Public - Email/Pass)
                 if (credentials?.email && credentials?.password) {
+                    const loginEmail = credentials.email as string;
+
+                    // Rate limit login: max 10 attempts per 15 minutes per email
+                    const loginRl = rateLimit(`login:${loginEmail}`, { maxRequests: 10, windowSeconds: 900 });
+                    if (!loginRl.success) {
+                        throw new Error("Çok fazla giriş denemesi. Lütfen 15 dakika sonra tekrar deneyin.");
+                    }
+
                     const user = await prisma.user.findUnique({
-                        where: { email: credentials.email as string },
+                        where: { email: loginEmail },
                     });
 
                     if (!user || !user.password) return null;

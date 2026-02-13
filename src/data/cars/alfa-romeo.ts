@@ -12,7 +12,7 @@ export const alfaRomeoCars: Car[] = [
         price: 2200000,
         expertNote: "2.0 GME turbo motor Ferrari mühendisliği ile geliştirildi. ZF 8HP şanzıman BMW ile ortak. Türkiye'de Alfa Romeo tutkunları için rüya araç ama bakım maliyetleri yüksek. Wastegate valfi 60.000 km sonrası kronik problem. Süspansiyon bilyaları Alman rakiplerinden daha hızlı biter. Fiat-Chrysler servis ağı sınırlı — İstanbul dışında bakım zor. İkinci elde değer kaybı yüksek.",
         reliabilityScore: 72,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 5500,
         issues: [
             {
@@ -41,6 +41,24 @@ export const alfaRomeoCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
                 repairCost: "5.000 - 20.000 TL"
+            },
+            {
+                id: "romeo-giulia-2-0-turbo-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "romeo-giulia-2-0-turbo-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -68,7 +86,7 @@ export const alfaRomeoCars: Car[] = [
         price: 2500000,
         expertNote: "Giulia ile aynı Giorgio platformu ve 2.0 GME motor. AWD Q4 sistem lazım değil Türkiye'de, RWD yeterli. ZF şanzıman uğultusu 80.000 km sonrası oluşabilir. Premium SUV arayan ama Mercedes/BMW'den farklı bir şey isteyen niş kittle için. Servis ağı sınırlı — Stellantis bayileri bakıyor ama uzmanlık eksik olabilir.",
         reliabilityScore: 71,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 4500,
         issues: [
             {
@@ -88,6 +106,24 @@ export const alfaRomeoCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "80.000+ km",
                 repairCost: "20.000 - 40.000 TL"
+            },
+            {
+                id: "romeo-stelvio-2-0-turbo-auto-3",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "romeo-stelvio-2-0-turbo-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -114,7 +150,7 @@ export const alfaRomeoCars: Car[] = [
         price: 900000,
         expertNote: "Fiat/Chrysler MultiAir teknolojisi — 1.4 Turbo motor (170 HP). MultiAir ünitesi motor yağına HAYATİ derecede bağımlı, 7.500 km'de bir yağ değişimi şart. Yağsız kalırsa 30.000 TL masraf. Kapı kolu kırılması kronik ama ucuz (~1.000 TL). Türkiye'de gizli şampiyon — sürüş hissi Golf GTI'dan iyi ama ikinci el değeri düşük.",
         reliabilityScore: 78,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 7000,
         issues: [
             {
@@ -134,6 +170,24 @@ export const alfaRomeoCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "1.000 TL"
+            },
+            {
+                id: "romeo-giulietta-1-4-auto-3",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "romeo-giulietta-1-4-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -148,5 +202,5 @@ export const alfaRomeoCars: Car[] = [
         buyingTips: [
             "MultiAir filtre temizliği yapılmış mı sorun."
         ]
-    },
+    }
 ];

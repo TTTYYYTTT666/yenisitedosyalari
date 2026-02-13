@@ -254,7 +254,7 @@ export const fiatCars: Car[] = [
         price: 1200000,
         expertNote: "55280444 1.6 MultiJet 130 HP + 6 ileri DCT (kuru kavrama). Egea'nın en güçlü ve pahalı versiyonu. DCT şanzıman konfor sağlıyor ama yoğun trafikte ısınma ve silkeleme yapabilir. 320 Nm tork ile performans iyi. AdBlue sistemi var — arızası pahalı.",
         reliabilityScore: 80,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 50000,
         issues: [
             {
@@ -283,6 +283,24 @@ export const fiatCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "Şehir içi kullanım",
                 repairCost: "Rejenerasyon / Temizleme (8.000-15.000 TL)"
+            },
+            {
+                id: "egea-cross-1-6-multijet-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "egea-cross-1-6-multijet-auto-5",
+                title: "DCT Kavrama Titremesi",
+                description: "Çift kavramalı şanzımanda düşük hızlarda titreşim.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "40.000+ km",
+                repairCost: "10.000 - 25.000 TL"
             }
         ],
         pros: [
@@ -318,7 +336,7 @@ export const fiatCars: Car[] = [
         price: 1050000,
         expertNote: "1.6 MultiJet 120 HP + DCT. Egea'nın station wagon versiyonu — Türkiye'nin en çok satan SW'si. Devasa 550 litrelik bagaj. Aile aracı olarak mükemmel. Motor ve şanzıman sorunları diğer Egea dizellerle aynı.",
         reliabilityScore: 79,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 35000,
         issues: [
             {
@@ -347,6 +365,24 @@ export const fiatCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Yüklü kullanımda",
                 repairCost: "Tampon değişimi (3.000-6.000 TL)"
+            },
+            {
+                id: "egea-sw-1-6-multijet-auto-4",
+                title: "12V Akü Boşalması",
+                description: "12V yardımcı akünün uzun park halinde boşalması.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "3.000 - 5.000 TL"
+            },
+            {
+                id: "egea-sw-1-6-multijet-auto-5",
+                title: "Şarj Kapağı Sorunu",
+                description: "Şarj kapağının donması veya mekanik olarak açılmaması.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Kış ayları",
+                repairCost: "1.500 - 3.000 TL"
             }
         ],
         pros: [
@@ -382,7 +418,7 @@ export const fiatCars: Car[] = [
         price: 1100000,
         expertNote: "GSE 1.0 FireFly Turbo 100 HP + 48V Mild Hybrid + 6 ileri DCT. Egea'nın en yeni motoru. 1.4 Fire'ın yerini aldı. 3 silindirli turbo motor performansta büyük fark yaratıyor — yokuşta artık bayılmıyor! Mild hybrid system start-stop ve hızlanmada destek veriyor. Henüz yeni — kronikler net değil.",
         reliabilityScore: 80,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 20000,
         issues: [
             {
@@ -402,6 +438,24 @@ export const fiatCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
                 repairCost: "Yazılım kalibrasyon"
+            },
+            {
+                id: "egea-1-0-turbo-hybrid-auto-3",
+                title: "12V Akü Boşalması",
+                description: "Hibrit sistemin 12V yardımcı aküyü hızla tüketmesi. Araç yatabilir.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "2.500 - 5.000 TL"
+            },
+            {
+                id: "egea-1-0-turbo-hybrid-auto-4",
+                title: "Rejeneratif Fren Hissi",
+                description: "Rejeneratif frenlemenin suni ve alışılmadık hissettirmesi.",
+                category: "fren",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Normal (Tasarım)"
             }
         ],
         pros: [
@@ -510,7 +564,7 @@ export const fiatCars: Car[] = [
         price: 400000,
         expertNote: "199B 1.3 MultiJet 75 HP. Fiyatına göre alınabilecek en mantıklı araçlardan. İçi Egea'dan daha kalitelidir — Evo göğüs tasarımı güzel. Maserati çizgileri taşıyan tasarım karizmatiğidir. City modu arızası meşhurdur — direksiyon taş gibi olur.",
         reliabilityScore: 78,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 25000,
         issues: [
             {
@@ -539,6 +593,24 @@ export const fiatCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "1.000 - 2.000 TL"
+            },
+            {
+                id: "punto-evo-1-3-multijet-auto-4",
+                title: "12V Akü Boşalması",
+                description: "12V yardımcı akünün uzun park halinde boşalması.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "3.000 - 5.000 TL"
+            },
+            {
+                id: "punto-evo-1-3-multijet-auto-5",
+                title: "Şarj Kapağı Sorunu",
+                description: "Şarj kapağının donması veya mekanik olarak açılmaması.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Kış ayları",
+                repairCost: "1.500 - 3.000 TL"
             }
         ],
         pros: [
@@ -648,7 +720,7 @@ export const fiatCars: Car[] = [
         price: 750000,
         expertNote: "199B 1.3 MultiJet 90 HP. 1.6'dan daha ekonomik ama kalabalık ailede ve yüklüyken güç yetersiz. Zincir uzaması 1.3 MultiJet'in bilinen sorunu. Hususi kullanılmış şık olanları çok aranan araç.",
         reliabilityScore: 84,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 40000,
         issues: [
             {
@@ -677,6 +749,24 @@ export const fiatCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "40.000+ km",
                 repairCost: "2.000 - 4.000 TL"
+            },
+            {
+                id: "doblo-1-3-multijet-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "doblo-1-3-multijet-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -784,7 +874,7 @@ export const fiatCars: Car[] = [
         price: 1050000,
         expertNote: "55260384 1.6 MultiJet 120 HP + DDCT. Jeep Renegade'in İtalyan ikizi — aynı platform (Small Wide). İç mekan kalitesi Egea'dan çok iyi. Şekli şemaili güzel ama ikinci eli yavaş gider çünkü kimse tanımıyor. Elektronik biraz narin.",
         reliabilityScore: 79,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 8500,
         issues: [
             {
@@ -813,6 +903,24 @@ export const fiatCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
                 repairCost: "Akü değişimi (3.000-5.000 TL)"
+            },
+            {
+                id: "500x-1-6-multijet-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "500x-1-6-multijet-auto-5",
+                title: "DCT Kavrama Titremesi",
+                description: "Çift kavramalı şanzımanda düşük hızlarda titreşim.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "40.000+ km",
+                repairCost: "10.000 - 25.000 TL"
             }
         ],
         pros: [
@@ -848,7 +956,7 @@ export const fiatCars: Car[] = [
         price: 650000,
         expertNote: "199B 1.3 MultiJet 85 HP. Geniş, ferah aile aracı — küçük MPV. AMA Dualogic robotize şanzımandan UZAK DURUN. Vites geçişlerinde başınızı öne eğdirir — yokuşta kafası karışır. Manuel alın veya Dualogic'e alışık olun.",
         reliabilityScore: 76,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 12000,
         issues: [
             {
@@ -877,6 +985,24 @@ export const fiatCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
                 repairCost: "3.000 - 6.000 TL"
+            },
+            {
+                id: "500l-1-3-multijet-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "500l-1-3-multijet-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -912,7 +1038,7 @@ export const fiatCars: Car[] = [
         price: 500000,
         expertNote: "169A 1.2 Fire 69 HP. Şehir aracının babası. Park yeri sıkıntısı yok — 3.65m boyuyla her yere sığar. Motor basit ve güvenilir. Konfor sıfır ama şehirde işinizi görür. Dualogic'ten uzak durun — manuel alın.",
         reliabilityScore: 82,
-        totalIssues: 2,
+        totalIssues: 4,
         searchCount: 15000,
         issues: [
             {
@@ -932,6 +1058,24 @@ export const fiatCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "50.000+ km",
                 repairCost: "2.000 - 4.000 TL"
+            },
+            {
+                id: "panda-1-2-fire-auto-3",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "panda-1-2-fire-auto-4",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -967,7 +1111,7 @@ export const fiatCars: Car[] = [
         price: 350000,
         expertNote: "1.6 ie enjeksiyonlu. Efsanevi 'Kuş Serisi'nin son hali. Parçası bakkalda bile var — tamircisi her köşede. Arka tekerlekten itiş keyfi var ama güvenlik 0 yıldız. Çürümemiş, şasisi düzgün bir tane bulmak neredeyse imkânsız.",
         reliabilityScore: 60,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 100000,
         issues: [
             {
@@ -996,6 +1140,24 @@ export const fiatCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "3.000 TL"
+            },
+            {
+                id: "sahin-1-6-ie-auto-4",
+                title: "12V Akü Boşalması",
+                description: "12V yardımcı akünün uzun park halinde boşalması.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "3.000 - 5.000 TL"
+            },
+            {
+                id: "sahin-1-6-ie-auto-5",
+                title: "Şarj Kapağı Sorunu",
+                description: "Şarj kapağının donması veya mekanik olarak açılmaması.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Kış ayları",
+                repairCost: "1.500 - 3.000 TL"
             }
         ],
         pros: [
@@ -1031,7 +1193,7 @@ export const fiatCars: Car[] = [
         price: 550000,
         expertNote: "169A 1.2 Fire 69 HP. İkonik retro tasarım. İtalyan şıklığının simgesi — kadınların favorisi. Motor Panda ile aynı, basit ve güvenilir. Dualogic şanzımandan uzak durun. Manuel alın. İç mekan dar ama karizmatik.",
         reliabilityScore: 78,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 10000,
         issues: [
             {
@@ -1060,6 +1222,24 @@ export const fiatCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "60.000 km / 5 yıl",
                 repairCost: "3.000 - 5.000 TL"
+            },
+            {
+                id: "500-1-2-pop-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "500-1-2-pop-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -1080,4 +1260,389 @@ export const fiatCars: Car[] = [
             "City modu çalışıyor mu kontrol edin"
         ]
     },
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "fiat-linea-1-3-multijet-ii",
+        slug: "fiat-linea-1-3-multijet-ii",
+        brand: "Fiat",
+        model: "Linea",
+        variant: "1.3 Multijet II",
+        years: "2007-2016",
+        generation: "323",
+        price: 300000,
+        reliabilityScore: 69,
+        totalIssues: 6,
+        searchCount: 10000,
+        expertNote: "Linea Tofaş üretimi, Türkiye'nin en çok satan sedanlarından biriydi. 1.3 Multijet motor dayanıklı ama enjektör ve turbo sorunları yaygın. Boya kalitesi çok zayıf. Fiyatına göre geniş ve pratik.",
+        issues: [
+            { id: "linea2-1", title: "Enjektör Arızası (1.3 MJT)", description: "Piezo enjektörlerin tıkanması veya sızıntısı. Rölantide titreşim, duman ve güç kaybı.", category: "motor", riskLevel: "HIGH", affectedKm: "80.000+ km", repairCost: "5.000 - 12.000 TL" },
+            { id: "linea2-2", title: "Turbo Aktuatör Arızası", description: "Turbo basınç aktuatörünün elektrikli bileşeninin bozulması. Turbo basınç kaybı.", category: "motor", riskLevel: "HIGH", affectedKm: "80.000+ km", repairCost: "4.000 - 10.000 TL" },
+            { id: "linea2-3", title: "Boya Dökülmesi", description: "Özellikle tavan, kaput ve bagaj kapağında boya kabarcıklanması ve dökülmesi. Tofaş üretimi modellerde kronik.", category: "govde", riskLevel: "MEDIUM", affectedKm: "3-5 yıl", repairCost: "Lokal boya (2.000 TL)" },
+            { id: "linea2-4", title: "Debriyaj Hidrolik Sistemi", description: "Debriyaj merkez ve çevre silindirinde sızıntı. Debriyaj pedalı sertleşir veya zemine yapışır.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "2.000 - 4.000 TL" },
+            { id: "linea2-5", title: "Direksiyon Kolonu Sesi", description: "Direksiyon çevirirken gelen plastik gıcırtı/tıkırtı sesleri.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "30.000+ km", repairCost: "1.000 - 3.000 TL" },
+            { id: "linea2-6", title: "Cam Kaldırma Regülatörü", description: "Cam kaldırma telinin kopması. Cam inip kalkmaz.", category: "govde", riskLevel: "LOW", affectedKm: "50.000+ km", repairCost: "1.000 - 2.000 TL" }
+        ],
+        pros: ["Çok ucuz alım fiyatı", "Geniş sedan kabin", "1.3 MJT ekonomik", "Bol yedek parça"],
+        cons: ["Boya kalitesi çok zayıf", "İç mekan sade", "Değer kaybı yüksek"],
+        buyingTips: ["Boya durumunu dikkatli inceleyin", "Enjektör sesi dinleyin", "Debriyaj pedalını test edin"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "fiat-doblo-1-3-multijet-2010",
+        slug: "fiat-doblo-1-3-multijet-2010",
+        brand: "Fiat",
+        model: "Doblo",
+        variant: "1.3 Multijet (2. Nesil)",
+        years: "2010-2020",
+        generation: "263",
+        price: 450000,
+        reliabilityScore: 72,
+        totalIssues: 6,
+        searchCount: 10000,
+        expertNote: "Doblo Türkiye'nin en popüler hafif ticarisi. 1.3 Multijet motor milyon km yapabilir ama enjektör ve turbo bakımı gerekir. Sürgülü kapılar yoğun kullanımda sorun çıkarır. Tofaş üretimi, yedek parça bol ve ucuz.",
+        issues: [
+            { id: "doblo2-1", title: "Enjektör Arızası", description: "1.3 Multijet enjektörlerin tıkanması veya sızıntısı. Rölantide titreşim ve duman.", category: "motor", riskLevel: "HIGH", affectedKm: "100.000+ km", repairCost: "5.000 - 12.000 TL" },
+            { id: "doblo2-2", title: "Turbo Yağ Keçesi Kaçağı", description: "Turbo yağ keçelerinden sızıntı. Mavi duman ve yağ tüketimi.", category: "motor", riskLevel: "MEDIUM", affectedKm: "100.000+ km", repairCost: "4.000 - 8.000 TL" },
+            { id: "doblo2-3", title: "Sürgülü Kapı Ray/Mekanizma", description: "Sürgülü kapı raylarının aşınması ve kilitleme mekanizmasının bozulması.", category: "govde", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "2.000 - 5.000 TL" },
+            { id: "doblo2-4", title: "EGR Valfi", description: "EGR valfinde kurum birikimi. Motor performans düşüşü.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "2.000 - 5.000 TL" },
+            { id: "doblo2-5", title: "Arka Yaprak Yay Kırılması", description: "Ticari kullanımda arka yaprak yayların aşınması veya kırılması.", category: "suspansiyon", riskLevel: "MEDIUM", affectedKm: "80.000+ km (Ağır yük)", repairCost: "2.000 - 4.000 TL" },
+            { id: "doblo2-6", title: "Boya Dökülmesi", description: "Tofaş üretimi boya kalitesi sorunu. Kapı kenarları ve çatıda dökülme.", category: "govde", riskLevel: "LOW", affectedKm: "3-5 yıl", repairCost: "Lokal boya" }
+        ],
+        pros: ["Devasa yük kapasitesi", "Güvenilir 1.3 MJT", "Bol ve ucuz yedek parça", "Çok yönlü kullanım"],
+        cons: ["Boya kalitesi zayıf", "Gürültü yalıtımı yok", "Binek konforu düşük"],
+        buyingTips: ["Enjektör testini yaptırın", "Sürgülü kapıları açıp kapatın", "Kaporta altı pas kontrolü"]
+    }
+,
+    {
+            "id": "fiat-egea-1-6-multijet-sedan",
+            "slug": "fiat-egea-1-6-multijet-sedan",
+            "brand": "Fiat",
+            "model": "Egea Sedan",
+            "variant": "1.6 Multijet Lounge",
+            "years": "2016-2025",
+            "generation": "Tipo (356)",
+            "price": 900000,
+            "expertNote": "1.6 Multijet 120 HP. Türkiye'nin en çok satan otomobili. Geniş iç mekan, büyük bagaj, düşük yakıt. Multijet motor güvenilir ama debriyaj/volan sorunlarına dikkat.",
+            "reliabilityScore": 80,
+            "totalIssues": 5,
+            "searchCount": 35000,
+            "issues": [
+                    {
+                            "id": "egea16-1",
+                            "title": "Çift Kütleli Volan",
+                            "description": "Çift kütleli volanın aşınması. Motordan titreşim.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "8.000 - 15.000 TL"
+                    },
+                    {
+                            "id": "egea16-2",
+                            "title": "DPF Rejenerasyon",
+                            "description": "Şehir içi kullanımda DPF filtresi rejenerasyon sorunu.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "egea16-3",
+                            "title": "Direksiyon Sesi",
+                            "description": "Direksiyon çevirirken gıcırtı. Kolon kaplingi.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "egea16-4",
+                            "title": "Arka Süspansiyon Sesi",
+                            "description": "Arka süspansiyondan kasiste vuruntu.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "egea16-5",
+                            "title": "BlueStar Multimedya",
+                            "description": "BlueStar (UConnect) ekranının donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "Yazılım"
+                    }
+            ],
+            "pros": [
+                    "Türkiye'nin en çok satanı",
+                    "Dev bagaj",
+                    "Düşük yakıt",
+                    "Ucuz bakım"
+            ],
+            "cons": [
+                    "Volan maliyeti",
+                    "DPF hassasiyeti",
+                    "Plastik kalitesi"
+            ],
+            "buyingTips": [
+                    "Volan titreşimi test edin",
+                    "DPF taraması yaptırın",
+                    "Lounge donanım tercih edin"
+            ]
+    }
+,
+    {
+            "id": "fiat-doblo-2-1-6-mjt",
+            "slug": "fiat-doblo-2-1-6-multijet",
+            "brand": "Fiat",
+            "model": "Doblo (Mk2)",
+            "variant": "1.6 Multijet Premio Plus",
+            "years": "2010-2022",
+            "generation": "263",
+            "price": 700000,
+            "expertNote": "1.6 Multijet 105-120 HP. Doblo Türkiye'nin en çok satan hafif ticarisi. Geniş iç mekan, kayan kapılar. Motor güvenilir ama volan ve turbo bakımı önemli.",
+            "reliabilityScore": 78,
+            "totalIssues": 5,
+            "searchCount": 15000,
+            "issues": [
+                    {
+                            "id": "dob2-1",
+                            "title": "Çift Kütleli Volan",
+                            "description": "Çift kütleli volanın aşınması. Rölantide titreşim.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "6.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "dob2-2",
+                            "title": "Turbo Aktuatör",
+                            "description": "Turbo basınç aktuatörü arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "dob2-3",
+                            "title": "Sürgülü Kapı Mekanizması",
+                            "description": "Sürgülü kapı kablo ve rulmanlı mekanizma aşınması.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "dob2-4",
+                            "title": "EGR Karbon",
+                            "description": "EGR valfinde kurum birikimi.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "dob2-5",
+                            "title": "Arka Yaprak Yay",
+                            "description": "Arka yaprak yaylarının yorulması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yüklü kullanım",
+                            "repairCost": "2.000 - 4.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Geniş iç mekan",
+                    "Kayan kapılar",
+                    "Ekonomik Multijet",
+                    "Ucuz bakım"
+            ],
+            "cons": [
+                    "Volan maliyeti",
+                    "Gürültü yalıtımı zayıf",
+                    "İç mekan plastik"
+            ],
+            "buyingTips": [
+                    "Volan titreşimi kontrol edin",
+                    "Premio Plus donanım",
+                    "Turbo sesi dinleyin"
+            ]
+    }
+,
+    {
+            "id": "fiat-linea-1-3-mjt-2",
+            "slug": "fiat-linea-1-3-multijet-active",
+            "brand": "Fiat",
+            "model": "Linea",
+            "variant": "1.3 Multijet Active Plus",
+            "years": "2007-2016",
+            "generation": "323",
+            "price": 250000,
+            "expertNote": "1.3 Multijet 75-95 HP. Linea Türkiye'de Tofaş tarafından üretildi. Ucuz sedan. Motor güvenilir ama iç mekan ve yapı kalitesi zayıf. Yedek parçası çok bol ve ucuz.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "linea2-1",
+                            "title": "Çift Kütleli Volan",
+                            "description": "Volan aşınması. Rölantide titreşim.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "linea2-2",
+                            "title": "Turbo Aktuatör",
+                            "description": "Turbo basınç aktuatörü arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "linea2-3",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizmasının bozulması.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "linea2-4",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları ve davlumbazda pas başlaması.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "5+ yıl",
+                            "repairCost": "Lokal Boya"
+                    },
+                    {
+                            "id": "linea2-5",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön alt kol bilyası aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Çok ucuz",
+                    "Tofaş üretimi",
+                    "Bol yedek parça",
+                    "Basit motor"
+            ],
+            "cons": [
+                    "İç mekan kalitesi çok düşük",
+                    "Pas sorunu",
+                    "Güvenlik düşük"
+            ],
+            "buyingTips": [
+                    "Pas kontrolü şart",
+                    "Volan titreşimi test edin",
+                    "Boyalı panel kontrol edin"
+            ]
+    }
+,
+    {
+            "id": "fiat-500l-1-3-mjt-pop",
+            "slug": "fiat-500l-1-3-multijet-popstar",
+            "brand": "Fiat",
+            "model": "500L",
+            "variant": "1.3 Multijet Popstar",
+            "years": "2013-2022",
+            "generation": "330",
+            "price": 500000,
+            "expertNote": "1.3 Multijet 95 HP. 500L adına aldanmayın, 500 ile alakası yok. Büyük ve ağır MPV. Motor güçsüz, şanzıman ve elektronik sorunları çok. TCT robotize şanzıman felaket.",
+            "reliabilityScore": 60,
+            "totalIssues": 7,
+            "searchCount": 6000,
+            "issues": [
+                    {
+                            "id": "500l-1",
+                            "title": "TCT Robotize Şanzıman",
+                            "description": "TCT (çift kavramalı) robotize şanzımanda KRONİK sarsıntı ve titreme. Kavrama aşınması çok hızlı.",
+                            "category": "sanziman",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "30.000+ km",
+                            "repairCost": "15.000 - 30.000 TL"
+                    },
+                    {
+                            "id": "500l-2",
+                            "title": "Turbo Aktuatör",
+                            "description": "1.3 Multijet turbo aktuatörü arızası. Güç kaybı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "500l-3",
+                            "title": "Çift Kütleli Volan",
+                            "description": "Volan aşınması.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "500l-4",
+                            "title": "Elektrik Arızaları",
+                            "description": "Rastgele arıza lambaları, sensör hataları.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Kronik",
+                            "repairCost": "3.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "500l-5",
+                            "title": "EGR Tıkanması",
+                            "description": "EGR valfinde kurum birikimi.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "500l-6",
+                            "title": "Süspansiyon Aşınması",
+                            "description": "Ağır gövde nedeniyle süspansiyon parçaları hızla aşınır.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "500l-7",
+                            "title": "UConnect Donma",
+                            "description": "UConnect multimedya sistemi donma ve karartma.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "Yazılım"
+                    }
+            ],
+            "pros": [
+                    "Geniş iç mekan",
+                    "Pratik MPV",
+                    "500 ismi"
+            ],
+            "cons": [
+                    "TCT şanzıman FELAKET",
+                    "Motor ağır gövdeye güçsüz",
+                    "Elektronik arızalar",
+                    "Yüksek bakım maliyeti"
+            ],
+            "buyingTips": [
+                    "TCT ALMAYIN manuel versiyonu arayın",
+                    "1.3 motor bu araca güçsüz 1.6 tercih edin",
+                    "500L başka bir şey 500 başka"
+            ]
+    }
 ];

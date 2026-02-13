@@ -5,6 +5,7 @@ import { login } from '@/actions/auth-actions';
 import { brands } from '@/data/cars';
 import Link from 'next/link';
 import { useState, useMemo } from 'react';
+import { Turnstile } from '@marsidev/react-turnstile';
 
 interface FieldErrors {
     name?: boolean;
@@ -350,13 +351,15 @@ export default function RegisterPage() {
                                 </div>
                             </div>
 
-                            {/* Cloudflare Turnstile Placeholder */}
-                            <div
-                                id="cf-turnstile-register"
-                                className="cf-turnstile w-full min-h-[65px] bg-stone-50 dark:bg-stone-800/50 border border-dashed border-stone-300 dark:border-stone-700 rounded-lg flex items-center justify-center"
-                            >
-                                <span className="text-xs text-stone-400">Cloudflare Turnstile alanı</span>
-                            </div>
+                            {/* Cloudflare Turnstile */}
+                            {process.env.NEXT_PUBLIC_CLOUDFLARE_SITE_KEY && (
+                                <div className="w-full flex justify-center">
+                                    <Turnstile
+                                        siteKey={process.env.NEXT_PUBLIC_CLOUDFLARE_SITE_KEY}
+                                        options={{ theme: 'auto' }}
+                                    />
+                                </div>
+                            )}
 
                             <button
                                 type="submit"

@@ -16,7 +16,7 @@ export const jaguarCars: Car[] = [
         price: 2200000,
         expertNote: "Ingenium 2.0d 180 HP + ZF 8HP 8 ileri otomatik. Türkiye'de satılan tek gerçek Jaguar SUV. Tasarımı şahane ama Ingenium motorun zincir seti sorunu ÇOK CİDDİ — 80.000 km sonrası motor zinciri uzayabilir, müdahale edilmezse motor gider. Servis ağı Türkiye'de ÇOK SINIRLI (Borusan Oto). Yedek parça fiyatları şok etkisi yaratır. İkinci elde çok değer kaybediyor çünkü herkes sorunlarından korkuyor.",
         reliabilityScore: 62,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 5000,
         issues: [
             {
@@ -45,6 +45,24 @@ export const jaguarCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "60.000+ km",
                 repairCost: "15.000 - 25.000 TL"
+            },
+            {
+                id: "f-pace-2-0-d-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "f-pace-2-0-d-auto-5",
+                title: "Şanzıman Sarsıntısı",
+                description: "Otomatik şanzımanda vites geçişlerinde sarsıntı veya gecikme.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ değişimi / 5.000 - 15.000 TL"
             }
         ],
         pros: [
@@ -65,5 +83,5 @@ export const jaguarCars: Car[] = [
             "İkinci el alırken kaskoyu önceden fiyatlandırın — şoke olursunuz",
             "Güzel ama riskli araç — bilinçli alıcılar için"
         ]
-    },
+    }
 ];

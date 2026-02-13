@@ -1,49 +1,72 @@
 
 import { prisma } from '@/lib/db';
 import { Car } from '@/types';
-// We need to map Prisma result to our Car interface manually or rely on compatibility.
-// Prisma returns objects. Our `Car` interface has `issues: Issue[]`. 
-// The DB `Car` has `issues: CarIssue[]`. The structures are similar but need check.
+import { cars as staticCars, getTotalIssuesCount as getStaticIssuesCount } from '@/data/cars';
 
-// Helper to parse JSON fields
+// Helper to parse JSON fields from Prisma
 const parseCar = (car: any): Car => {
     return {
         ...car,
         pros: JSON.parse(car.pros || '[]'),
         cons: JSON.parse(car.cons || '[]'),
         buyingTips: JSON.parse(car.buyingTips || '[]'),
-        // Map CarIssue to Issue
         issues: car.issues?.map((issue: any) => ({
             ...issue,
-            // category and riskLevel are strings in DB, checking if they match Union types is loose but fine for now
         })) || []
     };
 };
 
 export async function getAllCars(): Promise<Car[]> {
-    const cars = await prisma.car.findMany({
-        include: { issues: true },
-        orderBy: { searchCount: 'desc' } // Default sort
-    });
-    return cars.map(parseCar);
+    try {
+        const cars = await prisma.car.findMany({
+            include: { issues: true },
+            orderBy: { searchCount: 'desc' }
+        });
+        const dbCars = cars.map(parseCar);
+        // Merge: DB cars + static cars not in DB
+        const dbSlugs = new Set(dbCars.map(c => c.slug));
+        const extraStatic = staticCars.filter(c => !dbSlugs.has(c.slug));
+        return [...dbCars, ...extraStatic];
+    } catch {
+        return staticCars;
+    }
 }
 
 export async function getCarBySlug(slug: string): Promise<Car | null> {
-    const car = await prisma.car.findUnique({
-        where: { slug },
-        include: { issues: true }
-    });
-    if (!car) return null;
-    return parseCar(car);
+    try {
+        const car = await prisma.car.findUnique({
+            where: { slug },
+            include: { issues: true }
+        });
+        if (car) return parseCar(car);
+    } catch {
+        // DB error, fall through to static
+    }
+    // Fallback to static data
+    return staticCars.find(c => c.slug === slug) || null;
 }
 
 export async function getTrendingCars(limit = 9): Promise<Car[]> {
-    const cars = await prisma.car.findMany({
-        orderBy: { searchCount: 'desc' },
-        take: limit,
-        include: { issues: true }
-    });
-    return cars.map(parseCar);
+    try {
+        const cars = await prisma.car.findMany({
+            orderBy: { searchCount: 'desc' },
+            take: limit,
+            include: { issues: true }
+        });
+        const dbCars = cars.map(parseCar);
+        if (dbCars.length >= limit) return dbCars;
+        // Fill remaining from static
+        const dbSlugs = new Set(dbCars.map(c => c.slug));
+        const extraStatic = staticCars
+            .filter(c => !dbSlugs.has(c.slug))
+            .sort((a, b) => (b.searchCount ?? 0) - (a.searchCount ?? 0))
+            .slice(0, limit - dbCars.length);
+        return [...dbCars, ...extraStatic];
+    } catch {
+        return [...staticCars]
+            .sort((a, b) => (b.searchCount ?? 0) - (a.searchCount ?? 0))
+            .slice(0, limit);
+    }
 }
 
 export async function incrementSearchCount(slug: string) {
@@ -58,23 +81,48 @@ export async function incrementSearchCount(slug: string) {
 }
 
 export async function searchCars(query: string): Promise<Car[]> {
-    // Basic search on brand OR model
-    const cars = await prisma.car.findMany({
-        where: {
-            OR: [
-                { brand: { contains: query } },
-                { model: { contains: query } }
-            ]
-        },
-        include: { issues: true }
-    });
-    return cars.map(parseCar);
+    try {
+        const cars = await prisma.car.findMany({
+            where: {
+                OR: [
+                    { brand: { contains: query } },
+                    { model: { contains: query } }
+                ]
+            },
+            include: { issues: true }
+        });
+        const dbCars = cars.map(parseCar);
+        const dbSlugs = new Set(dbCars.map(c => c.slug));
+        const q = query.toLowerCase();
+        const extraStatic = staticCars.filter(c =>
+            !dbSlugs.has(c.slug) &&
+            (c.brand.toLowerCase().includes(q) || c.model.toLowerCase().includes(q))
+        );
+        return [...dbCars, ...extraStatic];
+    } catch {
+        const q = query.toLowerCase();
+        return staticCars.filter(c =>
+            c.brand.toLowerCase().includes(q) || c.model.toLowerCase().includes(q)
+        );
+    }
 }
 
 export async function getTotalIssuesCount(): Promise<number> {
-    return await prisma.carIssue.count();
+    try {
+        const dbCount = await prisma.carIssue.count();
+        if (dbCount > 0) return dbCount + getStaticIssuesCount();
+        return getStaticIssuesCount();
+    } catch {
+        return getStaticIssuesCount();
+    }
 }
 
 export async function getTotalCarsCount(): Promise<number> {
-    return await prisma.car.count();
+    try {
+        const dbCount = await prisma.car.count();
+        return dbCount + staticCars.length;
+    } catch {
+        return staticCars.length;
+    }
 }
+

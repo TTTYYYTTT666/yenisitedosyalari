@@ -12,7 +12,7 @@ export const toyotaCars: Car[] = [
         expertNote: "Pil garantisi 10 yıl ama her yıl servise girersen. Girmezsen 200 bin TL pil parası hazırlayın. Sanayide ustası azdır, yetkili servis mahkumu olabilirsiniz.",
         price: 1800000,
         reliabilityScore: 92,
-        totalIssues: 5,
+        totalIssues: 7,
         searchCount: 11200,
         issues: [
             {
@@ -103,7 +103,7 @@ export const toyotaCars: Car[] = [
         years: "2016-2023",
         generation: "AX10",
         reliabilityScore: 90,
-        totalIssues: 4,
+        totalIssues: 7,
         searchCount: 6500,
         issues: [
             {
@@ -194,7 +194,7 @@ export const toyotaCars: Car[] = [
         years: "2020-2024",
         generation: "E210",
         reliabilityScore: 93,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 14000,
         issues: [
             {
@@ -266,7 +266,7 @@ export const toyotaCars: Car[] = [
         years: "2020-2024",
         generation: "XP210",
         reliabilityScore: 94,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 7000,
         issues: [
             {
@@ -328,7 +328,7 @@ export const toyotaCars: Car[] = [
         years: "2022-2024",
         generation: "XG10",
         reliabilityScore: 90,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 6800,
         issues: [
             {
@@ -390,7 +390,7 @@ export const toyotaCars: Car[] = [
         years: "2019-2024",
         generation: "XA50",
         reliabilityScore: 93,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 14000,
         issues: [
             {
@@ -401,6 +401,33 @@ export const toyotaCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
                 repairCost: "Çözümsüz (Tasarım)"
+            },
+            {
+                id: "rav4-2",
+                title: "12V Akü Boşalması",
+                description: "Araç uzun süre park edildiğinde 12V yardımcı akünün boşalması.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "3.000 - 5.000 TL"
+            },
+            {
+                id: "rav4-3",
+                title: "CVT Sesi (Dip Gaz)",
+                description: "Tam gaz hızlanmada motorun yüksek devirde kalması ve yüksek ses yapması.",
+                category: "sanziman",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Normal (e-CVT tasarımı)"
+            },
+            {
+                id: "rav4-4",
+                title: "Rüzgar Sesi",
+                description: "Yüksek hızlarda ayna ve A sütunundan rüzgar sesi.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "120+ km/h",
+                repairCost: "Fitil / Yalıtım"
             }
         ],
         pros: [
@@ -425,7 +452,7 @@ export const toyotaCars: Car[] = [
         years: "2021-2024",
         generation: "XP210",
         reliabilityScore: 91,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 12000,
         issues: [
             {
@@ -436,6 +463,33 @@ export const toyotaCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "40.000+ km",
                 repairCost: "4.000 - 8.000 TL"
+            },
+            {
+                id: "yc-2",
+                title: "12V Akü Sorunu",
+                description: "Hibrit sistemin 12V aküyü hızla tüketmesi. Araç yatar.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "2.500 - 4.500 TL"
+            },
+            {
+                id: "yc-3",
+                title: "Trim Sesleri",
+                description: "Konsoldan ve kapı panellerinden plastik tıkırtıları.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Bozuk yollar",
+                repairCost: "Yalıtım"
+            },
+            {
+                id: "yc-4",
+                title: "Arka Görüş Sınırlı",
+                description: "Küçük arka cam nedeniyle kör nokta fazla. Sensörlere güvenilmeli.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Tasarım",
+                repairCost: "Normal"
             }
         ],
         pros: [
@@ -461,7 +515,7 @@ export const toyotaCars: Car[] = [
         generation: "XP210",
         price: 1450000,
         reliabilityScore: 96,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 11000,
         issues: [
             {
@@ -490,6 +544,24 @@ export const toyotaCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
                 repairCost: "Yazılım Güncelleme"
+            },
+            {
+                id: "yaris-1-5-hybrid-auto-4",
+                title: "12V Akü Boşalması",
+                description: "Hibrit sistemin 12V yardımcı aküyü hızla tüketmesi. Araç yatabilir.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "2.500 - 5.000 TL"
+            },
+            {
+                id: "yaris-1-5-hybrid-auto-5",
+                title: "Rejeneratif Fren Hissi",
+                description: "Rejeneratif frenlemenin suni ve alışılmadık hissettirmesi.",
+                category: "fren",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Normal (Tasarım)"
             }
         ],
         pros: [
@@ -516,7 +588,7 @@ export const toyotaCars: Car[] = [
         generation: "Mk1",
         price: 1500000,
         reliabilityScore: 88,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 12000,
         issues: [
             {
@@ -527,6 +599,33 @@ export const toyotaCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "60.000+ km",
                 repairCost: "30.000 TL"
+            },
+            {
+                id: "proace-2",
+                title: "DPF Tıkanması",
+                description: "Şehir içi kısa mesafe kullanımda DPF filtresinin dolması.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "40.000+ km",
+                repairCost: "5.000 - 12.000 TL"
+            },
+            {
+                id: "proace-3",
+                title: "Sürgili Kapı Mekanizması",
+                description: "Sürgili kapı rayı ve rulmanlarının aşınması. Zor açılıp kapanma.",
+                category: "govde",
+                riskLevel: "MEDIUM",
+                affectedKm: "60.000+ km",
+                repairCost: "5.000 - 10.000 TL"
+            },
+            {
+                id: "proace-4",
+                title: "Direksiyon Sertliği",
+                description: "Elektrikli direksiyon sisteminin zaman zaman sertçe tepki vermesi.",
+                category: "suspansiyon",
+                riskLevel: "LOW",
+                affectedKm: "Rastgele",
+                repairCost: "Yazılım"
             }
         ],
         pros: [
@@ -553,7 +652,7 @@ export const toyotaCars: Car[] = [
         expertNote: "Corolla Hatchback'in eski adı. Sorunsuzluk konusunda Corolla ile yarışır. 1.6 atmosferik motoru ölümsüzdür ama gitmez ve yakar. LPG ile tam uyumludur.",
         price: 750000,
         reliabilityScore: 90,
-        totalIssues: 2,
+        totalIssues: 5,
         searchCount: 25000,
         issues: [
             {
@@ -573,6 +672,33 @@ export const toyotaCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "500 - 1.000 TL (Torna)"
+            },
+            {
+                id: "auris-3",
+                title: "CVT Titremesi",
+                description: "Otomatik (CVT) vitesli modellerde kalkışta titreşim ve yavaşlama.",
+                category: "sanziman",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Normal"
+            },
+            {
+                id: "auris-4",
+                title: "Arka Süspansiyon Sesi",
+                description: "Arka süspansiyon aksamından kasis geçişlerinde vuruntu sesi.",
+                category: "suspansiyon",
+                riskLevel: "LOW",
+                affectedKm: "60.000+ km",
+                repairCost: "2.000 - 4.000 TL"
+            },
+            {
+                id: "auris-5",
+                title: "LPG Uyum Sorunu",
+                description: "Kalitesiz LPG kiti takılmışsa supap yanıkları ve performans kaybı.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "LPG'ye bağlı",
+                repairCost: "Supap Revizyonu / 5.000 TL"
             }
         ],
         pros: [
@@ -601,7 +727,7 @@ export const toyotaCars: Car[] = [
         expertNote: "Patron arabası. Konforu, sessizliği ve genişliği E segmentinin zirvesidir. 2.5 litrelik hibrit motor hem uçurur hem de yakıtı koklar (Vergisi hariç).",
         price: 3000000,
         reliabilityScore: 96,
-        totalIssues: 1,
+        totalIssues: 4,
         searchCount: 5000,
         issues: [
             {
@@ -612,6 +738,33 @@ export const toyotaCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "80.000+ km",
                 repairCost: "Döşeme Tamiri"
+            },
+            {
+                id: "camry-2",
+                title: "CVT Sesi (Tam Gaz)",
+                description: "Hızlanmada motorun yüksek devirde sabit kalması ve yüksek ses yapması. e-CVT karakteristiği.",
+                category: "sanziman",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Normal"
+            },
+            {
+                id: "camry-3",
+                title: "Rüzgar Sesi",
+                description: "Ayna bölgesinden yüksek hızlarda rüzgar sesi.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "120+ km/h",
+                repairCost: "Fitil"
+            },
+            {
+                id: "camry-4",
+                title: "12V Akü",
+                description: "Hibrit aracın 12V aküsünün uzun süre park halinde boşalması.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "3.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -639,7 +792,7 @@ export const toyotaCars: Car[] = [
         expertNote: "Yok edilemeyen araç. Çöle düşsen çıkarır. Asfaltta biraz zıplatır ama arazide kraldır. 2.4 motoru sağlamdır. \"Invincible\" donanımı binek araç gibidir.",
         price: 1400000,
         reliabilityScore: 95,
-        totalIssues: 2,
+        totalIssues: 5,
         searchCount: 40000,
         issues: [
             {
@@ -659,6 +812,33 @@ export const toyotaCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "Yağlama"
+            },
+            {
+                id: "hilux-3",
+                title: "Enjektör Geri Dönüş Hortumu",
+                description: "Enjektör geri dönüş hortumlarının çatlaması. Motor bölgesinde mazot kokusu.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "2.000 - 5.000 TL"
+            },
+            {
+                id: "hilux-4",
+                title: "Arka Diferansiyel Sesi",
+                description: "Arka diferansiyelden uğultu sesi. Yağ değişimi gerekli.",
+                category: "sanziman",
+                riskLevel: "LOW",
+                affectedKm: "80.000+ km",
+                repairCost: "Yağ Değişimi / 5.000 TL"
+            },
+            {
+                id: "hilux-5",
+                title: "Kasa Askısı Burçları",
+                description: "Otomobilin altındaki kasa-şasi bağlantı burçlarının aşınması.",
+                category: "suspansiyon",
+                riskLevel: "LOW",
+                affectedKm: "100.000+ km",
+                repairCost: "3.000 - 6.000 TL"
             }
         ],
         pros: [
@@ -687,7 +867,7 @@ export const toyotaCars: Car[] = [
         expertNote: "BMW motorlu Toyota. Motor BMW N47 (1.6 versiyonu), şanzıman manuel. Sorunsuzdur ama elektronik el freni bazen baş ağrıtır.",
         price: 900000,
         reliabilityScore: 88,
-        totalIssues: 2,
+        totalIssues: 5,
         searchCount: 9500,
         issues: [
             {
@@ -707,6 +887,33 @@ export const toyotaCars: Car[] = [
                 riskLevel: "MEDIUM",
                 affectedKm: "100.000+ km",
                 repairCost: "15.000 - 25.000 TL"
+            },
+            {
+                id: "avensis-3",
+                title: "Triger Zinciri Sesi",
+                description: "BMW kaynaklı 1.6 dizel motorda triger zinciri uzaması ve ses.",
+                category: "motor",
+                riskLevel: "HIGH",
+                affectedKm: "120.000+ km",
+                repairCost: "10.000 - 20.000 TL"
+            },
+            {
+                id: "avensis-4",
+                title: "Debriyaj Aşınması",
+                description: "Manuel vitesli şehir içi kullanımda debriyaj balatacının erken bitmesi.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "5.000 - 10.000 TL"
+            },
+            {
+                id: "avensis-5",
+                title: "Radyatör Sızıntısı",
+                description: "Radyatör bağlantı hortumlarından soğutma sıvısı sızıntısı.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "3.000 - 6.000 TL"
             }
         ],
         pros: [
@@ -722,5 +929,399 @@ export const toyotaCars: Car[] = [
         buyingTips: [
             "El frenini 5-6 kere çek-bırak yapın hata veriyor mu?"
         ]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "toyota-rav4-25-hybrid-mk5",
+        slug: "toyota-rav4-25-hybrid-mk5",
+        brand: "Toyota",
+        model: "RAV4",
+        variant: "2.5 Hybrid AWD Passion X-Pack",
+        years: "2019-2025",
+        generation: "XA50",
+        price: 2200000,
+        expertNote: "Hybrid SUV segmentinin referansı. Toyota güvenilirliği + hybrid ekonomisi. AWD versiyonu arka aksı elektriktir — mekanik bağlantı yok, çok akıllı. Passion X-Pack donanımı tercih edin.",
+        reliabilityScore: 92,
+        totalIssues: 5,
+        searchCount: 30000,
+        issues: [
+            {
+                id: "rav4-mk5-1",
+                title: "CVT Uğultusu",
+                description: "Toyota eCVT şanzımanın yüksek hızda motor devir yükseltmesi ve güçlenmede uğultu. Karakteristiktir.",
+                category: "sanziman",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Çözümsüz"
+            },
+            {
+                id: "rav4-mk5-2",
+                title: "Fren Gıcırtısı",
+                description: "Rejeneratif fren sistemiyle birlikte mekanik frenlerin az kullanılmasından kaynaklanan pas ve gıcırtı.",
+                category: "fren",
+                riskLevel: "LOW",
+                affectedKm: "Kronik",
+                repairCost: "Disk Temizliği"
+            },
+            {
+                id: "rav4-mk5-3",
+                title: "Multimedya Yavaşlığı",
+                description: "Toyota Touch & Go ekranının yavaş tepki vermesi ve navigasyonun gecikmesi.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "Kronik",
+                repairCost: "Yazılım"
+            },
+            {
+                id: "rav4-mk5-4",
+                title: "Rüzgar Sesi (A Sütunu)",
+                description: "120+ km/s hızlarda A sütunu ve aynadan gelen rüzgar sesi.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "120+ km/s",
+                repairCost: "Fitil Ayarı"
+            },
+            {
+                id: "rav4-mk5-5",
+                title: "TSS Kalibrasyon Uyarısı",
+                description: "Toyota Safety Sense sisteminin kirli ön cam veya sis durumunda kalibrasyon uyarısı vermesi.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "Hava koşullarına bağlı",
+                repairCost: "Cam Temizliği"
+            }
+        ],
+        pros: [
+            "Toyota güvenilirliği",
+            "Hibrit ile düşük tüketim (5-6L)",
+            "AWD yeteneği"
+        ],
+        cons: [
+            "CVT bağırması",
+            "Fiyat yüksek",
+            "Multimedya eski"
+        ],
+        buyingTips: [
+            "AWD versiyonunu tercih edin — arka köprü elektrik",
+            "Passion X-Pack donanımı alın",
+            "Hibrit batarya garantisi kontrol edin"
+        ]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "toyota-corolla-e150-1-6-vvti",
+        slug: "toyota-corolla-e150-1-6-vvti",
+        brand: "Toyota",
+        model: "Corolla",
+        variant: "1.6 VVT-i",
+        years: "2007-2013",
+        generation: "E150",
+        price: 380000,
+        reliabilityScore: 88,
+        totalIssues: 5,
+        searchCount: 13000,
+        expertNote: "E150 Corolla efsanedir. 1.6 VVT-i motor neredeyse bozulmaz. Tek derdi yağ tüketimi ve süspansiyon parçaları. 300.000+ km giden motorlar var. İkinci el piyasasında hâlâ değerini koruyor.",
+        issues: [
+            { id: "e150-1", title: "Yağ Tüketimi (1ZR-FE)", description: "1.6 1ZR-FE motorun piston segman aşınması sonucu yağ tüketimi. 5.000 km'de 500ml-1L yağ eklemek gerekebilir.", category: "motor", riskLevel: "MEDIUM", affectedKm: "100.000+ km", repairCost: "Yağ Ekleme / Segman Revizyonu (15.000 TL)" },
+            { id: "e150-2", title: "Ön Amortisör Takozu", description: "Ön amortisör üst takozlarının aşınması. Direksiyon çevirirken gıcırtı ve vuruntu.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "60.000+ km", repairCost: "2.000 - 4.000 TL" },
+            { id: "e150-3", title: "Arka Fren Kampana Aşınması", description: "Arka kampanalı fren sisteminde balata ve kampana aşınması. Fren etkinliği düşer.", category: "fren", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "2.000 - 4.000 TL" },
+            { id: "e150-4", title: "Direksiyon Pompası Sızıntısı", description: "Hidrolik direksiyon pompasından yağ sızıntısı. Direksiyon ağırlaşır.", category: "suspansiyon", riskLevel: "MEDIUM", affectedKm: "120.000+ km", repairCost: "3.000 - 6.000 TL" },
+            { id: "e150-5", title: "Kapı Cam Mekanizması", description: "Cam kaldırma mekanizması regülatörünün bozulması. Cam inip kalkmaz.", category: "govde", riskLevel: "LOW", affectedKm: "80.000+ km", repairCost: "1.500 - 3.000 TL" }
+        ],
+        pros: ["Yıkılmaz güvenilirlik", "Çok düşük bakım maliyeti", "Toyota servis ağı", "Yüksek ikinci el değeri"],
+        cons: ["Yağ tüketimi var", "Tasarımı çok sade", "Teknolojisi eski"],
+        buyingTips: ["Yağ çubuğunu kontrol edin", "Süspansiyon seslerini dinleyin", "Motor çalışma sesini dinleyin (Takırtı olmamalı)"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "toyota-yaris-2-1-4-d4d",
+        slug: "toyota-yaris-2-1-4-d4d",
+        brand: "Toyota",
+        model: "Yaris",
+        variant: "II 1.4 D-4D",
+        years: "2006-2011",
+        generation: "XP90",
+        price: 250000,
+        reliabilityScore: 82,
+        totalIssues: 5,
+        searchCount: 7000,
+        expertNote: "Yaris II 1.4 D-4D Türkiye'de şehir aracı olarak çok popülerdi. Toyota güvenilirliği burada da geçerli, motor 200.000+ km rahat yapar. Dizel olmasına rağmen DPF'siz olduğu için eski emisyon sınıfı ama sorunsuz.",
+        issues: [
+            { id: "yaris2-1", title: "Enjektör Arızası (Yüksek KM)", description: "1.4 D-4D enjektörlerin 150.000+ km'de tıkanması. Rölantide titreşim.", category: "motor", riskLevel: "MEDIUM", affectedKm: "150.000+ km", repairCost: "5.000 - 10.000 TL" },
+            { id: "yaris2-2", title: "EGR Valfi", description: "EGR valfinde kurum birikimi. Motor performans düşüşü.", category: "motor", riskLevel: "MEDIUM", affectedKm: "80.000+ km", repairCost: "2.000 - 4.000 TL" },
+            { id: "yaris2-3", title: "Arka Kampana Fren Aşınması", description: "Arka kampanalı fren sisteminde balata aşınması.", category: "fren", riskLevel: "LOW", affectedKm: "60.000+ km", repairCost: "1.000 - 2.000 TL" },
+            { id: "yaris2-4", title: "Direksiyon Pompası Sesi", description: "Elektrikli direksiyon pompasından vızıltı.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "80.000+ km", repairCost: "3.000 - 5.000 TL" },
+            { id: "yaris2-5", title: "Cam Kaldırma Mekanizması", description: "Cam kaldırma regülatörünün bozulması.", category: "govde", riskLevel: "LOW", affectedKm: "Yaş kaynaklı", repairCost: "1.000 - 2.000 TL" }
+        ],
+        pros: ["Toyota güvenilirliği", "Çok ekonomik", "Küçük ve pratik", "Düşük bakım maliyeti"],
+        cons: ["Çok küçük kabin", "Otoyolda yetersiz", "Eski tasarım"],
+        buyingTips: ["Motor sesi dinleyin (Düzgün çalışmalı)", "EGR temizliği yapılmış mı sorun", "Yaşı nedeniyle pas kontrolü"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "toyota-rav4-2-5-hybrid",
+        slug: "toyota-rav4-2-5-hybrid",
+        brand: "Toyota",
+        model: "RAV4",
+        variant: "2.5 Hybrid",
+        years: "2019-2024",
+        generation: "XA50",
+        price: 2800000,
+        reliabilityScore: 91,
+        totalIssues: 5,
+        searchCount: 11000,
+        expertNote: "RAV4 Hybrid Toyota'nın en güvenilir SUV'larından biri. Ama mükemmel değil — inverter pompası ve hibrit aküsü uzun vadede dikkat ister. Fiyatı yüksek ama ikinci el değer kaybı çok düşük.",
+        issues: [
+            { id: "rav4-1", title: "Inverter Soğutma Pompası Arızası", description: "Hibrit sistem inverter soğutma pompasının arızalanması. Sistem aşırı ısınır ve hibrit modu devre dışı kalır. Erken tespit edilmezse inverter ünitesine zarar verebilir.", category: "elektronik", riskLevel: "HIGH", affectedKm: "80.000+ km", repairCost: "15.000 - 30.000 TL" },
+            { id: "rav4-2", title: "CVT Şanzıman Uğultusu", description: "E-CVT şanzımandan yüksek hızlarda gelen uğultu sesi. Yağ değişimi ile azaltılabilir ancak tamamen ortadan kalkmaz. Karakteristik kabul edilir.", category: "sanziman", riskLevel: "LOW", affectedKm: "60.000+ km", repairCost: "Yağ Değişimi (3.000 TL)" },
+            { id: "rav4-3", title: "Arka Fren Diski Korozyonu", description: "Hibrit sistemin rejeneratif frenleme kullanması nedeniyle arka fren diskleri yeterince ısınmaz ve korozyon yapar. Fren sesi ve titreşim oluşur.", category: "fren", riskLevel: "MEDIUM", affectedKm: "30.000+ km", repairCost: "3.000 - 6.000 TL" },
+            { id: "rav4-4", title: "Multimedya Ekran Donması", description: "Toyota Touch ekranının kararması veya tepki vermemesi. Apple CarPlay bağlantısı kopabilir. Yazılım güncellemesi ile çözülür.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "Yazılım Güncelleme" },
+            { id: "rav4-5", title: "Rüzgar Sesi (A Sütunu)", description: "120 km/s üzeri hızlarda A sütunu ve ayna diplerinden gelen rüzgar uğultusu. Fitil iyileştirmesi kısmen çözer.", category: "govde", riskLevel: "LOW", affectedKm: "Yüksek Hız", repairCost: "Fitil (1.000 TL)" }
+        ],
+        pros: ["Düşük yakıt tüketimi (4.5-5.5L)", "Toyota güvenilirliği", "Geniş iç hacim", "Yüksek ikinci el değeri"],
+        cons: ["Yüksek satın alma fiyatı", "CVT uğultusu", "Arka fren korozyonu"],
+        buyingTips: ["Hibrit akü sağlık raporunu isteyin", "Inverter soğutma sıvısını kontrol ettirin", "Arka fren disklerini inceleyin"]
+    }
+,
+    {
+            "id": "toyota-chr-2-0-hybrid",
+            "slug": "toyota-chr-2-0-hybrid",
+            "brand": "Toyota",
+            "model": "C-HR",
+            "variant": "2.0 Hybrid Diamond",
+            "years": "2020-2024",
+            "generation": "AX50 (FL)",
+            "price": 1600000,
+            "expertNote": "M20A 2.0 Hybrid 184 HP. C-HR facelift 2.0 motorla çok daha güçlü. Coupe SUV tasarımı dikkat çekici ama arka görüş sınırlı. Toyota hibrit güvenilirliği.",
+            "reliabilityScore": 86,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "chr2-1",
+                            "title": "12V Akü Boşalması",
+                            "description": "Hibrit sistemin 12V aküyü tüketmesi.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "3.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "chr2-2",
+                            "title": "CVT Sesi",
+                            "description": "Tam gaz hızlanmada motorun yüksek devirde kalması.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Karakteristik",
+                            "repairCost": "Normal (e-CVT)"
+                    },
+                    {
+                            "id": "chr2-3",
+                            "title": "Arka Görüş Sınırlı",
+                            "description": "Dar arka cam nedeniyle kör nokta çok fazla.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Tasarım",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "chr2-4",
+                            "title": "Trim Sesleri",
+                            "description": "İç trim panellerinden plastik tıkırtıları.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Bozuk yollar",
+                            "repairCost": "Yalıtım"
+                    },
+                    {
+                            "id": "chr2-5",
+                            "title": "Fren Hissi",
+                            "description": "Rejeneratif fren sisteminin suni hissi.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Karakteristik",
+                            "repairCost": "Normal"
+                    }
+            ],
+            "pros": [
+                    "Hibrit güvenilirlik",
+                    "Dikkat çekici tasarım",
+                    "Düşük yakıt",
+                    "Toyota kalitesi"
+            ],
+            "cons": [
+                    "Arka görüş sınırlı",
+                    "Arka koltuk dar",
+                    "CVT sesi"
+            ],
+            "buyingTips": [
+                    "Arka koltuğa oturup test edin",
+                    "12V akü kontrolü",
+                    "Diamond donanım tercih edin"
+            ]
+    }
+,
+    {
+            "id": "toyota-corolla-e210-hybrid",
+            "slug": "toyota-corolla-e210-hybrid",
+            "brand": "Toyota",
+            "model": "Corolla (E210)",
+            "variant": "1.8 Hybrid Dream",
+            "years": "2019-2025",
+            "generation": "E210",
+            "price": 1400000,
+            "expertNote": "2ZR-FXE 1.8 Hybrid 122 HP. E210 Corolla Hybrid Türkiye'nin en çok satan hibrit aracı. Toyota'nın efsanevi hibrit güvenilirliği. CVT şanzıman sesi tek dezavantaj.",
+            "reliabilityScore": 90,
+            "totalIssues": 5,
+            "searchCount": 30000,
+            "issues": [
+                    {
+                            "id": "e210-1",
+                            "title": "CVT Motor Sesi",
+                            "description": "Tam gaz hızlanmada motorun yüksek devirde kalması (rubber band etkisi).",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Karakteristik",
+                            "repairCost": "Normal (e-CVT)"
+                    },
+                    {
+                            "id": "e210-2",
+                            "title": "12V Akü Boşalma",
+                            "description": "12V yardımcı akünün uzun park sonrası boşalması.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "3.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "e210-3",
+                            "title": "Fren Hissi",
+                            "description": "Rejeneratif fren geçişinde yapay his.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Karakteristik",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "e210-4",
+                            "title": "Rüzgar Sesi",
+                            "description": "Ayna bölgesinden yüksek hızda ses.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "120+ km/h",
+                            "repairCost": "Fitil"
+                    },
+                    {
+                            "id": "e210-5",
+                            "title": "Multimedya Yavaşlığı",
+                            "description": "Toyota Touch ekranının tepki gecikmesi.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Tasarım",
+                            "repairCost": "Normal"
+                    }
+            ],
+            "pros": [
+                    "Toyota güvenilirliği",
+                    "4L/100km yakıt",
+                    "Hibrit garanti 10 yıl",
+                    "Sıfır bakım maliyeti"
+            ],
+            "cons": [
+                    "CVT sesi",
+                    "Performans heyecansız",
+                    "Plastik kalitesi orta"
+            ],
+            "buyingTips": [
+                    "Dream donanım tercih edin",
+                    "Hibrit batarya garantisi 10 yıl",
+                    "2021+ makyajlı alın"
+            ]
+    }
+,
+    {
+            "id": "toyota-yaris-3-1-33",
+            "slug": "toyota-yaris-3-1-33-vvti",
+            "brand": "Toyota",
+            "model": "Yaris (XP130)",
+            "variant": "1.33 VVT-i Fun",
+            "years": "2011-2020",
+            "generation": "XP130",
+            "price": 550000,
+            "expertNote": "1NR-FE 1.33 VVT-i 99 HP + CVT/6MT. Yaris XP130 Toyota Türkiye Sakarya üretimi. TR'ye özel sedan versiyonu var. Motor çok güvenilir, bakımı ucuz, yedek parça bol.",
+            "reliabilityScore": 88,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "yar3-1",
+                            "title": "CVT Sesi",
+                            "description": "Multidrive S (CVT) şanzımandan hızlanmada uğultu.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Karakteristik",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "yar3-2",
+                            "title": "Arka Fren Kampanası",
+                            "description": "Arka kampanalı fren aşınması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "yar3-3",
+                            "title": "Direksiyon Sesi",
+                            "description": "Direksiyon çevirirken hafif plastik ses.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "yar3-4",
+                            "title": "Cam Fitili",
+                            "description": "Kapı cam fitillerinin sertleşmesi.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "yar3-5",
+                            "title": "Klima Kompresörü",
+                            "description": "Klima kompresörü arızası (nadir).",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "4.000 - 8.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Toyota güvenilirliği",
+                    "Sakarya üretimi",
+                    "Ucuz bakım",
+                    "Yedek parça bol"
+            ],
+            "cons": [
+                    "99 HP az",
+                    "CVT hissizliği",
+                    "İç mekan sade"
+            ],
+            "buyingTips": [
+                    "Manuel versiyonu daha eğlenceli",
+                    "Fun donanım yeterli",
+                    "Sakarya üretimi avantaj"
+            ]
     }
 ];

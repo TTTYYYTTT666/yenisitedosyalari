@@ -94,7 +94,7 @@ export const cheryCars: Car[] = [
         price: 1400000,
         expertNote: "Yeni 1.5 TGDI 147 HP + CVT şanzıman. Chery facelift ile motoru ve şanzımanı değiştirdi. DCT yerine CVT geldi — şehir içi konfor arttı ama performans hissi düştü. Tasarım detayları güncellendi.",
         reliabilityScore: 82,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 25000,
         issues: [
             {
@@ -123,6 +123,24 @@ export const cheryCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
                 repairCost: "Yazılım Güncellemesi"
+            },
+            {
+                id: "omoda-5-2025-facelift-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "omoda-5-2025-facelift-auto-5",
+                title: "DCT Kavrama Titremesi",
+                description: "Çift kavramalı şanzımanda düşük hızlarda titreşim.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "40.000+ km",
+                repairCost: "10.000 - 25.000 TL"
             }
         ],
         pros: [
@@ -226,7 +244,7 @@ export const cheryCars: Car[] = [
         price: 1550000,
         expertNote: "Yeni 1.5 TGDI 147 HP + CVT. Tiggo 7 Pro'nun yenilenen versiyonu. DCT yerine CVT şanzıman geldi. Tasarım modernleşti, iç mekan kalitesi arttı. 'Max' ismiyle yeniden konumlandırıldı.",
         reliabilityScore: 81,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 12000,
         issues: [
             {
@@ -255,6 +273,24 @@ export const cheryCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "Yazılım Güncellemesi"
+            },
+            {
+                id: "tiggo-7-pro-max-2025-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "tiggo-7-pro-max-2025-auto-5",
+                title: "DCT Kavrama Titremesi",
+                description: "Çift kavramalı şanzımanda düşük hızlarda titreşim.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "40.000+ km",
+                repairCost: "10.000 - 25.000 TL"
             }
         ],
         pros: [
@@ -367,7 +403,7 @@ export const cheryCars: Car[] = [
         price: 1900000,
         expertNote: "Yeni 1.5 TGDI 147 HP + CVT. Tiggo 8 Pro'nun Max versiyonu. DCT'den CVT'ye geçiş yapıldı — şehir içi konfor arttı. Tasarım güncellendi ama 2 tonluk kasayla 147 HP biraz zorlanabilir.",
         reliabilityScore: 80,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 10000,
         issues: [
             {
@@ -396,6 +432,24 @@ export const cheryCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
                 repairCost: "Yazılım Güncellemesi"
+            },
+            {
+                id: "tiggo-8-pro-max-2025-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "tiggo-8-pro-max-2025-auto-5",
+                title: "DCT Kavrama Titremesi",
+                description: "Çift kavramalı şanzımanda düşük hızlarda titreşim.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "40.000+ km",
+                repairCost: "10.000 - 25.000 TL"
             }
         ],
         pros: [
@@ -504,7 +558,7 @@ export const cheryCars: Car[] = [
         price: 1650000,
         expertNote: "Yeni 1.5 TGDI 147 HP + CVT. Omoda serisinin büyük kardeşi. Tiggo 7 Pro Max ile aynı platformda ama daha modern coupe SUV tasarımıyla. Omoda 5'in büyütülmüş, daha premium versiyonu. Türkiye'ye yeni geldi.",
         reliabilityScore: 80,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 8000,
         issues: [
             {
@@ -533,6 +587,24 @@ export const cheryCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Bilinmiyor",
                 repairCost: "Takip edilmeli"
+            },
+            {
+                id: "omoda-7-2025-auto-4",
+                title: "Yağ Eksiltme",
+                description: "Motor yağının servis aralarında eksilmesi. Düzenli kontrol şart.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "Segman / 5.000 - 15.000 TL"
+            },
+            {
+                id: "omoda-7-2025-auto-5",
+                title: "CVT Sesi",
+                description: "CVT şanzımandan hızlanmada uğultu sesi.",
+                category: "sanziman",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Normal (Tasarım)"
             }
         ],
         pros: [
@@ -568,7 +640,7 @@ export const cheryCars: Car[] = [
         price: 1850000,
         expertNote: "1.5 TGDI + Elektrik motor PHEV. Tiggo 8 Pro'nun plug-in hibrit versiyonu. ÖTV avantajıyla dikkat çekti. Elektrikli menzil ~80 km. Şarjsız kullanılırsa çok yakar. 7 kişilik devam.",
         reliabilityScore: 77,
-        totalIssues: 3,
+        totalIssues: 5,
         searchCount: 12000,
         issues: [
             {
@@ -597,6 +669,24 @@ export const cheryCars: Car[] = [
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
                 repairCost: "Yazılım kalibrasyon"
+            },
+            {
+                id: "tiggo-8-pro-e-plus-phev-auto-4",
+                title: "12V Akü Boşalması",
+                description: "Hibrit sistemin 12V yardımcı aküyü hızla tüketmesi. Araç yatabilir.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "2.500 - 5.000 TL"
+            },
+            {
+                id: "tiggo-8-pro-e-plus-phev-auto-5",
+                title: "Rejeneratif Fren Hissi",
+                description: "Rejeneratif frenlemenin suni ve alışılmadık hissettirmesi.",
+                category: "fren",
+                riskLevel: "LOW",
+                affectedKm: "Karakteristik",
+                repairCost: "Normal (Tasarım)"
             }
         ],
         pros: [
@@ -617,5 +707,5 @@ export const cheryCars: Car[] = [
             "Günlük mesafeniz 80 km altındaysa ideal",
             "Benzin+elektrik geçiş davranışını test edin"
         ]
-    },
+    }
 ];

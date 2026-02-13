@@ -6,6 +6,7 @@ export default NextAuth(authConfig).auth
 export const config = {
     matcher: [
         "/admin/:path*",
+        "/admingirisyeri",
         "/bilgilerim",
         "/blog/yaz",
         "/profil-tamamla",

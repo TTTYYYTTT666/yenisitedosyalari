@@ -617,4 +617,318 @@ export const skodaCars: Car[] = [
             "L&K donanım ikinci elde çok hızlı satılır"
         ]
     },
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "skoda-fabia-ii-1-4-tdi",
+        slug: "skoda-fabia-ii-1-4-tdi",
+        brand: "Skoda",
+        model: "Fabia",
+        variant: "II 1.4 TDI",
+        years: "2007-2014",
+        generation: "5J",
+        price: 280000,
+        reliabilityScore: 77,
+        totalIssues: 5,
+        searchCount: 6000,
+        expertNote: "Fabia II sınıfının en pratik aracı. 1.4 TDI 3 silindirli motor ekonomik ve güvenilir. Polo'nun ucuz kardeşi, aynı platform ama daha geniş bagaj (300L). Simply Clever detaylar fiyatına göre harika.",
+        issues: [
+            { id: "fabi2-1", title: "3 Silindirli Motor Titreşimi", description: "1.4 TDI 3 silindirli motorun rölantide titreşimi. Motor takozları aşındıkça artar.", category: "motor", riskLevel: "LOW", affectedKm: "Karakteristik", repairCost: "Motor Takozu (2.000 TL)" },
+            { id: "fabi2-2", title: "EGR Valfi", description: "EGR valfinde kurum birikimi.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "2.000 - 4.000 TL" },
+            { id: "fabi2-3", title: "Debriyaj Balata", description: "Şehir içi kullanımda debriyaj balatası aşınması.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "4.000 - 7.000 TL" },
+            { id: "fabi2-4", title: "Cam Kaldırma Mekanizması", description: "Ön cam kaldırma regülatörünün bozulması.", category: "govde", riskLevel: "LOW", affectedKm: "60.000+ km", repairCost: "1.500 - 3.000 TL" },
+            { id: "fabi2-5", title: "Arka Amortisör", description: "Arka amortisörlerin erken aşınması. Kasis geçişinde sallanma.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "50.000+ km", repairCost: "2.000 - 4.000 TL" }
+        ],
+        pros: ["Geniş bagaj (300L)", "Ekonomik 1.4 TDI", "Polo kalitesi ucuza", "Pratik Simply Clever"],
+        cons: ["3 silindir titreşimi", "İç mekan sade", "Tasarımı eski"],
+        buyingTips: ["Motor takozlarını kontrol edin", "EGR temizliği yaptırılmış mı?", "Debriyaj kaçını test edin"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "skoda-octavia-a5-1-6-tdi",
+        slug: "skoda-octavia-a5-1-6-tdi",
+        brand: "Skoda",
+        model: "Octavia",
+        variant: "A5 1.6 TDI",
+        years: "2009-2013",
+        generation: "1Z",
+        price: 450000,
+        reliabilityScore: 78,
+        totalIssues: 5,
+        searchCount: 8000,
+        expertNote: "Octavia A5 Türkiye'de çok sevildi. Golf 5 platformu, aynı sağlamlık ama daha ucuz ve daha geniş bagaj (590L!). 1.6 TDI motor güvenilir, DSG riski var ama manuel olanlar sorunsuz. Pratikliğin tanımı.",
+        issues: [
+            { id: "octa5-1", title: "DSG DQ200 Mekatronik", description: "7 ileri kuru kavramalı DSG'de mekatronik kart arızası. Sarsıntı ve vites kararsızlığı.", category: "sanziman", riskLevel: "HIGH", affectedKm: "60.000 - 100.000 km", repairCost: "20.000 - 40.000 TL" },
+            { id: "octa5-2", title: "EGR Valfi Tıkanması", description: "EGR valfinde kurum birikimi. Motor düzensizliği.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "3.000 - 6.000 TL" },
+            { id: "octa5-3", title: "Devirdaim Pompası", description: "Plastik gövdeli devirdaim pompasından sızıntı.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "4.000 - 8.000 TL" },
+            { id: "octa5-4", title: "Arka Amortisör Aşınması", description: "Arka amortisörlerin erken aşınması. Kasis geçişlerinde sallanma.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "60.000+ km", repairCost: "3.000 - 6.000 TL" },
+            { id: "octa5-5", title: "Multimedya/Radyo Arızası", description: "Bolero/Swing kafaünitesinde ekran bozulması veya CD okuyucu arızası.", category: "elektronik", riskLevel: "LOW", affectedKm: "Yaş kaynaklı", repairCost: "2.000 - 5.000 TL" }
+        ],
+        pros: ["Devasa 590L bagaj", "Golf kalitesi daha ucuza", "Ekonomik 1.6 TDI", "Pratik Simply Clever detaylar"],
+        cons: ["DSG riski", "Tasarımı sade", "Yaşı nedeniyle plastikler aşınmış"],
+        buyingTips: ["Manuel tercih edin", "EGR temizliği yapılmış mı sorun", "Devirdaim pompası kontrol edin"]
+    }
+,
+
+    // ─── Eski new-cars dosyasından taşındı ───
+    {
+        id: "skoda-fabia-1-0-tsi",
+        slug: "skoda-fabia-1-0-tsi",
+        brand: "Skoda",
+        model: "Fabia",
+        variant: "1.0 TSI",
+        years: "2018-2024",
+        generation: "NJ/PJ",
+        price: 1200000,
+        reliabilityScore: 83,
+        totalIssues: 5,
+        searchCount: 7000,
+        expertNote: "Fabia sınıfının en pratik aracıdır. 1.0 TSI motor güvenilirdir ama DSG ile kombine edildiğinde sorunlar başlar. Manuel şanzımanlı olanlar gerçek altındır.",
+        issues: [
+            { id: "fabia-1", title: "DSG DQ200 Kavrama Aşınması", description: "Kuru kavramalı 7 ileri DSG şanzımanda kavrama disklerinin erken aşınması. Düşük hızlarda titreşim, sarsıntı ve vites kararsızlığı.", category: "sanziman", riskLevel: "HIGH", affectedKm: "50.000 - 80.000 km", repairCost: "25.000 - 45.000 TL" },
+            { id: "fabia-2", title: "1.0 TSI Zincir Gerilme Problemi", description: "3 silindirli motorun triger zincirinde uzama ve gerilme kaybı. Motor çalıştırırken kısa süreli şıkırtı sesi. Zincir seti değişimi gerekir.", category: "motor", riskLevel: "MEDIUM", affectedKm: "80.000+ km", repairCost: "8.000 - 15.000 TL" },
+            { id: "fabia-3", title: "Devirdaim/Termostat Kaçağı", description: "Plastik termostat gövdesinden su sızdırması. Antifriz seviyesi düşer ve hararet yapabilir. VW grubu ortak sorunu.", category: "motor", riskLevel: "MEDIUM", affectedKm: "50.000+ km", repairCost: "5.000 - 10.000 TL" },
+            { id: "fabia-4", title: "Start-Stop Akü Sorunu", description: "Start-stop sistemi için gereken AGM/EFB akünün erken ölmesi. Sistem devre dışı kalır ve çeşitli elektronik hatalar oluşabilir.", category: "elektronik", riskLevel: "LOW", affectedKm: "3-4 Yıl", repairCost: "4.000 - 7.000 TL (Akü)" },
+            { id: "fabia-5", title: "Rüzgar Sesi (100+ km/s)", description: "Ayna dipleri ve kapı fitillerinden yüksek hızlarda gelen rüzgar uğultusu. Sınıfı gereği normal kabul edilebilir.", category: "govde", riskLevel: "LOW", affectedKm: "Yüksek Hız", repairCost: "Fitil İyileştirme" }
+        ],
+        pros: ["Sınıfının en geniş bagajı (380L)", "Pratik Simply Clever detaylar", "Ekonomik yakıt tüketimi", "Güçlü 1.0 TSI (95/110hp)"],
+        cons: ["DSG riski", "Arka süspansiyon sert (Torsion)", "Opsiyonel donanım ayrı fiyat"],
+        buyingTips: ["Manuel şanzıman tercih edin", "Zincir sesini soğuk motorla dinleyin", "Antifriz seviyesini kontrol edin"]
+    }
+,
+    {
+            "id": "skoda-octavia-a8-1-5-tsi",
+            "slug": "skoda-octavia-a8-1-5-tsi",
+            "brand": "Skoda",
+            "model": "Octavia (A8)",
+            "variant": "1.5 TSI ACT DSG",
+            "years": "2020-2025",
+            "generation": "A8 (NX)",
+            "price": 1500000,
+            "expertNote": "EA211 Evo 1.5 TSI 150 HP + DSG7. Yeni nesil Octavia dev iç mekan ve bagaj hacmiyle sınıfının kralı. VW Golf platformu ama daha pratik. Canton ses sistemi opsiyonu harika.",
+            "reliabilityScore": 82,
+            "totalIssues": 5,
+            "searchCount": 15000,
+            "issues": [
+                    {
+                            "id": "oct8-1",
+                            "title": "DSG Kavrama",
+                            "description": "DSG7 şanzımanda düşük hızda titreme.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "10.000 - 25.000 TL"
+                    },
+                    {
+                            "id": "oct8-2",
+                            "title": "1.5 TSI Yağ Eksiltme",
+                            "description": "Motor yağının servis aralarında eksilmesi.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "Takip / Segman"
+                    },
+                    {
+                            "id": "oct8-3",
+                            "title": "Işık Sensörü",
+                            "description": "Otomatik far sensörünün yanlış çalışması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "oct8-4",
+                            "title": "Süspansiyon Sesi",
+                            "description": "Ön süspansiyondan kasis geçişlerinde ses.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "oct8-5",
+                            "title": "Virtual Cockpit Pixellenmesi",
+                            "description": "Dijital gösterge panelinde pixel hatası.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "Garanti / Panel Değişimi"
+                    }
+            ],
+            "pros": [
+                    "Dev iç mekan",
+                    "660L bagaj",
+                    "VW kalitesi",
+                    "Uygun fiyat/donanım"
+            ],
+            "cons": [
+                    "DSG hassasiyeti",
+                    "Yağ eksiltme",
+                    "Tasarımı sade"
+            ],
+            "buyingTips": [
+                    "DSG titremesi test edin",
+                    "Canton ses seçeneği tercih edin",
+                    "Style Plus donanım"
+            ]
+    }
+,
+    {
+            "id": "skoda-superb-b8-2-0-tdi",
+            "slug": "skoda-superb-b8-2-0-tdi",
+            "brand": "Skoda",
+            "model": "Superb (B8)",
+            "variant": "2.0 TDI DSG Style",
+            "years": "2015-2024",
+            "generation": "3V",
+            "price": 1800000,
+            "expertNote": "EA288 2.0 TDI 150 HP + DSG6. Superb B8 gizli lüks. VW Passat B8 ile aynı platform ama daha geniş. Arka koltuk limuzin seviyesinde. Skoda fiyatına premium deneyim.",
+            "reliabilityScore": 82,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "sup8-1",
+                            "title": "DSG Mechatronik",
+                            "description": "DSG6 mechatronik ünitesi arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "18.000 - 35.000 TL"
+                    },
+                    {
+                            "id": "sup8-2",
+                            "title": "AdBlue Sistemi",
+                            "description": "AdBlue dozaj pompası arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "10.000 - 20.000 TL"
+                    },
+                    {
+                            "id": "sup8-3",
+                            "title": "DPF Tıkanması",
+                            "description": "Şehir içi DPF dolması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "sup8-4",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön süspansiyon burcu aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "sup8-5",
+                            "title": "Columbus Nav",
+                            "description": "Columbus multimedya donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "Yazılım"
+                    }
+            ],
+            "pros": [
+                    "Limuzin arka alan",
+                    "VW kalitesi",
+                    "Uygun fiyat/boyut",
+                    "Dev bagaj (625L)"
+            ],
+            "cons": [
+                    "DSG hassasiyeti",
+                    "AdBlue maliyeti",
+                    "Marka algısı"
+            ],
+            "buyingTips": [
+                    "DSG yağ bakımı şart",
+                    "Style donanım minimum",
+                    "Canton ses opsiyonu harika"
+            ]
+    }
+,
+    {
+            "id": "skoda-rapid-1-6-tdi",
+            "slug": "skoda-rapid-1-6-tdi-greentec",
+            "brand": "Skoda",
+            "model": "Rapid (NH)",
+            "variant": "1.6 TDI Greentec Ambition",
+            "years": "2013-2019",
+            "generation": "NH",
+            "price": 550000,
+            "expertNote": "1.6 TDI 90 HP. Rapid Türkiye'de uygun fiyata VW kalitesi sunan sedan. Motor ekonomik. Basit ama işlevsel. Hatchback (Spaceback) ve sedan versiyonları var.",
+            "reliabilityScore": 80,
+            "totalIssues": 5,
+            "searchCount": 9000,
+            "issues": [
+                    {
+                            "id": "rap-1",
+                            "title": "EGR Tıkanması",
+                            "description": "EGR valfinde kurum birikimi.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "rap-2",
+                            "title": "DPF Tıkanması",
+                            "description": "Şehir içi kullanımda DPF dolması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "rap-3",
+                            "title": "Ön Süspansiyon Bilyası",
+                            "description": "Ön alt kol bilyası aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "rap-4",
+                            "title": "Debriyaj Sertliği",
+                            "description": "Debriyaj pedalının sertleşmesi.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "rap-5",
+                            "title": "Bolero Radyo",
+                            "description": "Bolero radyo/multimedya donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "Yazılım"
+                    }
+            ],
+            "pros": [
+                    "VW kalitesi",
+                    "Ekonomik TDI",
+                    "Uygun fiyat",
+                    "Geniş bagaj"
+            ],
+            "cons": [
+                    "Tasarımı sade",
+                    "İç mekan basit",
+                    "DPF riski"
+            ],
+            "buyingTips": [
+                    "Ambition donanım alın",
+                    "Manuel tercih edin",
+                    "DPF taraması"
+            ]
+    }
 ];

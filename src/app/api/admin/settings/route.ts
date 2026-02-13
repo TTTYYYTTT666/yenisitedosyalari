@@ -4,7 +4,8 @@ import { NextResponse } from 'next/server';
 
 export async function GET(req: Request) {
     const session = await auth();
-    if (session?.user?.role !== 'ADMIN') {
+    const role = (session?.user as any)?.role;
+    if (!['ADMIN', 'OWNER'].includes(role)) {
         return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -14,7 +15,8 @@ export async function GET(req: Request) {
 
 export async function POST(req: Request) {
     const session = await auth();
-    if (session?.user?.role !== 'ADMIN') {
+    const role = (session?.user as any)?.role;
+    if (!['ADMIN', 'OWNER'].includes(role)) {
         return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -33,7 +35,7 @@ export async function POST(req: Request) {
             data: {
                 action: 'UPDATE_SETTING',
                 details: `Updated ${key} to ${value}`,
-                userId: session.user.id
+                userId: session?.user?.id || null
             }
         });
 

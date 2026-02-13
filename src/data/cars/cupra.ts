@@ -232,5 +232,83 @@ export const cupraCars: Car[] = [
             "Track geçmişi olan araçlardan uzak durun (Fren ve süspansiyon kontrolü)",
             "Stage 1 yazılımlı araçlar garanti kapsamı dışında kalır"
         ]
-    },
+    }
+,
+    {
+            "id": "cupra-ateca-2-0-tsi",
+            "slug": "cupra-ateca-2-0-tsi-4drive",
+            "brand": "Cupra",
+            "model": "Ateca",
+            "variant": "2.0 TSI 4Drive DSG",
+            "years": "2018-2024",
+            "generation": "KH",
+            "price": 2200000,
+            "expertNote": "EA888 Gen3 2.0 TSI 300 HP + DSG7 + 4Drive. Cupra Ateca performans SUV. 300 HP ile 0-100 4.9 saniye. Akrapovic egzoz opsiyonu harika ses. Günlük kullanılabilir spor SUV.",
+            "reliabilityScore": 79,
+            "totalIssues": 5,
+            "searchCount": 6000,
+            "issues": [
+                    {
+                            "id": "cateca-1",
+                            "title": "DSG Kavrama",
+                            "description": "DSG7 yüksek güç nedeniyle kavrama aşınması.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "15.000 - 30.000 TL"
+                    },
+                    {
+                            "id": "cateca-2",
+                            "title": "Turbo Wastegate",
+                            "description": "Çift turbo sistemi wastegate arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "10.000 - 20.000 TL"
+                    },
+                    {
+                            "id": "cateca-3",
+                            "title": "Fren Disk Aşınması",
+                            "description": "Yüksek performans kullanımda fren disk aşınması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "30.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "cateca-4",
+                            "title": "Haldex 4Drive",
+                            "description": "Haldex debriyajı bakım gerektirmesi.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "cateca-5",
+                            "title": "Virtual Cockpit",
+                            "description": "Dijital gösterge panel arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "Garanti / 5.000 TL"
+                    }
+            ],
+            "pros": [
+                    "300 HP performans",
+                    "0-100: 4.9s",
+                    "Akrapovic egzoz",
+                    "Günlük kullanılabilir"
+            ],
+            "cons": [
+                    "DSG bakım pahalı",
+                    "Yakıt tüketimi 10-12L",
+                    "Fren maliyeti"
+            ],
+            "buyingTips": [
+                    "Akrapovic egzoz opsiyonlu alın",
+                    "DSG bakımını sorun",
+                    "Haldex yağı değişmiş mi kontrol edin"
+            ]
+    }
 ];

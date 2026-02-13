@@ -1,10 +1,18 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/db';
 import { brands } from '@/data/cars';
+import { rateLimit } from '@/lib/rate-limit';
 
 // n8n için araç listesi endpoint'i
 // GET /api/cars - Tüm araçları listele (n8n scraper için)
 export async function GET(request: NextRequest) {
+    // Rate limit: max 60 requests per minute per IP
+    const ip = request.headers.get('cf-connecting-ip') || request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
+    const rl = rateLimit(`cars-api:${ip}`, { maxRequests: 60, windowSeconds: 60 });
+    if (!rl.success) {
+        return new NextResponse('Çok fazla istek. Lütfen daha sonra tekrar deneyin.', { status: 429 });
+    }
+
     const { searchParams } = new URL(request.url);
     const format = searchParams.get('format') || 'full';
     const brand = searchParams.get('brand');

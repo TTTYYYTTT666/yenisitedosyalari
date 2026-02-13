@@ -14,12 +14,15 @@ const simpleIconSlugs: Record<string, string> = {
     'mercedes': 'mercedes',
     'alfa romeo': 'alfaromeo',
     'land rover': 'landrover',
-    'chery': 'chery', // might not exist, will fallback
-    'togg': 'togg', // might not exist in simple icons main, fallback handles it
+    'chery': 'chery',
+    'togg': 'togg',
+    'tofaş': 'fiat', // Tofaş uses Fiat logo (subsidiary)
     'vw': 'volkswagen',
     'ds': 'dsautomobiles',
     'mg': 'mg',
-    'mini': 'mini'
+    'mini': 'mini',
+    'jaguar': 'jaguar',
+    'cupra': 'cupra',
 };
 
 // Fallback Logo.dev API token
@@ -102,20 +105,19 @@ const brandColors: Record<string, string> = {
 };
 
 export default function BrandLogo({ brand, className = 'w-10 h-10', color }: BrandLogoProps) {
-    const [useFallback, setUseFallback] = useState(false);
-    const [useTextFallback, setUseTextFallback] = useState(false);
+    const [logoStage, setLogoStage] = useState(0); // 0=local, 1=simpleicons, 2=logo.dev, 3=text
 
     const brandKey = brand.toLowerCase().trim();
     const slug = simpleIconSlugs[brandKey] || brandKey.replace(/\s+/g, '');
     const domain = brandDomains[brandKey];
     const bgColor = brandColors[brandKey] || '#4B5563';
 
-    // 1. Try Simple Icons CDN (SVG, Transparent)
-    // URL: https://cdn.simpleicons.org/[slug]/[color]
-    // If color is not provided, it uses brand default color
+    // Priority order:
+    // 0. Local file: /brands/{slug}.png
+    const localUrl = `/brands/${slug}.png`;
+    // 1. Simple Icons CDN
     const simpleIconsUrl = `https://cdn.simpleicons.org/${slug}${color ? '/' + color : ''}`;
-
-    // 2. Fallback: Logo.dev (Might have background)
+    // 2. Logo.dev
     const logoDevUrl = domain ? `https://img.logo.dev/${domain}?token=${LOGO_DEV_TOKEN}` : null;
 
     const getInitials = (name: string) => {
@@ -127,7 +129,17 @@ export default function BrandLogo({ brand, className = 'w-10 h-10', color }: Bra
         return name.substring(0, 2).toUpperCase();
     };
 
-    if (useTextFallback) {
+    const handleError = () => {
+        setLogoStage(prev => {
+            const next = prev + 1;
+            // Skip logo.dev if no domain
+            if (next === 2 && !logoDevUrl) return 3;
+            return next;
+        });
+    };
+
+    // Stage 3: Text fallback
+    if (logoStage >= 3) {
         return (
             <div
                 className={`flex items-center justify-center rounded-md font-bold text-white text-xs ${className}`}
@@ -138,24 +150,18 @@ export default function BrandLogo({ brand, className = 'w-10 h-10', color }: Bra
         );
     }
 
-    if (useFallback && logoDevUrl) {
-        return (
-            <img
-                src={logoDevUrl}
-                alt={`${brand} logo`}
-                className={`object-contain ${className}`}
-                onError={() => setUseTextFallback(true)}
-            />
-        );
-    }
+    // Determine current URL based on stage
+    let currentUrl = localUrl;
+    if (logoStage === 1) currentUrl = simpleIconsUrl;
+    if (logoStage === 2) currentUrl = logoDevUrl || '';
 
     return (
         <img
-            src={simpleIconsUrl}
+            src={currentUrl}
             alt={`${brand} logo`}
-            // Add drop-shadow to make logos pop on dark backgrounds if they are dark themselves
             className={`object-contain transition-opacity duration-300 ${className}`}
-            onError={() => setUseFallback(true)}
+            onError={handleError}
         />
     );
 }
+
