@@ -208,7 +208,8 @@ export default function LoginPage() {
                         <div className="space-y-5">
                             {/* Google Login */}
                             <button
-                                onClick={() => login()}
+                                type="button"
+                                onClick={() => signIn('google', { callbackUrl: '/' })}
                                 className="w-full flex items-center justify-center gap-2.5 px-4 py-2.5 border border-stone-300 dark:border-stone-700 rounded-lg bg-white dark:bg-stone-800 text-sm font-medium text-stone-700 dark:text-stone-200 hover:bg-stone-50 dark:hover:bg-stone-700 transition-colors"
                             >
                                 <svg className="h-4.5 w-4.5" aria-hidden="true" viewBox="0 0 24 24">
