@@ -1,9 +1,10 @@
 import Link from 'next/link';
-import { brands, getTotalIssuesCount } from '@/data/cars';
+import { brands } from '@/data/cars';
+import { getTotalIssuesCount } from '@/lib/cars';
 import BrandLogo from '@/components/BrandLogo';
 
-export default function BrandsPage() {
-    const totalIssues = getTotalIssuesCount();
+export default async function BrandsPage() {
+    const totalIssues = await getTotalIssuesCount();
 
     return (
         <div className="min-h-screen bg-stone-50 dark:bg-[#0c0a09] py-10 lg:py-16">

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { cars, brands } from '@/data/cars';
+import { brands } from '@/data/cars';
 import { Car } from '@/types';
 import BrandLogo from '@/components/BrandLogo';
 
@@ -9,11 +9,21 @@ export default function KarsilastirPage() {
     const [selectedCars, setSelectedCars] = useState<(Car | null)[]>([null, null, null]);
     const [searchQueries, setSearchQueries] = useState<string[]>(['', '', '']);
     const [showDropdown, setShowDropdown] = useState<number | null>(null);
+    const [allCars, setAllCars] = useState<Car[]>([]);
+
+    useEffect(() => {
+        fetch('/api/cars')
+            .then(res => res.json())
+            .then(data => {
+                if (data.cars) setAllCars(data.cars);
+            })
+            .catch(err => console.error('Failed to load cars', err));
+    }, []);
 
     const getFilteredCars = (query: string) => {
-        if (!query) return cars.slice(0, 10);
+        if (!query) return allCars.slice(0, 10);
         const lowerQuery = query.toLowerCase();
-        return cars.filter(car =>
+        return allCars.filter(car =>
             car.brand.toLowerCase().includes(lowerQuery) ||
             car.model.toLowerCase().includes(lowerQuery) ||
             car.variant.toLowerCase().includes(lowerQuery)

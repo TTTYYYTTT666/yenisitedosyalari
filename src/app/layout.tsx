@@ -10,13 +10,42 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "SORUNSUZAL - Araç Güvenilirlik Rehberi",
+  metadataBase: new URL('https://otoraporu.net'),
+  title: {
+    default: "OTORAPORU.NET - Araç Güvenilirlik Rehberi",
+    template: "%s | OTORAPORU.NET"
+  },
   description: "Araç satın almadan önce kronik sorunları ve yaygın arızaları öğrenin. Türkiye'nin en kapsamlı araç güvenilirlik veritabanı.",
-  keywords: ["araç sorunları", "araba arızaları", "fiat egea sorunları", "passat sorunları", "civic sorunları", "ikinci el araç"],
+  keywords: ["araç sorunları", "araba arızaları", "kronik sorunlar", "ekspertiz raporu", "oto güvenilirlik", "ikinci el araç tavsiyesi"],
+  authors: [{ name: "Otoraporu Ekibi" }],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
-    title: "SORUNSUZAL - Araç Güvenilirlik Rehberi",
+    title: "OTORAPORU.NET - Araç Güvenilirlik Rehberi",
     description: "Araç satın almadan önce kronik sorunları ve yaygın arızaları öğrenin.",
+    url: 'https://otoraporu.net',
+    siteName: 'OTORAPORU.NET',
+    locale: 'tr_TR',
     type: "website",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "OTORAPORU.NET",
+    description: "Araç almadan önce kronik sorunları öğrenin.",
+  },
+  icons: {
+    icon: '/logo-transparent.png',
+    shortcut: '/logo-transparent.png',
+    apple: '/logo-transparent.png',
   },
 };
 

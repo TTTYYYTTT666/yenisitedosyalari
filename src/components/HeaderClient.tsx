@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import UserMenu from '@/components/auth/UserMenu';
 
 const toolsMenu = [
@@ -54,14 +55,17 @@ export default function HeaderClient({ user }: HeaderClientProps) {
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-14">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-2.5">
-                        <div className="w-8 h-8 bg-orange-600 rounded-lg flex items-center justify-center">
-                            <svg className="w-4.5 h-4.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4" />
-                            </svg>
+                    <Link href="/" className="flex items-center gap-1.5">
+                        <div className="relative w-8 h-8">
+                            <Image
+                                src="/logo-transparent.png"
+                                alt="OTORAPORU"
+                                fill
+                                className="object-contain"
+                            />
                         </div>
-                        <span className="text-lg font-bold tracking-tight text-stone-900 dark:text-stone-100">
-                            SORUNSUZAL
+                        <span className="text-xl font-black tracking-tighter">
+                            <span className="text-orange-600">OTORAPORU</span><span className="text-stone-900 dark:text-stone-100">.NET</span>
                         </span>
                     </Link>
 
@@ -176,6 +180,48 @@ export default function HeaderClient({ user }: HeaderClientProps) {
                             <Link href="/hakkimizda" className="px-3 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md font-medium mt-1">
                                 Hakkımızda
                             </Link>
+
+                            {/* Mobile User Links */}
+                            <div className="px-3 py-2 text-xs font-semibold text-stone-400 dark:text-stone-500 uppercase tracking-wider mt-4 border-t border-stone-200 dark:border-stone-800 pt-4">Hesabım</div>
+                            {user ? (
+                                <>
+                                    <div className="px-3 py-2 flex items-center gap-2 mb-2">
+                                        {user.image ? (
+                                            <img src={user.image} alt={user.name || 'User'} className="w-8 h-8 rounded-full border border-stone-200 dark:border-stone-700" />
+                                        ) : (
+                                            <div className="w-8 h-8 rounded-full bg-stone-200 dark:bg-stone-800 flex items-center justify-center text-xs font-bold text-stone-600 dark:text-stone-400">
+                                                {user.name?.[0] || 'U'}
+                                            </div>
+                                        )}
+                                        <div className="flex flex-col">
+                                            <span className="text-sm font-medium text-stone-900 dark:text-stone-100">{user.name}</span>
+                                            <span className="text-xs text-stone-500 truncate max-w-[150px]">{user.email}</span>
+                                        </div>
+                                    </div>
+                                    <Link href="/bilgilerim" className="px-3 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md font-medium flex items-center gap-2">
+                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                        </svg>
+                                        Bilgilerim
+                                    </Link>
+                                    {user.role === 'ADMIN' && (
+                                        <Link href="/admin" className="px-3 py-2 text-sm text-orange-600 dark:text-orange-400 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md font-medium flex items-center gap-2">
+                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                            </svg>
+                                            Yönetim Paneli
+                                        </Link>
+                                    )}
+                                </>
+                            ) : (
+                                <Link href="/giris" className="px-3 py-2 text-sm text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md font-medium flex items-center gap-2">
+                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+                                    </svg>
+                                    Giriş Yap
+                                </Link>
+                            )}
                         </div>
                     </div>
                 )}

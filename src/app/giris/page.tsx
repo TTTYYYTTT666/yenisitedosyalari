@@ -5,6 +5,7 @@ import { signIn } from 'next-auth/react';
 import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { Turnstile } from '@marsidev/react-turnstile';
 
 export default function LoginPage() {
     const router = useRouter();
@@ -12,6 +13,13 @@ export default function LoginPage() {
     const [error, setError] = useState('');
     const [fieldErrors, setFieldErrors] = useState<{ email?: boolean; password?: boolean }>({});
     const [showPassword, setShowPassword] = useState(false);
+
+    // OTP States
+    const [otpLoading, setOtpLoading] = useState(false);
+    const [otpSent, setOtpSent] = useState(false);
+    const [otpCode, setOtpCode] = useState('');
+    const [otpEmail, setOtpEmail] = useState(''); // Store email for verification step
+    const [turnstileToken, setTurnstileToken] = useState('');
 
     async function handleCredentialsLogin(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
@@ -51,6 +59,75 @@ export default function LoginPage() {
         }
     }
 
+    async function handleSendOtp() {
+        const emailInput = document.getElementById('email') as HTMLInputElement;
+        const email = emailInput?.value;
+
+        if (!email) {
+            setError('Lütfen email adresinizi girin');
+            setFieldErrors({ email: true });
+            return;
+        }
+
+        if (!turnstileToken) {
+            setError('Lütfen robot olmadığınızı doğrulayın');
+            return;
+        }
+
+        setOtpLoading(true);
+        setError('');
+
+        try {
+            const res = await fetch('/api/auth/send-otp', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email, token: turnstileToken })
+            });
+
+            if (!res.ok) {
+                const data = await res.text();
+                throw new Error(data || 'Mail gönderilemedi');
+            }
+
+            setOtpSent(true);
+            setOtpEmail(email);
+            setError('');
+        } catch (error: any) {
+            setError(error.message || 'Kod gönderilirken bir hata oluştu.');
+        } finally {
+            setOtpLoading(false);
+        }
+    }
+
+    async function handleVerifyOtp() {
+        if (!otpCode || otpCode.length < 6) {
+            setError('Lütfen 6 haneli kodu girin');
+            return;
+        }
+
+        setOtpLoading(true);
+        setError('');
+
+        try {
+            const result = await signIn('credentials', {
+                email: otpEmail,
+                otp: otpCode,
+                redirect: false,
+            });
+
+            if (result?.error) {
+                setError('Geçersiz veya süresi dolmuş kod.');
+            } else {
+                router.push('/');
+                router.refresh();
+            }
+        } catch {
+            setError('Doğrulama hatası.');
+        } finally {
+            setOtpLoading(false);
+        }
+    }
+
     const inputBaseClass = "appearance-none rounded-lg relative block w-full px-3.5 py-2.5 border placeholder-stone-400 text-stone-900 dark:text-stone-100 dark:bg-stone-800 focus:outline-none focus:ring-2 text-sm transition-colors";
     const inputNormalClass = `${inputBaseClass} border-stone-300 dark:border-stone-700 focus:ring-orange-500 focus:border-orange-500`;
     const inputErrorClass = `${inputBaseClass} border-red-400 dark:border-red-600 focus:ring-red-500 focus:border-red-500 bg-red-50/50 dark:bg-red-950/20`;
@@ -68,8 +145,8 @@ export default function LoginPage() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4" />
                             </svg>
                         </div>
-                        <h2 className="text-2xl font-bold text-white mb-3">
-                            SORUNSUZAL
+                        <h2 className="text-2xl font-bold mb-3">
+                            <span className="text-orange-500">OTORAPORU</span><span className="text-white">.NET</span>
                         </h2>
                         <p className="text-stone-400 text-sm leading-relaxed mb-8">
                             Araç almadan önce kronik sorunları öğrenin, binlerce kullanıcının deneyimlerinden faydalanın.
@@ -227,13 +304,16 @@ export default function LoginPage() {
                                     </div>
                                 </div>
 
-                                {/* Cloudflare Turnstile Placeholder */}
-                                <div
-                                    id="cf-turnstile-login"
-                                    className="cf-turnstile w-full min-h-[65px] bg-stone-50 dark:bg-stone-800/50 border border-dashed border-stone-300 dark:border-stone-700 rounded-lg flex items-center justify-center"
-                                >
-                                    <span className="text-xs text-stone-400">Cloudflare Turnstile alanı</span>
-                                </div>
+                                {/* Cloudflare Turnstile */}
+                                {process.env.NEXT_PUBLIC_CLOUDFLARE_SITE_KEY && (
+                                    <div className="w-full flex justify-center my-6">
+                                        <Turnstile
+                                            siteKey={process.env.NEXT_PUBLIC_CLOUDFLARE_SITE_KEY}
+                                            options={{ theme: 'auto' }}
+                                            onSuccess={(token) => setTurnstileToken(token)}
+                                        />
+                                    </div>
+                                )}
 
                                 <button
                                     type="submit"
@@ -251,6 +331,63 @@ export default function LoginPage() {
                                     ) : 'Giriş Yap'}
                                 </button>
                             </form>
+
+                            {/* OTP / Magic Link Section */}
+                            <div className="relative">
+                                <div className="absolute inset-0 flex items-center">
+                                    <div className="w-full border-t border-stone-200 dark:border-stone-800" />
+                                </div>
+                                <div className="relative flex justify-center text-xs">
+                                    <span className="px-2 bg-white dark:bg-stone-900 text-stone-400">Şifresiz Giriş</span>
+                                </div>
+                            </div>
+
+                            {otpSent ? (
+                                <div className="space-y-3">
+                                    <div className="bg-orange-50 dark:bg-orange-950/20 border border-orange-200 dark:border-orange-900 rounded-lg p-3 text-center">
+                                        <p className="text-sm text-orange-800 dark:text-orange-300">
+                                            <b>{otpEmail}</b> adresine gönderilen kodu girin:
+                                        </p>
+                                    </div>
+
+                                    <input
+                                        type="text"
+                                        value={otpCode}
+                                        onChange={(e) => setOtpCode(e.target.value)}
+                                        placeholder="6 Haneli Kod"
+                                        className={`${inputNormalClass} text-center text-lg tracking-widest font-mono`}
+                                        maxLength={6}
+                                    />
+
+                                    <button
+                                        type="button"
+                                        onClick={handleVerifyOtp}
+                                        disabled={otpLoading}
+                                        className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-orange-600 text-white hover:bg-orange-700 transition-colors disabled:opacity-50"
+                                    >
+                                        {otpLoading ? 'Doğrulanıyor...' : 'Giriş Yap'}
+                                    </button>
+                                </div>
+                            ) : (
+                                <button
+                                    type="button"
+                                    onClick={handleSendOtp}
+                                    disabled={otpLoading || loading}
+                                    className="w-full flex items-center justify-center gap-2 px-4 py-2.5 border border-stone-300 dark:border-stone-700 rounded-lg bg-white dark:bg-stone-800 text-sm font-medium text-stone-700 dark:text-stone-200 hover:bg-stone-50 dark:hover:bg-stone-700 transition-colors disabled:opacity-50"
+                                >
+                                    {otpLoading ? (
+                                        <svg className="animate-spin h-4 w-4" viewBox="0 0 24 24">
+                                            <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                                            <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                                        </svg>
+                                    ) : (
+                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                        </svg>
+                                    )}
+                                    Doğrulama Kodu ile Giriş Yap
+                                </button>
+                            )}
 
                             <div className="text-sm text-center">
                                 <span className="text-stone-500">Hesabınız yok mu? </span>

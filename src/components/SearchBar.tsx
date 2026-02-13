@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { brands, cars } from '@/data/cars';
+import { brands } from '@/data/cars';
 
 export default function SearchBar() {
     const router = useRouter();
@@ -45,34 +45,26 @@ export default function SearchBar() {
             if (variant) {
                 router.push(`/arac/${variant.slug}`);
             }
-        } else if (selectedBrand) {
-            const matchingCar = cars.find(car => {
-                const brandMatch = car.brand.toLowerCase() === brands.find(b => b.id === selectedBrand)?.name.toLowerCase();
-                if (selectedModel) {
-                    const modelName = availableModels.find(m => m.id === selectedModel)?.name;
-                    return brandMatch && car.model.toLowerCase() === modelName?.toLowerCase();
-                }
-                return brandMatch;
-            });
-            if (matchingCar) {
-                router.push(`/arac/${matchingCar.slug}`);
+        } else if (selectedModel) {
+            if (availableVariants.length > 0) {
+                router.push(`/arac/${availableVariants[0].slug}`);
             }
         }
     };
 
     return (
         <div className="w-full max-w-3xl mx-auto">
-            <div className="bg-stone-800 dark:bg-stone-900 rounded-xl p-4 border border-stone-700 dark:border-stone-800">
+            <div className="bg-white dark:bg-stone-900 rounded-xl p-4 border border-stone-300/80 dark:border-stone-800 shadow-xl dark:shadow-none">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
                     {/* Brand */}
                     <div className="relative">
-                        <label className="block text-xs font-medium text-stone-400 mb-1.5">
+                        <label className="block text-xs font-medium text-stone-600 dark:text-stone-400 mb-1.5">
                             Marka
                         </label>
                         <select
                             value={selectedBrand}
                             onChange={(e) => setSelectedBrand(e.target.value)}
-                            className="w-full px-3 py-2.5 bg-stone-700 dark:bg-stone-800 border border-stone-600 dark:border-stone-700 rounded-lg text-sm text-white focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all cursor-pointer appearance-none"
+                            className="w-full px-3 py-2.5 bg-stone-50 dark:bg-stone-800 border border-stone-300 dark:border-stone-700 rounded-lg text-sm text-stone-900 dark:text-white focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all cursor-pointer appearance-none"
                         >
                             <option value="">Marka Seçin</option>
                             {brands.map((brand) => (
@@ -82,7 +74,7 @@ export default function SearchBar() {
                             ))}
                         </select>
                         <div className="absolute right-2.5 bottom-3 pointer-events-none">
-                            <svg className="w-4 h-4 text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-4 h-4 text-stone-400 dark:text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                             </svg>
                         </div>
@@ -90,14 +82,14 @@ export default function SearchBar() {
 
                     {/* Model */}
                     <div className="relative">
-                        <label className="block text-xs font-medium text-stone-400 mb-1.5">
+                        <label className="block text-xs font-medium text-stone-600 dark:text-stone-400 mb-1.5">
                             Model
                         </label>
                         <select
                             value={selectedModel}
                             onChange={(e) => setSelectedModel(e.target.value)}
                             disabled={!selectedBrand}
-                            className="w-full px-3 py-2.5 bg-stone-700 dark:bg-stone-800 border border-stone-600 dark:border-stone-700 rounded-lg text-sm text-white focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all cursor-pointer appearance-none disabled:opacity-40 disabled:cursor-not-allowed"
+                            className="w-full px-3 py-2.5 bg-stone-50 dark:bg-stone-800 border border-stone-300 dark:border-stone-700 rounded-lg text-sm text-stone-900 dark:text-white focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all cursor-pointer appearance-none disabled:opacity-40 disabled:cursor-not-allowed"
                         >
                             <option value="">Model Seçin</option>
                             {availableModels.map((model) => (
@@ -107,7 +99,7 @@ export default function SearchBar() {
                             ))}
                         </select>
                         <div className="absolute right-2.5 bottom-3 pointer-events-none">
-                            <svg className="w-4 h-4 text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-4 h-4 text-stone-400 dark:text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                             </svg>
                         </div>
@@ -115,14 +107,14 @@ export default function SearchBar() {
 
                     {/* Variant */}
                     <div className="relative">
-                        <label className="block text-xs font-medium text-stone-400 mb-1.5">
+                        <label className="block text-xs font-medium text-stone-600 dark:text-stone-400 mb-1.5">
                             Versiyon
                         </label>
                         <select
                             value={selectedVariant}
                             onChange={(e) => setSelectedVariant(e.target.value)}
                             disabled={!selectedModel}
-                            className="w-full px-3 py-2.5 bg-stone-700 dark:bg-stone-800 border border-stone-600 dark:border-stone-700 rounded-lg text-sm text-white focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all cursor-pointer appearance-none disabled:opacity-40 disabled:cursor-not-allowed"
+                            className="w-full px-3 py-2.5 bg-stone-50 dark:bg-stone-800 border border-stone-300 dark:border-stone-700 rounded-lg text-sm text-stone-900 dark:text-white focus:ring-2 focus:ring-orange-500 focus:border-transparent transition-all cursor-pointer appearance-none disabled:opacity-40 disabled:cursor-not-allowed"
                         >
                             <option value="">Versiyon Seçin</option>
                             {availableVariants.map((variant) => (
@@ -132,7 +124,7 @@ export default function SearchBar() {
                             ))}
                         </select>
                         <div className="absolute right-2.5 bottom-3 pointer-events-none">
-                            <svg className="w-4 h-4 text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg className="w-4 h-4 text-stone-400 dark:text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                             </svg>
                         </div>
@@ -143,7 +135,7 @@ export default function SearchBar() {
                         <button
                             onClick={handleSearch}
                             disabled={!selectedBrand}
-                            className="w-full px-4 py-2.5 bg-orange-600 text-white text-sm font-semibold rounded-lg hover:bg-orange-700 focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-stone-800 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
+                            className="w-full px-4 py-2.5 bg-orange-600 text-white text-sm font-semibold rounded-lg hover:bg-orange-700 focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-stone-900 transition-all disabled:opacity-40 disabled:cursor-not-allowed shadow-md hover:shadow-lg"
                         >
                             <span className="flex items-center justify-center gap-1.5">
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

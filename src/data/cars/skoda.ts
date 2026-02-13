@@ -1,0 +1,620 @@
+import { Car } from '@/types';
+
+export const skodaCars: Car[] = [
+    {
+        id: "skoda-superb-mk3-tdi",
+        slug: "skoda-superb-1-6-tdi",
+        brand: "Skoda",
+        model: "Superb",
+        variant: "1.6 TDI Elegance",
+        years: "2015-2023",
+        generation: "Mk3 (3V)",
+        price: 1700000,
+        expertNote: "Superb, VW Passat ile aynı MQB platformunu paylaşır ama çok daha geniş iç alan ve bagaj hacmi sunar. 1.6 TDI 120hp motor sessiz ve ekonomiktir. DSG DQ200 şanzıman tek ciddi risk faktörüdür. Simply Clever özellikleri günlük kullanımda büyük kolaylık sağlar. Fiyat/performans kralıdır.",
+        reliabilityScore: 82,
+        totalIssues: 5,
+        searchCount: 25000,
+        issues: [
+            {
+                id: "superb-1",
+                title: "DSG DQ200 Mekatronik Arızası",
+                description: "DQ200 kuru kavrama şanzıman mekatronik kartı arızası. Vites geçişlerinde titreme, sertlik veya vitese geçmeme durumu yaşanır. Basınç tüpü gevşemesi de sık görülür. Bakımlı şanzımanlarda daha geç ortaya çıkar.",
+                category: "sanziman",
+                riskLevel: "HIGH",
+                affectedKm: "80.000+ km",
+                repairCost: "25.000 - 45.000 TL"
+            },
+            {
+                id: "superb-2",
+                title: "EGR / DPF Tıkanıklığı",
+                description: "Şehir içi kısa mesafe kullanımda EGR valfinin karbon birikimi ve DPF partikül filtresinin dolması. Güç kaybı, duman ve arıza lambası. Düzenli uzun yol sürüşü gerekir. Temizlik veya değişim yapılabilir.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "60.000+ km",
+                repairCost: "8.000 - 20.000 TL"
+            },
+            {
+                id: "superb-3",
+                title: "Su Pompası / Termostat Sızıntısı",
+                description: "Plastik termostat/devirdaim pompası ünitesinden antifriz sızıntısı. Motor altında leke ve su seviyesi düşüşü ile fark edilir. Zamanında müdahale edilmezse motor hasar görebilir.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "6.000 - 12.000 TL"
+            },
+            {
+                id: "superb-4",
+                title: "AdBlue Dozajlama Hatası",
+                description: "AdBlue enjektörünün kristalleşmesi veya pompa arızası. 'Motor X km sonra çalışmayacak' uyarısı verir. Tank ve enjektör temizliği/değişimi gerekir. Kış aylarında donma riski de vardır.",
+                category: "motor",
+                riskLevel: "HIGH",
+                affectedKm: "40.000+ km",
+                repairCost: "15.000 - 30.000 TL"
+            },
+            {
+                id: "superb-5",
+                title: "Krom Çıta Oksidasyonu",
+                description: "Cam kenarı krom çıtalarının oksitlenmesi ve matlaşması. Kozmetik bir sorundur ancak araç yaşlandıkça belirginleşir. Çıta değişimi veya polisaj ile giderilebilir.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Yaşa bağlı",
+                repairCost: "2.000 - 5.000 TL"
+            }
+        ],
+        pros: [
+            "Devasa iç alan ve bagaj (625L)",
+            "Simply Clever özellikler",
+            "Ekonomik 1.6 TDI motor",
+            "Fiyat/kalite kralı"
+        ],
+        cons: [
+            "DSG DQ200 mekatronik riski",
+            "Krom çıta oksidasyonu",
+            "AdBlue masrafı"
+        ],
+        buyingTips: [
+            "DSG kavrama testini mutlaka yapın",
+            "AdBlue sistemi son bakım tarihini sorun",
+            "Elegance/L&K donanımları ikinci elde çok daha hızlı satılır"
+        ]
+    },
+    {
+        id: "skoda-octavia-a7-tdi",
+        slug: "skoda-octavia-a7-1-6-tdi",
+        brand: "Skoda",
+        model: "Octavia",
+        variant: "A7 1.6 TDI",
+        years: "2013-2020",
+        generation: "Mk3 (A7)",
+        price: 1350000,
+        expertNote: "Octavia A7, Türkiye'nin en çok satan Skoda modelidir. Golf 7 altyapısını kullanır ama çok daha geniş iç alan sunar. 1.6 TDI motor güvenilir ve ekonomiktir. DSG DQ200 şanzıman tek ciddi risk faktörüdür. Liftback versiyonu sedan alternatifi olarak mükemmeldir.",
+        reliabilityScore: 84,
+        totalIssues: 5,
+        searchCount: 30000,
+        issues: [
+            {
+                id: "octavia-a7-1",
+                title: "DSG DQ200 Kavrama Aşınması",
+                description: "Kuru kavrama DSG şanzımanda titreme, sarsıntı ve kavrama disk aşınması. Şehir içi kullanımda daha hızlı yıpranır. Kavrama seti değişimi gerektiğinde volan da birlikte değiştirilmelidir.",
+                category: "sanziman",
+                riskLevel: "HIGH",
+                affectedKm: "60.000+ km",
+                repairCost: "25.000 - 45.000 TL"
+            },
+            {
+                id: "octavia-a7-2",
+                title: "Su Pompası / Devirdaim Kaçağı",
+                description: "Plastik termostat/devirdaim pompası ünitesinden antifriz sızıntısı. Hararet iğnesi yükselir. VW grubu ortak sorunudur. Zamanında müdahale şarttır.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "6.000 - 12.000 TL"
+            },
+            {
+                id: "octavia-a7-3",
+                title: "EGR Valfi Tıkanması",
+                description: "Şehir içi kullanımda EGR valfinin karbon birikimi ile tıkanması. Güç kaybı, rölantide titreşim ve arıza lambası. Temizlik veya değişim gerekir.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "80.000+ km",
+                repairCost: "8.000 - 15.000 TL"
+            },
+            {
+                id: "octavia-a7-4",
+                title: "Çift Kütleli Volan Sesi",
+                description: "Motor stop ederken ve rölantide 'şak şak' metalik ses. Volanın iç yaylarının aşınmasından kaynaklanır. Kavrama ile birlikte değiştirilmelidir.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "120.000+ km",
+                repairCost: "15.000 - 25.000 TL"
+            },
+            {
+                id: "octavia-a7-5",
+                title: "Multimedya Ekran Donması",
+                description: "Bolero/Columbus multimedya sisteminin donması veya geç tepki vermesi. Özellikle navigasyon kullanımında yavaşlama görülür. Yazılım güncellemesi ile kısmen düzelir.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "Rastgele",
+                repairCost: "Yazılım / 8.000 TL (MIB Değişimi)"
+            }
+        ],
+        pros: [
+            "Devasa iç alan (Golf'ten çok geniş)",
+            "Liftback pratikliği",
+            "Ekonomik 1.6 TDI motor",
+            "Güçlü ikinci el değeri"
+        ],
+        cons: [
+            "DSG DQ200 kavrama riski",
+            "İç mekan kalitesi orta seviye",
+            "Tasarım muhafazakar"
+        ],
+        buyingTips: [
+            "DSG kavrama testini mutlaka yapın (yokuş kalkış)",
+            "Volan sesini rölantide dinleyin",
+            "Elegance donanım ikinci elde çok daha hızlı satılır"
+        ]
+    },
+    {
+        id: "skoda-octavia-mk4-etec",
+        slug: "skoda-octavia-1-5-tsi-e-tec",
+        brand: "Skoda",
+        model: "Octavia",
+        variant: "1.5 TSI e-Tec",
+        years: "2020-2024",
+        generation: "Mk4 (NX)",
+        price: 1650000,
+        expertNote: "Octavia Mk4, yeni nesil MQB Evo platformu ile geldi. 1.5 TSI e-Tec mild hybrid motor yakıt tasarrufu sağlar ancak kangalama etkisi yaratır. MIB3 infotainment ve Travel Assist sorunları Golf 8 ile ortaktır. Liftback versiyonu sedan rakiplerine göre çok daha pratiktir.",
+        reliabilityScore: 80,
+        totalIssues: 5,
+        searchCount: 22000,
+        issues: [
+            {
+                id: "octavia-mk4-1",
+                title: "Kangaroo Effect / Mild Hybrid Silkelme",
+                description: "1.5 TSI e-Tec mild hybrid sistemde düşük hızlarda belirgin silkeleme ve kangalama etkisi. Rejeneratif frenleme ve motor stop/start geçişlerinde de hissedilir. Yazılım güncellemesiyle kısmen düzelir.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "0 km'den itibaren (Karakteristik)",
+                repairCost: "Yazılım / 3.000 - 8.000 TL"
+            },
+            {
+                id: "octavia-mk4-2",
+                title: "MIB3 Infotainment Donması",
+                description: "MIB3 multimedya sisteminin donması, siyah ekran vermesi, geç açılması veya CarPlay/Android Auto bağlantısının kopması. Golf 8 sendromu olarak bilinir.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele (Yazılım)",
+                repairCost: "Yazılım / MIB Değişimi (15.000 TL)"
+            },
+            {
+                id: "octavia-mk4-3",
+                title: "SOS Acil Çağrı Modülü",
+                description: "Tavandaki eCall SOS modülünün arızalanması ve gösterge panelinde sürekli 'SOS Hatası' uyarısı. VW grubu araçlarda yaygın ortak sorundur. Modül değişimi gerekir.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "Rastgele",
+                repairCost: "5.000 - 10.000 TL"
+            },
+            {
+                id: "octavia-mk4-4",
+                title: "12V Akü Problemi",
+                description: "48V mild hybrid sisteme rağmen 12V aküsünün çabuk bitmesi. Araç çalışmama, elektronik arızalar ve gösterge hataları. AGM akü değişimi gerekir.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "1-2 yıl / Rastgele",
+                repairCost: "3.000 - 6.000 TL (AGM Akü)"
+            },
+            {
+                id: "octavia-mk4-5",
+                title: "Travel Assist / Lane Assist Hataları",
+                description: "Sürüş asistan sistemlerinin beklenmedik şekilde devreye girmesi veya çıkması. Şerit takibi yanlış algılama yapabilir. Kamera kalibrasyonu veya yazılım güncellemesi gerekir.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "Rastgele (Yazılım)",
+                repairCost: "Yazılım / Kalibrasyon (5.000 TL)"
+            }
+        ],
+        pros: [
+            "Devasa iç alan ve 600L bagaj",
+            "Mild hybrid yakıt tasarrufu",
+            "Modern MIB3 infotainment",
+            "Simply Clever pratiklik"
+        ],
+        cons: [
+            "Kangaroo effect / Kangalama",
+            "Yazılım sorunları (Golf 8 sendromu)",
+            "12V akü zayıflığı"
+        ],
+        buyingTips: [
+            "Mild hybrid silkelemeyi şehir içi test sürüşünde değerlendirin",
+            "MIB3 yazılımının güncel olduğundan emin olun",
+            "12V akü değişmiş mi sorun"
+        ]
+    },
+    {
+        id: "skoda-karoq-tsi",
+        slug: "skoda-karoq-1-5-tsi",
+        brand: "Skoda",
+        model: "Karoq",
+        variant: "1.5 TSI",
+        years: "2018-2024",
+        generation: "NU",
+        price: 1800000,
+        expertNote: "Karoq, Tiguan ile aynı MQB platformunu paylaşan kompakt SUV'dur. Tiguan'a göre daha hafif ve ekonomiktir. VarioFlex arka koltuk sistemi (çıkarılabilir) benzersiz bir özelliktir. 1.5 TSI motor kangaroo effect sorunu yaşar ama yazılım güncellemesiyle azalır.",
+        reliabilityScore: 83,
+        totalIssues: 5,
+        searchCount: 15000,
+        issues: [
+            {
+                id: "karoq-1",
+                title: "Kangaroo Effect (DSG Silkelme)",
+                description: "1.5 TSI + DSG kombinasyonunda düşük hızlarda silkeleme ve sarsıntı. Motor soğukken daha belirgindir. Yazılım güncellemesi kısmen düzeltir ancak tam çözüm sağlanamaz.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "0 km'den itibaren (Karakteristik)",
+                repairCost: "Yazılım / 3.000 - 8.000 TL"
+            },
+            {
+                id: "karoq-2",
+                title: "Su Pompası / Termostat Kaçağı",
+                description: "1.5 TSI motorlarda plastik su pompası/termostat ünitesinden antifriz sızıntısı. VW grubu 1.5 TSI motorların bilinen kronik sorunudur. Erken müdahale önemlidir.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "50.000+ km",
+                repairCost: "8.000 - 15.000 TL"
+            },
+            {
+                id: "karoq-3",
+                title: "Kapı Fitili Rüzgar Sesi",
+                description: "Kapı fitillerinin aşınması veya oturmamasından kaynaklanan rüzgar sesi. 100+ km/s hızlarda belirginleşir. Fitil değişimi ile çözülür.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Kronik / Yaşa bağlı",
+                repairCost: "2.000 - 4.000 TL (Fitil Değişimi)"
+            },
+            {
+                id: "karoq-4",
+                title: "DSG DQ200 Kavrama Aşınması",
+                description: "Kuru kavrama DSG şanzımanda kavrama disk aşınması. Şehir içi stop-go trafikte daha hızlı yıpranır. Kavrama seti değişimi gerekir.",
+                category: "sanziman",
+                riskLevel: "HIGH",
+                affectedKm: "70.000+ km",
+                repairCost: "25.000 - 45.000 TL"
+            },
+            {
+                id: "karoq-5",
+                title: "Multimedya Donması",
+                description: "Infotainment ekranının donması veya siyah ekran vermesi. Navigasyon kullanımında yavaşlama görülür. Yazılım güncellemesi kısmen çözer.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "Rastgele",
+                repairCost: "Yazılım / MIB Değişimi (12.000 TL)"
+            }
+        ],
+        pros: [
+            "VarioFlex arka koltuk sistemi",
+            "Kompakt SUV pratikliği",
+            "Ekonomik 1.5 TSI motor",
+            "VW kalitesi uygun fiyata"
+        ],
+        cons: [
+            "Kangaroo effect",
+            "DSG DQ200 kavrama riski",
+            "İç mekan plastiği orta kalite"
+        ],
+        buyingTips: [
+            "DSG vites geçişlerini soğuk motorla test edin",
+            "VarioFlex koltuk mekanizmasını kontrol edin",
+            "Su seviyesini kontrol edin"
+        ]
+    },
+    {
+        id: "skoda-kodiaq-tdi",
+        slug: "skoda-kodiaq-2-0-tdi",
+        brand: "Skoda",
+        model: "Kodiaq",
+        variant: "2.0 TDI",
+        years: "2017-2024",
+        generation: "NS",
+        price: 2200000,
+        expertNote: "Kodiaq, Skoda'nın en büyük SUV'udur ve 7 kişilik seçeneği ile aile araçlarının en iyisidir. Tiguan Allspace'den daha uygun fiyatlıdır. 2.0 TDI motor güçlü ve ekonomiktir. DSG DQ381 ıslak kavrama şanzıman DQ200'den çok daha güvenilirdir. Sunroof giderleri düzenli temizlenmelidir.",
+        reliabilityScore: 84,
+        totalIssues: 5,
+        searchCount: 20000,
+        issues: [
+            {
+                id: "kodiaq-1",
+                title: "Su Pompası / Devirdaim Kaçağı",
+                description: "2.0 TDI motorlarda su pompası sızıntısı. Motor altında antifriz lekesi ve su seviyesi düşüşü ile fark edilir. Zamanında değiştirilmezse motor hasar görebilir.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "70.000+ km",
+                repairCost: "8.000 - 15.000 TL"
+            },
+            {
+                id: "kodiaq-2",
+                title: "DSG DQ381 Flywheel Sesi",
+                description: "Çift kütleli volanın iç yaylarının aşınmasıyla rölantide ve motor stop ederken metalik ses. 2.0 TDI motorların torkuyla ilişkili kronik bir sorundur. Kavrama ile birlikte değişim önerilir.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "100.000+ km",
+                repairCost: "15.000 - 25.000 TL"
+            },
+            {
+                id: "kodiaq-3",
+                title: "Sunroof Gider Tıkanıklığı",
+                description: "Panoramik cam tavan giderlerinin yaprak ve kir ile tıkanması sonucu araç içine su sızması. A sütunu ve tavan döşemesi ıslanabilir. Düzenli gider temizliği şarttır.",
+                category: "govde",
+                riskLevel: "MEDIUM",
+                affectedKm: "Bakımsızsa",
+                repairCost: "Temizlik / 10.000 - 20.000 TL (Hasar varsa)"
+            },
+            {
+                id: "kodiaq-4",
+                title: "AdBlue Dozajlama Hatası",
+                description: "AdBlue enjektörünün kristalleşmesi. 'Motor X km sonra çalışmayacak' uyarısı verir. Enjektör ve tank temizliği/değişimi gerekir.",
+                category: "motor",
+                riskLevel: "HIGH",
+                affectedKm: "60.000+ km",
+                repairCost: "15.000 - 30.000 TL"
+            },
+            {
+                id: "kodiaq-5",
+                title: "Kapı Koruma Plastiği Soyulması",
+                description: "Yan kapılardaki koruma plastiklerinin arasından yapıştırıcının aşınarak plastiğin soyulması veya kabarcık yapması. Özellikle sıcak iklimlerde daha hızlı görülür.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Yaşa bağlı",
+                repairCost: "2.000 - 5.000 TL"
+            }
+        ],
+        pros: [
+            "7 kişilik seçenek",
+            "Devasa iç alan ve bagaj",
+            "Güçlü 2.0 TDI motor",
+            "Fiyat/performans"
+        ],
+        cons: [
+            "AdBlue masrafı",
+            "Sunroof gider bakımı gerekli",
+            "3. sıra çok dar"
+        ],
+        buyingTips: [
+            "Sunroof giderlerini kontrol ettirin",
+            "AdBlue sistemi son bakım tarihini sorun",
+            "DSG yağ değişimi yapılmış mı sorun"
+        ]
+    },
+    {
+        id: "skoda-kamiq-tsi",
+        slug: "skoda-kamiq-1-0-tsi",
+        brand: "Skoda",
+        model: "Kamiq",
+        variant: "1.0 TSI",
+        years: "2019-2024",
+        generation: "NW",
+        price: 1400000,
+        expertNote: "Kamiq, Scala altyapısı üzerine kurulmuş kompakt crossover'dır. Yüksek oturma pozisyonu ve şehir içi pratikliğiyle öne çıkar. Simply Clever özellikleri günlük kullanımda fark yaratır. 1.0 TSI motor yeterli güçtedir ama DSG DQ200 mekatronik riski her zaman vardır.",
+        reliabilityScore: 83,
+        totalIssues: 5,
+        searchCount: 12000,
+        issues: [
+            {
+                id: "kamiq-1",
+                title: "Multimedya Donması / Geç Açılma",
+                description: "Infotainment sisteminin donması, siyah ekran vermesi veya araç çalıştırıldığında geç açılması. Yazılım güncellemesi kısmen çözer. Bazen araç yeniden başlatılması gerekir.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "Yazılım / MIB Değişimi (12.000 TL)"
+            },
+            {
+                id: "kamiq-2",
+                title: "Kapı Fitili Rüzgar Sesi",
+                description: "Kapı fitillerinin aşınması veya oturmamasından kaynaklanan rüzgar ve ıslık sesi. 100+ km/s hızlarda belirginleşir. Özellikle sürücü tarafı kapıda yaygın.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Kronik / 20.000+ km",
+                repairCost: "2.000 - 4.000 TL (Fitil Değişimi)"
+            },
+            {
+                id: "kamiq-3",
+                title: "SOS Acil Çağrı Hatası",
+                description: "eCall SOS modülünün arızalanması ve gösterge panelinde sürekli 'SOS Hatası' uyarısı. VW grubu araçlarda yaygın. Modül değişimi gerekir.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "Rastgele",
+                repairCost: "5.000 - 10.000 TL"
+            },
+            {
+                id: "kamiq-4",
+                title: "DSG DQ200 Kararsızlığı",
+                description: "Düşük hızlarda DSG şanzımanın vites geçişlerinde sarsıntı ve kararsızlık. Şehir içi trafikte rahatsız edici. Yazılım güncellemesi ve kavrama adaptasyonu ile iyileşir.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "30.000+ km",
+                repairCost: "Yazılım / 20.000 - 35.000 TL (Kavrama)"
+            },
+            {
+                id: "kamiq-5",
+                title: "Start-Stop Sistem Arızası",
+                description: "Start-stop sisteminin devreye girmemesi ve akü zayıflığı uyarısı. AGM akü ömrünün kısalmasından kaynaklanır. Akü değişimi gerekir.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "Rastgele / 2 yıl+",
+                repairCost: "3.000 - 5.000 TL (AGM Akü)"
+            }
+        ],
+        pros: [
+            "Yüksek oturma pozisyonu",
+            "Simply Clever pratiklik",
+            "Kompakt boyut şehir içi ideal",
+            "Uygun fiyat"
+        ],
+        cons: [
+            "İç mekan kalitesi orta seviye",
+            "Rüzgar sesi yüksek hızlarda",
+            "DSG DQ200 mekatronik riski"
+        ],
+        buyingTips: [
+            "DSG vites geçişlerini soğuk motorla test edin",
+            "Kapı fitillerini kontrol edin",
+            "Ambition donanımı çok boş olabilir"
+        ]
+    },
+    {
+        id: "skoda-scala-tsi",
+        slug: "skoda-scala-1-0-tsi",
+        brand: "Skoda",
+        model: "Scala",
+        variant: "1.0 TSI",
+        years: "2019-2024",
+        generation: "NW",
+        price: 1300000,
+        expertNote: "Scala, Rapid'in yerine gelen hatchback modelidir. MQB A0 platformu üzerinde kuruludur. 1.0 TSI 3 silindirli motor yeterli güçtedir ve ekonomiktir. Geniş bagaj hacmi (467L) sınıf lideridir. Simply Clever özellikler standart gelir.",
+        reliabilityScore: 83,
+        totalIssues: 5,
+        searchCount: 10000,
+        issues: [
+            {
+                id: "scala-1",
+                title: "Multimedya Donması",
+                description: "Infotainment sisteminin donması veya siyah ekran vermesi. Bluetooth/CarPlay bağlantı kopmaları da yaşanabilir. Yazılım güncellemesi kısmen çözer.",
+                category: "elektronik",
+                riskLevel: "MEDIUM",
+                affectedKm: "Rastgele",
+                repairCost: "Yazılım / MIB Değişimi (10.000 TL)"
+            },
+            {
+                id: "scala-2",
+                title: "Klima Panel Arızası",
+                description: "Klima kontrol panelinin düğmelerinin tepki vermemesi veya LED aydınlatmasının sönmesi. Panel değişimi gerekir.",
+                category: "elektronik",
+                riskLevel: "LOW",
+                affectedKm: "Rastgele / Yaşa bağlı",
+                repairCost: "3.000 - 6.000 TL"
+            },
+            {
+                id: "scala-3",
+                title: "Arka Fren Disk Erken Aşınması",
+                description: "Arka fren disklerinin beklenenden erken aşınması ve fren sırasında titreşim hissedilmesi. Disk ve balata birlikte değiştirilmelidir.",
+                category: "fren",
+                riskLevel: "LOW",
+                affectedKm: "40.000+ km",
+                repairCost: "4.000 - 7.000 TL"
+            },
+            {
+                id: "scala-4",
+                title: "DSG DQ200 Sarsıntısı",
+                description: "Düşük hızlarda DSG şanzımanın vites geçişlerinde sarsıntı. Soğuk havada daha belirgindir. Yazılım güncellemesi ve kavrama adaptasyonu gerekir.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "30.000+ km",
+                repairCost: "Yazılım / 20.000 - 35.000 TL (Kavrama)"
+            },
+            {
+                id: "scala-5",
+                title: "İç Trim Gıcırtısı",
+                description: "Torpido bölgesi ve kapı panellerinden gelen gıcırtı sesleri. Bozuk yollarda belirginleşir. Ses yalıtım bandajı ile azaltılabilir.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "20.000+ km",
+                repairCost: "1.000 - 3.000 TL"
+            }
+        ],
+        pros: [
+            "Sınıf lideri bagaj hacmi (467L)",
+            "Simply Clever özellikler",
+            "Ekonomik 1.0 TSI motor",
+            "Modern tasarım"
+        ],
+        cons: [
+            "Multimedya donmaları",
+            "İç trim kalitesi orta",
+            "DSG DQ200 mekatronik riski"
+        ],
+        buyingTips: [
+            "Ambition paketi çok boş — Style veya L&K tercih edin",
+            "DSG vites geçişlerini test edin",
+            "Fren disklerini kontrol ettirin"
+        ]
+    },
+    {
+        id: "skoda-superb-tsi",
+        slug: "skoda-superb-1-5-tsi",
+        brand: "Skoda",
+        model: "Superb",
+        variant: "1.5 TSI",
+        years: "2019-2023",
+        generation: "Mk3 Facelift",
+        price: 1900000,
+        expertNote: "Superb 1.5 TSI benzinli versiyon, dizel istemeyenler için mükemmel bir alternatiftir. Kangaroo effect var ama yazılım güncellemesiyle kabul edilebilir düzeye iner. Geniş iç alan ve bagaj hacmi ile bu fiyattaki en iyi sedan/liftback. ACT (Aktif Silindir Yönetimi) teknolojisi yakıt tasarrufu sağlar.",
+        reliabilityScore: 82,
+        totalIssues: 5,
+        searchCount: 15000,
+        issues: [
+            {
+                id: "superb-tsi-1",
+                title: "Kangaroo Effect (DSG DQ200)",
+                description: "1.5 TSI + DSG DQ200 kombinasyonunda düşük hızlarda silkeleme. Motor soğukken daha belirgindir. Yazılım güncellemesi kısmen düzeltir. ACT (Aktif Silindir Yönetimi) geçişlerinde de hafif sarsıntı olabilir.",
+                category: "sanziman",
+                riskLevel: "MEDIUM",
+                affectedKm: "0 km'den itibaren (Karakteristik)",
+                repairCost: "Yazılım / 3.000 - 8.000 TL"
+            },
+            {
+                id: "superb-tsi-2",
+                title: "Su Pompası / Termostat Sızıntısı",
+                description: "1.5 TSI motorlarda plastik termostat/su pompası ünitesinden antifriz kaçağı. VW grubu 1.5 TSI motorların bilinen kronik sorunudur.",
+                category: "motor",
+                riskLevel: "MEDIUM",
+                affectedKm: "50.000+ km",
+                repairCost: "8.000 - 15.000 TL"
+            },
+            {
+                id: "superb-tsi-3",
+                title: "Krom Çıta Oksidasyonu",
+                description: "Cam kenarı krom çıtalarının oksitlenmesi ve matlaşması. Kozmetik sorundur ama araç değerini etkiler.",
+                category: "govde",
+                riskLevel: "LOW",
+                affectedKm: "Yaşa bağlı",
+                repairCost: "2.000 - 5.000 TL"
+            },
+            {
+                id: "superb-tsi-4",
+                title: "Arka Fren Disk Aşınması",
+                description: "Arka fren disklerinin erken aşınması. Ağır kasa nedeniyle frenler daha çok zorlanır. Disk ve balata birlikte değiştirilmelidir.",
+                category: "fren",
+                riskLevel: "LOW",
+                affectedKm: "40.000+ km",
+                repairCost: "5.000 - 8.000 TL"
+            },
+            {
+                id: "superb-tsi-5",
+                title: "DSG DQ200 Kavrama Aşınması",
+                description: "Kuru kavrama şanzımanda kavrama disk aşınması. Şehir içi kullanımda daha hızlı yıpranır. Kavrama seti değişimi gerekir.",
+                category: "sanziman",
+                riskLevel: "HIGH",
+                affectedKm: "70.000+ km",
+                repairCost: "25.000 - 45.000 TL"
+            }
+        ],
+        pros: [
+            "Devasa iç alan ve bagaj (625L)",
+            "ACT yakıt tasarrufu",
+            "Premium kalite his",
+            "Simply Clever özellikler"
+        ],
+        cons: [
+            "Kangaroo effect",
+            "DSG DQ200 kavrama riski",
+            "Krom çıta oksidasyonu"
+        ],
+        buyingTips: [
+            "DSG kavrama testini mutlaka yapın",
+            "Su seviyesini kontrol edin",
+            "L&K donanım ikinci elde çok hızlı satılır"
+        ]
+    },
+];

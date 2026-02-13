@@ -1,19 +1,23 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <footer className="bg-stone-900 dark:bg-[#0c0a09] text-stone-300 mt-auto border-t border-stone-800">
+        <footer className="bg-stone-100 dark:bg-[#0c0a09] text-stone-600 dark:text-stone-300 mt-auto border-t border-stone-200 dark:border-stone-800">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Brand */}
                     <div className="col-span-1 md:col-span-2">
                         <div className="flex items-center gap-2.5 mb-3">
-                            <div className="w-7 h-7 bg-orange-600 rounded-md flex items-center justify-center">
-                                <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4" />
-                                </svg>
+                            <div className="relative w-7 h-7">
+                                <Image
+                                    src="/logo.png"
+                                    alt="OTORAPORU"
+                                    fill
+                                    className="object-contain"
+                                />
                             </div>
-                            <span className="text-base font-bold text-white tracking-tight">SORUNSUZAL</span>
+                            <span className="text-base font-bold tracking-tight"><span className="text-orange-600">OTORAPORU</span><span className="text-stone-900 dark:text-white">.NET</span></span>
                         </div>
                         <p className="text-stone-500 text-sm max-w-sm leading-relaxed">
                             Araç satın almadan önce kronik sorunları ve yaygın arızaları öğrenin.
@@ -71,9 +75,9 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="border-t border-stone-800 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-2">
+                <div className="border-t border-stone-200 dark:border-stone-800 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-2">
                     <p className="text-stone-600 text-xs">
-                        © 2024 SORUNSUZAL. Tüm hakları saklıdır.
+                        © 2025 OTORAPORU.NET. Tüm hakları saklıdır.
                     </p>
                     <p className="text-stone-700 text-xs">
                         Bu site yalnızca bilgilendirme amaçlıdır.

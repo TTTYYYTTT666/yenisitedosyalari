@@ -1,4 +1,4 @@
-import { cars } from '@/data/cars';
+import { getAllCars } from '@/lib/cars';
 import BrandLogo from '@/components/BrandLogo';
 import Link from 'next/link';
 
@@ -9,7 +9,9 @@ interface BrandRanking {
     totalIssues: number;
 }
 
-export default function SiralamaPage() {
+export default async function SiralamaPage() {
+    const cars = await getAllCars();
+
     // Calculate brand rankings
     const brandStats = cars.reduce((acc, car) => {
         if (!acc[car.brand]) {
@@ -70,8 +72,8 @@ export default function SiralamaPage() {
                         <div
                             key={brand.brand}
                             className={`bg-stone-900 rounded-2xl p-6 text-center border ${index === 0 ? 'border-yellow-500/50 order-2' :
-                                    index === 1 ? 'border-gray-400/50 order-1' :
-                                        'border-orange-600/50 order-3'
+                                index === 1 ? 'border-gray-400/50 order-1' :
+                                    'border-orange-600/50 order-3'
                                 }`}
                         >
                             <div className="text-4xl mb-3">{getRankEmoji(index + 1)}</div>
