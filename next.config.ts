@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  experimental: {
+    serverActions: {
+      allowedOrigins: ["otoraporu.net", "www.otoraporu.net", "localhost:3000"],
+    },
+  },
   async headers() {
     return [
       {
