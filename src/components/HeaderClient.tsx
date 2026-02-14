@@ -9,7 +9,6 @@ const toolsMenu = [
     { href: '/karsilastir', label: 'Araç Karşılaştırma', desc: '3 aracı yan yana karşılaştır' },
     { href: '/siralama', label: 'Marka Sıralaması', desc: 'Güvenilirlik sıralaması' },
     { href: '/ekspertiz', label: 'Ekspertiz Checklist', desc: 'Alım öncesi kontrol listesi' },
-    { href: '/parcalar', label: 'Parça Fiyatları', desc: 'Marka bazlı karşılaştırma' },
     { href: '/deneyimler', label: 'Kullanıcı Deneyimleri', desc: 'Gerçek sahip yorumları' },
     { href: '/forum', label: 'Forum', desc: 'Tartışma ve deneyim paylaşımı' },
     { href: '/favorilerim', label: 'Favorilerim', desc: 'Kaydettiğiniz araçlar' },
