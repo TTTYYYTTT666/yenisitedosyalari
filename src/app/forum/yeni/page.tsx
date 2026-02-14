@@ -5,6 +5,8 @@ import { getAllCars } from '@/lib/cars';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
     title: 'Yeni Konu Ac | Forum - OTORAPORU.NET',
     description: 'Arac deneyiminizi paylasin veya soru sorun.',
