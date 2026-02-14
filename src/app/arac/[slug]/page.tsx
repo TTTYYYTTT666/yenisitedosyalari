@@ -5,16 +5,12 @@ import { getCategoryLabel } from '@/data/cars';
 import { getCarBySlug, getAllCars, getRelatedCars } from '@/lib/cars';
 import ReliabilityGauge from '@/components/ReliabilityGauge';
 import IssueCard from '@/components/IssueCard';
-import AdSpace from '@/components/AdSpace';
 import BrandLogo from '@/components/BrandLogo';
 import { auth } from '@/auth';
-import { prisma } from '@/lib/db';
-import CommentsSection from '@/components/comments/CommentsSection';
 import JsonLd from '@/components/JsonLd';
 import IssueVoteButtons from '@/components/IssueVoteButtons';
 import FavoriteButton from '@/components/FavoriteButton';
 import CarRatingSection from '@/components/CarRatingSection';
-import IssueReportForm from '@/components/IssueReportForm';
 import { getIssueVotes, getUserIssueVotes } from '@/actions/issue-actions';
 import { getCarRatings } from '@/actions/rating-actions';
 import { isFavorited } from '@/actions/favorite-actions';
@@ -100,23 +96,12 @@ export default async function CarDetailPage({ params }: PageProps) {
     const mediumRiskCount = car.issues.filter(i => i.riskLevel === 'MEDIUM').length;
     const lowRiskCount = car.issues.filter(i => i.riskLevel === 'LOW').length;
 
-    // Fetch Session and Comments
+    // Fetch Session
     const session = await auth();
     const isLoggedIn = !!session?.user?.id;
 
-    const currentUser = session?.user?.id ? {
-        id: session.user.id,
-        name: session.user.name,
-        image: session.user.image
-    } : null;
-
     // Fetch all engagement data in parallel
-    const [comments, issueVotes, userIssueVotes, ratingData, isFav] = await Promise.all([
-        prisma.comment.findMany({
-            where: { carSlug: slug },
-            include: { user: true },
-            orderBy: { createdAt: 'desc' }
-        }),
+    const [issueVotes, userIssueVotes, ratingData, isFav] = await Promise.all([
         getIssueVotes(slug),
         getUserIssueVotes(slug),
         getCarRatings(slug),
@@ -394,16 +379,21 @@ export default async function CarDetailPage({ params }: PageProps) {
                             ))}
                         </section>
 
-                        {/* Sorun Bildirme */}
-                        <IssueReportForm carSlug={slug} isLoggedIn={isLoggedIn} />
-
-                        <AdSpace type="expert" />
-
-                        <CommentsSection
-                            carSlug={slug}
-                            currentUser={currentUser}
-                            comments={comments}
-                        />
+                        {/* Forum Tartışma Linki */}
+                        <section className="bg-gradient-to-r from-orange-600 to-orange-700 rounded-2xl p-6 shadow-lg">
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <h3 className="text-lg font-bold text-white mb-1">💬 Bu Araç Hakkında Tartış</h3>
+                                    <p className="text-orange-100 text-sm">Deneyimlerinizi paylaşın, soru sorun, diğer sahiplerle konuşun.</p>
+                                </div>
+                                <Link
+                                    href={`/forum?arac=${slug}`}
+                                    className="px-5 py-2.5 bg-white text-orange-700 font-bold rounded-xl hover:bg-orange-50 transition-colors shadow-md shrink-0"
+                                >
+                                    Forum&apos;a Git →
+                                </Link>
+                            </div>
+                        </section>
                     </div>
 
                     {/* Sidebar - bigger, stickier */}
@@ -527,9 +517,7 @@ export default async function CarDetailPage({ params }: PageProps) {
                     </section>
                 )}
 
-                <div className="mt-12">
-                    <AdSpace type="insurance" />
-                </div>
+
             </div>
         </div>
     );
