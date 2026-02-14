@@ -15,8 +15,9 @@ const postSchema = z.object({
     content: z.string()
         .min(50, 'İçerik en az 50 karakter olmalı')
         .max(50000, 'İçerik çok uzun'),
-    category: z.enum(['Deneyim', 'Bakım', 'Haber', 'Rehber']),
+    category: z.enum(['Deneyim', 'Bakım', 'Haber', 'Rehber', 'Soru']),
     image: z.string().url().optional().or(z.literal('')),
+    carSlug: z.string().optional().or(z.literal('')),
 });
 
 function slugify(text: string) {
@@ -41,6 +42,7 @@ export async function createPost(formData: FormData) {
         content: formData.get('content') as string,
         category: formData.get('category') as string,
         image: formData.get('image') as string,
+        carSlug: formData.get('carSlug') as string,
     };
 
     // Validate input
@@ -52,7 +54,7 @@ export async function createPost(formData: FormData) {
         throw new Error(firstError);
     }
 
-    const { title, content, category, image } = validationResult.data;
+    const { title, content, category, image, carSlug } = validationResult.data;
 
     // Sanitize content to prevent stored XSS
     const sanitizedContent = DOMPurify.sanitize(content, {
@@ -95,8 +97,9 @@ export async function createPost(formData: FormData) {
             image: image || null,
             slug,
             authorId: session.user.id,
-            published: true
-        }
+            published: true,
+            ...(carSlug ? { carSlug } : {}),
+        } as any
     });
 
     revalidatePath('/forum');

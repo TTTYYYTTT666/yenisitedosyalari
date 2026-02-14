@@ -79,8 +79,8 @@ export default function HeaderClient({ user }: HeaderClientProps) {
                         <Link href="/markalar" className="px-3 py-1.5 text-sm text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md font-medium transition-colors">
                             Markalar
                         </Link>
-                        <Link href="/blog" className="px-3 py-1.5 text-sm text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md font-medium transition-colors">
-                            Blog
+                        <Link href="/forum" className="px-3 py-1.5 text-sm text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-800 rounded-md font-medium transition-colors">
+                            Forum
                         </Link>
 
                         {/* Tools Dropdown */}
