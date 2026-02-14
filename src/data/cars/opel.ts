@@ -47,7 +47,7 @@ export const opelCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / Değişim"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "corsa-5",
@@ -111,7 +111,7 @@ export const opelCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / Ekran Değişimi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "astra-l-4",
@@ -120,7 +120,7 @@ export const opelCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Şehir İçi",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "astra-l-5",
@@ -129,7 +129,7 @@ export const opelCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "0 km'den itibaren",
-                repairCost: "Ayar"
+                repairCost: "2.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -174,7 +174,7 @@ export const opelCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Akü kaynaklı",
-                repairCost: "Akü değişimi"
+                repairCost: "3.000 - 8.000 TL (Tamir)"
             },
             {
                 id: "mokka-1-2-turbo-auto-3",
@@ -228,7 +228,7 @@ export const opelCars: Car[] = [
                 category: "motor",
                 riskLevel: "CRITICAL",
                 affectedKm: "40.000+ km",
-                repairCost: "150.000+ TL (Sandık Motor)"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "crossland-2",
@@ -237,7 +237,7 @@ export const opelCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "0"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "crossland-1-2-turbo-auto-3",
@@ -371,7 +371,7 @@ export const opelCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sürekli",
-                repairCost: "Motor Revizyonu"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             },
             {
                 id: "grandland-x-1-2-turbo-auto-3",
@@ -574,7 +574,7 @@ export const opelCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Şehir İçi",
-                repairCost: "Yazılım / Yağ Değişimi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "grandland-d-4",
@@ -583,7 +583,7 @@ export const opelCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Şehir İçi",
-                repairCost: "Temizlik"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "grandland-d-5",
@@ -592,7 +592,7 @@ export const opelCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -669,7 +669,7 @@ export const opelCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "40.000+ km",
-                repairCost: "Yağ Takibi"
+                repairCost: "3.000 - 6.000 TL (Yağ Değişimi)"
             },
             {
                 id: "grandland-n-3",
@@ -678,7 +678,7 @@ export const opelCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "grandland-n-4",
@@ -687,7 +687,7 @@ export const opelCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Hava koşullarına bağlı",
-                repairCost: "Kamera Kalibrasyonu"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "grandland-n-5",
@@ -696,7 +696,7 @@ export const opelCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             }
         ],
         pros: [
@@ -898,7 +898,7 @@ export const opelCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Soğuk hava",
-                            "repairCost": "Yağ Değişimi"
+                            "repairCost": "3.000 - 6.000 TL (Yağ Değişimi)"
                     },
                     {
                             "id": "insb-5",
@@ -907,7 +907,7 @@ export const opelCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Bozuk yollar",
-                            "repairCost": "Fitil"
+                            "repairCost": "1.000 - 3.000 TL (Fitil)"
                     }
             ],
             "pros": [
@@ -985,7 +985,7 @@ export const opelCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1133,7 +1133,7 @@ export const opelCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "veca-3",
@@ -1213,7 +1213,7 @@ export const opelCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "vecb-3",
@@ -1293,7 +1293,7 @@ export const opelCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "astf-3",
@@ -1453,7 +1453,7 @@ export const opelCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "corb-3",
@@ -1924,7 +1924,7 @@ export const opelCars: Car[] = [
       "category": "motor",
       "riskLevel": "HIGH",
       "affectedKm": "100.000-160.000 km",
-      "repairCost": "₺5.000 – ₺12.000"
+      "repairCost": "5.000 - 12.000 TL"
     },
     {
       "id": "opel-ajfl-2",
@@ -1933,7 +1933,7 @@ export const opelCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺3.000 – ₺5.000 (AGM akü)"
+      "repairCost": "3.000 - 5.000 TL (AGM akü)"
     },
     {
       "id": "opel-ajfl-3",
@@ -1942,7 +1942,7 @@ export const opelCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0 – ₺500"
+      "repairCost": "0 - 500 TL"
     },
     {
       "id": "opel-ajfl-4",
@@ -1951,7 +1951,7 @@ export const opelCars: Car[] = [
       "category": "motor",
       "riskLevel": "MEDIUM",
       "affectedKm": "80.000-130.000 km",
-      "repairCost": "₺3.000 – ₺8.000"
+      "repairCost": "3.000 - 8.000 TL"
     },
     {
       "id": "opel-ajfl-5",
@@ -1960,7 +1960,7 @@ export const opelCars: Car[] = [
       "category": "fren",
       "riskLevel": "LOW",
       "affectedKm": "40.000-70.000 km",
-      "repairCost": "₺1.500 – ₺3.500"
+      "repairCost": "1.500 - 3.500 TL"
     }
   ],
   "pros": [

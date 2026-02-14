@@ -176,7 +176,7 @@ export const audiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik (Tasarım)",
-                repairCost: "Çözümsüz"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "a3-8y-2",
@@ -1187,7 +1187,7 @@ export const audiCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [

@@ -43,7 +43,7 @@ export const mercedesCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Çözümsüz"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "c180-w205-auto-4",
@@ -112,7 +112,7 @@ export const mercedesCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Çözümsüz"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "c200-w205-auto-3",
@@ -170,7 +170,7 @@ export const mercedesCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Döşeme Tamiri"
+                repairCost: "3.000 - 8.000 TL (Tamir)"
             },
             {
                 id: "c200d-1",
@@ -236,7 +236,7 @@ export const mercedesCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "HIGH",
                 affectedKm: "0-30.000 km",
-                repairCost: "Garantiden Değişim (Normalde 100.000+ TL)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "w206-2",
@@ -245,7 +245,7 @@ export const mercedesCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Yazılımsal",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "c200-w206-auto-3",
@@ -263,7 +263,7 @@ export const mercedesCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -530,7 +530,7 @@ export const mercedesCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (Tasarım)"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "a180-w177-auto-3",
@@ -589,7 +589,7 @@ export const mercedesCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "-",
-                repairCost: "Yazılım ile kapatılabilir"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "a180d-sedan-v177-auto-2",
@@ -727,7 +727,7 @@ export const mercedesCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "40.000+ km",
-                repairCost: "İzolasyon ile azaltılabilir"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "cla-180d-c117-auto-2",
@@ -807,7 +807,7 @@ export const mercedesCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "100.000+ km",
-                repairCost: "Motor Revizyonu"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             },
             {
                 id: "gla-h247-3",
@@ -887,7 +887,7 @@ export const mercedesCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "glb-200-3",
@@ -961,7 +961,7 @@ export const mercedesCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Kış aylarında belirgin",
-                repairCost: "Lastik değişimi ile azalır"
+                repairCost: "3.000 - 8.000 TL (Tamir)"
             },
             {
                 id: "glc-x253-2",
@@ -970,7 +970,7 @@ export const mercedesCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Akustik cam retrofiti mümkün değil"
+                repairCost: "3.000 - 8.000 TL (Cam)"
             },
             {
                 id: "glc-250d-auto-3",
@@ -1028,7 +1028,7 @@ export const mercedesCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "0-20.000 km",
-                repairCost: "Garanti dahilinde"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "glc-x254-2",
@@ -1037,7 +1037,7 @@ export const mercedesCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Yazılımsal",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "glc-200-x254-auto-3",
@@ -1055,7 +1055,7 @@ export const mercedesCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -1189,7 +1189,7 @@ export const mercedesCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Garanti/Yazılım"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "gle-350d-v167-auto-4",
@@ -1421,7 +1421,7 @@ export const mercedesCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "40.000+ km",
-                repairCost: "Yazılım / Kavrama (30.000+ TL)"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "a180d-amg-2",
@@ -1430,7 +1430,7 @@ export const mercedesCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "a180d-amg-3",
@@ -1551,7 +1551,7 @@ export const mercedesCars: Car[] = [
         issues: [
             { id: "b180d-1", title: "Renault 1.5 dCi Triger Kayışı Riski", description: "Mercedes B180d'de kullanılan Renault kaynaklı 1.5 dCi motorun triger kayışı 120.000 km veya 5 yılda değiştirilmeli. Kayış koparsa motor total zarar görür. Periyodik bakım kritiktir.", category: "motor", riskLevel: "CRITICAL", affectedKm: "120.000 km / 5 Yıl", repairCost: "8.000 - 12.000 TL (Kayış) / Motor (Koparsa)" },
             { id: "b180d-2", title: "DCT 8G-DCT Şanzıman Titreşimi", description: "Çift kavramalı 8 ileri şanzımanda düşük hızlarda ve park manevralarında titreşim. Kavrama adaptasyonu sıfırlanması ile iyileşir.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "40.000+ km", repairCost: "Yazılım / 25.000 TL (Kavrama)" },
-            { id: "b180d-3", title: "MBUX Multimedya Hataları", description: "MBUX ekranının donması, 'Hey Mercedes' sesli asistanın tepkisiz kalması veya Apple CarPlay bağlantı kopması.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "Yazılım Güncelleme" },
+            { id: "b180d-3", title: "MBUX Multimedya Hataları", description: "MBUX ekranının donması, 'Hey Mercedes' sesli asistanın tepkisiz kalması veya Apple CarPlay bağlantı kopması.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "1.500 - 4.000 TL (Yazılım)" },
             { id: "b180d-4", title: "Arka Fren Diski Korozyonu", description: "Düşük fren kullanımı nedeniyle arka disklerde pas birikmesi ve fren sesi oluşması.", category: "fren", riskLevel: "LOW", affectedKm: "20.000+ km", repairCost: "3.000 - 5.000 TL" },
             { id: "b180d-5", title: "DPF Rejenerasyon Talebi", description: "Kısa mesafe şehir içi kullanımda partikül filtresi dolması ve rejenerasyon uyarısı.", category: "motor", riskLevel: "MEDIUM", affectedKm: "Şehir içi", repairCost: "5.000 - 15.000 TL" }
         ],
@@ -1686,7 +1686,7 @@ export const mercedesCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "100.000+ km",
-                            "repairCost": "Yağ / Konductör Plaka"
+                            "repairCost": "2.000 - 5.000 TL (Yağ)"
                     },
                     {
                             "id": "w204-5",
@@ -1695,7 +1695,7 @@ export const mercedesCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1773,7 +1773,7 @@ export const mercedesCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [

@@ -161,7 +161,7 @@ export const miniCars: Car[] = [
                             "category": "motor",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "50.000+ km",
-                            "repairCost": "Takip"
+                            "repairCost": "2.000 - 5.000 TL"
                     },
                     {
                             "id": "f55-3",
@@ -170,7 +170,7 @@ export const miniCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Soğuk hava",
-                            "repairCost": "Yağ Değişimi"
+                            "repairCost": "3.000 - 6.000 TL (Yağ Değişimi)"
                     },
                     {
                             "id": "f55-4",
@@ -179,7 +179,7 @@ export const miniCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Yazılım",
-                            "repairCost": "Güncelleme"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "f55-5",

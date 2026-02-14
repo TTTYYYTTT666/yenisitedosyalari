@@ -49,7 +49,7 @@ export const volkswagenCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Bakım / Yağlama"
+                repairCost: "2.000 - 5.000 TL (Yağ)"
             },
             {
                 id: "passat-5",
@@ -108,7 +108,7 @@ export const volkswagenCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "100.000+ km",
-                repairCost: "Motor Revizyonu (50.000+ TL)"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             },
             {
                 id: "golf-3",
@@ -212,7 +212,7 @@ export const volkswagenCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Pil / Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -365,7 +365,7 @@ export const volkswagenCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yalıtım bandajı"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             }
         ],
         pros: [
@@ -415,7 +415,7 @@ export const volkswagenCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "80.000+ km",
-                repairCost: "Servis Takibi / Revizyon"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             },
             {
                 id: "polo-3",
@@ -797,7 +797,7 @@ export const volkswagenCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Bakım / Yağlama"
+                repairCost: "2.000 - 5.000 TL (Yağ)"
             },
             {
                 id: "arteon-3",
@@ -1052,7 +1052,7 @@ export const volkswagenCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (Yük binince düzelir)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -1195,7 +1195,7 @@ export const volkswagenCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Klips Takılması"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "scirocco-5",
@@ -1262,7 +1262,7 @@ export const volkswagenCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Klips Takılması"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "beetle-4",
@@ -1329,7 +1329,7 @@ export const volkswagenCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "İzolasyon bandajı"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "tcross-3",
@@ -1356,7 +1356,7 @@ export const volkswagenCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "100+ km/s",
-                repairCost: "Fitil Ayarı"
+                repairCost: "500 - 2.000 TL (Fitil)"
             }
         ],
         pros: [
@@ -1405,7 +1405,7 @@ export const volkswagenCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rodaj / 50.000+ km",
-                repairCost: "Yağ Takibi / Revizyon"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             },
             {
                 id: "taigo-3",
@@ -1414,7 +1414,7 @@ export const volkswagenCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "110+ km/s",
-                repairCost: "Fitil Ayarı"
+                repairCost: "500 - 2.000 TL (Fitil)"
             },
             {
                 id: "taigo-4",
@@ -1432,7 +1432,7 @@ export const volkswagenCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / MIB Değişimi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -1498,7 +1498,7 @@ export const volkswagenCars: Car[] = [
             { id: "pb7-2", title: "DSG DQ200 Mekatronik", description: "Kuru kavramalı DSG şanzımanda mekatronik kart ve kavrama arızası. Vites sarsıntısı, kararsızlık.", category: "sanziman", riskLevel: "HIGH", affectedKm: "60.000 - 100.000 km", repairCost: "25.000 - 50.000 TL" },
             { id: "pb7-3", title: "Devirdaim Pompası Kaçağı", description: "Plastik gövdeli devirdaim pompasından antifriz sızıntısı. Hararet riski.", category: "motor", riskLevel: "HIGH", affectedKm: "60.000+ km", repairCost: "5.000 - 10.000 TL" },
             { id: "pb7-4", title: "Turbo Wastegate Kaçağı", description: "Turbo wastegate contası veya aktuatöründen basınç kaçağı. Güç kaybı ve ıslık sesi.", category: "motor", riskLevel: "MEDIUM", affectedKm: "80.000+ km", repairCost: "5.000 - 12.000 TL" },
-            { id: "pb7-5", title: "Yağ Tüketimi", description: "1.4 TSI motorun piston segmanı nedeniyle yağ tüketmesi. 5.000 km'de 500ml+.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "Yağ Ekleme / Revizyon" },
+            { id: "pb7-5", title: "Yağ Tüketimi", description: "1.4 TSI motorun piston segmanı nedeniyle yağ tüketmesi. 5.000 km'de 500ml+.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "20.000 - 50.000 TL (Motor Revizyon)" },
             { id: "pb7-6", title: "Multimedya RCD 510 Arızası", description: "RCD 510 kafaünitesinin CD okuyucu, dokunmatik veya Bluetooth arızası.", category: "elektronik", riskLevel: "LOW", affectedKm: "Yaş kaynaklı", repairCost: "3.000 - 6.000 TL" }
         ],
         pros: ["Geniş ve konforlu kabin", "Sessiz sürüş", "Kaliteli iç mekan", "Devasa bagaj"],
@@ -1619,7 +1619,7 @@ export const volkswagenCars: Car[] = [
                 "category": "elektronik",
                 "riskLevel": "LOW",
                 "affectedKm": "Rastgele",
-                "repairCost": "Yazılım Güncelleme"
+                "repairCost": "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         "pros": [
@@ -1687,7 +1687,7 @@ export const volkswagenCars: Car[] = [
                 "category": "govde",
                 "riskLevel": "LOW",
                 "affectedKm": "Bozuk yollar",
-                "repairCost": "Fitil ayarı"
+                "repairCost": "500 - 2.000 TL (Fitil)"
             },
             {
                 "id": "tig2-5",
@@ -1696,7 +1696,7 @@ export const volkswagenCars: Car[] = [
                 "category": "elektronik",
                 "riskLevel": "LOW",
                 "affectedKm": "Rastgele",
-                "repairCost": "Yazılım"
+                "repairCost": "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         "pros": [
@@ -1903,7 +1903,7 @@ export const volkswagenCars: Car[] = [
                 "category": "govde",
                 "riskLevel": "MEDIUM",
                 "affectedKm": "Yaş kaynaklı",
-                "repairCost": "Boya / Kaynak"
+                "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
             },
             {
                 "id": "g3-3",
@@ -2001,7 +2001,7 @@ export const volkswagenCars: Car[] = [
                 "category": "motor",
                 "riskLevel": "LOW",
                 "affectedKm": "150.000+ km",
-                "repairCost": "Takip"
+                "repairCost": "2.000 - 5.000 TL"
             },
             {
                 "id": "g4-5",
@@ -2063,7 +2063,7 @@ export const volkswagenCars: Car[] = [
                 "category": "motor",
                 "riskLevel": "MEDIUM",
                 "affectedKm": "100.000+ km",
-                "repairCost": "Segman / Supap"
+                "repairCost": "5.000 - 12.000 TL (Conta/Supap)"
             },
             {
                 "id": "pb5-3",
@@ -2161,7 +2161,7 @@ export const volkswagenCars: Car[] = [
                 "category": "motor",
                 "riskLevel": "LOW",
                 "affectedKm": "150.000+ km",
-                "repairCost": "Takip"
+                "repairCost": "2.000 - 5.000 TL"
             },
             {
                 "id": "bor-4",
@@ -2259,7 +2259,7 @@ export const volkswagenCars: Car[] = [
                 "category": "govde",
                 "riskLevel": "MEDIUM",
                 "affectedKm": "Yaş kaynaklı",
-                "repairCost": "Boya"
+                "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
             }
         ],
         "pros": [
@@ -2703,7 +2703,7 @@ export const volkswagenCars: Car[] = [
                 "category": "motor",
                 "riskLevel": "MEDIUM",
                 "affectedKm": "0-150.000 km",
-                "repairCost": "₺0 – ₺2.000 (yazılım güncelleme)"
+                "repairCost": "0 - 2.000 TL (yazılım güncelleme)"
             },
             {
                 "id": "vw-g75-2",
@@ -2712,7 +2712,7 @@ export const volkswagenCars: Car[] = [
                 "category": "sanziman",
                 "riskLevel": "LOW",
                 "affectedKm": "50.000-120.000 km",
-                "repairCost": "₺1.000 – ₺3.000"
+                "repairCost": "1.000 - 3.000 TL"
             },
             {
                 "id": "vw-g75-3",
@@ -2721,7 +2721,7 @@ export const volkswagenCars: Car[] = [
                 "category": "motor",
                 "riskLevel": "LOW",
                 "affectedKm": "30.000-100.000 km",
-                "repairCost": "₺2.000 – ₺5.000"
+                "repairCost": "2.000 - 5.000 TL"
             },
             {
                 "id": "vw-g75-4",
@@ -2730,7 +2730,7 @@ export const volkswagenCars: Car[] = [
                 "category": "elektronik",
                 "riskLevel": "LOW",
                 "affectedKm": "Tüm km",
-                "repairCost": "₺0 – ₺500"
+                "repairCost": "0 - 500 TL"
             },
             {
                 "id": "vw-g75-5",
@@ -2739,7 +2739,7 @@ export const volkswagenCars: Car[] = [
                 "category": "fren",
                 "riskLevel": "LOW",
                 "affectedKm": "40.000-60.000 km",
-                "repairCost": "₺2.500 – ₺4.000"
+                "repairCost": "2.500 - 4.000 TL"
             }
         ],
         "pros": [
@@ -2783,7 +2783,7 @@ export const volkswagenCars: Car[] = [
                 "category": "motor",
                 "riskLevel": "MEDIUM",
                 "affectedKm": "0-150.000 km",
-                "repairCost": "₺0 – ₺2.000"
+                "repairCost": "0 - 2.000 TL"
             },
             {
                 "id": "vw-pb85-2",
@@ -2792,7 +2792,7 @@ export const volkswagenCars: Car[] = [
                 "category": "elektronik",
                 "riskLevel": "LOW",
                 "affectedKm": "Tüm km",
-                "repairCost": "₺0 – ₺2.000"
+                "repairCost": "0 - 2.000 TL"
             },
             {
                 "id": "vw-pb85-3",
@@ -2801,7 +2801,7 @@ export const volkswagenCars: Car[] = [
                 "category": "elektronik",
                 "riskLevel": "MEDIUM",
                 "affectedKm": "Tüm km",
-                "repairCost": "₺3.000 – ₺7.000 (cam+kalibrasyon)"
+                "repairCost": "3.000 - 7.000 TL (cam+kalibrasyon)"
             },
             {
                 "id": "vw-pb85-4",
@@ -2810,7 +2810,7 @@ export const volkswagenCars: Car[] = [
                 "category": "elektronik",
                 "riskLevel": "LOW",
                 "affectedKm": "60.000+ km",
-                "repairCost": "₺8.000 – ₺20.000"
+                "repairCost": "8.000 - 20.000 TL"
             }
         ],
         "pros": [

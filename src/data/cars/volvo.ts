@@ -22,7 +22,7 @@ export const volvoCars: Car[] = [
                 category: "govde",
                 riskLevel: "MEDIUM",
                 affectedKm: "Bakımsız araçlarda",
-                repairCost: "Temizlik"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "xc60-1",
@@ -31,7 +31,7 @@ export const volvoCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Reset/Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "xc60-b4-auto-3",
@@ -49,7 +49,7 @@ export const volvoCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -87,7 +87,7 @@ export const volvoCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Servis kalibrasyonu"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "xc40-1",
@@ -215,7 +215,7 @@ export const volvoCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "xc40-t3-auto-2",
@@ -288,7 +288,7 @@ export const volvoCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Yazılım",
-                repairCost: "Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "s60-b5-3",
@@ -297,7 +297,7 @@ export const volvoCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Servis / Garanti"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "s60-b5-auto-4",
@@ -315,7 +315,7 @@ export const volvoCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -414,10 +414,10 @@ export const volvoCars: Car[] = [
         issues: [
             { id: "s90-1", title: "PowerPulse Kompresör Arızası", description: "Elektrikli hava kompresörü ile turbo lag'ı azaltan PowerPulse sisteminin arızalanması. Kompresör sesi veya sistem devre dışı kalması. Sistem kaldırılabilir.", category: "motor", riskLevel: "HIGH", affectedKm: "60.000 - 100.000 km", repairCost: "20.000 - 35.000 TL" },
             { id: "s90-2", title: "AdBlue Dozajlama Arızası", description: "SCR katalizör ve AdBlue enjektörünün kristalleşme sonucu tıkanması. Motor çalışmayacak uyarısı.", category: "motor", riskLevel: "HIGH", affectedKm: "50.000+ km", repairCost: "20.000 - 40.000 TL" },
-            { id: "s90-3", title: "8AT Geartronic Sarsıntısı", description: "Aisin 8 ileri otomatik şanzımanda düşük hızlarda sarsıntı ve vites geçiş tereddütü. Yazılım güncellemesi genellikle çözer.", category: "sanziman", riskLevel: "LOW", affectedKm: "30.000+ km", repairCost: "Yazılım Güncelleme" },
+            { id: "s90-3", title: "8AT Geartronic Sarsıntısı", description: "Aisin 8 ileri otomatik şanzımanda düşük hızlarda sarsıntı ve vites geçiş tereddütü. Yazılım güncellemesi genellikle çözer.", category: "sanziman", riskLevel: "LOW", affectedKm: "30.000+ km", repairCost: "1.500 - 4.000 TL (Yazılım)" },
             { id: "s90-4", title: "Sensus Multimedya Donması", description: "Dikey 9 inç Sensus dokunmatik ekranın donması, kararması veya uygulamaların çökmesi. Yeniden başlatma gerektirir.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "Rastgele", repairCost: "Yazılım / 10.000 TL (Ünite)" },
             { id: "s90-5", title: "Ön Süspansiyon Burç Sesi", description: "Ön alt salıncak burçlarından gelen gıcırtı ve vuruntu sesi. Özellikle kasis geçişlerinde belirginleşir.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "50.000+ km", repairCost: "5.000 - 10.000 TL" },
-            { id: "s90-6", title: "Pilot Assist Kalibrasyon Hatası", description: "Yarı otonom sürüş asistanı Pilot Assist'in radar veya kamera kalibrasyonunu kaybetmesi. Sistem devre dışı kalır.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "Servis Kalibrasyonu" }
+            { id: "s90-6", title: "Pilot Assist Kalibrasyon Hatası", description: "Yarı otonom sürüş asistanı Pilot Assist'in radar veya kamera kalibrasyonunu kaybetmesi. Sistem devre dışı kalır.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "1.500 - 3.000 TL (Kalibrasyon)" }
         ],
         pros: ["İskandinav tasarım harikası", "Bowers & Wilkins ses sistemi", "Pilot Assist (Yarı otonom)", "En güvenli sedan"],
         cons: ["PowerPulse sistemi sorunlu", "Bakım maliyeti çok yüksek", "2.0L motor prestij algısı"],

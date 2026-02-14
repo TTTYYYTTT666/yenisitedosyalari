@@ -61,7 +61,7 @@ export const fiatCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (Motor karakteri)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -209,7 +209,7 @@ export const fiatCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "2-3 yıl",
-                repairCost: "Kozmetik onarım"
+                repairCost: "3.000 - 10.000 TL (Boya/Rötuş)"
             },
             {
                 id: "egea-cross-4",
@@ -218,7 +218,7 @@ export const fiatCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             }
         ],
         pros: [
@@ -428,7 +428,7 @@ export const fiatCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (3 silindir doğası)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "egea-10t-2",
@@ -437,7 +437,7 @@ export const fiatCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım kalibrasyon"
+                repairCost: "2.000 - 5.000 TL (Yazılım)"
             },
             {
                 id: "egea-1-0-turbo-hybrid-auto-3",
@@ -455,7 +455,7 @@ export const fiatCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -683,7 +683,7 @@ export const fiatCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Kaplama"
+                repairCost: "5.000 - 15.000 TL (Kaplama)"
             }
         ],
         pros: [
@@ -1309,7 +1309,7 @@ export const fiatCars: Car[] = [
             { id: "doblo2-3", title: "Sürgülü Kapı Ray/Mekanizma", description: "Sürgülü kapı raylarının aşınması ve kilitleme mekanizmasının bozulması.", category: "govde", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "2.000 - 5.000 TL" },
             { id: "doblo2-4", title: "EGR Valfi", description: "EGR valfinde kurum birikimi. Motor performans düşüşü.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "2.000 - 5.000 TL" },
             { id: "doblo2-5", title: "Arka Yaprak Yay Kırılması", description: "Ticari kullanımda arka yaprak yayların aşınması veya kırılması.", category: "suspansiyon", riskLevel: "MEDIUM", affectedKm: "80.000+ km (Ağır yük)", repairCost: "2.000 - 4.000 TL" },
-            { id: "doblo2-6", title: "Boya Dökülmesi", description: "Tofaş üretimi boya kalitesi sorunu. Kapı kenarları ve çatıda dökülme.", category: "govde", riskLevel: "LOW", affectedKm: "3-5 yıl", repairCost: "Lokal boya" }
+            { id: "doblo2-6", title: "Boya Dökülmesi", description: "Tofaş üretimi boya kalitesi sorunu. Kapı kenarları ve çatıda dökülme.", category: "govde", riskLevel: "LOW", affectedKm: "3-5 yıl", repairCost: "3.000 - 10.000 TL (Boya/Rötuş)" }
         ],
         pros: ["Devasa yük kapasitesi", "Güvenilir 1.3 MJT", "Bol ve ucuz yedek parça", "Çok yönlü kullanım"],
         cons: ["Boya kalitesi zayıf", "Gürültü yalıtımı yok", "Binek konforu düşük"],
@@ -1373,7 +1373,7 @@ export const fiatCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1520,7 +1520,7 @@ export const fiatCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "5+ yıl",
-                            "repairCost": "Lokal Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     },
                     {
                             "id": "linea2-5",
@@ -1625,7 +1625,7 @@ export const fiatCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Kronik",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1676,7 +1676,7 @@ export const fiatCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "tmp-3",
@@ -1765,7 +1765,7 @@ export const fiatCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "mar-4",
@@ -1792,7 +1792,7 @@ export const fiatCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Kaynak + Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     }
             ],
             "pros": [

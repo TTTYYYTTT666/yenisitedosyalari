@@ -20,7 +20,7 @@ export const kiaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Sürekli",
-                repairCost: "Yok"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "stonic-2",
@@ -29,7 +29,7 @@ export const kiaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Sürekli",
-                repairCost: "LPG Uygulaması"
+                repairCost: "8.000 - 15.000 TL (LPG)"
             },
             {
                 id: "stonic-3",
@@ -38,7 +38,7 @@ export const kiaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Yokuşlu Yollar",
-                repairCost: "Yazılım"
+                repairCost: "1.000 - 2.000 TL (Yazılım)"
             },
             {
                 id: "stonic-4",
@@ -47,7 +47,7 @@ export const kiaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Bozuk Yollar",
-                repairCost: "Yalıtım"
+                repairCost: "500 - 1.500 TL (Yalıtım)"
             },
             {
                 id: "stonic-5",
@@ -56,7 +56,7 @@ export const kiaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Kablo / Yazılım"
+                repairCost: "500 - 2.000 TL (Kablo/Yazılım)"
             }
         ],
         pros: [
@@ -154,7 +154,7 @@ export const kiaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım güncelleme"
+                repairCost: "1.000 - 3.000 TL (Yazılım)"
             },
             {
                 id: "ceed-2",
@@ -181,7 +181,7 @@ export const kiaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Yoğun trafik",
-                repairCost: "Şanzıman yağı değişimi"
+                repairCost: "3.000 - 6.000 TL (Şanzıman Yağı)"
             },
             {
                 id: "ceed-5",
@@ -243,7 +243,7 @@ export const kiaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Batarya fizik)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "niro-ev-4",
@@ -252,7 +252,7 @@ export const kiaCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım"
+                repairCost: "1.000 - 3.000 TL (Yazılım)"
             },
             {
                 id: "niro-ev-5",
@@ -261,7 +261,7 @@ export const kiaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Yüksek hız",
-                repairCost: "Fitil / Yalıtım"
+                repairCost: "500 - 2.000 TL (Fitil/Yalıtım)"
             }
         ],
         pros: [
@@ -297,7 +297,7 @@ export const kiaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Garantiden"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "sportage-crdi-2",
@@ -368,7 +368,7 @@ export const kiaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Garantiden/Servis"
+                repairCost: "0 TL (Garanti/Servis)"
             },
             {
                 id: "niro-h-2",
@@ -377,7 +377,7 @@ export const kiaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Yaz ayları",
-                repairCost: "Fan temizliği / 3.000 TL"
+                repairCost: "2.000 - 4.000 TL (Fan Temizliği)"
             },
             {
                 id: "niro-h-3",
@@ -386,7 +386,7 @@ export const kiaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "niro-h-4",
@@ -395,7 +395,7 @@ export const kiaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "120+ km/h",
-                repairCost: "Fitil değişimi"
+                repairCost: "500 - 1.500 TL (Fitil)"
             },
             {
                 id: "niro-h-5",
@@ -439,7 +439,7 @@ export const kiaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım"
+                repairCost: "1.000 - 2.000 TL (Yazılım)"
             },
             {
                 id: "picanto-2",
@@ -448,7 +448,7 @@ export const kiaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "picanto-3",
@@ -457,7 +457,7 @@ export const kiaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Sürekli",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "picanto-4",
@@ -466,7 +466,7 @@ export const kiaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "100+ km/h",
-                repairCost: "Yalıtım malzemesi"
+                repairCost: "500 - 1.500 TL (Yalıtım)"
             },
             {
                 id: "picanto-5",
@@ -475,7 +475,7 @@ export const kiaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Yaş kaynaklı",
-                repairCost: "Far parlatma / 1.000 TL"
+                repairCost: "1.000 - 3.000 TL (Far Parlatma)"
             }
         ],
         pros: [
@@ -576,7 +576,7 @@ export const kiaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "30.000 - 50.000 km",
-                repairCost: "Baskı Balata Değişimi"
+                repairCost: "4.000 - 8.000 TL (Baskı Balata)"
             },
             {
                 id: "rio-2",
@@ -585,7 +585,7 @@ export const kiaCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Bozuk Yollar",
-                repairCost: "Tamir / Değişim"
+                repairCost: "3.000 - 7.000 TL (Tamir/Değişim)"
             },
             {
                 id: "rio-3",
@@ -594,7 +594,7 @@ export const kiaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Sürekli",
-                repairCost: "LPG"
+                repairCost: "8.000 - 15.000 TL (LPG)"
             },
             {
                 id: "rio-4",
@@ -603,7 +603,7 @@ export const kiaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Bozuk Yollar",
-                repairCost: "Yalıtım"
+                repairCost: "500 - 2.000 TL (Yalıtım)"
             },
             {
                 id: "rio-5",
@@ -612,7 +612,7 @@ export const kiaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Kompresör Tamiri"
+                repairCost: "5.000 - 12.000 TL (Kompresör)"
             }
         ],
         pros: [
@@ -649,7 +649,7 @@ export const kiaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "60.000+ km",
-                repairCost: "EPS Tamiri"
+                repairCost: "3.000 - 8.000 TL (EPS Tamiri)"
             },
             {
                 id: "cerato-2",
@@ -658,7 +658,7 @@ export const kiaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "80.000+ km",
-                repairCost: "Bobin Değişimi"
+                repairCost: "1.500 - 3.000 TL (Bobin)"
             },
             {
                 id: "cerato-3",
@@ -667,7 +667,7 @@ export const kiaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Restorasyon"
+                repairCost: "1.000 - 3.000 TL (Restorasyon)"
             },
             {
                 id: "cerato-4",
@@ -676,7 +676,7 @@ export const kiaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yalıtım"
+                repairCost: "500 - 1.500 TL (Yalıtım)"
             },
             {
                 id: "cerato-5",
@@ -685,7 +685,7 @@ export const kiaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Yokuşlu Yollar",
-                repairCost: "Yazılım"
+                repairCost: "1.000 - 2.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -729,7 +729,7 @@ export const kiaCars: Car[] = [
         cons: ["Volan/kavrama masraflı", "Tasarımı eski", "İç mekan sade"],
         buyingTips: ["Volan sesini dinleyin", "Debriyaj kaçını test edin", "EGR temizliği yaptırılmış mı sorun"]
     }
-,
+    ,
 
     // ─── Eski new-cars dosyasından taşındı ───
     {
@@ -748,15 +748,15 @@ export const kiaCars: Car[] = [
         issues: [
             { id: "ceed-1", title: "DCT Şanzıman Titreşimi", description: "7 ileri çift kavramalı DCT şanzımanda düşük hızlarda belirgin titreşim ve sarsıntı. Kavrama diskleri erken aşınabilir. Kia garanti kapsamında değişim yapabilir.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "40.000 - 70.000 km", repairCost: "Garanti / 25.000 TL" },
             { id: "ceed-2", title: "DPF Tıkanması", description: "Kısa mesafe şehir içi kullanımda partikül filtresi dolması. Motor arıza lambası ve güç kaybı.", category: "motor", riskLevel: "MEDIUM", affectedKm: "50.000+ km (Şehir içi)", repairCost: "8.000 - 18.000 TL" },
-            { id: "ceed-3", title: "Multimedya Ekran Yavaşlığı", description: "8 inç dokunmatik ekranın geç tepki vermesi ve navigasyonun yavaş çalışması. Yazılım güncelleme kısmen iyileştirir.", category: "elektronik", riskLevel: "LOW", affectedKm: "Sürekli", repairCost: "Yazılım Güncelleme" },
+            { id: "ceed-3", title: "Multimedya Ekran Yavaşlığı", description: "8 inç dokunmatik ekranın geç tepki vermesi ve navigasyonun yavaş çalışması. Yazılım güncelleme kısmen iyileştirir.", category: "elektronik", riskLevel: "LOW", affectedKm: "Sürekli", repairCost: "1.500 - 4.000 TL (Yazılım)" },
             { id: "ceed-4", title: "Ön Fren Disk Eğrilmesi", description: "Yoğun şehir içi kullanımda ön fren disklerinin ısınarak eğrilmesi. Frenleme sırasında direksiyon titremesi.", category: "fren", riskLevel: "LOW", affectedKm: "40.000+ km", repairCost: "3.000 - 6.000 TL" },
-            { id: "ceed-5", title: "Kapı Fitil Rüzgar Sesi", description: "100 km/s üzeri hızlarda kapı fitillerinden gelen rüzgar uğultusu ve ıslık sesi.", category: "govde", riskLevel: "LOW", affectedKm: "Kronik", repairCost: "Fitil Değişimi" }
+            { id: "ceed-5", title: "Kapı Fitil Rüzgar Sesi", description: "100 km/s üzeri hızlarda kapı fitillerinden gelen rüzgar uğultusu ve ıslık sesi.", category: "govde", riskLevel: "LOW", affectedKm: "Kronik", repairCost: "1.000 - 3.000 TL (Fitil)" }
         ],
         pros: ["7 yıl fabrika garantisi", "Ekonomik dizel motor", "Geniş bagaj (395L)", "Dengeli sürüş"],
         cons: ["DCT şanzıman riskleri", "İmaj algısı (Kore markası)", "İkinci el değer kaybı"],
         buyingTips: ["Garanti süresi ne kadar kaldı kontrol edin", "DCT varsa titreşim testi yapın", "DPF doluluk taraması yaptırın"]
     }
-,
+    ,
 
     // ─── Eski new-cars dosyasından taşındı ───
     {
@@ -780,7 +780,7 @@ export const kiaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Trafikte",
-                repairCost: "Soğuma Beklemesi"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "ceed-sw-2",
@@ -789,7 +789,7 @@ export const kiaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Şehir içi",
-                repairCost: "Rejenerasyon"
+                repairCost: "2.000 - 5.000 TL (DPF Rejenerasyon)"
             },
             {
                 id: "ceed-sw-3",
@@ -798,7 +798,7 @@ export const kiaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım"
+                repairCost: "1.000 - 3.000 TL (Yazılım)"
             },
             {
                 id: "ceed-sw-4",
@@ -807,7 +807,7 @@ export const kiaCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Balata/Disk Bakımı"
+                repairCost: "2.000 - 5.000 TL (Balata/Disk)"
             },
             {
                 id: "ceed-sw-5",
@@ -816,7 +816,7 @@ export const kiaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "100+ km/s",
-                repairCost: "Fitil Ayarı"
+                repairCost: "500 - 1.500 TL (Fitil)"
             }
         ],
         pros: [
@@ -835,7 +835,7 @@ export const kiaCars: Car[] = [
             "DCT şanzıman trafikte test edin"
         ]
     }
-,
+    ,
 
     // ─── Eski new-cars dosyasından taşındı ───
     {
@@ -862,629 +862,629 @@ export const kiaCars: Car[] = [
         cons: ["İç mekan plastiği zayıf", "Gürültü yalıtımı orta", "Donanım sade"],
         buyingTips: ["Debriyaj kaçını test edin", "Alt takım kontrolü yaptırın", "Klima soğutuyor mu kontrol edin"]
     }
-,
+    ,
     {
-            "id": "kia-sportage-ql-1-6-crdi",
-            "slug": "kia-sportage-ql-1-6-crdi",
-            "brand": "Kia",
-            "model": "Sportage (QL)",
-            "variant": "1.6 CRDi DCT 4x4 GT-Line",
-            "years": "2016-2021",
-            "generation": "QL",
-            "price": 1400000,
-            "expertNote": "U3 1.6 CRDi 136 HP + 7DCT. Sportage QL Türkiye'de premium SUV segmentinde çok satıldı. 7 yıl garanti avantajı. DCT şanzıman hassas ama motor sağlam.",
-            "reliabilityScore": 81,
-            "totalIssues": 5,
-            "searchCount": 16000,
-            "issues": [
-                    {
-                            "id": "spql-1",
-                            "title": "DCT Kavrama Titremesi",
-                            "description": "7DCT şanzımanda düşük hızlarda titreme.",
-                            "category": "sanziman",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "50.000+ km",
-                            "repairCost": "12.000 - 25.000 TL"
-                    },
-                    {
-                            "id": "spql-2",
-                            "title": "DPF Tıkanması",
-                            "description": "Şehir içi kullanımda DPF dolması.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "Şehir içi",
-                            "repairCost": "5.000 - 12.000 TL"
-                    },
-                    {
-                            "id": "spql-3",
-                            "title": "Turbo Hortumu",
-                            "description": "Turbo bağlantı hortumunun çatlaması.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "3.000 - 6.000 TL"
-                    },
-                    {
-                            "id": "spql-4",
-                            "title": "Panoramik Tavan Sesi",
-                            "description": "Panoramik cam tavandan rüzgar sesi.",
-                            "category": "govde",
-                            "riskLevel": "LOW",
-                            "affectedKm": "120+ km/h",
-                            "repairCost": "Fitil ayarı"
-                    },
-                    {
-                            "id": "spql-5",
-                            "title": "Arka Kamera Buğulanması",
-                            "description": "Geri görüş kamerası lensinin buğulanması.",
-                            "category": "elektronik",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Nem/kış",
-                            "repairCost": "1.500 - 3.000 TL"
-                    }
-            ],
-            "pros": [
-                    "7 yıl garanti",
-                    "Geniş iç mekan",
-                    "4x4 güvenliği",
-                    "GT-Line tasarım"
-            ],
-            "cons": [
-                    "DCT hassasiyeti",
-                    "DPF riski",
-                    "Parça fiyatları artıyor"
-            ],
-            "buyingTips": [
-                    "DCT trafikte test edin",
-                    "GT-Line donanım tercih edin",
-                    "DPF taraması yaptırın"
-            ]
+        "id": "kia-sportage-ql-1-6-crdi",
+        "slug": "kia-sportage-ql-1-6-crdi",
+        "brand": "Kia",
+        "model": "Sportage (QL)",
+        "variant": "1.6 CRDi DCT 4x4 GT-Line",
+        "years": "2016-2021",
+        "generation": "QL",
+        "price": 1400000,
+        "expertNote": "U3 1.6 CRDi 136 HP + 7DCT. Sportage QL Türkiye'de premium SUV segmentinde çok satıldı. 7 yıl garanti avantajı. DCT şanzıman hassas ama motor sağlam.",
+        "reliabilityScore": 81,
+        "totalIssues": 5,
+        "searchCount": 16000,
+        "issues": [
+            {
+                "id": "spql-1",
+                "title": "DCT Kavrama Titremesi",
+                "description": "7DCT şanzımanda düşük hızlarda titreme.",
+                "category": "sanziman",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "50.000+ km",
+                "repairCost": "12.000 - 25.000 TL"
+            },
+            {
+                "id": "spql-2",
+                "title": "DPF Tıkanması",
+                "description": "Şehir içi kullanımda DPF dolması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "Şehir içi",
+                "repairCost": "5.000 - 12.000 TL"
+            },
+            {
+                "id": "spql-3",
+                "title": "Turbo Hortumu",
+                "description": "Turbo bağlantı hortumunun çatlaması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "3.000 - 6.000 TL"
+            },
+            {
+                "id": "spql-4",
+                "title": "Panoramik Tavan Sesi",
+                "description": "Panoramik cam tavandan rüzgar sesi.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "120+ km/h",
+                "repairCost": "500 - 2.000 TL (Fitil)"
+            },
+            {
+                "id": "spql-5",
+                "title": "Arka Kamera Buğulanması",
+                "description": "Geri görüş kamerası lensinin buğulanması.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Nem/kış",
+                "repairCost": "1.500 - 3.000 TL"
+            }
+        ],
+        "pros": [
+            "7 yıl garanti",
+            "Geniş iç mekan",
+            "4x4 güvenliği",
+            "GT-Line tasarım"
+        ],
+        "cons": [
+            "DCT hassasiyeti",
+            "DPF riski",
+            "Parça fiyatları artıyor"
+        ],
+        "buyingTips": [
+            "DCT trafikte test edin",
+            "GT-Line donanım tercih edin",
+            "DPF taraması yaptırın"
+        ]
     }
-,
+    ,
     {
-            "id": "kia-ceed-jd-1-6-crdi",
-            "slug": "kia-ceed-jd-1-6-crdi",
-            "brand": "Kia",
-            "model": "Cee'd (JD)",
-            "variant": "1.6 CRDi DCT Premium",
-            "years": "2012-2018",
-            "generation": "JD",
-            "price": 700000,
-            "expertNote": "U2 1.6 CRDi 128-136 HP + 7DCT. Cee'd JD Türkiye'de 7 yıl garantisiyle öne çıktı. Golf rakibi ama daha uygun fiyatlı. DCT hassas ama motor sağlam.",
-            "reliabilityScore": 79,
-            "totalIssues": 5,
-            "searchCount": 10000,
-            "issues": [
-                    {
-                            "id": "ceedjd-1",
-                            "title": "DCT Kavrama",
-                            "description": "7DCT şanzımanda kavrama aşınması. Titreme.",
-                            "category": "sanziman",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "60.000+ km",
-                            "repairCost": "10.000 - 22.000 TL"
-                    },
-                    {
-                            "id": "ceedjd-2",
-                            "title": "DPF Tıkanması",
-                            "description": "Şehir içi kullanımda DPF dolması.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "Şehir içi",
-                            "repairCost": "5.000 - 10.000 TL"
-                    },
-                    {
-                            "id": "ceedjd-3",
-                            "title": "Direksiyon Kolonu",
-                            "description": "Direksiyon kolonundan gıcırtı sesi.",
-                            "category": "suspansiyon",
-                            "riskLevel": "LOW",
-                            "affectedKm": "40.000+ km",
-                            "repairCost": "1.500 - 3.000 TL"
-                    },
-                    {
-                            "id": "ceedjd-4",
-                            "title": "Arka Fren Diski",
-                            "description": "Arka fren disk eğrilmesi.",
-                            "category": "fren",
-                            "riskLevel": "LOW",
-                            "affectedKm": "40.000+ km",
-                            "repairCost": "2.000 - 4.000 TL"
-                    },
-                    {
-                            "id": "ceedjd-5",
-                            "title": "AVN Multimedya",
-                            "description": "AVN navigasyon sisteminin yavaşlaması.",
-                            "category": "elektronik",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Yazılım"
-                    }
-            ],
-            "pros": [
-                    "7 yıl garanti",
-                    "Golf rakibi",
-                    "Uygun fiyat",
-                    "Geniş iç mekan"
-            ],
-            "cons": [
-                    "DCT hassasiyeti",
-                    "DPF riski",
-                    "Marka algısı"
-            ],
-            "buyingTips": [
-                    "DCT trafikte test edin",
-                    "Premium donanım",
-                    "DPF taraması"
-            ]
+        "id": "kia-ceed-jd-1-6-crdi",
+        "slug": "kia-ceed-jd-1-6-crdi",
+        "brand": "Kia",
+        "model": "Cee'd (JD)",
+        "variant": "1.6 CRDi DCT Premium",
+        "years": "2012-2018",
+        "generation": "JD",
+        "price": 700000,
+        "expertNote": "U2 1.6 CRDi 128-136 HP + 7DCT. Cee'd JD Türkiye'de 7 yıl garantisiyle öne çıktı. Golf rakibi ama daha uygun fiyatlı. DCT hassas ama motor sağlam.",
+        "reliabilityScore": 79,
+        "totalIssues": 5,
+        "searchCount": 10000,
+        "issues": [
+            {
+                "id": "ceedjd-1",
+                "title": "DCT Kavrama",
+                "description": "7DCT şanzımanda kavrama aşınması. Titreme.",
+                "category": "sanziman",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "60.000+ km",
+                "repairCost": "10.000 - 22.000 TL"
+            },
+            {
+                "id": "ceedjd-2",
+                "title": "DPF Tıkanması",
+                "description": "Şehir içi kullanımda DPF dolması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "Şehir içi",
+                "repairCost": "5.000 - 10.000 TL"
+            },
+            {
+                "id": "ceedjd-3",
+                "title": "Direksiyon Kolonu",
+                "description": "Direksiyon kolonundan gıcırtı sesi.",
+                "category": "suspansiyon",
+                "riskLevel": "LOW",
+                "affectedKm": "40.000+ km",
+                "repairCost": "1.500 - 3.000 TL"
+            },
+            {
+                "id": "ceedjd-4",
+                "title": "Arka Fren Diski",
+                "description": "Arka fren disk eğrilmesi.",
+                "category": "fren",
+                "riskLevel": "LOW",
+                "affectedKm": "40.000+ km",
+                "repairCost": "2.000 - 4.000 TL"
+            },
+            {
+                "id": "ceedjd-5",
+                "title": "AVN Multimedya",
+                "description": "AVN navigasyon sisteminin yavaşlaması.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "1.500 - 4.000 TL (Yazılım)"
+            }
+        ],
+        "pros": [
+            "7 yıl garanti",
+            "Golf rakibi",
+            "Uygun fiyat",
+            "Geniş iç mekan"
+        ],
+        "cons": [
+            "DCT hassasiyeti",
+            "DPF riski",
+            "Marka algısı"
+        ],
+        "buyingTips": [
+            "DCT trafikte test edin",
+            "Premium donanım",
+            "DPF taraması"
+        ]
     }
-,
+    ,
     {
-            "id": "kia-rio-4-1-4-mpi",
-            "slug": "kia-rio-4-1-4-mpi-cool",
-            "brand": "Kia",
-            "model": "Rio (YB)",
-            "variant": "1.4 MPI Cool Plus",
-            "years": "2017-2023",
-            "generation": "YB",
-            "price": 700000,
-            "expertNote": "Kappa 1.4 MPI 100 HP + 6AT. Rio YB Türkiye'de genç sürücülerin favorisi. Motor doğal emişli ve çok güvenilir. 6AT sorunsuz. 7 yıl garanti avantajı.",
-            "reliabilityScore": 84,
-            "totalIssues": 5,
-            "searchCount": 11000,
-            "issues": [
-                    {
-                            "id": "rio4-1",
-                            "title": "CVT/AT Sarsıntısı",
-                            "description": "6AT soğukta hafif sert vites geçişi.",
-                            "category": "sanziman",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Soğuk hava",
-                            "repairCost": "Yağ Değişimi"
-                    },
-                    {
-                            "id": "rio4-2",
-                            "title": "Direksiyon Sesi",
-                            "description": "Direksiyon çevirirken hafif ses.",
-                            "category": "suspansiyon",
-                            "riskLevel": "LOW",
-                            "affectedKm": "40.000+ km",
-                            "repairCost": "1.000 - 2.000 TL"
-                    },
-                    {
-                            "id": "rio4-3",
-                            "title": "Arka Fren Kampanası",
-                            "description": "Arka kampanalı fren aşınması.",
-                            "category": "fren",
-                            "riskLevel": "LOW",
-                            "affectedKm": "40.000+ km",
-                            "repairCost": "1.000 - 2.000 TL"
-                    },
-                    {
-                            "id": "rio4-4",
-                            "title": "Cam Fitili",
-                            "description": "Cam fitillerinin sertleşmesi.",
-                            "category": "govde",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "500 - 1.500 TL"
-                    },
-                    {
-                            "id": "rio4-5",
-                            "title": "Multimedya",
-                            "description": "AVN navigasyon gecikmeleri.",
-                            "category": "elektronik",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
-                    }
-            ],
-            "pros": [
-                    "7 yıl garanti",
-                    "Güvenilir motor",
-                    "6AT sorunsuz",
-                    "Modern tasarım"
-            ],
-            "cons": [
-                    "100 HP az",
-                    "Arka alan dar",
-                    "Bagaj küçük"
-            ],
-            "buyingTips": [
-                    "Cool Plus donanım alın",
-                    "6AT tercih edin",
-                    "Garanti hâlâ var mı kontrol edin"
-            ]
+        "id": "kia-rio-4-1-4-mpi",
+        "slug": "kia-rio-4-1-4-mpi-cool",
+        "brand": "Kia",
+        "model": "Rio (YB)",
+        "variant": "1.4 MPI Cool Plus",
+        "years": "2017-2023",
+        "generation": "YB",
+        "price": 700000,
+        "expertNote": "Kappa 1.4 MPI 100 HP + 6AT. Rio YB Türkiye'de genç sürücülerin favorisi. Motor doğal emişli ve çok güvenilir. 6AT sorunsuz. 7 yıl garanti avantajı.",
+        "reliabilityScore": 84,
+        "totalIssues": 5,
+        "searchCount": 11000,
+        "issues": [
+            {
+                "id": "rio4-1",
+                "title": "CVT/AT Sarsıntısı",
+                "description": "6AT soğukta hafif sert vites geçişi.",
+                "category": "sanziman",
+                "riskLevel": "LOW",
+                "affectedKm": "Soğuk hava",
+                "repairCost": "3.000 - 6.000 TL (Yağ Değişimi)"
+            },
+            {
+                "id": "rio4-2",
+                "title": "Direksiyon Sesi",
+                "description": "Direksiyon çevirirken hafif ses.",
+                "category": "suspansiyon",
+                "riskLevel": "LOW",
+                "affectedKm": "40.000+ km",
+                "repairCost": "1.000 - 2.000 TL"
+            },
+            {
+                "id": "rio4-3",
+                "title": "Arka Fren Kampanası",
+                "description": "Arka kampanalı fren aşınması.",
+                "category": "fren",
+                "riskLevel": "LOW",
+                "affectedKm": "40.000+ km",
+                "repairCost": "1.000 - 2.000 TL"
+            },
+            {
+                "id": "rio4-4",
+                "title": "Cam Fitili",
+                "description": "Cam fitillerinin sertleşmesi.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "rio4-5",
+                "title": "Multimedya",
+                "description": "AVN navigasyon gecikmeleri.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Tasarım",
+                "repairCost": "0 TL (Karakteristik)"
+            }
+        ],
+        "pros": [
+            "7 yıl garanti",
+            "Güvenilir motor",
+            "6AT sorunsuz",
+            "Modern tasarım"
+        ],
+        "cons": [
+            "100 HP az",
+            "Arka alan dar",
+            "Bagaj küçük"
+        ],
+        "buyingTips": [
+            "Cool Plus donanım alın",
+            "6AT tercih edin",
+            "Garanti hâlâ var mı kontrol edin"
+        ]
     }
-,
+    ,
     {
-            "id": "kia-sephia-1-5-gtx",
-            "slug": "kia-sephia-1-5-gtx",
-            "brand": "Kia",
-            "model": "Sephia",
-            "variant": "1.5 GTX",
-            "years": "1994-2001",
-            "generation": "FA",
-            "price": 60000,
-            "expertNote": "B5 1.5 80 HP (Mazda 323 tabanlı). Sephia Kia'nın ilk dünya pazarı aracı. Mazda motorlu güvenilir. Türkiye'de çok ucuza satıldı. Yedek parça hâlâ var.",
-            "reliabilityScore": 70,
-            "totalIssues": 5,
-            "searchCount": 6000,
-            "issues": [
-                    {
-                            "id": "sep-1",
-                            "title": "Motor Conta",
-                            "description": "Silindir kapağı contası atma riski.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "120.000+ km",
-                            "repairCost": "1.500 - 3.000 TL"
-                    },
-                    {
-                            "id": "sep-2",
-                            "title": "Kaporta Pası",
-                            "description": "Ciddi paslanma sorunu.",
-                            "category": "govde",
-                            "riskLevel": "HIGH",
-                            "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
-                    },
-                    {
-                            "id": "sep-3",
-                            "title": "Şanzıman Senkromece",
-                            "description": "Manuel şanzıman senkromece aşınması.",
-                            "category": "sanziman",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "100.000+ km",
-                            "repairCost": "2.000 - 4.000 TL"
-                    },
-                    {
-                            "id": "sep-4",
-                            "title": "Elektrik",
-                            "description": "Elektrik tesisatı sorunları.",
-                            "category": "elektronik",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "500 - 1.500 TL"
-                    },
-                    {
-                            "id": "sep-5",
-                            "title": "Egzoz",
-                            "description": "Egzoz sistemi çürümesi.",
-                            "category": "motor",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "500 - 1.500 TL"
-                    }
-            ],
-            "pros": [
-                    "Çok ucuz",
-                    "Mazda motoru",
-                    "Basit mekanik",
-                    "Yedek parça var"
-            ],
-            "cons": [
-                    "Pas kabusu",
-                    "Düşük kalite",
-                    "Güvenlik yok",
-                    "Konfor az"
-            ],
-            "buyingTips": [
-                    "Mazda B5 motor güvenilir",
-                    "Pas kontrolü ŞART",
-                    "GTX donanım en iyisi",
-                    "Çok ucuz ama dikkatli olun"
-            ]
+        "id": "kia-sephia-1-5-gtx",
+        "slug": "kia-sephia-1-5-gtx",
+        "brand": "Kia",
+        "model": "Sephia",
+        "variant": "1.5 GTX",
+        "years": "1994-2001",
+        "generation": "FA",
+        "price": 60000,
+        "expertNote": "B5 1.5 80 HP (Mazda 323 tabanlı). Sephia Kia'nın ilk dünya pazarı aracı. Mazda motorlu güvenilir. Türkiye'de çok ucuza satıldı. Yedek parça hâlâ var.",
+        "reliabilityScore": 70,
+        "totalIssues": 5,
+        "searchCount": 6000,
+        "issues": [
+            {
+                "id": "sep-1",
+                "title": "Motor Conta",
+                "description": "Silindir kapağı contası atma riski.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "120.000+ km",
+                "repairCost": "1.500 - 3.000 TL"
+            },
+            {
+                "id": "sep-2",
+                "title": "Kaporta Pası",
+                "description": "Ciddi paslanma sorunu.",
+                "category": "govde",
+                "riskLevel": "HIGH",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
+            },
+            {
+                "id": "sep-3",
+                "title": "Şanzıman Senkromece",
+                "description": "Manuel şanzıman senkromece aşınması.",
+                "category": "sanziman",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "100.000+ km",
+                "repairCost": "2.000 - 4.000 TL"
+            },
+            {
+                "id": "sep-4",
+                "title": "Elektrik",
+                "description": "Elektrik tesisatı sorunları.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "sep-5",
+                "title": "Egzoz",
+                "description": "Egzoz sistemi çürümesi.",
+                "category": "motor",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "500 - 1.500 TL"
+            }
+        ],
+        "pros": [
+            "Çok ucuz",
+            "Mazda motoru",
+            "Basit mekanik",
+            "Yedek parça var"
+        ],
+        "cons": [
+            "Pas kabusu",
+            "Düşük kalite",
+            "Güvenlik yok",
+            "Konfor az"
+        ],
+        "buyingTips": [
+            "Mazda B5 motor güvenilir",
+            "Pas kontrolü ŞART",
+            "GTX donanım en iyisi",
+            "Çok ucuz ama dikkatli olun"
+        ]
     }
-,
+    ,
     {
-            "id": "kia-ceed-1-6-crdi",
-            "slug": "kia-ceed-jd-1-6-crdi-concept-plus",
-            "brand": "Kia",
-            "model": "Cee'd",
-            "variant": "JD 1.6 CRDi Concept Plus",
-            "years": "2012-2018",
-            "generation": "JD",
-            "price": 400000,
-            "expertNote": "D4FB 1.6 CRDi 128 HP. Cee'd JD i30'un kardeşi (Hyundai-Kia platformu). İzmit üretimi. Concept Plus donanım zengin. 7 yıl garanti ile ünlü.",
-            "reliabilityScore": 76,
-            "totalIssues": 5,
-            "searchCount": 12000,
-            "issues": [
-                    {
-                            "id": "ced-1",
-                            "title": "DCT Şanzıman",
-                            "description": "7DCT çift kavrama titreşimi.",
-                            "category": "sanziman",
-                            "riskLevel": "HIGH",
-                            "affectedKm": "60.000+ km",
-                            "repairCost": "8.000 - 18.000 TL"
-                    },
-                    {
-                            "id": "ced-2",
-                            "title": "Turbo",
-                            "description": "Turbo aktuatör arızası.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "100.000+ km",
-                            "repairCost": "3.000 - 6.000 TL"
-                    },
-                    {
-                            "id": "ced-3",
-                            "title": "EGR",
-                            "description": "EGR valfi tıkanması.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "2.000 - 4.000 TL"
-                    },
-                    {
-                            "id": "ced-4",
-                            "title": "Süspansiyon",
-                            "description": "Arka burç aşınması.",
-                            "category": "suspansiyon",
-                            "riskLevel": "LOW",
-                            "affectedKm": "50.000+ km",
-                            "repairCost": "500 - 1.500 TL"
-                    },
-                    {
-                            "id": "ced-5",
-                            "title": "Multimedya",
-                            "description": "Multimedya donması.",
-                            "category": "elektronik",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Kronik",
-                            "repairCost": "500 - 1.500 TL"
-                    }
-            ],
-            "pros": [
-                    "7 yıl garanti",
-                    "İzmit üretimi",
-                    "Concept Plus zengin",
-                    "i30 ikizi"
-            ],
-            "cons": [
-                    "DCT riskli",
-                    "Dizel bakım pahalı",
-                    "Değer kaybı",
-                    "Plastik kalite"
-            ],
-            "buyingTips": [
-                    "Manuel tercih edin",
-                    "DCT'den kaçının",
-                    "7 yıl garanti avantajı",
-                    "i30 ile parça ortaklığı"
-            ]
+        "id": "kia-ceed-1-6-crdi",
+        "slug": "kia-ceed-jd-1-6-crdi-concept-plus",
+        "brand": "Kia",
+        "model": "Cee'd",
+        "variant": "JD 1.6 CRDi Concept Plus",
+        "years": "2012-2018",
+        "generation": "JD",
+        "price": 400000,
+        "expertNote": "D4FB 1.6 CRDi 128 HP. Cee'd JD i30'un kardeşi (Hyundai-Kia platformu). İzmit üretimi. Concept Plus donanım zengin. 7 yıl garanti ile ünlü.",
+        "reliabilityScore": 76,
+        "totalIssues": 5,
+        "searchCount": 12000,
+        "issues": [
+            {
+                "id": "ced-1",
+                "title": "DCT Şanzıman",
+                "description": "7DCT çift kavrama titreşimi.",
+                "category": "sanziman",
+                "riskLevel": "HIGH",
+                "affectedKm": "60.000+ km",
+                "repairCost": "8.000 - 18.000 TL"
+            },
+            {
+                "id": "ced-2",
+                "title": "Turbo",
+                "description": "Turbo aktuatör arızası.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "100.000+ km",
+                "repairCost": "3.000 - 6.000 TL"
+            },
+            {
+                "id": "ced-3",
+                "title": "EGR",
+                "description": "EGR valfi tıkanması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "2.000 - 4.000 TL"
+            },
+            {
+                "id": "ced-4",
+                "title": "Süspansiyon",
+                "description": "Arka burç aşınması.",
+                "category": "suspansiyon",
+                "riskLevel": "LOW",
+                "affectedKm": "50.000+ km",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "ced-5",
+                "title": "Multimedya",
+                "description": "Multimedya donması.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Kronik",
+                "repairCost": "500 - 1.500 TL"
+            }
+        ],
+        "pros": [
+            "7 yıl garanti",
+            "İzmit üretimi",
+            "Concept Plus zengin",
+            "i30 ikizi"
+        ],
+        "cons": [
+            "DCT riskli",
+            "Dizel bakım pahalı",
+            "Değer kaybı",
+            "Plastik kalite"
+        ],
+        "buyingTips": [
+            "Manuel tercih edin",
+            "DCT'den kaçının",
+            "7 yıl garanti avantajı",
+            "i30 ile parça ortaklığı"
+        ]
     }
-,
+    ,
     {
-            "id": "kia-sportage-ql-1-6-crdi",
-            "slug": "kia-sportage-ql-1-6-crdi-concept-plus",
-            "brand": "Kia",
-            "model": "Sportage",
-            "variant": "QL 1.6 CRDi Concept Plus",
-            "years": "2016-2021",
-            "generation": "QL",
-            "price": 850000,
-            "expertNote": "D4FE 1.6 CRDi 136 HP. Sportage QL Tucson'un kardeşi. Güçlü tasarım, iyi donanım. Concept Plus 8 inç ekran, CarPlay, kör nokta. 7 yıl garanti.",
-            "reliabilityScore": 76,
-            "totalIssues": 5,
-            "searchCount": 14000,
-            "issues": [
-                    {
-                            "id": "spo-1",
-                            "title": "DCT",
-                            "description": "7DCT çift kavrama titreşimi.",
-                            "category": "sanziman",
-                            "riskLevel": "HIGH",
-                            "affectedKm": "60.000+ km",
-                            "repairCost": "8.000 - 18.000 TL"
-                    },
-                    {
-                            "id": "spo-2",
-                            "title": "Turbo",
-                            "description": "Turbo wastegate arızası.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "100.000+ km",
-                            "repairCost": "4.000 - 8.000 TL"
-                    },
-                    {
-                            "id": "spo-3",
-                            "title": "EGR",
-                            "description": "EGR valfi.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "2.000 - 5.000 TL"
-                    },
-                    {
-                            "id": "spo-4",
-                            "title": "Süspansiyon",
-                            "description": "Ön amortisör gıcırtısı.",
-                            "category": "suspansiyon",
-                            "riskLevel": "LOW",
-                            "affectedKm": "40.000+ km",
-                            "repairCost": "1.000 - 2.500 TL"
-                    },
-                    {
-                            "id": "spo-5",
-                            "title": "Infotainment",
-                            "description": "Multimedya donması.",
-                            "category": "elektronik",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Kronik",
-                            "repairCost": "500 - 2.000 TL"
-                    }
-            ],
-            "pros": [
-                    "Güçlü tasarım",
-                    "7 yıl garanti",
-                    "Concept Plus zengin",
-                    "C-SUV"
-            ],
-            "cons": [
-                    "DCT riskli",
-                    "Dizel bakım pahalı",
-                    "Fiyat yüksek",
-                    "Yakıt tüketimi"
-            ],
-            "buyingTips": [
-                    "Manuel veya torque converter otomatik tercih",
-                    "DCT'den kaçının",
-                    "Tucson'la karşılaştırın",
-                    "7 yıl garanti avantaj"
-            ]
+        "id": "kia-sportage-ql-1-6-crdi",
+        "slug": "kia-sportage-ql-1-6-crdi-concept-plus",
+        "brand": "Kia",
+        "model": "Sportage",
+        "variant": "QL 1.6 CRDi Concept Plus",
+        "years": "2016-2021",
+        "generation": "QL",
+        "price": 850000,
+        "expertNote": "D4FE 1.6 CRDi 136 HP. Sportage QL Tucson'un kardeşi. Güçlü tasarım, iyi donanım. Concept Plus 8 inç ekran, CarPlay, kör nokta. 7 yıl garanti.",
+        "reliabilityScore": 76,
+        "totalIssues": 5,
+        "searchCount": 14000,
+        "issues": [
+            {
+                "id": "spo-1",
+                "title": "DCT",
+                "description": "7DCT çift kavrama titreşimi.",
+                "category": "sanziman",
+                "riskLevel": "HIGH",
+                "affectedKm": "60.000+ km",
+                "repairCost": "8.000 - 18.000 TL"
+            },
+            {
+                "id": "spo-2",
+                "title": "Turbo",
+                "description": "Turbo wastegate arızası.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "100.000+ km",
+                "repairCost": "4.000 - 8.000 TL"
+            },
+            {
+                "id": "spo-3",
+                "title": "EGR",
+                "description": "EGR valfi.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "2.000 - 5.000 TL"
+            },
+            {
+                "id": "spo-4",
+                "title": "Süspansiyon",
+                "description": "Ön amortisör gıcırtısı.",
+                "category": "suspansiyon",
+                "riskLevel": "LOW",
+                "affectedKm": "40.000+ km",
+                "repairCost": "1.000 - 2.500 TL"
+            },
+            {
+                "id": "spo-5",
+                "title": "Infotainment",
+                "description": "Multimedya donması.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Kronik",
+                "repairCost": "500 - 2.000 TL"
+            }
+        ],
+        "pros": [
+            "Güçlü tasarım",
+            "7 yıl garanti",
+            "Concept Plus zengin",
+            "C-SUV"
+        ],
+        "cons": [
+            "DCT riskli",
+            "Dizel bakım pahalı",
+            "Fiyat yüksek",
+            "Yakıt tüketimi"
+        ],
+        "buyingTips": [
+            "Manuel veya torque converter otomatik tercih",
+            "DCT'den kaçının",
+            "Tucson'la karşılaştırın",
+            "7 yıl garanti avantaj"
+        ]
     }
-,
+    ,
     {
-            "id": "kia-rio-1-4-crdi",
-            "slug": "kia-rio-ub-1-4-crdi-concept",
-            "brand": "Kia",
-            "model": "Rio",
-            "variant": "UB 1.4 CRDi Concept",
-            "years": "2011-2017",
-            "generation": "UB",
-            "price": 300000,
-            "expertNote": "U-II 1.4 CRDi 90 HP. Rio UB küçük şehir aracı. Euro NCAP 5 yıldız. Concept donanım 7 inç ekran, geri kamera. 7 yıl garanti.",
-            "reliabilityScore": 75,
-            "totalIssues": 5,
-            "searchCount": 10000,
-            "issues": [
-                    {
-                            "id": "rio-1",
-                            "title": "Turbo",
-                            "description": "Turbo aktuatör.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "100.000+ km",
-                            "repairCost": "3.000 - 6.000 TL"
-                    },
-                    {
-                            "id": "rio-2",
-                            "title": "Enjektör",
-                            "description": "CRDi enjektör.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "120.000+ km",
-                            "repairCost": "3.000 - 6.000 TL"
-                    },
-                    {
-                            "id": "rio-3",
-                            "title": "Süspansiyon",
-                            "description": "Ön amortisör aşınması.",
-                            "category": "suspansiyon",
-                            "riskLevel": "LOW",
-                            "affectedKm": "40.000+ km",
-                            "repairCost": "500 - 1.500 TL"
-                    },
-                    {
-                            "id": "rio-4",
-                            "title": "Klima",
-                            "description": "Klima gazı kaçağı.",
-                            "category": "elektronik",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "500 - 1.000 TL"
-                    },
-                    {
-                            "id": "rio-5",
-                            "title": "Cam Kaldırma",
-                            "description": "Cam kaldırma mekanizması.",
-                            "category": "govde",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "400 - 800 TL"
-                    }
-            ],
-            "pros": [
-                    "7 yıl garanti",
-                    "5 yıldız güvenlik",
-                    "Ekonomik",
-                    "Ucuz bakım"
-            ],
-            "cons": [
-                    "90 HP yeterli ama az",
-                    "Küçük araç",
-                    "Plastik kalite",
-                    "Gürültülü"
-            ],
-            "buyingTips": [
-                    "Benzinli 1.25 daha sorunsuz",
-                    "Concept donanım iyi",
-                    "7 yıl garanti avantajı",
-                    "İlk araç ideal"
-            ]
+        "id": "kia-rio-1-4-crdi",
+        "slug": "kia-rio-ub-1-4-crdi-concept",
+        "brand": "Kia",
+        "model": "Rio",
+        "variant": "UB 1.4 CRDi Concept",
+        "years": "2011-2017",
+        "generation": "UB",
+        "price": 300000,
+        "expertNote": "U-II 1.4 CRDi 90 HP. Rio UB küçük şehir aracı. Euro NCAP 5 yıldız. Concept donanım 7 inç ekran, geri kamera. 7 yıl garanti.",
+        "reliabilityScore": 75,
+        "totalIssues": 5,
+        "searchCount": 10000,
+        "issues": [
+            {
+                "id": "rio-1",
+                "title": "Turbo",
+                "description": "Turbo aktuatör.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "100.000+ km",
+                "repairCost": "3.000 - 6.000 TL"
+            },
+            {
+                "id": "rio-2",
+                "title": "Enjektör",
+                "description": "CRDi enjektör.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "120.000+ km",
+                "repairCost": "3.000 - 6.000 TL"
+            },
+            {
+                "id": "rio-3",
+                "title": "Süspansiyon",
+                "description": "Ön amortisör aşınması.",
+                "category": "suspansiyon",
+                "riskLevel": "LOW",
+                "affectedKm": "40.000+ km",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "rio-4",
+                "title": "Klima",
+                "description": "Klima gazı kaçağı.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "500 - 1.000 TL"
+            },
+            {
+                "id": "rio-5",
+                "title": "Cam Kaldırma",
+                "description": "Cam kaldırma mekanizması.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "400 - 800 TL"
+            }
+        ],
+        "pros": [
+            "7 yıl garanti",
+            "5 yıldız güvenlik",
+            "Ekonomik",
+            "Ucuz bakım"
+        ],
+        "cons": [
+            "90 HP yeterli ama az",
+            "Küçük araç",
+            "Plastik kalite",
+            "Gürültülü"
+        ],
+        "buyingTips": [
+            "Benzinli 1.25 daha sorunsuz",
+            "Concept donanım iyi",
+            "7 yıl garanti avantajı",
+            "İlk araç ideal"
+        ]
     }
-,
-{
-  "id": "kia-sportage-ql-fl",
-  "slug": "kia-sportage-ql-facelift-1-6-crdi-gt-line",
-  "brand": "Kia",
-  "model": "Sportage",
-  "variant": "Sportage QL Facelift 1.6 CRDi GT Line",
-  "years": "2019-2021",
-  "generation": "Ara Kasa (2019-2021)",
-  "price": 1000000,
-  "expertNote": "QL facelift'te ön ızgara, LED farlar ve arka stoplar değişti. 48V mild hybrid sistem eklendi — yakıt tasarrufu sağlıyor. DCT şanzıman kaldırılıp 6AT geldi (bazı pazarlarda). ADAS güvenlik sistemleri geliştirildi.",
-  "reliabilityScore": 74,
-  "totalIssues": 4,
-  "searchCount": 12100,
-  "issues": [
+    ,
     {
-      "id": "kia-sqfl-1",
-      "title": "48V Mild Hybrid Akü Ömrü",
-      "description": "48V lithium-ion akü 5-7 yıl sonra kapasite kaybedebilir. Değişim maliyeti yüksek.",
-      "category": "elektronik",
-      "riskLevel": "MEDIUM",
-      "affectedKm": "100.000+ km / 5+ yıl",
-      "repairCost": "₺5.000 – ₺12.000"
-    },
-    {
-      "id": "kia-sqfl-2",
-      "title": "Otomatik Şanzıman Adaptasyon",
-      "description": "6AT şanzıman zaman zaman adaptasyon kaybı yapabilir. Yazılım sıfırlama ile çözülür. DCT'ye göre çok daha güvenilir.",
-      "category": "sanziman",
-      "riskLevel": "LOW",
-      "affectedKm": "50.000+ km",
-      "repairCost": "₺0 – ₺1.500"
-    },
-    {
-      "id": "kia-sqfl-3",
-      "title": "ADAS Sensör Kalibrasyonu",
-      "description": "Gelişmiş sürüş destek sistemleri cam değişimi veya tampon hasarı sonrası kalibrasyon gerektirir.",
-      "category": "elektronik",
-      "riskLevel": "MEDIUM",
-      "affectedKm": "Tüm km",
-      "repairCost": "₺2.000 – ₺5.000"
-    },
-    {
-      "id": "kia-sqfl-4",
-      "title": "LED Far Buğulanma",
-      "description": "LED farlar içinde buğulanma olabilir. Conta değişimi ile çözülür.",
-      "category": "elektronik",
-      "riskLevel": "LOW",
-      "affectedKm": "Tüm km",
-      "repairCost": "₺500 – ₺2.000"
+        "id": "kia-sportage-ql-fl",
+        "slug": "kia-sportage-ql-facelift-1-6-crdi-gt-line",
+        "brand": "Kia",
+        "model": "Sportage",
+        "variant": "Sportage QL Facelift 1.6 CRDi GT Line",
+        "years": "2019-2021",
+        "generation": "Ara Kasa (2019-2021)",
+        "price": 1000000,
+        "expertNote": "QL facelift'te ön ızgara, LED farlar ve arka stoplar değişti. 48V mild hybrid sistem eklendi — yakıt tasarrufu sağlıyor. DCT şanzıman kaldırılıp 6AT geldi (bazı pazarlarda). ADAS güvenlik sistemleri geliştirildi.",
+        "reliabilityScore": 74,
+        "totalIssues": 4,
+        "searchCount": 12100,
+        "issues": [
+            {
+                "id": "kia-sqfl-1",
+                "title": "48V Mild Hybrid Akü Ömrü",
+                "description": "48V lithium-ion akü 5-7 yıl sonra kapasite kaybedebilir. Değişim maliyeti yüksek.",
+                "category": "elektronik",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "100.000+ km / 5+ yıl",
+                "repairCost": "5.000 - 12.000 TL"
+            },
+            {
+                "id": "kia-sqfl-2",
+                "title": "Otomatik Şanzıman Adaptasyon",
+                "description": "6AT şanzıman zaman zaman adaptasyon kaybı yapabilir. Yazılım sıfırlama ile çözülür. DCT'ye göre çok daha güvenilir.",
+                "category": "sanziman",
+                "riskLevel": "LOW",
+                "affectedKm": "50.000+ km",
+                "repairCost": "0 - 1.500 TL"
+            },
+            {
+                "id": "kia-sqfl-3",
+                "title": "ADAS Sensör Kalibrasyonu",
+                "description": "Gelişmiş sürüş destek sistemleri cam değişimi veya tampon hasarı sonrası kalibrasyon gerektirir.",
+                "category": "elektronik",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "Tüm km",
+                "repairCost": "2.000 - 5.000 TL"
+            },
+            {
+                "id": "kia-sqfl-4",
+                "title": "LED Far Buğulanma",
+                "description": "LED farlar içinde buğulanma olabilir. Conta değişimi ile çözülür.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Tüm km",
+                "repairCost": "500 - 2.000 TL"
+            }
+        ],
+        "pros": [
+            "DCT kaldırılmış olabilir (6AT daha güvenilir)",
+            "48V mild hybrid yakıt tasarrufu",
+            "Gelişmiş ADAS güvenlik",
+            "LED farlar standart",
+            "7 yıl Kia garantisi"
+        ],
+        "cons": [
+            "48V akü gelecekte pahalı",
+            "ADAS kalibrasyon maliyeti",
+            "Pre-facelift'e göre fiyat farkı yüksek"
+        ],
+        "buyingTips": [
+            "DCT mi 6AT mi olduğunu mutlaka teyit edin",
+            "48V sistemin sağlığını kontrol edin",
+            "Kia garantisi hâlâ devam ediyor mu bakın",
+            "Pre-facelift QL'ye göre daha rafine"
+        ]
     }
-  ],
-  "pros": [
-    "DCT kaldırılmış olabilir (6AT daha güvenilir)",
-    "48V mild hybrid yakıt tasarrufu",
-    "Gelişmiş ADAS güvenlik",
-    "LED farlar standart",
-    "7 yıl Kia garantisi"
-  ],
-  "cons": [
-    "48V akü gelecekte pahalı",
-    "ADAS kalibrasyon maliyeti",
-    "Pre-facelift'e göre fiyat farkı yüksek"
-  ],
-  "buyingTips": [
-    "DCT mi 6AT mi olduğunu mutlaka teyit edin",
-    "48V sistemin sağlığını kontrol edin",
-    "Kia garantisi hâlâ devam ediyor mu bakın",
-    "Pre-facelift QL'ye göre daha rafine"
-  ]
-}
 ];

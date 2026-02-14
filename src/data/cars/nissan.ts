@@ -21,7 +21,7 @@ export const nissanCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Servis Güncellemesi / Jeneratör Kayışı"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "qashqai-j12-4",
@@ -39,7 +39,7 @@ export const nissanCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "30.000+ km",
-                repairCost: "Yazılım / Şanzıman Yağı"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "qashqai-j12-2",
@@ -57,7 +57,7 @@ export const nissanCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "20.000+ km",
-                repairCost: "Yağlama / Değişim"
+                repairCost: "2.000 - 5.000 TL (Yağ)"
             },
             {
                 id: "qashqai-j12-6",
@@ -66,7 +66,7 @@ export const nissanCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -102,7 +102,7 @@ export const nissanCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Şehir İçi",
-                repairCost: "Soğutma / Kavrama"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "juke-2",
@@ -111,7 +111,7 @@ export const nissanCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Akü Değişimi (EFB/AGM)"
+                repairCost: "3.000 - 8.000 TL (Tamir)"
             },
             {
                 id: "juke-3",
@@ -120,7 +120,7 @@ export const nissanCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Soğuk Havalar",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "juke-4",
@@ -129,7 +129,7 @@ export const nissanCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Modül Değişimi"
+                repairCost: "5.000 - 15.000 TL (Modül)"
             },
             {
                 id: "juke-5",
@@ -138,7 +138,7 @@ export const nissanCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yok"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -318,7 +318,7 @@ export const nissanCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Kozmetik"
+                repairCost: "3.000 - 10.000 TL (Boya/Rötuş)"
             },
             {
                 id: "juke-1-6-cvt-auto-4",
@@ -402,7 +402,7 @@ export const nissanCars: Car[] = [
             { id: "navara-3", title: "DPF Tıkanması", description: "Şehir içi ve düşük devir kullanımda partikül filtresi dolması. Pick-up olmasına rağmen şehir içinde kullanılıyorsa sık yaşanır.", category: "motor", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "10.000 - 20.000 TL" },
             { id: "navara-4", title: "Transfer Case Aktüatör Arızası", description: "4WD seçici aktüatörünün arızalanması. 2WD'den 4WD'ye geçiş yapılamaması veya geçiş sırasında ses gelmesi.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "70.000+ km", repairCost: "10.000 - 20.000 TL" },
             { id: "navara-5", title: "Klima Kompresörü", description: "Klima kompresörünün aşırı ses yapması veya tamamen durması. Sıcak iklimlerde sık yaşanır.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "80.000+ km", repairCost: "10.000 - 18.000 TL" },
-            { id: "navara-6", title: "Kasa Korozyonu", description: "Kasa iç kısmında ve çamurluk bağlantılarında korozyon başlaması. Pick-up kullanım koşullarına bağlı.", category: "govde", riskLevel: "LOW", affectedKm: "5+ Yıl", repairCost: "Boya / Kaplama" }
+            { id: "navara-6", title: "Kasa Korozyonu", description: "Kasa iç kısmında ve çamurluk bağlantılarında korozyon başlaması. Pick-up kullanım koşullarına bağlı.", category: "govde", riskLevel: "LOW", affectedKm: "5+ Yıl", repairCost: "5.000 - 15.000 TL (Kaplama)" }
         ],
         pros: ["Bağımsız arka süspansiyon (Konfor)", "Güçlü 2.3 dCi motor (190hp)", "4x4 güvenilirliği", "Geniş kabin"],
         cons: ["Arka süspansiyon sarkması", "Yüksek yakıt tüketimi", "Parça ve servis pahalı"],
@@ -432,7 +432,7 @@ export const nissanCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (e-POWER karakteri)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "qash-ep-2",
@@ -450,7 +450,7 @@ export const nissanCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Kullanıcıya bağlı",
-                repairCost: "Çözümsüz"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "qash-ep-4",
@@ -459,7 +459,7 @@ export const nissanCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Hava koşullarına bağlı",
-                repairCost: "Kalibrasyon"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "qash-ep-5",
@@ -468,7 +468,7 @@ export const nissanCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "110+ km/s",
-                repairCost: "Fitil Ayarı"
+                repairCost: "500 - 2.000 TL (Fitil)"
             }
         ],
         pros: [
@@ -537,7 +537,7 @@ export const nissanCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "micra-2",
@@ -546,7 +546,7 @@ export const nissanCars: Car[] = [
                             "category": "motor",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "micra-3",
@@ -555,7 +555,7 @@ export const nissanCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "120+ km/h",
-                            "repairCost": "Fitil"
+                            "repairCost": "1.000 - 3.000 TL (Fitil)"
                     },
                     {
                             "id": "micra-4",
@@ -573,7 +573,7 @@ export const nissanCars: Car[] = [
                             "category": "suspansiyon",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     }
             ],
             "pros": [
@@ -720,7 +720,7 @@ export const nissanCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "puls-5",
@@ -789,7 +789,7 @@ export const nissanCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     },
                     {
                             "id": "p11-4",
@@ -958,7 +958,7 @@ export const nissanCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "juk-5",
@@ -1011,7 +1011,7 @@ export const nissanCars: Car[] = [
       "category": "motor",
       "riskLevel": "HIGH",
       "affectedKm": "100.000+ km",
-      "repairCost": "₺10.000 – ₺25.000"
+      "repairCost": "10.000 - 25.000 TL"
     },
     {
       "id": "nis-q11fl-2",
@@ -1020,7 +1020,7 @@ export const nissanCars: Car[] = [
       "category": "sanziman",
       "riskLevel": "MEDIUM",
       "affectedKm": "30.000-80.000 km",
-      "repairCost": "₺3.000 – ₺10.000"
+      "repairCost": "3.000 - 10.000 TL"
     },
     {
       "id": "nis-q11fl-3",
@@ -1029,7 +1029,7 @@ export const nissanCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0 (normal davranış)"
+      "repairCost": "0 TL (normal davranış)"
     },
     {
       "id": "nis-q11fl-4",
@@ -1038,7 +1038,7 @@ export const nissanCars: Car[] = [
       "category": "motor",
       "riskLevel": "MEDIUM",
       "affectedKm": "80.000+ km",
-      "repairCost": "₺4.000 – ₺10.000"
+      "repairCost": "4.000 - 10.000 TL"
     },
     {
       "id": "nis-q11fl-5",
@@ -1047,7 +1047,7 @@ export const nissanCars: Car[] = [
       "category": "fren",
       "riskLevel": "MEDIUM",
       "affectedKm": "80.000+ km",
-      "repairCost": "₺3.000 – ₺7.000"
+      "repairCost": "3.000 - 7.000 TL"
     }
   ],
   "pros": [

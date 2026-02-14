@@ -40,7 +40,7 @@ export const mitsubishiCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "eclipse-cross-phev-auto-4",
@@ -49,7 +49,7 @@ export const mitsubishiCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -86,7 +86,7 @@ export const mitsubishiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "asx-new-2",
@@ -95,7 +95,7 @@ export const mitsubishiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kış ayları",
-                repairCost: "Akü"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "asx-new-3",
@@ -104,7 +104,7 @@ export const mitsubishiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Yazılım",
-                repairCost: "Reset"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "asx-1-3-turbo-auto-4",
@@ -159,7 +159,7 @@ export const mitsubishiCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sürekli",
-                repairCost: "Temizlik"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "l200-tornado-auto-2",
@@ -221,7 +221,7 @@ export const mitsubishiCars: Car[] = [
             { id: "lancer-1", title: "CVT Şanzıman Uğultusu", description: "CVT şanzımandan yüksek devirde uğultu sesi. Motor yüksek devirde kalır (rubber band).", category: "sanziman", riskLevel: "LOW", affectedKm: "Karakteristik", repairCost: "CVT Yağı (4.000 TL)" },
             { id: "lancer-2", title: "Ön Alt Kol Burcu", description: "Ön alt kol burçlarının aşınması.", category: "suspansiyon", riskLevel: "MEDIUM", affectedKm: "50.000+ km", repairCost: "2.000 - 4.000 TL" },
             { id: "lancer-3", title: "Klima Kompresörü", description: "Klima kompresör kavramasının aşınması. Soğutma kaybı.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "80.000+ km", repairCost: "5.000 - 10.000 TL" },
-            { id: "lancer-4", title: "Boya Kalitesi", description: "Boya kalitesinin zayıf olması. Küçük taşlardan boya atması.", category: "govde", riskLevel: "LOW", affectedKm: "2-3 yıl", repairCost: "Lokal Boya" },
+            { id: "lancer-4", title: "Boya Kalitesi", description: "Boya kalitesinin zayıf olması. Küçük taşlardan boya atması.", category: "govde", riskLevel: "LOW", affectedKm: "2-3 yıl", repairCost: "3.000 - 10.000 TL (Boya/Rötuş)" },
             { id: "lancer-5", title: "Arka Kampana Fren", description: "Arka kampana fren balata ve tambur aşınması.", category: "fren", riskLevel: "LOW", affectedKm: "50.000+ km", repairCost: "1.500 - 3.000 TL" }
         ],
         pros: ["Güvenilir MIVEC motor", "Geniş kabin", "Düşük bakım maliyeti", "Japon kalitesi"],
@@ -250,7 +250,7 @@ export const mitsubishiCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal (Tasarım)"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "out-2",
@@ -259,7 +259,7 @@ export const mitsubishiCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Ağır trafik",
-                            "repairCost": "Soğutma / CVT Yağı"
+                            "repairCost": "5.000 - 15.000 TL (Şanzıman)"
                     },
                     {
                             "id": "out-3",
@@ -277,7 +277,7 @@ export const mitsubishiCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Bozuk yollar",
-                            "repairCost": "Fitil"
+                            "repairCost": "1.000 - 3.000 TL (Fitil)"
                     },
                     {
                             "id": "out-5",
@@ -286,7 +286,7 @@ export const mitsubishiCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Aftermarket ekran"
+                            "repairCost": "500 - 2.000 TL (Film)"
                     }
             ],
             "pros": [

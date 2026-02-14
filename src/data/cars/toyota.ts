@@ -22,7 +22,7 @@ export const toyotaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Her 10.000 km",
-                repairCost: "Temizlik"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "corolla-3",
@@ -49,7 +49,7 @@ export const toyotaCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Her km",
-                repairCost: "Karakteristik"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "corolla-5",
@@ -58,7 +58,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Dizayn",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             },
             {
                 id: "corolla-4",
@@ -67,7 +67,7 @@ export const toyotaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "corolla-7",
@@ -140,7 +140,7 @@ export const toyotaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "80.000+ km",
-                repairCost: "Şanzıman Yağı / Revizyon"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             },
             {
                 id: "chr-6",
@@ -158,7 +158,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kışın",
-                repairCost: "Yalıtım / Değişim"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             },
             {
                 id: "chr-3",
@@ -167,7 +167,7 @@ export const toyotaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Servis Kontrolü"
+                repairCost: "2.000 - 5.000 TL (Servis)"
             }
         ],
         pros: [
@@ -204,7 +204,7 @@ export const toyotaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yok"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "vision-2",
@@ -213,7 +213,7 @@ export const toyotaCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Yoklama Yapılmalı",
-                repairCost: "Servis Takibi"
+                repairCost: "2.000 - 5.000 TL (Servis)"
             },
             {
                 id: "vision-3",
@@ -222,7 +222,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Sıfırdan itibaren",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             },
             {
                 id: "vision-4",
@@ -240,7 +240,7 @@ export const toyotaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -276,7 +276,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Fabrikasyon",
-                repairCost: "Fitil Ayarı"
+                repairCost: "500 - 2.000 TL (Fitil)"
             },
             {
                 id: "yaris-2",
@@ -285,7 +285,7 @@ export const toyotaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Yatma Durumunda",
-                repairCost: "Akü Takviyesi / Boot"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "yaris-3",
@@ -294,7 +294,7 @@ export const toyotaCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Temizlik / Balata"
+                repairCost: "3.000 - 7.000 TL (Fren)"
             },
             {
                 id: "yaris-4",
@@ -303,7 +303,7 @@ export const toyotaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Şehir İçi",
-                repairCost: "Rejenerasyon Sürüşü"
+                repairCost: "5.000 - 15.000 TL (Egzoz/DPF)"
             }
         ],
         pros: [
@@ -338,7 +338,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Fabrikasyon",
-                repairCost: "Boyama"
+                repairCost: "3.000 - 10.000 TL (Boya/Rötuş)"
             },
             {
                 id: "ccross-2",
@@ -347,7 +347,7 @@ export const toyotaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "ccross-3",
@@ -356,7 +356,7 @@ export const toyotaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "ccross-4",
@@ -365,7 +365,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Sıfırdan itibaren",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             }
         ],
         pros: [
@@ -400,7 +400,7 @@ export const toyotaCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (Tasarım)"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "rav4-2",
@@ -418,7 +418,7 @@ export const toyotaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (e-CVT tasarımı)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "rav4-4",
@@ -427,7 +427,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "120+ km/h",
-                repairCost: "Fitil / Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Fitil/Yalıtım)"
             }
         ],
         pros: [
@@ -480,7 +480,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Bozuk yollar",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             },
             {
                 id: "yc-4",
@@ -489,7 +489,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Tasarım",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -525,7 +525,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "HIGH",
                 affectedKm: "Fabrikasyon",
-                repairCost: "Ücretsiz (Yetkili Servis)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "yaris-2",
@@ -543,7 +543,7 @@ export const toyotaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "yaris-1-5-hybrid-auto-4",
@@ -561,7 +561,7 @@ export const toyotaCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -625,7 +625,7 @@ export const toyotaCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -662,7 +662,7 @@ export const toyotaCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "150.000+ km",
-                repairCost: "Segman / Revizyon"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             },
             {
                 id: "auris-1",
@@ -680,7 +680,7 @@ export const toyotaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "auris-4",
@@ -737,7 +737,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "80.000+ km",
-                repairCost: "Döşeme Tamiri"
+                repairCost: "3.000 - 8.000 TL (Tamir)"
             },
             {
                 id: "camry-2",
@@ -746,7 +746,7 @@ export const toyotaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "camry-3",
@@ -755,7 +755,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "120+ km/h",
-                repairCost: "Fitil"
+                repairCost: "1.000 - 3.000 TL (Fitil)"
             },
             {
                 id: "camry-4",
@@ -802,7 +802,7 @@ export const toyotaCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Şehir içi",
-                repairCost: "Temizlik / Rejenerasyon"
+                repairCost: "5.000 - 15.000 TL (Egzoz/DPF)"
             },
             {
                 id: "hilux-2",
@@ -811,7 +811,7 @@ export const toyotaCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yağlama"
+                repairCost: "2.000 - 5.000 TL (Yağ)"
             },
             {
                 id: "hilux-3",
@@ -954,7 +954,7 @@ export const toyotaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "rav4-mk5-2",
@@ -963,7 +963,7 @@ export const toyotaCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Disk Temizliği"
+                repairCost: "3.000 - 7.000 TL (Fren)"
             },
             {
                 id: "rav4-mk5-3",
@@ -972,7 +972,7 @@ export const toyotaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "rav4-mk5-4",
@@ -981,7 +981,7 @@ export const toyotaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "120+ km/s",
-                repairCost: "Fitil Ayarı"
+                repairCost: "500 - 2.000 TL (Fitil)"
             },
             {
                 id: "rav4-mk5-5",
@@ -990,7 +990,7 @@ export const toyotaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Hava koşullarına bağlı",
-                repairCost: "Cam Temizliği"
+                repairCost: "3.000 - 8.000 TL (Cam)"
             }
         ],
         pros: [
@@ -1083,7 +1083,7 @@ export const toyotaCars: Car[] = [
             { id: "rav4-1", title: "Inverter Soğutma Pompası Arızası", description: "Hibrit sistem inverter soğutma pompasının arızalanması. Sistem aşırı ısınır ve hibrit modu devre dışı kalır. Erken tespit edilmezse inverter ünitesine zarar verebilir.", category: "elektronik", riskLevel: "HIGH", affectedKm: "80.000+ km", repairCost: "15.000 - 30.000 TL" },
             { id: "rav4-2", title: "CVT Şanzıman Uğultusu", description: "E-CVT şanzımandan yüksek hızlarda gelen uğultu sesi. Yağ değişimi ile azaltılabilir ancak tamamen ortadan kalkmaz. Karakteristik kabul edilir.", category: "sanziman", riskLevel: "LOW", affectedKm: "60.000+ km", repairCost: "Yağ Değişimi (3.000 TL)" },
             { id: "rav4-3", title: "Arka Fren Diski Korozyonu", description: "Hibrit sistemin rejeneratif frenleme kullanması nedeniyle arka fren diskleri yeterince ısınmaz ve korozyon yapar. Fren sesi ve titreşim oluşur.", category: "fren", riskLevel: "MEDIUM", affectedKm: "30.000+ km", repairCost: "3.000 - 6.000 TL" },
-            { id: "rav4-4", title: "Multimedya Ekran Donması", description: "Toyota Touch ekranının kararması veya tepki vermemesi. Apple CarPlay bağlantısı kopabilir. Yazılım güncellemesi ile çözülür.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "Yazılım Güncelleme" },
+            { id: "rav4-4", title: "Multimedya Ekran Donması", description: "Toyota Touch ekranının kararması veya tepki vermemesi. Apple CarPlay bağlantısı kopabilir. Yazılım güncellemesi ile çözülür.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "1.500 - 4.000 TL (Yazılım)" },
             { id: "rav4-5", title: "Rüzgar Sesi (A Sütunu)", description: "120 km/s üzeri hızlarda A sütunu ve ayna diplerinden gelen rüzgar uğultusu. Fitil iyileştirmesi kısmen çözer.", category: "govde", riskLevel: "LOW", affectedKm: "Yüksek Hız", repairCost: "Fitil (1.000 TL)" }
         ],
         pros: ["Düşük yakıt tüketimi (4.5-5.5L)", "Toyota güvenilirliği", "Geniş iç hacim", "Yüksek ikinci el değeri"],
@@ -1121,7 +1121,7 @@ export const toyotaCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal (e-CVT)"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "chr2-3",
@@ -1130,7 +1130,7 @@ export const toyotaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "chr2-4",
@@ -1139,7 +1139,7 @@ export const toyotaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Bozuk yollar",
-                            "repairCost": "Yalıtım"
+                            "repairCost": "1.000 - 3.000 TL (Yalıtım)"
                     },
                     {
                             "id": "chr2-5",
@@ -1148,7 +1148,7 @@ export const toyotaCars: Car[] = [
                             "category": "fren",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     }
             ],
             "pros": [
@@ -1190,7 +1190,7 @@ export const toyotaCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal (e-CVT)"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "e210-2",
@@ -1208,7 +1208,7 @@ export const toyotaCars: Car[] = [
                             "category": "fren",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "e210-4",
@@ -1217,7 +1217,7 @@ export const toyotaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "120+ km/h",
-                            "repairCost": "Fitil"
+                            "repairCost": "1.000 - 3.000 TL (Fitil)"
                     },
                     {
                             "id": "e210-5",
@@ -1226,7 +1226,7 @@ export const toyotaCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     }
             ],
             "pros": [
@@ -1268,7 +1268,7 @@ export const toyotaCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "yar3-2",
@@ -1346,7 +1346,7 @@ export const toyotaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     },
                     {
                             "id": "e100-2",
@@ -1426,7 +1426,7 @@ export const toyotaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     },
                     {
                             "id": "e110-3",
@@ -1515,7 +1515,7 @@ export const toyotaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     },
                     {
                             "id": "t22-4",
@@ -1728,7 +1728,7 @@ export const toyotaCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "yar-2",
@@ -1799,7 +1799,7 @@ export const toyotaCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "chr-2",
@@ -1808,7 +1808,7 @@ export const toyotaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "chr-3",
@@ -1870,7 +1870,7 @@ export const toyotaCars: Car[] = [
       "category": "sanziman",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0 (normal)"
+      "repairCost": "0 TL (normal)"
     },
     {
       "id": "toy-chrfl-2",
@@ -1879,7 +1879,7 @@ export const toyotaCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0"
+      "repairCost": "0 TL (Karakteristik)"
     },
     {
       "id": "toy-chrfl-3",
@@ -1888,7 +1888,7 @@ export const toyotaCars: Car[] = [
       "category": "govde",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0 (tasarım)"
+      "repairCost": "0 TL (tasarım)"
     },
     {
       "id": "toy-chrfl-4",
@@ -1897,7 +1897,7 @@ export const toyotaCars: Car[] = [
       "category": "suspansiyon",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0 (tasarım tercihi)"
+      "repairCost": "0 TL (tasarım tercihi)"
     }
   ],
   "pros": [

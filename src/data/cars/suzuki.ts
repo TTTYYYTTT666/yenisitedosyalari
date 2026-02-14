@@ -22,7 +22,7 @@ export const suzukiCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "60.000+ km",
-                repairCost: "Temizlik"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "vitara-bj-2",
@@ -31,7 +31,7 @@ export const suzukiCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Zamanla",
-                repairCost: "İzolasyon"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "vitara-bj-1",
@@ -40,7 +40,7 @@ export const suzukiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / Akü"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "vitara-1-4-boosterjet-auto-4",
@@ -96,7 +96,7 @@ export const suzukiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Kabul edilebilir"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "swift-1-2-dualjet-auto-2",
@@ -114,7 +114,7 @@ export const suzukiCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "swift-1-2-dualjet-auto-4",
@@ -123,7 +123,7 @@ export const suzukiCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -160,7 +160,7 @@ export const suzukiCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "30.000+ km",
-                repairCost: "Döşeme Tamiri"
+                repairCost: "3.000 - 8.000 TL (Tamir)"
             },
             {
                 id: "scross-1",
@@ -169,7 +169,7 @@ export const suzukiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Yazılım",
-                repairCost: "Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "scross-1-4-hybrid-auto-3",
@@ -187,7 +187,7 @@ export const suzukiCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -225,7 +225,7 @@ export const suzukiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "jimny-1-5-auto-2",
@@ -316,7 +316,7 @@ export const suzukiCars: Car[] = [
             { id: "across-1", title: "PHEV Şarj Ünitesi Arızası", description: "Araç üzeri şarj cihazının (OBC) aşırı ısınma nedeniyle kapanması veya hata vermesi. Şarj işleminin yarıda kalmasına neden olur. Yazılım güncelleme veya OBC değişimi gerekebilir.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "30.000+ km", repairCost: "10.000 - 25.000 TL" },
             { id: "across-2", title: "Arka Fren Diski Korozyonu", description: "Rejeneratif frenleme nedeniyle arka fren diskleri yeterince kullanılmaz ve korozyon yapar. Fren sesi ve titreşim oluşur.", category: "fren", riskLevel: "LOW", affectedKm: "20.000+ km", repairCost: "3.000 - 6.000 TL" },
             { id: "across-3", title: "12V Akü Boşalması", description: "PHEV sistemi uzun süre kullanılmadığında 12V yardımcı akünün boşalması. Araç çalışmaz hale gelebilir. Periyodik kullanım önerilir.", category: "elektronik", riskLevel: "LOW", affectedKm: "Kullanıma bağlı", repairCost: "4.000 - 7.000 TL (Akü)" },
-            { id: "across-4", title: "Multimedya Ekran Tepkisizliği", description: "Toyota kaynaklı multimedya ünitesinin arada donması veya geç tepki vermesi. Yazılım güncelleme ile iyileşir.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "Yazılım Güncelleme" }
+            { id: "across-4", title: "Multimedya Ekran Tepkisizliği", description: "Toyota kaynaklı multimedya ünitesinin arada donması veya geç tepki vermesi. Yazılım güncelleme ile iyileşir.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "1.500 - 4.000 TL (Yazılım)" }
         ],
         pros: ["Toyota güvenilirliği (RAV4 PHEV)", "75 km elektrikli menzil", "306hp toplam güç", "E-Four AWD sistemi"],
         cons: ["Suzuki servisi sınırlı", "Yüksek satın alma fiyatı", "Yedek parça temin süresi"],
@@ -355,7 +355,7 @@ export const suzukiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "scross-n-3",
@@ -364,7 +364,7 @@ export const suzukiCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "110+ km/s",
-                repairCost: "Fitil Ayarı"
+                repairCost: "500 - 2.000 TL (Fitil)"
             },
             {
                 id: "scross-n-4",
@@ -373,7 +373,7 @@ export const suzukiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "scross-n-5",
@@ -382,7 +382,7 @@ export const suzukiCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Monitoring"
+                repairCost: "2.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -450,7 +450,7 @@ export const suzukiCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "vitra-5",
@@ -459,7 +459,7 @@ export const suzukiCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "120+ km/h",
-                            "repairCost": "Fitil"
+                            "repairCost": "1.000 - 3.000 TL (Fitil)"
                     }
             ],
             "pros": [
@@ -501,7 +501,7 @@ export const suzukiCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "sw4-2",
@@ -519,7 +519,7 @@ export const suzukiCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "120+ km/h",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "sw4-4",
@@ -528,7 +528,7 @@ export const suzukiCars: Car[] = [
                             "category": "suspansiyon",
                             "riskLevel": "LOW",
                             "affectedKm": "Bozuk yollar",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "sw4-5",

@@ -49,7 +49,7 @@ export const seatCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik (Tasarım)",
-                repairCost: "Çözümsüz"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "leon-5",
@@ -253,7 +253,7 @@ export const seatCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Karakteristik (0 km'den)",
-                repairCost: "Çözümsüz (Tasarım)"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "leon-etsi-2",
@@ -510,7 +510,7 @@ export const seatCars: Car[] = [
             { id: "tarraco-2", title: "AdBlue Sistem Arızası", description: "SCR sistemi AdBlue dozajlama modülünün arızalanması. Motor çalışmayacak uyarısı.", category: "motor", riskLevel: "HIGH", affectedKm: "50.000+ km", repairCost: "20.000 - 35.000 TL" },
             { id: "tarraco-3", title: "Panoramik Tavan Su Sızdırma", description: "Cam tavan giderlerinin tıkanması sonucu yağmurda içeri su sızdırması. VW grubu ortak problemi.", category: "govde", riskLevel: "MEDIUM", affectedKm: "Bakıma bağlı", repairCost: "Temizlik / 5.000 TL" },
             { id: "tarraco-4", title: "Ön Fren Disk Eğrilmesi", description: "2.0 TDI'ın ağırlığı nedeniyle ön fren disklerinin erken eğrilmesi ve frenleme titremesi.", category: "fren", riskLevel: "LOW", affectedKm: "40.000+ km", repairCost: "4.000 - 8.000 TL" },
-            { id: "tarraco-5", title: "Multimedya ve SOS Hataları", description: "VW grubu ortak multimedya donması ve SOS acil çağrı hatası. Yazılım güncelleme ile çözülür.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "Yazılım Güncelleme" }
+            { id: "tarraco-5", title: "Multimedya ve SOS Hataları", description: "VW grubu ortak multimedya donması ve SOS acil çağrı hatası. Yazılım güncelleme ile çözülür.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "1.500 - 4.000 TL (Yazılım)" }
         ],
         pros: ["VW grubu kalitesi düşük fiyata", "7 koltuk opsiyonu", "Güçlü 2.0 TDI (150/190hp)", "Geniş iç hacim"],
         cons: ["DSG şanzıman riski", "Marka bilinirliği düşük", "Parça temininde gecikme"],
@@ -757,7 +757,7 @@ export const seatCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -817,7 +817,7 @@ export const seatCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "scor-4",

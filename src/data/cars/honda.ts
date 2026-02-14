@@ -34,7 +34,7 @@ export const hondaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "5+ yıl",
-                repairCost: "Boyama / Seramik kaplama"
+                repairCost: "5.000 - 15.000 TL (Kaplama)"
             },
             {
                 id: "fb7-3",
@@ -134,7 +134,7 @@ export const hondaCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "Rastgele",
-                repairCost: "Ücretsiz (Servis geri çağırma)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             }
         ],
         pros: [
@@ -181,7 +181,7 @@ export const hondaCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Kış ayları / Kısa mesafe",
-                repairCost: "Sık yağ değişimi"
+                repairCost: "3.000 - 6.000 TL (Yağ Değişimi)"
             },
             {
                 id: "fk7-2",
@@ -199,7 +199,7 @@ export const hondaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (3 silindir doğası)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "civic-fk7-1-0-turbo-auto-4",
@@ -217,7 +217,7 @@ export const hondaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -263,7 +263,7 @@ export const hondaCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "HIGH",
                 affectedKm: "10.000+ km",
-                repairCost: "Garantiden değişim (Recall)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "fe1-2",
@@ -272,7 +272,7 @@ export const hondaCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Kış ayları",
-                repairCost: "Sık yağ değişimi"
+                repairCost: "3.000 - 6.000 TL (Yağ Değişimi)"
             },
             {
                 id: "fe1-3",
@@ -281,7 +281,7 @@ export const hondaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "2-3 yıl",
-                repairCost: "Kozmetik tamir"
+                repairCost: "3.000 - 10.000 TL (Boya/Rötuş)"
             },
             {
                 id: "civic-fe1-1-5-turbo-auto-4",
@@ -354,7 +354,7 @@ export const hondaCars: Car[] = [
                 category: "govde",
                 riskLevel: "MEDIUM",
                 affectedKm: "3-4 yıl",
-                repairCost: "Kozmetik tamir (boyama)"
+                repairCost: "3.000 - 10.000 TL (Boya/Rötuş)"
             },
             {
                 id: "city-3",
@@ -363,7 +363,7 @@ export const hondaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yok (normal davranış)"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "city-1-5-i-vtec-auto-4",
@@ -381,7 +381,7 @@ export const hondaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -427,7 +427,7 @@ export const hondaCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "HIGH",
                 affectedKm: "10.000+ km",
-                repairCost: "Garantiden değişim (Recall)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "crv-h-2",
@@ -445,7 +445,7 @@ export const hondaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / Radar kalibrasyonu"
+                repairCost: "2.000 - 5.000 TL (Yazılım)"
             },
             {
                 id: "crv-hybrid-auto-4",
@@ -463,7 +463,7 @@ export const hondaCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -509,7 +509,7 @@ export const hondaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Yüksek devir",
-                repairCost: "Yok (CVT karakteri)"
+                repairCost: "5.000 - 15.000 TL (Şanzıman)"
             },
             {
                 id: "hrv-2",
@@ -536,7 +536,7 @@ export const hondaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -591,7 +591,7 @@ export const hondaCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yok (hibrit doğası)"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "hrv-ehev-hybrid-auto-3",
@@ -609,7 +609,7 @@ export const hondaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -655,7 +655,7 @@ export const hondaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Yazılım",
-                repairCost: "Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "jazz-1-5-ehev-auto-2",
@@ -673,7 +673,7 @@ export const hondaCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "jazz-1-5-ehev-auto-4",
@@ -682,7 +682,7 @@ export const hondaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -737,7 +737,7 @@ export const hondaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Servis güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "zrv-2-0-ehev-auto-3",
@@ -755,7 +755,7 @@ export const hondaCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -869,7 +869,7 @@ export const hondaCars: Car[] = [
             { id: "fd6-2", title: "Ön Alt Kol Burcu Aşınması", description: "Ön alt kol burçlarının sertleşip çatlaması. Fren basarken sapma ve vuruntu.", category: "suspansiyon", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "2.000 - 4.000 TL" },
             { id: "fd6-3", title: "Klima Kompresörü Kavraması", description: "Klima kompresör manyetik kavramasının aşınması. Klima açıldığında ses ve soğutma kaybı.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "100.000+ km", repairCost: "5.000 - 10.000 TL" },
             { id: "fd6-4", title: "Arka Fren Kampana Korozyonu", description: "Arka kampanalı frende disk yüzeyinde korozyon ve balata aşınması.", category: "fren", riskLevel: "LOW", affectedKm: "40.000+ km", repairCost: "1.500 - 3.000 TL" },
-            { id: "fd6-5", title: "Plastik Trim Gıcırtıları", description: "Torpido altı, B sütunu ve kapı panellerinden gelen plastik gıcırtı sesleri.", category: "govde", riskLevel: "LOW", affectedKm: "Yaş kaynaklı", repairCost: "Keçe Yalıtım" }
+            { id: "fd6-5", title: "Plastik Trim Gıcırtıları", description: "Torpido altı, B sütunu ve kapı panellerinden gelen plastik gıcırtı sesleri.", category: "govde", riskLevel: "LOW", affectedKm: "Yaş kaynaklı", repairCost: "1.000 - 3.000 TL (Yalıtım)" }
         ],
         pros: ["Yıkılmaz VTEC motor", "Düşük yakıt tüketimi", "Geniş kabin", "Honda güvenilirliği"],
         cons: ["Tavan döşemesi sarkması", "Yedek parça pahalandı", "Tasarımı eskidi"],
@@ -897,7 +897,7 @@ export const hondaCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "60.000+ km",
-                            "repairCost": "Yağ Değişimi / Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "crv4-2",
@@ -1089,7 +1089,7 @@ export const hondaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     }
             ],
             "pros": [
@@ -1169,7 +1169,7 @@ export const hondaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     }
             ],
             "pros": [
@@ -1213,7 +1213,7 @@ export const hondaCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "fc-2",
@@ -1293,7 +1293,7 @@ export const hondaCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "hrv-2",

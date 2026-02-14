@@ -57,7 +57,7 @@ export const renaultCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "clio-5-yeni-2",
@@ -66,7 +66,7 @@ export const renaultCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -112,7 +112,7 @@ export const renaultCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım / Kavrama"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "megane-link",
@@ -148,7 +148,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "İzolasyon"
+                repairCost: "2.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -184,7 +184,7 @@ export const renaultCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Ekran Değişimi"
+                repairCost: "500 - 2.000 TL (Film)"
             },
             {
                 id: "symbol-6",
@@ -229,7 +229,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "50.000+ km",
-                repairCost: "Kaplama"
+                repairCost: "5.000 - 15.000 TL (Kaplama)"
             },
             {
                 id: "symbol-4",
@@ -238,7 +238,7 @@ export const renaultCars: Car[] = [
                 category: "motor",
                 riskLevel: "CRITICAL",
                 affectedKm: "Bakım Aksarsa",
-                repairCost: "Motor Revizyonu"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             }
         ],
         pros: [
@@ -275,7 +275,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "MEDIUM",
                 affectedKm: "Tüm Kilometreler",
-                repairCost: "Fitil Değişimi"
+                repairCost: "1.000 - 3.000 TL (Fitil)"
             },
             {
                 id: "clio4-2",
@@ -293,7 +293,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             },
             {
                 id: "clio4-4",
@@ -302,7 +302,7 @@ export const renaultCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Akü Değişimi"
+                repairCost: "3.000 - 8.000 TL (Tamir)"
             },
             {
                 id: "clio4-5",
@@ -311,7 +311,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Depo Fulken",
-                repairCost: "Çözümsüz"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             }
         ],
         pros: [
@@ -347,7 +347,7 @@ export const renaultCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Ağır şartlar",
-                repairCost: "Soğutma (Bekleme)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "taliant-2",
@@ -365,7 +365,7 @@ export const renaultCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / Pil Değişimi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "taliant-4",
@@ -374,7 +374,7 @@ export const renaultCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "taliant-5",
@@ -383,7 +383,7 @@ export const renaultCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Sürekli",
-                repairCost: "Karakteristik"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -427,7 +427,7 @@ export const renaultCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "İlk 20.000 km",
-                repairCost: "Servis Takibi"
+                repairCost: "2.000 - 5.000 TL (Servis)"
             },
             {
                 id: "captur-4",
@@ -445,7 +445,7 @@ export const renaultCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "captur-5",
@@ -454,7 +454,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             }
         ],
         pros: [
@@ -490,7 +490,7 @@ export const renaultCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "austral-2",
@@ -499,7 +499,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Sıfırdan itibaren",
-                repairCost: "Yalıtım (Servis Aksiyonu)"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             },
             {
                 id: "austral-3",
@@ -508,7 +508,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Yüksek Hız",
-                repairCost: "Fitil İyileştirme"
+                repairCost: "1.000 - 3.000 TL (Fitil)"
             },
             {
                 id: "austral-4",
@@ -526,7 +526,7 @@ export const renaultCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Servis Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -638,7 +638,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Kozmetik"
+                repairCost: "3.000 - 10.000 TL (Boya/Rötuş)"
             },
             {
                 id: "fluence-2",
@@ -770,7 +770,7 @@ export const renaultCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Zorlu kullanım",
-                repairCost: "Yağ değişimi / Revizyon"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             },
             {
                 id: "koleos-2",
@@ -973,7 +973,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Fitil / İzolasyon"
+                repairCost: "1.000 - 3.000 TL (Fitil)"
             },
             {
                 id: "kadjar-2",
@@ -982,7 +982,7 @@ export const renaultCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Sıfırdan itibaren",
-                repairCost: "İzolasyon"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "kadjar-3",
@@ -991,7 +991,7 @@ export const renaultCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "kadjar-1-5-dci-auto-4",
@@ -1236,7 +1236,7 @@ export const renaultCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "meg4d-5",
@@ -1323,7 +1323,7 @@ export const renaultCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Bozuk yollar",
-                            "repairCost": "Yalitim"
+                            "repairCost": "2.000 - 5.000 TL"
                     }
             ],
             "pros": [
@@ -1392,7 +1392,7 @@ export const renaultCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "cap1-5",
@@ -1575,7 +1575,7 @@ export const renaultCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Kronik",
-                            "repairCost": "Tamirciden tamirciye"
+                            "repairCost": "3.000 - 8.000 TL (Tamir)"
                     }
             ],
             "pros": [
@@ -1628,7 +1628,7 @@ export const renaultCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Kaynak + Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     },
                     {
                             "id": "r12-3",
@@ -1708,7 +1708,7 @@ export const renaultCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "r9-3",
@@ -1788,7 +1788,7 @@ export const renaultCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "r19-3",
@@ -1868,7 +1868,7 @@ export const renaultCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "meg1-3",
@@ -2544,7 +2544,7 @@ export const renaultCars: Car[] = [
       "category": "sanziman",
       "riskLevel": "MEDIUM",
       "affectedKm": "80.000-130.000 km",
-      "repairCost": "₺8.000 – ₺15.000"
+      "repairCost": "8.000 - 15.000 TL"
     },
     {
       "id": "r-c4p2-2",
@@ -2553,7 +2553,7 @@ export const renaultCars: Car[] = [
       "category": "motor",
       "riskLevel": "MEDIUM",
       "affectedKm": "100.000+ km",
-      "repairCost": "₺3.000 – ₺6.000"
+      "repairCost": "3.000 - 6.000 TL"
     },
     {
       "id": "r-c4p2-3",
@@ -2562,7 +2562,7 @@ export const renaultCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0 – ₺1.000"
+      "repairCost": "0 - 1.000 TL"
     },
     {
       "id": "r-c4p2-4",
@@ -2571,7 +2571,7 @@ export const renaultCars: Car[] = [
       "category": "fren",
       "riskLevel": "LOW",
       "affectedKm": "30.000+ km",
-      "repairCost": "₺500 – ₺2.000"
+      "repairCost": "500 - 2.000 TL"
     },
     {
       "id": "r-c4p2-5",
@@ -2580,7 +2580,7 @@ export const renaultCars: Car[] = [
       "category": "suspansiyon",
       "riskLevel": "LOW",
       "affectedKm": "40.000+ km",
-      "repairCost": "₺200 – ₺800"
+      "repairCost": "200 - 800 TL"
     }
   ],
   "pros": [
@@ -2624,7 +2624,7 @@ export const renaultCars: Car[] = [
       "category": "sanziman",
       "riskLevel": "MEDIUM",
       "affectedKm": "80.000-120.000 km",
-      "repairCost": "₺8.000 – ₺15.000"
+      "repairCost": "8.000 - 15.000 TL"
     },
     {
       "id": "r-m3p2-2",
@@ -2633,7 +2633,7 @@ export const renaultCars: Car[] = [
       "category": "motor",
       "riskLevel": "MEDIUM",
       "affectedKm": "100.000+ km",
-      "repairCost": "₺4.000 – ₺10.000"
+      "repairCost": "4.000 - 10.000 TL"
     },
     {
       "id": "r-m3p2-3",
@@ -2642,7 +2642,7 @@ export const renaultCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0 – ₺1.000"
+      "repairCost": "0 - 1.000 TL"
     },
     {
       "id": "r-m3p2-4",
@@ -2651,7 +2651,7 @@ export const renaultCars: Car[] = [
       "category": "govde",
       "riskLevel": "LOW",
       "affectedKm": "80.000+ km",
-      "repairCost": "₺800 – ₺2.500"
+      "repairCost": "800 - 2.500 TL"
     },
     {
       "id": "r-m3p2-5",
@@ -2660,7 +2660,7 @@ export const renaultCars: Car[] = [
       "category": "suspansiyon",
       "riskLevel": "MEDIUM",
       "affectedKm": "60.000-80.000 km",
-      "repairCost": "₺2.500 – ₺5.000"
+      "repairCost": "2.500 - 5.000 TL"
     }
   ],
   "pros": [

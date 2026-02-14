@@ -22,7 +22,7 @@ export const landRoverCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "100.000+ km",
-                repairCost: "300.000+ TL"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "rrs-2",
@@ -40,7 +40,7 @@ export const landRoverCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Sürekli",
-                repairCost: "Tespiti zor"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "rover-range-rover-sport-auto-4",
@@ -95,7 +95,7 @@ export const landRoverCars: Car[] = [
                 category: "motor",
                 riskLevel: "CRITICAL",
                 affectedKm: "Rastgele (Her an olabilir)",
-                repairCost: "250.000+ TL (Yeni Motor)"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "evoque-2",
@@ -104,7 +104,7 @@ export const landRoverCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "100.000 km",
-                repairCost: "60.000+ TL"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "rover-evoque-2-0-td4-auto-3",
@@ -160,7 +160,7 @@ export const landRoverCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "50.000+ km",
-                            "repairCost": "Yazılım / Yağ Değişimi"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "ds-lr-2",

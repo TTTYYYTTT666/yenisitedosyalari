@@ -47,7 +47,7 @@ export const hyundaiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "i20-5",
@@ -56,7 +56,7 @@ export const hyundaiCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             }
         ],
         pros: [
@@ -92,7 +92,7 @@ export const hyundaiCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Şehir içi kullanım",
-                repairCost: "Rejenerasyon (Yüksek Devir)"
+                repairCost: "5.000 - 15.000 TL (Egzoz/DPF)"
             },
             {
                 id: "tucson-3",
@@ -101,7 +101,7 @@ export const hyundaiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sıkışık Trafik",
-                repairCost: "Soğutma (Bekleme)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "tucson-2",
@@ -110,7 +110,7 @@ export const hyundaiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "tucson-4",
@@ -128,7 +128,7 @@ export const hyundaiCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Bakım/Yağlama"
+                repairCost: "2.000 - 5.000 TL (Yağ)"
             }
         ],
         pros: [
@@ -164,7 +164,7 @@ export const hyundaiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım / Baskı Balata"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "i10-2",
@@ -173,7 +173,7 @@ export const hyundaiCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "30.000+ km",
-                repairCost: "Garantiden / Değişim"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "i10-3",
@@ -191,7 +191,7 @@ export const hyundaiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Şanzıman Yağı Değişimi"
+                repairCost: "4.000 - 8.000 TL (Şanzıman Yağı)"
             }
         ],
         pros: [
@@ -236,7 +236,7 @@ export const hyundaiCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "Rastgele",
-                repairCost: "Ücretsiz Değişim"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "bayon-3",
@@ -254,7 +254,7 @@ export const hyundaiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Sıkışık Trafik",
-                repairCost: "Yağ Değişimi"
+                repairCost: "3.000 - 6.000 TL (Yağ Değişimi)"
             },
             {
                 id: "bayon-5",
@@ -263,7 +263,7 @@ export const hyundaiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -316,7 +316,7 @@ export const hyundaiCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yağ Bakımı / İtici Değişimi"
+                repairCost: "2.000 - 5.000 TL (Yağ)"
             },
             {
                 id: "elantra-4",
@@ -334,7 +334,7 @@ export const hyundaiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yok"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -433,7 +433,7 @@ export const hyundaiCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Şehir içi",
-                repairCost: "Rejenerasyon (Ücretsiz)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "tucson-1",
@@ -442,7 +442,7 @@ export const hyundaiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Trafik",
-                repairCost: "Kullanıcı Hatası"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "tucson-1-6-tgdi-auto-3",
@@ -497,7 +497,7 @@ export const hyundaiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Yoğun Trafik",
-                repairCost: "Kullanıma Bağlı"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "accent-2",
@@ -506,7 +506,7 @@ export const hyundaiCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "50.000+ km",
-                repairCost: "Kaplama"
+                repairCost: "5.000 - 15.000 TL (Kaplama)"
             },
             {
                 id: "accent-3",
@@ -570,7 +570,7 @@ export const hyundaiCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Trafikte",
-                repairCost: "Soğutma Beklemesi"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "kona-1-0-tgdi-auto-2",
@@ -643,7 +643,7 @@ export const hyundaiCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Kaplama"
+                repairCost: "5.000 - 15.000 TL (Kaplama)"
             },
             {
                 id: "ix35-3",
@@ -779,7 +779,7 @@ export const hyundaiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "kona-1-6-tgdi-auto-3",
@@ -836,7 +836,7 @@ export const hyundaiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (EV karakteri)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "kona-ev-2",
@@ -854,7 +854,7 @@ export const hyundaiCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kış ayları",
-                repairCost: "Isıtma / Bekleme"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "kona-ev-4",
@@ -863,7 +863,7 @@ export const hyundaiCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Fren Diski Temizliği"
+                repairCost: "3.000 - 7.000 TL (Fren)"
             },
             {
                 id: "kona-ev-5",
@@ -872,7 +872,7 @@ export const hyundaiCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "CRITICAL",
                 affectedKm: "2019-2020 Üretim",
-                repairCost: "Ücretsiz (Geri Çağırma)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             }
         ],
         pros: [
@@ -1005,7 +1005,7 @@ export const hyundaiCars: Car[] = [
                             "category": "motor",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "nx4-3",
@@ -1023,7 +1023,7 @@ export const hyundaiCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Bozuk yollar",
-                            "repairCost": "Fitil ayarı"
+                            "repairCost": "500 - 2.000 TL (Fitil)"
                     },
                     {
                             "id": "nx4-5",
@@ -1032,7 +1032,7 @@ export const hyundaiCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım Güncelleme"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1161,7 +1161,7 @@ export const hyundaiCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım / Akü"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "i20n-3",
@@ -1170,7 +1170,7 @@ export const hyundaiCars: Car[] = [
                             "category": "motor",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "i20n-4",
@@ -1179,7 +1179,7 @@ export const hyundaiCars: Car[] = [
                             "category": "suspansiyon",
                             "riskLevel": "LOW",
                             "affectedKm": "Bozuk yollar",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "i20n-5",
@@ -1188,7 +1188,7 @@ export const hyundaiCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1266,7 +1266,7 @@ export const hyundaiCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Soğuk hava",
-                            "repairCost": "Yağ Değişimi"
+                            "repairCost": "3.000 - 6.000 TL (Yağ Değişimi)"
                     }
             ],
             "pros": [
@@ -1326,7 +1326,7 @@ export const hyundaiCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "alc-4",
@@ -1406,7 +1406,7 @@ export const hyundaiCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "exd-4",
@@ -1788,7 +1788,7 @@ export const hyundaiCars: Car[] = [
       "category": "motor",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0 (normal)"
+      "repairCost": "0 TL (normal)"
     },
     {
       "id": "hy-ttfl-2",
@@ -1797,7 +1797,7 @@ export const hyundaiCars: Car[] = [
       "category": "sanziman",
       "riskLevel": "LOW",
       "affectedKm": "50.000+ km",
-      "repairCost": "₺0 – ₺2.000 (yazılım)"
+      "repairCost": "0 - 2.000 TL (yazılım)"
     },
     {
       "id": "hy-ttfl-3",
@@ -1806,7 +1806,7 @@ export const hyundaiCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺500 – ₺2.000"
+      "repairCost": "500 - 2.000 TL"
     },
     {
       "id": "hy-ttfl-4",
@@ -1815,7 +1815,7 @@ export const hyundaiCars: Car[] = [
       "category": "suspansiyon",
       "riskLevel": "LOW",
       "affectedKm": "50.000-80.000 km",
-      "repairCost": "₺2.000 – ₺4.000"
+      "repairCost": "2.000 - 4.000 TL"
     }
   ],
   "pros": [

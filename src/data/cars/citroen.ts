@@ -43,7 +43,7 @@ export const citroenCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "c3-1-2-puretech-auto-4",
@@ -206,7 +206,7 @@ export const citroenCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "30.000-40.000 km aralığında buji değişimi şart",
-                repairCost: "Motor revizyonu (buji düşerse)"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             },
             {
                 id: "c3ac-4",
@@ -353,7 +353,7 @@ export const citroenCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Tasarım",
-                repairCost: "Çözümsüz (Kameraya alışın)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "c4-mk3-3",
@@ -435,7 +435,7 @@ export const citroenCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "2023-2025 model yılları",
-                repairCost: "Ücretsiz (Yetkili Servis Geri Çağırma)"
+                repairCost: "0 TL (Geri Çağırma)"
             },
             {
                 id: "c4x-3",
@@ -444,7 +444,7 @@ export const citroenCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "c4x-4",
@@ -517,7 +517,7 @@ export const citroenCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Çözümsüz (Tasarım)"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "c5-aircross-1-5-bluehdi-auto-4",
@@ -745,7 +745,7 @@ export const citroenCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Henüz yeni — takip edilmeli",
-                repairCost: "Bilinmiyor"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "c3ac-new-2",
@@ -754,7 +754,7 @@ export const citroenCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Sıfırdan",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             },
             {
                 id: "c3-aircross-new-2024-auto-3",
@@ -817,7 +817,7 @@ export const citroenCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Kış ayları",
-                repairCost: "Çözümsüz (EV karakteri)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "ec4-2",
@@ -826,7 +826,7 @@ export const citroenCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Uzun yol şarjlarında",
-                repairCost: "Donanım sınırı"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "ec4-elektrikli-auto-3",
@@ -886,7 +886,7 @@ export const citroenCars: Car[] = [
             { id: "c4old-2", title: "BSI (Beyin) Arızası", description: "Built-in Systems Interface elektronik kontrol ünitesi arızası. Farlar, silecekler veya klima çalışmaz.", category: "elektronik", riskLevel: "HIGH", affectedKm: "Yaş kaynaklı", repairCost: "5.000 - 12.000 TL" },
             { id: "c4old-3", title: "DPF Tıkanması", description: "Partikül filtresi şehir içi kullanımda tıkanır.", category: "motor", riskLevel: "HIGH", affectedKm: "60.000+ km", repairCost: "5.000 - 12.000 TL" },
             { id: "c4old-4", title: "Debriyaj Hidrolik", description: "Debriyaj merkez/çevre silindirinde sızıntı.", category: "sanziman", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "2.000 - 4.000 TL" },
-            { id: "c4old-5", title: "Sabit Göbekli Direksiyon", description: "Sabit göbekli direksiyon tasarımında gösterge okuma zorluğu ve alışkanlık sorunu.", category: "elektronik", riskLevel: "LOW", affectedKm: "Tasarım", repairCost: "Tasarım Özelliği" },
+            { id: "c4old-5", title: "Sabit Göbekli Direksiyon", description: "Sabit göbekli direksiyon tasarımında gösterge okuma zorluğu ve alışkanlık sorunu.", category: "elektronik", riskLevel: "LOW", affectedKm: "Tasarım", repairCost: "0 TL (Karakteristik)" },
             { id: "c4old-6", title: "Bagaj Kilidi Arızası", description: "Bagaj elektrikli kilit mekanizmasının bozulması.", category: "govde", riskLevel: "LOW", affectedKm: "60.000+ km", repairCost: "1.500 - 3.000 TL" }
         ],
         pros: ["Çarpıcı tasarım", "Ekonomik HDi", "Geniş kabin", "Konforlu sürüş"],
@@ -926,7 +926,7 @@ export const citroenCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "40.000+ km",
-                repairCost: "Yağ Takibi"
+                repairCost: "3.000 - 6.000 TL (Yağ Değişimi)"
             },
             {
                 id: "c3ac-3",
@@ -935,7 +935,7 @@ export const citroenCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "c3ac-4",
@@ -953,7 +953,7 @@ export const citroenCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             }
         ],
         pros: [
@@ -1109,7 +1109,7 @@ export const citroenCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "3-5 yıl",
-                            "repairCost": "Kozmetik"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     },
                     {
                             "id": "cact-3",
@@ -1136,7 +1136,7 @@ export const citroenCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1187,7 +1187,7 @@ export const citroenCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Soğuk hava",
-                            "repairCost": "Yağ Değişimi"
+                            "repairCost": "3.000 - 6.000 TL (Yağ Değişimi)"
                     },
                     {
                             "id": "berl3-3",
@@ -1265,7 +1265,7 @@ export const citroenCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "sax-3",
@@ -1345,7 +1345,7 @@ export const citroenCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "xsa-3",
@@ -1461,7 +1461,7 @@ export const citroenCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     }
             ],
             "pros": [

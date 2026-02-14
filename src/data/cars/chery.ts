@@ -25,7 +25,7 @@ export const cheryCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sürekli",
-                repairCost: "Yakıt Maliyeti (LPG uyumsuz)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "omoda5-23-2",
@@ -34,7 +34,7 @@ export const cheryCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Şehir içi kullanım",
-                repairCost: "Yazılım / Kalibrasyon"
+                repairCost: "2.000 - 5.000 TL (Kalibrasyon)"
             },
             {
                 id: "omoda5-23-3",
@@ -43,7 +43,7 @@ export const cheryCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "omoda5-23-4",
@@ -104,7 +104,7 @@ export const cheryCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (CVT tasarımı)"
+                repairCost: "0 TL (CVT Tasarımı)"
             },
             {
                 id: "omoda5-25-2",
@@ -122,7 +122,7 @@ export const cheryCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "omoda-5-2025-facelift-auto-4",
@@ -185,7 +185,7 @@ export const cheryCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Dur-kalk trafik",
-                repairCost: "Soğutma bekleme / Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "t7pro-2",
@@ -194,7 +194,7 @@ export const cheryCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sürekli",
-                repairCost: "Yakıt Maliyeti"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "t7pro-3",
@@ -203,7 +203,7 @@ export const cheryCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Zamanla",
-                repairCost: "Yalıtım bantlama"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             },
             {
                 id: "t7pro-4",
@@ -212,7 +212,7 @@ export const cheryCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Yaz ayları",
-                repairCost: "Yazılım Güncelleme / Gaz dolumu"
+                repairCost: "2.000 - 6.000 TL (Yazılım/Gaz)"
             }
         ],
         pros: [
@@ -254,7 +254,7 @@ export const cheryCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (CVT)"
+                repairCost: "0 TL (CVT Tasarımı)"
             },
             {
                 id: "t7max-2",
@@ -263,7 +263,7 @@ export const cheryCars: Car[] = [
                 category: "govde",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sürekli",
-                repairCost: "PPF Kaplama"
+                repairCost: "5.000 - 15.000 TL (Kaplama)"
             },
             {
                 id: "t7max-3",
@@ -272,7 +272,7 @@ export const cheryCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "tiggo-7-pro-max-2025-auto-4",
@@ -334,7 +334,7 @@ export const cheryCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "Dur-kalk trafik",
-                repairCost: "Soğutma bekleme"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "t8pro-2",
@@ -343,7 +343,7 @@ export const cheryCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sürekli",
-                repairCost: "Yakıt Maliyeti"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "t8pro-3",
@@ -352,7 +352,7 @@ export const cheryCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "İlk km'lerden",
-                repairCost: "PPF / Rötuş (Garanti dışı)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "t8pro-4",
@@ -361,7 +361,7 @@ export const cheryCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "t8pro-5",
@@ -370,7 +370,7 @@ export const cheryCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "110+ km/s",
-                repairCost: "Fitil iyileştirmesi"
+                repairCost: "1.000 - 3.000 TL (Fitil)"
             }
         ],
         pros: [
@@ -413,7 +413,7 @@ export const cheryCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (Tasarım)"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "t8max-2",
@@ -422,7 +422,7 @@ export const cheryCars: Car[] = [
                 category: "govde",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sürekli",
-                repairCost: "PPF Kaplama"
+                repairCost: "5.000 - 15.000 TL (Kaplama)"
             },
             {
                 id: "t8max-3",
@@ -431,7 +431,7 @@ export const cheryCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "tiggo-8-pro-max-2025-auto-4",
@@ -494,7 +494,7 @@ export const cheryCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (CVT tasarımı)"
+                repairCost: "0 TL (CVT Tasarımı)"
             },
             {
                 id: "t4pro-2",
@@ -503,7 +503,7 @@ export const cheryCars: Car[] = [
                 category: "govde",
                 riskLevel: "HIGH",
                 affectedKm: "Kaza durumunda",
-                repairCost: "Bekleme süresi"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "t4pro-3",
@@ -512,7 +512,7 @@ export const cheryCars: Car[] = [
                 category: "govde",
                 riskLevel: "MEDIUM",
                 affectedKm: "İlk km'lerden",
-                repairCost: "Seramik/PPF Kaplama"
+                repairCost: "5.000 - 15.000 TL (Kaplama)"
             },
             {
                 id: "t4pro-4",
@@ -521,7 +521,7 @@ export const cheryCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Sıfırdan",
-                repairCost: "Yalıtım bantlama"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             }
         ],
         pros: [
@@ -568,7 +568,7 @@ export const cheryCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (CVT)"
+                repairCost: "0 TL (CVT Tasarımı)"
             },
             {
                 id: "omoda7-2",
@@ -577,7 +577,7 @@ export const cheryCars: Car[] = [
                 category: "govde",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sürekli",
-                repairCost: "PPF Kaplama"
+                repairCost: "5.000 - 15.000 TL (Kaplama)"
             },
             {
                 id: "omoda7-3",
@@ -586,7 +586,7 @@ export const cheryCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Bilinmiyor",
-                repairCost: "Takip edilmeli"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "omoda-7-2025-auto-4",
@@ -604,7 +604,7 @@ export const cheryCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -650,7 +650,7 @@ export const cheryCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Şarj istasyonuna bağlı",
-                repairCost: "Yazılım / İstasyon değiştirme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "t8phev-2",
@@ -659,7 +659,7 @@ export const cheryCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kış ayları",
-                repairCost: "Çözümsüz (PHEV karakteri)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "t8phev-3",
@@ -668,7 +668,7 @@ export const cheryCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım kalibrasyon"
+                repairCost: "2.000 - 5.000 TL (Yazılım)"
             },
             {
                 id: "tiggo-8-pro-e-plus-phev-auto-4",
@@ -686,7 +686,7 @@ export const cheryCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [

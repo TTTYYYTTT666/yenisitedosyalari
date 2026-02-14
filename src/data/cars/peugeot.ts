@@ -56,7 +56,7 @@ export const peugeotCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / Değişim"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -119,7 +119,7 @@ export const peugeotCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / Değişim"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "3008-5",
@@ -128,7 +128,7 @@ export const peugeotCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "120+ km/s",
-                repairCost: "Ayarlama"
+                repairCost: "2.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -164,7 +164,7 @@ export const peugeotCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "308-new-1-2-auto-2",
@@ -235,7 +235,7 @@ export const peugeotCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "2023-2025 Modeller",
-                repairCost: "Ücretsiz (Servis)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "408-3",
@@ -244,7 +244,7 @@ export const peugeotCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "50.000+ km",
-                repairCost: "Motor Yenileme"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "408-4",
@@ -253,7 +253,7 @@ export const peugeotCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "408-5",
@@ -262,7 +262,7 @@ export const peugeotCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kısa Mesafe",
-                repairCost: "Akü Şarjı"
+                repairCost: "2.000 - 5.000 TL"
             }
         ],
         pros: [
@@ -431,7 +431,7 @@ export const peugeotCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Servis Ayarı"
+                repairCost: "2.000 - 5.000 TL (Servis)"
             },
             {
                 id: "5008-1-6-bluehdi-auto-3",
@@ -564,7 +564,7 @@ export const peugeotCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "50.000+ km",
-                repairCost: "Yağ Takibi / Revizyon"
+                repairCost: "20.000 - 50.000 TL (Motor Revizyon)"
             },
             {
                 id: "3008p-3",
@@ -573,7 +573,7 @@ export const peugeotCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "3008p-4",
@@ -582,7 +582,7 @@ export const peugeotCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "3008p-5",
@@ -630,7 +630,7 @@ export const peugeotCars: Car[] = [
             { id: "308t9-1", title: "DPF Tıkanması", description: "Şehir içi kullanımda DPF dolması. Güç kaybı ve rejenerasyon uyarısı.", category: "motor", riskLevel: "HIGH", affectedKm: "50.000+ km", repairCost: "5.000 - 15.000 TL" },
             { id: "308t9-2", title: "AdBlue Sistem Arızası", description: "AdBlue dozajlama ünitesinin kristalleşme sonucu tıkanması. Motor çalışmayacak uyarısı.", category: "motor", riskLevel: "HIGH", affectedKm: "40.000+ km", repairCost: "15.000 - 30.000 TL" },
             { id: "308t9-3", title: "Çift Kütleli Volan", description: "Rölantide metalik vuruntu sesi. Kavrama ile birlikte değiştirilmeli.", category: "sanziman", riskLevel: "HIGH", affectedKm: "80.000+ km", repairCost: "10.000 - 18.000 TL" },
-            { id: "308t9-4", title: "i-Cockpit Gösterge Parlama", description: "Küçük direksiyon simidi nedeniyle gösterge panelinin üst kısmının görünmemesi. Koltuk ayar hassasiyeti.", category: "elektronik", riskLevel: "LOW", affectedKm: "Tasarım", repairCost: "Tasarım Sorunu" },
+            { id: "308t9-4", title: "i-Cockpit Gösterge Parlama", description: "Küçük direksiyon simidi nedeniyle gösterge panelinin üst kısmının görünmemesi. Koltuk ayar hassasiyeti.", category: "elektronik", riskLevel: "LOW", affectedKm: "Tasarım", repairCost: "0 TL (Karakteristik)" },
             { id: "308t9-5", title: "Direksiyon Kolonu Sesi", description: "Direksiyon çevirirken gıcırtı ve tıkırtı sesi.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "40.000+ km", repairCost: "2.000 - 5.000 TL" },
             { id: "308t9-6", title: "Elektronik El Freni Arızası", description: "Elektrikli el freni motorunun bozulması veya kalibrasyonunun kaybolması.", category: "fren", riskLevel: "MEDIUM", affectedKm: "60.000+ km", repairCost: "4.000 - 10.000 TL" }
         ],
@@ -685,8 +685,8 @@ export const peugeotCars: Car[] = [
         issues: [
             { id: "508-1", title: "AdBlue Sistem Arızası", description: "AdBlue dozajlama ünitesinin kristalleşme sonucu tıkanması. 'Motor Çalışmayacak' uyarısı ve acil servis gerekliliği. Peugeot servisi dışında çözüm bulmak zordur.", category: "motor", riskLevel: "HIGH", affectedKm: "40.000 - 70.000 km", repairCost: "20.000 - 35.000 TL" },
             { id: "508-2", title: "i-Cockpit Gösterge Arızası", description: "Dijital gösterge panelinin kararması, piksellerinin bozulması veya hata göstermesi. Yazılım veya donanım kaynaklı olabilir.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "40.000+ km", repairCost: "8.000 - 20.000 TL" },
-            { id: "508-3", title: "EAT8 Şanzıman Sarsıntısı", description: "8 ileri otomatik şanzımanda düşük hızlarda hafif sarsıntı ve vites geçişlerinde tereddüt. Yazılım güncellemesi ile iyileşir.", category: "sanziman", riskLevel: "LOW", affectedKm: "30.000+ km", repairCost: "Yazılım Güncelleme" },
-            { id: "508-4", title: "Süspansiyon Sertliği ve Ses", description: "Düşük profilli lastikler ve sert süspansiyon ayarı nedeniyle bozuk yollarda sert geçişler ve alt takımdan gelen sesler.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "Karakteristik", repairCost: "Amortisör / Burç" },
+            { id: "508-3", title: "EAT8 Şanzıman Sarsıntısı", description: "8 ileri otomatik şanzımanda düşük hızlarda hafif sarsıntı ve vites geçişlerinde tereddüt. Yazılım güncellemesi ile iyileşir.", category: "sanziman", riskLevel: "LOW", affectedKm: "30.000+ km", repairCost: "1.500 - 4.000 TL (Yazılım)" },
+            { id: "508-4", title: "Süspansiyon Sertliği ve Ses", description: "Düşük profilli lastikler ve sert süspansiyon ayarı nedeniyle bozuk yollarda sert geçişler ve alt takımdan gelen sesler.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "Karakteristik", repairCost: "3.000 - 8.000 TL (Süspansiyon)" },
             { id: "508-5", title: "Geri Görüş Kamerası Donması", description: "Geri vites alındığında kamera görüntüsünün gelmemesi veya donması. Kamera modülü veya bağlantı kablosu arızalanabilir.", category: "elektronik", riskLevel: "LOW", affectedKm: "Rastgele", repairCost: "3.000 - 8.000 TL" },
             { id: "508-6", title: "DPF Rejenerasyon Uyarısı", description: "Kısa mesafe kullanımda partikül filtresi dolması ve rejenerasyon talebi. Şehir içi sürekli kullanımda sıklaşır.", category: "motor", riskLevel: "MEDIUM", affectedKm: "Şehir içi kullanım", repairCost: "5.000 - 15.000 TL" }
         ],
@@ -725,7 +725,7 @@ export const peugeotCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Soğuk havalar",
-                            "repairCost": "Yağ Değişimi"
+                            "repairCost": "3.000 - 6.000 TL (Yağ Değişimi)"
                     },
                     {
                             "id": "2008p24-3",
@@ -734,7 +734,7 @@ export const peugeotCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "2008p24-4",
@@ -899,7 +899,7 @@ export const peugeotCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Kronik",
-                            "repairCost": "Lokal Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     },
                     {
                             "id": "301-2-5",
@@ -959,7 +959,7 @@ export const peugeotCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "p106-3",
@@ -1039,7 +1039,7 @@ export const peugeotCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "p206-3",
@@ -1119,7 +1119,7 @@ export const peugeotCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "p306-3",
@@ -1199,7 +1199,7 @@ export const peugeotCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "p405-3",
@@ -1430,7 +1430,7 @@ export const peugeotCars: Car[] = [
       "category": "sanziman",
       "riskLevel": "LOW",
       "affectedKm": "30.000+ km",
-      "repairCost": "₺0 – ₺2.000 (yazılım)"
+      "repairCost": "0 - 2.000 TL (yazılım)"
     },
     {
       "id": "peu-30fl-2",
@@ -1439,7 +1439,7 @@ export const peugeotCars: Car[] = [
       "category": "motor",
       "riskLevel": "MEDIUM",
       "affectedKm": "60.000+ km",
-      "repairCost": "₺2.000 – ₺5.000"
+      "repairCost": "2.000 - 5.000 TL"
     },
     {
       "id": "peu-30fl-3",
@@ -1448,7 +1448,7 @@ export const peugeotCars: Car[] = [
       "category": "govde",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0"
+      "repairCost": "0 TL (Karakteristik)"
     },
     {
       "id": "peu-30fl-4",
@@ -1457,7 +1457,7 @@ export const peugeotCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "30.000+ km",
-      "repairCost": "₺500 – ₺2.000"
+      "repairCost": "500 - 2.000 TL"
     }
   ],
   "pros": [

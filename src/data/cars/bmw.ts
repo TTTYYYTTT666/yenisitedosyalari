@@ -103,7 +103,7 @@ export const bmwCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (Tasarım)"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "118i-f40-2",
@@ -183,7 +183,7 @@ export const bmwCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "218i-gran-coupe-auto-3",
@@ -491,7 +491,7 @@ export const bmwCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "g26-420i-5",
@@ -622,7 +622,7 @@ export const bmwCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "Her an",
-                repairCost: "Ücretsiz (Yetkili Servis Geri Çağırma)"
+                repairCost: "0 TL (Geri Çağırma)"
             },
             {
                 id: "f10-520d-3",
@@ -807,7 +807,7 @@ export const bmwCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -1264,7 +1264,7 @@ export const bmwCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Tasarım",
-                repairCost: "Ekran koruyucu film"
+                repairCost: "500 - 1.500 TL (Film)"
             },
             {
                 id: "x1-u11-3",
@@ -1282,7 +1282,7 @@ export const bmwCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -1422,7 +1422,7 @@ export const bmwCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "218i-gc-4",
@@ -1431,7 +1431,7 @@ export const bmwCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (Tasarım)"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "218i-gc-5",
@@ -1545,7 +1545,7 @@ export const bmwCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1761,7 +1761,7 @@ export const bmwCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Soğuk hava",
-                            "repairCost": "Yağ Değişimi"
+                            "repairCost": "3.000 - 6.000 TL (Yağ Değişimi)"
                     },
                     {
                             "id": "f10-4",
@@ -1779,7 +1779,7 @@ export const bmwCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1839,7 +1839,7 @@ export const bmwCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "e36-4",
@@ -2008,7 +2008,7 @@ export const bmwCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "e39-5",

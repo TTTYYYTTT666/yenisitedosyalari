@@ -125,7 +125,7 @@ export const jeepCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "renegade-1-3-turbo-auto-4",
@@ -207,7 +207,7 @@ export const jeepCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "compass-1-3-turbo-auto-4",
@@ -365,7 +365,7 @@ export const jeepCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Soğuk",
-                            "repairCost": "Yağ"
+                            "repairCost": "2.000 - 5.000 TL (Yağ)"
                     },
                     {
                             "id": "wjl-4",
@@ -383,7 +383,7 @@ export const jeepCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [

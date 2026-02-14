@@ -58,7 +58,7 @@ export const daciaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Arazi Kullanımı",
-                repairCost: "Ek Fitil"
+                repairCost: "1.000 - 3.000 TL (Fitil)"
             },
             {
                 id: "duster-6",
@@ -106,7 +106,7 @@ export const daciaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "0 km'den itibaren",
-                repairCost: "Çözümsüz / Yay Takılması"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "sandero-2",
@@ -115,7 +115,7 @@ export const daciaCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "20.000+ km",
-                repairCost: "LPG Regülatör / Enjektör"
+                repairCost: "3.000 - 8.000 TL (LPG Bakım)"
             },
             {
                 id: "sandero-3",
@@ -133,7 +133,7 @@ export const daciaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "sandero-5",
@@ -142,7 +142,7 @@ export const daciaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "30.000+ km",
-                repairCost: "Baskı Balata"
+                repairCost: "5.000 - 12.000 TL (Debriyaj/Balata)"
             }
         ],
         pros: [
@@ -179,7 +179,7 @@ export const daciaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "MEDIUM",
                 affectedKm: "20.000 - 40.000 km",
-                repairCost: "Baskı Balata"
+                repairCost: "5.000 - 12.000 TL (Debriyaj/Balata)"
             },
             {
                 id: "jogger-2",
@@ -188,7 +188,7 @@ export const daciaCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "LPG Regülatör / Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "jogger-3",
@@ -197,7 +197,7 @@ export const daciaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "100 km/s+",
-                repairCost: "Yok (Yapısal)"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "jogger-4",
@@ -206,7 +206,7 @@ export const daciaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / Motor Değişimi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "jogger-5",
@@ -215,7 +215,7 @@ export const daciaCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yok"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -317,7 +317,7 @@ export const daciaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Değişim"
+                repairCost: "3.000 - 8.000 TL (Tamir)"
             },
             {
                 id: "lodgy-1",
@@ -441,11 +441,11 @@ export const daciaCars: Car[] = [
         searchCount: 9000,
         expertNote: "Spring Avrupa'nın en ucuz elektrikli aracıdır ve fiyatına göre çok iyidir. Ama 230 km menzil gerçekte 150-180 km civarıdır. Şehir içi kullanım için idealdir, uzun yol aracı DEĞİLDİR.",
         issues: [
-            { id: "spring-1", title: "Düşük Menzil (Kışın)", description: "44hp motorla zaten sınırlı olan menzil, kış aylarında %30-40 düşer. WLTP 230 km iken gerçek kullanımda 120-150 km'ye inebilir. Isıtma sistemi bataryayı hızla tüketir.", category: "elektronik", riskLevel: "HIGH", affectedKm: "Kış ayları", repairCost: "Çözümsüz (Karakteristik)" },
-            { id: "spring-2", title: "Şarj Hızı Çok Düşük", description: "AC şarjda maksimum 6.6kW, DC hızlı şarjda 30kW. Tam şarj AC ile 8-14 saat, DC ile 1 saat sürer. Uzun yolda şarj bekleme süresi çok fazla.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "Sürekli", repairCost: "Karakteristik" },
-            { id: "spring-3", title: "Süspansiyon Sertliği", description: "Çok kısa süspansiyon yolculuğu nedeniyle bozuk yollarda aşırı sert geçişler. Arka koltukta zıplama hissi. Konfor düşük.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "Sürekli", repairCost: "Karakteristik" },
-            { id: "spring-4", title: "Batarya Yönetim Sistemi Hatası", description: "BMS ünitesinin arada sırada hatalı menzil göstermesi veya şarj seviyesini yanlış raporlaması.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "Rastgele", repairCost: "Yazılım Güncelleme" },
-            { id: "spring-5", title: "Plastik İç Mekan Sesleri", description: "Çok sade ve ince plastik iç mekan kaplamaları nedeniyle sürekli trim sesleri ve gıcırtılar.", category: "govde", riskLevel: "LOW", affectedKm: "Sıfırdan itibaren", repairCost: "Keçe Yalıtım" }
+            { id: "spring-1", title: "Düşük Menzil (Kışın)", description: "44hp motorla zaten sınırlı olan menzil, kış aylarında %30-40 düşer. WLTP 230 km iken gerçek kullanımda 120-150 km'ye inebilir. Isıtma sistemi bataryayı hızla tüketir.", category: "elektronik", riskLevel: "HIGH", affectedKm: "Kış ayları", repairCost: "0 TL (Karakteristik)" },
+            { id: "spring-2", title: "Şarj Hızı Çok Düşük", description: "AC şarjda maksimum 6.6kW, DC hızlı şarjda 30kW. Tam şarj AC ile 8-14 saat, DC ile 1 saat sürer. Uzun yolda şarj bekleme süresi çok fazla.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "Sürekli", repairCost: "0 TL (Karakteristik)" },
+            { id: "spring-3", title: "Süspansiyon Sertliği", description: "Çok kısa süspansiyon yolculuğu nedeniyle bozuk yollarda aşırı sert geçişler. Arka koltukta zıplama hissi. Konfor düşük.", category: "suspansiyon", riskLevel: "LOW", affectedKm: "Sürekli", repairCost: "0 TL (Karakteristik)" },
+            { id: "spring-4", title: "Batarya Yönetim Sistemi Hatası", description: "BMS ünitesinin arada sırada hatalı menzil göstermesi veya şarj seviyesini yanlış raporlaması.", category: "elektronik", riskLevel: "MEDIUM", affectedKm: "Rastgele", repairCost: "1.500 - 4.000 TL (Yazılım)" },
+            { id: "spring-5", title: "Plastik İç Mekan Sesleri", description: "Çok sade ve ince plastik iç mekan kaplamaları nedeniyle sürekli trim sesleri ve gıcırtılar.", category: "govde", riskLevel: "LOW", affectedKm: "Sıfırdan itibaren", repairCost: "1.000 - 3.000 TL (Yalıtım)" }
         ],
         pros: ["En ucuz elektrikli araç", "Sıfır emisyon", "Şehir içi pratiklik", "Düşük işletme maliyeti"],
         cons: ["Çok düşük menzil", "Şarj hızı yavaş", "Konfor ve malzeme kalitesi düşük", "Güvenlik (3 yıldız)"],
@@ -475,7 +475,7 @@ export const daciaCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (Tasarım)"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "jogger-h-2",
@@ -502,7 +502,7 @@ export const daciaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "jogger-h-5",
@@ -511,7 +511,7 @@ export const daciaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Sıfırdan itibaren",
-                repairCost: "Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             }
         ],
         pros: [
@@ -606,7 +606,7 @@ export const daciaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Bozuk yollar",
-                            "repairCost": "Yalıtım"
+                            "repairCost": "1.000 - 3.000 TL (Yalıtım)"
                     },
                     {
                             "id": "dust2-5",
@@ -615,7 +615,7 @@ export const daciaCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -693,7 +693,7 @@ export const daciaCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -771,7 +771,7 @@ export const daciaCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -849,7 +849,7 @@ export const daciaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     }
             ],
             "pros": [

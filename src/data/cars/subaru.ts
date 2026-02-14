@@ -22,7 +22,7 @@ export const subaruCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sürekli",
-                repairCost: "Bakım"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "xv-1-6-auto-2",

@@ -52,7 +52,7 @@ export const fordCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [
@@ -98,7 +98,7 @@ export const fordCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "HIGH",
                 affectedKm: "60.000+ km",
-                repairCost: "60.000+ TL (TCM + Kavrama)"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "focus3-16-2",
@@ -351,7 +351,7 @@ export const fordCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Yağışlı hava",
-                repairCost: "Tapa kontrolü / Yalıtım"
+                repairCost: "1.000 - 3.000 TL (Yalıtım)"
             },
             {
                 id: "puma-1-0-ecoboost-auto-4",
@@ -451,7 +451,7 @@ export const fordCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -524,7 +524,7 @@ export const fordCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Şehir içi",
-                repairCost: "Rejenerasyon / Temizlik"
+                repairCost: "5.000 - 15.000 TL (Egzoz/DPF)"
             }
         ],
         pros: [
@@ -570,7 +570,7 @@ export const fordCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (CVT karakteri)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "kuga-fhev-2",
@@ -606,7 +606,7 @@ export const fordCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -971,7 +971,7 @@ export const fordCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "ranger-2",
@@ -1278,7 +1278,7 @@ export const fordCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "50.000+ km",
-                            "repairCost": "Yağ Değişimi"
+                            "repairCost": "3.000 - 6.000 TL (Yağ Değişimi)"
                     },
                     {
                             "id": "foc4-3",
@@ -1287,7 +1287,7 @@ export const fordCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "foc4-4",
@@ -1383,7 +1383,7 @@ export const fordCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1461,7 +1461,7 @@ export const fordCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Kronik",
-                            "repairCost": "Lokal Boya"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     }
             ],
             "pros": [
@@ -1512,7 +1512,7 @@ export const fordCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "CRITICAL",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Kavrama Seti / Modül"
+                            "repairCost": "5.000 - 15.000 TL (Modül)"
                     },
                     {
                             "id": "fps-3",
@@ -1608,7 +1608,7 @@ export const fordCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Restorasyon"
+                            "repairCost": "3.000 - 10.000 TL (Boya/Rötuş)"
                     },
                     {
                             "id": "tau-3",
@@ -1688,7 +1688,7 @@ export const fordCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "esc-3",
@@ -1795,7 +1795,7 @@ export const fordCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     }
             ],
             "pros": [
@@ -1928,7 +1928,7 @@ export const fordCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "fie4-3",
@@ -2399,7 +2399,7 @@ export const fordCars: Car[] = [
       "category": "motor",
       "riskLevel": "MEDIUM",
       "affectedKm": "80.000-150.000 km",
-      "repairCost": "₺3.000 – ₺6.000"
+      "repairCost": "3.000 - 6.000 TL"
     },
     {
       "id": "ford-fmk35-2",
@@ -2408,7 +2408,7 @@ export const fordCars: Car[] = [
       "category": "sanziman",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0 (normal davranış)"
+      "repairCost": "0 TL (normal davranış)"
     },
     {
       "id": "ford-fmk35-3",
@@ -2417,7 +2417,7 @@ export const fordCars: Car[] = [
       "category": "motor",
       "riskLevel": "HIGH",
       "affectedKm": "120.000+ km",
-      "repairCost": "₺4.000 – ₺12.000"
+      "repairCost": "4.000 - 12.000 TL"
     },
     {
       "id": "ford-fmk35-4",
@@ -2426,7 +2426,7 @@ export const fordCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "Tüm km",
-      "repairCost": "₺0 – ₺1.500"
+      "repairCost": "0 - 1.500 TL"
     },
     {
       "id": "ford-fmk35-5",
@@ -2435,7 +2435,7 @@ export const fordCars: Car[] = [
       "category": "suspansiyon",
       "riskLevel": "MEDIUM",
       "affectedKm": "60.000-100.000 km",
-      "repairCost": "₺1.500 – ₺3.500"
+      "repairCost": "1.500 - 3.500 TL"
     }
   ],
   "pros": [

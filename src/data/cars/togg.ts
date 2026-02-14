@@ -22,7 +22,7 @@ export const toggCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "İlk seriler",
-                repairCost: "OTA (Ücretsiz)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "togg-2",
@@ -31,7 +31,7 @@ export const toggCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Servis Ayarı"
+                repairCost: "2.000 - 5.000 TL (Servis)"
             },
             {
                 id: "t10x-v2-auto-3",
@@ -86,7 +86,7 @@ export const toggCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "İlk seriler",
-                repairCost: "Ücretsiz"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "togg-2",
@@ -95,7 +95,7 @@ export const toggCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Servis Ayarı"
+                repairCost: "2.000 - 5.000 TL (Servis)"
             },
             {
                 id: "t10x-v2-long-range-auto-3",
@@ -152,7 +152,7 @@ export const toggCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Sürekli",
-                repairCost: "Ücretsiz (OTA)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "t10f-2",
@@ -161,7 +161,7 @@ export const toggCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Şarj istasyonuna bağlı",
-                repairCost: "Yazılım / İstasyon değiştirme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "t10f-3",
@@ -170,7 +170,7 @@ export const toggCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kış ayları",
-                repairCost: "Çözümsüz (EV karakteri)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "t10f-4",
@@ -179,7 +179,7 @@ export const toggCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Sıfırdan",
-                repairCost: "Garanti Kapsamında"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "t10f-5",
@@ -188,7 +188,7 @@ export const toggCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Yazılıma bağlı",
-                repairCost: "OTA Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             }
         ],
         pros: [

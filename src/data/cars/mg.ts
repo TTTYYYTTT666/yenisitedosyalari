@@ -22,7 +22,7 @@ export const mgCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "zs-2",
@@ -31,7 +31,7 @@ export const mgCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "zs-ev-auto-3",
@@ -87,7 +87,7 @@ export const mgCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Sürekli",
-                repairCost: "Yok"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "hs-1",
@@ -151,7 +151,7 @@ export const mgCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Yazılımsal",
-                repairCost: "Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "4-electric-auto-2",
@@ -226,7 +226,7 @@ export const mgCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kış ayları",
-                repairCost: "Çözümsüz (PHEV karakteri)"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "mg-hs-phev-3",
@@ -235,7 +235,7 @@ export const mgCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Kronik",
-                repairCost: "Yazılım"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "mg-hs-phev-4",
@@ -244,7 +244,7 @@ export const mgCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "mg-hs-phev-5",
@@ -253,7 +253,7 @@ export const mgCars: Car[] = [
                 category: "govde",
                 riskLevel: "MEDIUM",
                 affectedKm: "Kaza durumunda",
-                repairCost: "Bekleme Süresi"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -294,7 +294,7 @@ export const mgCars: Car[] = [
                             "category": "sanziman",
                             "riskLevel": "LOW",
                             "affectedKm": "Soğuk hava",
-                            "repairCost": "Yağ Değişimi"
+                            "repairCost": "3.000 - 6.000 TL (Yağ Değişimi)"
                     },
                     {
                             "id": "mgzs-2",
@@ -312,7 +312,7 @@ export const mgCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Fabrika",
-                            "repairCost": "Ayar"
+                            "repairCost": "2.000 - 5.000 TL"
                     },
                     {
                             "id": "mgzs-4",
@@ -321,7 +321,7 @@ export const mgCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "mgzs-5",

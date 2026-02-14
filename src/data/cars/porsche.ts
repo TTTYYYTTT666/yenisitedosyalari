@@ -22,7 +22,7 @@ export const porscheCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "HIGH",
                 affectedKm: "60.000+ km",
-                repairCost: "50.000+ TL"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "macan-2",
@@ -105,7 +105,7 @@ export const porscheCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım Güncelleme"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "cay3-4",

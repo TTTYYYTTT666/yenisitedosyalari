@@ -691,7 +691,7 @@ export const skodaCars: Car[] = [
             { id: "fabia-2", title: "1.0 TSI Zincir Gerilme Problemi", description: "3 silindirli motorun triger zincirinde uzama ve gerilme kaybı. Motor çalıştırırken kısa süreli şıkırtı sesi. Zincir seti değişimi gerekir.", category: "motor", riskLevel: "MEDIUM", affectedKm: "80.000+ km", repairCost: "8.000 - 15.000 TL" },
             { id: "fabia-3", title: "Devirdaim/Termostat Kaçağı", description: "Plastik termostat gövdesinden su sızdırması. Antifriz seviyesi düşer ve hararet yapabilir. VW grubu ortak sorunu.", category: "motor", riskLevel: "MEDIUM", affectedKm: "50.000+ km", repairCost: "5.000 - 10.000 TL" },
             { id: "fabia-4", title: "Start-Stop Akü Sorunu", description: "Start-stop sistemi için gereken AGM/EFB akünün erken ölmesi. Sistem devre dışı kalır ve çeşitli elektronik hatalar oluşabilir.", category: "elektronik", riskLevel: "LOW", affectedKm: "3-4 Yıl", repairCost: "4.000 - 7.000 TL (Akü)" },
-            { id: "fabia-5", title: "Rüzgar Sesi (100+ km/s)", description: "Ayna dipleri ve kapı fitillerinden yüksek hızlarda gelen rüzgar uğultusu. Sınıfı gereği normal kabul edilebilir.", category: "govde", riskLevel: "LOW", affectedKm: "Yüksek Hız", repairCost: "Fitil İyileştirme" }
+            { id: "fabia-5", title: "Rüzgar Sesi (100+ km/s)", description: "Ayna dipleri ve kapı fitillerinden yüksek hızlarda gelen rüzgar uğultusu. Sınıfı gereği normal kabul edilebilir.", category: "govde", riskLevel: "LOW", affectedKm: "Yüksek Hız", repairCost: "1.000 - 3.000 TL (Fitil)" }
         ],
         pros: ["Sınıfının en geniş bagajı (380L)", "Pratik Simply Clever detaylar", "Ekonomik yakıt tüketimi", "Güçlü 1.0 TSI (95/110hp)"],
         cons: ["DSG riski", "Arka süspansiyon sert (Torsion)", "Opsiyonel donanım ayrı fiyat"],
@@ -728,7 +728,7 @@ export const skodaCars: Car[] = [
                             "category": "motor",
                             "riskLevel": "MEDIUM",
                             "affectedKm": "50.000+ km",
-                            "repairCost": "Takip / Segman"
+                            "repairCost": "8.000 - 20.000 TL (Segman)"
                     },
                     {
                             "id": "oct8-3",
@@ -755,7 +755,7 @@ export const skodaCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Garanti / Panel Değişimi"
+                            "repairCost": "0 TL (Garanti Kapsamı)"
                     }
             ],
             "pros": [
@@ -833,7 +833,7 @@ export const skodaCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -911,7 +911,7 @@ export const skodaCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     }
             ],
             "pros": [
@@ -1113,7 +1113,7 @@ export const skodaCars: Car[] = [
       "category": "sanziman",
       "riskLevel": "MEDIUM",
       "affectedKm": "80.000-150.000 km",
-      "repairCost": "₺8.000 – ₺18.000"
+      "repairCost": "8.000 - 18.000 TL"
     },
     {
       "id": "sk-oa7fl-2",
@@ -1122,7 +1122,7 @@ export const skodaCars: Car[] = [
       "category": "motor",
       "riskLevel": "MEDIUM",
       "affectedKm": "80.000-130.000 km",
-      "repairCost": "₺2.500 – ₺5.000"
+      "repairCost": "2.500 - 5.000 TL"
     },
     {
       "id": "sk-oa7fl-3",
@@ -1131,7 +1131,7 @@ export const skodaCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "80.000+ km",
-      "repairCost": "₺5.000 – ₺15.000"
+      "repairCost": "5.000 - 15.000 TL"
     },
     {
       "id": "sk-oa7fl-4",
@@ -1140,7 +1140,7 @@ export const skodaCars: Car[] = [
       "category": "elektronik",
       "riskLevel": "LOW",
       "affectedKm": "100.000+ km",
-      "repairCost": "₺4.000 – ₺8.000"
+      "repairCost": "4.000 - 8.000 TL"
     }
   ],
   "pros": [

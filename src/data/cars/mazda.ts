@@ -86,7 +86,7 @@ export const mazdaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / Akü"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "mazda3-bp-2",
@@ -95,7 +95,7 @@ export const mazdaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "HIGH",
                 affectedKm: "Rastgele",
-                repairCost: "Kalibrasyon"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "3-2-0-skyactiv-auto-3",
@@ -150,7 +150,7 @@ export const mazdaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "HIGH",
                 affectedKm: "Sensör kirliliği",
-                repairCost: "Kalibrasyon"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "cx30-1",
@@ -159,7 +159,7 @@ export const mazdaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Ücretsiz (Servis)"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "cx30-2-0-skyactiv-auto-3",
@@ -215,7 +215,7 @@ export const mazdaCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "Şehir içi",
-                repairCost: "Temizlik"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "cx3-2",
@@ -315,7 +315,7 @@ export const mazdaCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
+                            "repairCost": "1.500 - 4.000 TL (Yazılım)"
                     },
                     {
                             "id": "cx5kf-3",
@@ -324,7 +324,7 @@ export const mazdaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "120+ km/h",
-                            "repairCost": "Fitil"
+                            "repairCost": "1.000 - 3.000 TL (Fitil)"
                     },
                     {
                             "id": "cx5kf-4",
@@ -342,7 +342,7 @@ export const mazdaCars: Car[] = [
                             "category": "motor",
                             "riskLevel": "LOW",
                             "affectedKm": "100.000+ km",
-                            "repairCost": "Takip"
+                            "repairCost": "2.000 - 5.000 TL"
                     }
             ],
             "pros": [

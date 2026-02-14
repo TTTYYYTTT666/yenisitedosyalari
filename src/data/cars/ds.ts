@@ -34,7 +34,7 @@ export const dsCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "ds3cb-3",
@@ -108,7 +108,7 @@ export const dsCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "ds4-2",
@@ -117,7 +117,7 @@ export const dsCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Dış etkenler (güneş, yıkama)",
-                repairCost: "Kozmetik onarım"
+                repairCost: "3.000 - 10.000 TL (Boya/Rötuş)"
             },
             {
                 id: "ds4-3",
@@ -126,7 +126,7 @@ export const dsCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Çözümsüz (Tasarım)"
+                repairCost: "0 TL (Tasarım Kaynaklı)"
             },
             {
                 id: "4-puretech-auto-4",
@@ -199,7 +199,7 @@ export const dsCars: Car[] = [
                 category: "sanziman",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım Güncellemesi"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "ds7-3",
@@ -282,7 +282,7 @@ export const dsCars: Car[] = [
                 category: "motor",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Yazılım Kalibrasyon"
+                repairCost: "2.000 - 5.000 TL (Yazılım)"
             },
             {
                 id: "ds7e-3",
@@ -309,7 +309,7 @@ export const dsCars: Car[] = [
                 category: "fren",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik",
-                repairCost: "Normal (Tasarım)"
+                repairCost: "0 TL (Karakteristik)"
             }
         ],
         pros: [
@@ -365,7 +365,7 @@ export const dsCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Değişken (Arızaya bağlı)"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "ds5-3",
@@ -374,7 +374,7 @@ export const dsCars: Car[] = [
                 category: "govde",
                 riskLevel: "HIGH",
                 affectedKm: "Kaza/arıza durumunda",
-                repairCost: "Bekleme + Yüksek fiyat"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "ds5-4",
@@ -383,7 +383,7 @@ export const dsCars: Car[] = [
                 category: "motor",
                 riskLevel: "MEDIUM",
                 affectedKm: "60.000+ km",
-                repairCost: "Yağ takibi"
+                repairCost: "3.000 - 6.000 TL (Yağ Değişimi)"
             }
         ],
         pros: [

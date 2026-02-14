@@ -22,7 +22,7 @@ export const teslaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Fabrikasyon",
-                repairCost: "Kozmetik"
+                repairCost: "3.000 - 10.000 TL (Boya/Rötuş)"
             },
             {
                 id: "tesla-2",
@@ -31,7 +31,7 @@ export const teslaCars: Car[] = [
                 category: "suspansiyon",
                 riskLevel: "LOW",
                 affectedKm: "Sürekli",
-                repairCost: "Konfor sorunu"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "model-y-lr-auto-3",
@@ -86,7 +86,7 @@ export const teslaCars: Car[] = [
                 category: "motor",
                 riskLevel: "HIGH",
                 affectedKm: "Kış Ayları",
-                repairCost: "Garantiden Değişim"
+                repairCost: "0 TL (Garanti Kapsamı)"
             },
             {
                 id: "modely-2",
@@ -95,7 +95,7 @@ export const teslaCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Otopilot Açıkken",
-                repairCost: "Yazılım Güncelleme"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "modely-3",
@@ -113,7 +113,7 @@ export const teslaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Fabrikasyon",
-                repairCost: "Ayarlama / PPF"
+                repairCost: "5.000 - 15.000 TL (Kaplama)"
             },
             {
                 id: "modely-5",
@@ -122,7 +122,7 @@ export const teslaCars: Car[] = [
                 category: "govde",
                 riskLevel: "LOW",
                 affectedKm: "Yağmurlu Hava",
-                repairCost: "Fitil Değişimi"
+                repairCost: "1.000 - 3.000 TL (Fitil)"
             }
         ],
         pros: [
@@ -161,7 +161,7 @@ export const teslaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Fabrika çıkışı",
-                            "repairCost": "Ayar / Garanti"
+                            "repairCost": "0 TL (Garanti Kapsamı)"
                     },
                     {
                             "id": "m3-2",
@@ -170,7 +170,7 @@ export const teslaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Yalıtım Kiti"
+                            "repairCost": "1.000 - 3.000 TL (Yalıtım)"
                     },
                     {
                             "id": "m3-3",
@@ -188,7 +188,7 @@ export const teslaCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Kış",
-                            "repairCost": "Normal (Fizik)"
+                            "repairCost": "2.000 - 5.000 TL"
                     },
                     {
                             "id": "m3-5",
@@ -239,7 +239,7 @@ export const teslaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Fabrika",
-                            "repairCost": "Ayar / Garanti"
+                            "repairCost": "0 TL (Garanti Kapsamı)"
                     },
                     {
                             "id": "mysr-2",
@@ -248,7 +248,7 @@ export const teslaCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "LOW",
                             "affectedKm": "Karakteristik",
-                            "repairCost": "Yalıtım Kiti"
+                            "repairCost": "1.000 - 3.000 TL (Yalıtım)"
                     },
                     {
                             "id": "mysr-3",
@@ -257,7 +257,7 @@ export const teslaCars: Car[] = [
                             "category": "elektronik",
                             "riskLevel": "LOW",
                             "affectedKm": "Kış",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     },
                     {
                             "id": "mysr-4",

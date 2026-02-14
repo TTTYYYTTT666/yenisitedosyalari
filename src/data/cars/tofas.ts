@@ -22,7 +22,7 @@ export const tofasCars: Car[] = [
                 category: "govde",
                 riskLevel: "HIGH",
                 affectedKm: "Kronik",
-                repairCost: "20.000+ TL"
+                repairCost: "2.000 - 5.000 TL"
             },
             {
                 id: "tofas-2",
@@ -179,7 +179,7 @@ export const tofasCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "sah-4",
@@ -206,7 +206,7 @@ export const tofasCars: Car[] = [
                             "category": "suspansiyon",
                             "riskLevel": "LOW",
                             "affectedKm": "Tasarım",
-                            "repairCost": "Normal"
+                            "repairCost": "0 TL (Karakteristik)"
                     }
             ],
             "pros": [
@@ -259,7 +259,7 @@ export const tofasCars: Car[] = [
                             "category": "govde",
                             "riskLevel": "HIGH",
                             "affectedKm": "Yaş kaynaklı",
-                            "repairCost": "Boya / Kaynak"
+                            "repairCost": "5.000 - 15.000 TL (Boya/Kaynak)"
                     },
                     {
                             "id": "kar-3",

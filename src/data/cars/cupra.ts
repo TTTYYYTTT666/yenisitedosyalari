@@ -108,7 +108,7 @@ export const cupraCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "MEDIUM",
                 affectedKm: "Rastgele",
-                repairCost: "Yazılım / Servis ziyareti"
+                repairCost: "1.500 - 4.000 TL (Yazılım)"
             },
             {
                 id: "born-3",
@@ -186,7 +186,7 @@ export const cupraCars: Car[] = [
                 category: "elektronik",
                 riskLevel: "LOW",
                 affectedKm: "Karakteristik (Tasarım)",
-                repairCost: "Çözümsüz / Modül Değişimi"
+                repairCost: "0 TL (Karakteristik)"
             },
             {
                 id: "cupra-vz-3",
