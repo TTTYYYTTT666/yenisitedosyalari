@@ -398,6 +398,40 @@ export default async function CarDetailPage({ params }: PageProps) {
 
                     {/* Sidebar - bigger, stickier */}
                     <div className="space-y-5 lg:sticky lg:top-20">
+                        {/* Fiyat Bilgisi */}
+                        {car.price && (
+                            <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 p-6 shadow-sm">
+                                <h3 className="text-base font-bold text-stone-900 dark:text-stone-100 mb-4 flex items-center gap-2.5">
+                                    <div className="w-8 h-8 bg-orange-100 dark:bg-orange-950/30 rounded-lg flex items-center justify-center shrink-0">
+                                        <svg className="w-4 h-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg>
+                                    </div>
+                                    Fiyat Bilgisi
+                                </h3>
+                                <div className="mb-4">
+                                    <div className="text-xs text-stone-400 mb-1">2. El Piyasa Fiyati (ort.)</div>
+                                    <div className="text-2xl font-bold text-stone-900 dark:text-white">
+                                        {car.price.toLocaleString('tr-TR')} TL
+                                    </div>
+                                </div>
+                                {car.issues.length > 0 && (
+                                    <div>
+                                        <div className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-2">Tamir Maliyetleri</div>
+                                        <ul className="space-y-2">
+                                            {car.issues.map((issue, idx) => (
+                                                <li key={idx} className="flex items-center justify-between text-sm">
+                                                    <span className="text-stone-600 dark:text-stone-400 truncate mr-2">{issue.title}</span>
+                                                    <span className="text-stone-800 dark:text-stone-200 font-medium whitespace-nowrap text-xs">{issue.repairCost}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
+                                <p className="text-[10px] text-stone-400 mt-3">Fiyatlar tahminidir, piyasa kosullarina gore degisebilir.</p>
+                            </div>
+                        )}
+
                         {/* Buying Tips - bigger */}
                         <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 p-6 shadow-sm">
                             <h3 className="text-base font-bold text-stone-900 dark:text-stone-100 mb-4 flex items-center gap-2.5">
