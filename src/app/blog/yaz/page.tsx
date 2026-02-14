@@ -1,22 +1,12 @@
-'use client';
-
 import { createPost } from '@/actions/blog-actions';
-import { useSession } from 'next-auth/react';
-import { useRouter } from 'next/navigation';
-import { useEffect } from 'react';
+import { auth } from '@/auth';
+import { redirect } from 'next/navigation';
 
-export default function WriteBlogPage() {
-    const { data: session, status } = useSession();
-    const router = useRouter();
+export default async function WriteBlogPage() {
+    const session = await auth();
 
-    useEffect(() => {
-        if (status === 'unauthenticated') {
-            router.push('/giris');
-        }
-    }, [status, router]);
-
-    if (status === 'loading') {
-        return <div className="min-h-screen flex items-center justify-center">Yükleniyor...</div>;
+    if (!session?.user) {
+        redirect('/giris');
     }
 
     return (
