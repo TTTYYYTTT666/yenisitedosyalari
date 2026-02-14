@@ -56,8 +56,8 @@ export default function HeaderClient({ user }: HeaderClientProps) {
             <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-14">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-1.5">
-                        <div className="relative w-8 h-8">
+                    <Link href="/" className="flex items-center gap-0.5">
+                        <div className="relative w-8 h-8 -mr-0.5">
                             <Image
                                 src="/logo-transparent.png"
                                 alt="OTORAPORU"
@@ -65,7 +65,7 @@ export default function HeaderClient({ user }: HeaderClientProps) {
                                 className="object-contain"
                             />
                         </div>
-                        <span className="text-xl font-black tracking-tighter">
+                        <span className="text-xl font-black tracking-tighter leading-none">
                             <span className="text-orange-600">OTORAPORU</span><span className="text-stone-900 dark:text-stone-100">.NET</span>
                         </span>
                     </Link>

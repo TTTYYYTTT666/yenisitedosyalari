@@ -8,8 +8,8 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Brand */}
                     <div className="col-span-1 md:col-span-2">
-                        <div className="flex items-center gap-2.5 mb-3">
-                            <div className="relative w-7 h-7">
+                        <div className="flex items-center gap-0.5 mb-3">
+                            <div className="relative w-7 h-7 -mr-0.5">
                                 <Image
                                     src="/logo-transparent.png"
                                     alt="OTORAPORU"
