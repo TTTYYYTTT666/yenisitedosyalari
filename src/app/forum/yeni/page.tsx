@@ -1,23 +1,16 @@
-'use client';
-
+import { auth } from '@/auth';
+import { redirect } from 'next/navigation';
 import { createPost } from '@/actions/blog-actions';
-import { useSession } from 'next-auth/react';
-import { useRouter } from 'next/navigation';
-import { useEffect } from 'react';
+import { Metadata } from 'next';
 
-export default function NewForumTopicPage() {
-    const { data: session, status } = useSession();
-    const router = useRouter();
+export const metadata: Metadata = {
+    title: 'Yeni Konu Aç | Forum',
+    description: 'Araç deneyiminizi paylaşın veya soru sorun.',
+};
 
-    useEffect(() => {
-        if (status === 'unauthenticated') {
-            router.push('/giris');
-        }
-    }, [status, router]);
-
-    if (status === 'loading') {
-        return <div className="min-h-screen flex items-center justify-center">Yükleniyor...</div>;
-    }
+export default async function NewForumTopicPage() {
+    const session = await auth();
+    if (!session?.user?.id) redirect('/giris');
 
     return (
         <div className="min-h-screen bg-stone-100 dark:bg-[#0c0a09] py-12">
@@ -55,7 +48,7 @@ export default function NewForumTopicPage() {
                             >
                                 <option value="">Seçiniz</option>
                                 <option value="Deneyim">Kullanıcı Deneyimi</option>
-                                <option value="Bakım">Bakım & Onarım</option>
+                                <option value="Bakım">Bakım &amp; Onarım</option>
                                 <option value="Haber">Otomobil Haberleri</option>
                                 <option value="Rehber">Alım Satım Rehberi</option>
                             </select>
