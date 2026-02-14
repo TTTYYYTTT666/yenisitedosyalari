@@ -22,7 +22,6 @@ export interface Car {
     generation?: string;
     image?: string; // Opting out of images as per user request
     expertNote?: string; // "Sanayi Notu" - Master mechanic's advice
-    price?: number; // Average 2026 market price for valuation
     reliabilityScore: number;
     totalIssues: number;
     issues: Issue[];

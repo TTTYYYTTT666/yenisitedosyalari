@@ -13,7 +13,6 @@ export const jaguarCars: Car[] = [
         variant: "2.0d Ingenium 180 HP R-Sport (8AT)",
         years: "2016-2023",
         generation: "X761",
-        price: 2200000,
         expertNote: "Ingenium 2.0d 180 HP + ZF 8HP 8 ileri otomatik. Türkiye'de satılan tek gerçek Jaguar SUV. Tasarımı şahane ama Ingenium motorun zincir seti sorunu ÇOK CİDDİ — 80.000 km sonrası motor zinciri uzayabilir, müdahale edilmezse motor gider. Servis ağı Türkiye'de ÇOK SINIRLI (Borusan Oto). Yedek parça fiyatları şok etkisi yaratır. İkinci elde çok değer kaybediyor çünkü herkes sorunlarından korkuyor.",
         reliabilityScore: 62,
         totalIssues: 5,

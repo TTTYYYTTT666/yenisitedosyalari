@@ -116,5 +116,5 @@ export async function registerUser(formData: FormData) {
         },
     });
 
-    redirect('/giris');
+    redirect('/');
 }
