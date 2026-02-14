@@ -931,4 +931,235 @@ export const skodaCars: Car[] = [
                     "DPF taraması"
             ]
     }
+,
+    {
+            "id": "skoda-octavia-a7-1-6-tdi",
+            "slug": "skoda-octavia-a7-1-6-tdi-style",
+            "brand": "Škoda",
+            "model": "Octavia",
+            "variant": "A7 1.6 TDI Style",
+            "years": "2013-2020",
+            "generation": "A7 (5E)",
+            "price": 650000,
+            "expertNote": "CLHA 1.6 TDI 110 HP. Octavia A7 en iyi para/değer oranı D segment. MQB platformu (Golf 7 tabanlı). Style donanım 8 inç Columbus, park asistanı, LED.",
+            "reliabilityScore": 78,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "oct-1",
+                            "title": "DSG Şanzıman",
+                            "description": "DQ200 7 ileri DSG mekatro arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "10.000 - 25.000 TL"
+                    },
+                    {
+                            "id": "oct-2",
+                            "title": "AdBlue",
+                            "description": "AdBlue enjektörü arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "oct-3",
+                            "title": "Su Pompası",
+                            "description": "Elektrikli su pompası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "oct-4",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "oct-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön alt kol burçları.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.000 - 2.500 TL"
+                    }
+            ],
+            "pros": [
+                    "En iyi para/değer",
+                    "Golf 7 platformu",
+                    "Style donanım süper",
+                    "DEVASA bagaj"
+            ],
+            "cons": [
+                    "DSG riski",
+                    "AdBlue sorunu",
+                    "Parça pahalılaştı",
+                    "Plastik kalite orta"
+            ],
+            "buyingTips": [
+                    "MANUEL şanzıman tercih edin",
+                    "DSG mekatro kontrolü",
+                    "Style en iyi donanım/fiyat",
+                    "Combi (SW) çok pratik"
+            ]
+    }
+,
+    {
+            "id": "skoda-rapid-1-6-tdi",
+            "slug": "skoda-rapid-1-6-tdi-style",
+            "brand": "Škoda",
+            "model": "Rapid",
+            "variant": "1.6 TDI Style",
+            "years": "2013-2019",
+            "generation": "NH",
+            "price": 400000,
+            "expertNote": "CAYC 1.6 TDI 90/105 HP. Rapid Octavia ile Fabia arası sedan. Style donanım 6.5 inç Bolero, park sensörü. Ekonomik ve pratik.",
+            "reliabilityScore": 76,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "rap-1",
+                            "title": "DSG",
+                            "description": "DQ200 DSG mekatro.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "10.000 - 20.000 TL"
+                    },
+                    {
+                            "id": "rap-2",
+                            "title": "EGR",
+                            "description": "EGR valfi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "rap-3",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "rap-4",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "rap-5",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    }
+            ],
+            "pros": [
+                    "VW grubu platform",
+                    "Ekonomik",
+                    "Pratik sedan",
+                    "İyi bagaj"
+            ],
+            "cons": [
+                    "DSG riski",
+                    "Plastik kalite",
+                    "Sürüş keyfi orta",
+                    "Popüler değil"
+            ],
+            "buyingTips": [
+                    "Manuel tercih edin",
+                    "Style donanım güzel",
+                    "Octavia'dan ucuz",
+                    "DSG mekatro kontrolü"
+            ]
+    }
+,
+{
+  "id": "skoda-octavia-a7fl",
+  "slug": "skoda-octavia-a7-facelift-1-6-tdi-style",
+  "brand": "Škoda",
+  "model": "Octavia",
+  "variant": "Octavia A7 Facelift 1.6 TDI Style",
+  "years": "2017-2020",
+  "generation": "Ara Kasa (2017-2020)",
+  "price": 825000,
+  "expertNote": "A7 facelift'te full LED farlar, yeni 4 kollu direksiyon ve 8 inç Columbus multimedya geldi. DSG DQ200 yazılımı tekrar güncellendi — mekatronik arızaları pre-facelift'e göre belirgin azaldı. 1.6 TDI CXXB motor aynı kaldı.",
+  "reliabilityScore": 72,
+  "totalIssues": 4,
+  "searchCount": 13400,
+  "issues": [
+    {
+      "id": "sk-oa7fl-1",
+      "title": "DSG DQ200 Mekatronik (İyileşmiş)",
+      "description": "DQ200 7 ileri DSG'nin mekatronik ünitesi hâlâ potansiyel risk taşıyor ancak facelift'te güncellenen yazılım ile arıza oranı %40 civarı azaldı. Yine de dikkatli olunmalı.",
+      "category": "sanziman",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "80.000-150.000 km",
+      "repairCost": "₺8.000 – ₺18.000"
+    },
+    {
+      "id": "sk-oa7fl-2",
+      "title": "1.6 TDI EGR Valve",
+      "description": "EGR valfı karbon birikimi şehir içi kullanımda devam eden sorun. Periyodik temizlik gerekir.",
+      "category": "motor",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "80.000-130.000 km",
+      "repairCost": "₺2.500 – ₺5.000"
+    },
+    {
+      "id": "sk-oa7fl-3",
+      "title": "Full LED Far Modül Arızası",
+      "description": "Facelift ile gelen full LED farların modülleri arızalanabilir. Tek LED segment sönme durumu.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "80.000+ km",
+      "repairCost": "₺5.000 – ₺15.000"
+    },
+    {
+      "id": "sk-oa7fl-4",
+      "title": "Klima Kompresörü (Devam)",
+      "description": "Pre-facelift'ten devam eden klima kompresörü arızası. Manyetik kavrama aşınması klima soğutmayı bozar.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "100.000+ km",
+      "repairCost": "₺4.000 – ₺8.000"
+    }
+  ],
+  "pros": [
+    "DSG DQ200 yazılımı iyileşmiş",
+    "Full LED farlar standart",
+    "Columbus multimedya çok iyi",
+    "Geniş iç hacim Octavia avantajı",
+    "1.6 TDI düşük yakıt tüketimi"
+  ],
+  "cons": [
+    "DSG DQ200 riski tam sıfır değil",
+    "LED far tamiri pahalı",
+    "EGR dekarbonizasyon gerekli"
+  ],
+  "buyingTips": [
+    "DSG servis geçmişini mutlaka kontrol edin",
+    "Full LED farların tüm segmentlerini kontrol edin",
+    "2017+ facelift, pre-facelift'e göre daha güvenilir",
+    "Manuel şanzıman varsa DSG riski sıfır"
+  ]
+}
 ];

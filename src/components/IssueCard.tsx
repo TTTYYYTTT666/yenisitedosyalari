@@ -3,9 +3,10 @@ import { getCategoryLabel, getRiskLabel } from '@/data/cars';
 
 interface IssueCardProps {
     issue: Issue;
+    children?: React.ReactNode;
 }
 
-export default function IssueCard({ issue }: IssueCardProps) {
+export default function IssueCard({ issue, children }: IssueCardProps) {
     const getRiskStyles = (risk: string) => {
         switch (risk) {
             case 'CRITICAL':
@@ -126,6 +127,8 @@ export default function IssueCard({ issue }: IssueCardProps) {
                     </div>
                 )}
             </div>
+
+            {children}
         </div>
     );
 }

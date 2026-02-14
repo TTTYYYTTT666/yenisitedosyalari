@@ -749,4 +749,324 @@ export const nissanCars: Car[] = [
                     "Enjektör kontrolü"
             ]
     }
+,
+    {
+            "id": "nissan-primera-p11-2-0",
+            "slug": "nissan-primera-p11-2-0-gx",
+            "brand": "Nissan",
+            "model": "Primera",
+            "variant": "P11 2.0 GX",
+            "years": "1996-2002",
+            "generation": "P11",
+            "price": 80000,
+            "expertNote": "SR20DE 2.0 140 HP. Primera P11 Nissan'ın C/D segment aracı. SR20 motor güvenilir ve güçlü. İyi yol tutuşu. Türkiye'de az bilinen ama kaliteli araç.",
+            "reliabilityScore": 76,
+            "totalIssues": 5,
+            "searchCount": 8000,
+            "issues": [
+                    {
+                            "id": "p11-1",
+                            "title": "Triger Zinciri",
+                            "description": "SR20 motorlarda triger zinciri gergisi aşınması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "p11-2",
+                            "title": "Motor Takozları",
+                            "description": "Motor takozlarının sertleşmesi.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "p11-3",
+                            "title": "Kaporta Pası",
+                            "description": "Minimal paslanma.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya"
+                    },
+                    {
+                            "id": "p11-4",
+                            "title": "Egzoz Manifoldu",
+                            "description": "Egzoz manifoldu çatlağı.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "p11-5",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön amortisör ve bilyalar.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "SR20 motor güvenilir",
+                    "İyi yol tutuşu",
+                    "Az bilinen kaliteli araç",
+                    "Güçlü 2.0"
+            ],
+            "cons": [
+                    "Yedek parça zor",
+                    "Az tanınır",
+                    "Değer düşükmüş",
+                    "Yaşlı"
+            ],
+            "buyingTips": [
+                    "SR20 motor efsane",
+                    "Triger zinciri kontrol",
+                    "GX donanım iyi",
+                    "Az bilinmesi avantaj (ucuz)"
+            ]
+    }
+,
+    {
+            "id": "nissan-qashqai-j11-1-6-dci",
+            "slug": "nissan-qashqai-j11-1-6-dci-tekna",
+            "brand": "Nissan",
+            "model": "Qashqai",
+            "variant": "J11 1.6 dCi Tekna",
+            "years": "2014-2021",
+            "generation": "J11",
+            "price": 700000,
+            "expertNote": "R9M 1.6 dCi 130 HP. Qashqai J11 C-SUV segmentinin öncüsü. Tekna donanım 7 inç, 360° kamera, deri, panoramik tavan, LED. Sunderland üretimi.",
+            "reliabilityScore": 75,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "qj11-1",
+                            "title": "CVT Şanzıman",
+                            "description": "Xtronic CVT titreşimi ve kayması.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "qj11-2",
+                            "title": "DPF",
+                            "description": "DPF filtresi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "qj11-3",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "qj11-4",
+                            "title": "Enjektör",
+                            "description": "dCi enjektör sorunları.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "qj11-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör gıcırtısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "C-SUV öncüsü",
+                    "Tekna donanım mükemmel",
+                    "360° kamera",
+                    "Güzel tasarım"
+            ],
+            "cons": [
+                    "CVT tartışmalı",
+                    "DPF sorunu",
+                    "Dizel bakım pahalı",
+                    "Plastik iç mekan"
+            ],
+            "buyingTips": [
+                    "Manuel tercih edin",
+                    "Tekna en iyi donanım",
+                    "1.2 DIG-T benzinli daha sorunsuz",
+                    "CVT'ye alışmak lazım"
+            ]
+    }
+,
+    {
+            "id": "nissan-juke-1-6-turbo",
+            "slug": "nissan-juke-f15-1-6-turbo-tekna",
+            "brand": "Nissan",
+            "model": "Juke",
+            "variant": "F15 1.6 Turbo Tekna",
+            "years": "2010-2019",
+            "generation": "F15",
+            "price": 400000,
+            "expertNote": "MR16DDT 1.6 Turbo 190 HP. Juke B-SUV segmentinin yaratıcısı. Çılgın tasarım. Tekna donanım Bose ses, deri, navigasyon. Nismo RS versiyonu çok sportif.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "juk-1",
+                            "title": "CVT Şanzıman",
+                            "description": "Xtronic CVT kayması ve titreşimi.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "juk-2",
+                            "title": "Turbo",
+                            "description": "Turbo wastegate arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "juk-3",
+                            "title": "Triger Zinciri",
+                            "description": "MR16DDT triger zinciri uzaması.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "juk-4",
+                            "title": "Arka Bagaj",
+                            "description": "Çok küçük bagaj hacmi.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Tasarım",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "juk-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Çılgın tasarım",
+                    "190 HP güçlü",
+                    "Nismo versiyonu",
+                    "B-SUV öncüsü"
+            ],
+            "cons": [
+                    "CVT riski",
+                    "Triger zinciri",
+                    "Çok küçük bagaj",
+                    "Dar arka koltuk"
+            ],
+            "buyingTips": [
+                    "1.6 NA (117 HP) daha güvenilir",
+                    "CVT kontrol edin",
+                    "Triger zinciri sesi dinleyin",
+                    "Bagaj küçüklüğünü kabul edin"
+            ]
+    }
+,
+{
+  "id": "nissan-qashqai-j11-fl",
+  "slug": "nissan-qashqai-j11-facelift-1-3-dig-t-tekna",
+  "brand": "Nissan",
+  "model": "Qashqai",
+  "variant": "Qashqai J11 Facelift 1.3 DIG-T Tekna",
+  "years": "2017-2021",
+  "generation": "Ara Kasa (2017-2021)",
+  "price": 875000,
+  "expertNote": "J11 facelift büyük değişiklik: 1.2 DIG-T yerine Mercedes-Renault ortaklığı H5H 1.3 DIG-T motor geldi (160hp). CVT yerine 7 ileri DCT (Getrag). ProPILOT yarı-otonom sürüş eklendi. Ses yalıtımı iyileştirildi.",
+  "reliabilityScore": 66,
+  "totalIssues": 5,
+  "searchCount": 12800,
+  "issues": [
+    {
+      "id": "nis-q11fl-1",
+      "title": "1.3 DIG-T Silindir Cidarı Aşınması",
+      "description": "Mercedes A-Class'ta da kullanılan 1.3 turbo motor yüksek km'de silindir cidarı aşınması riski taşır. Yağ tüketimi artabilir.",
+      "category": "motor",
+      "riskLevel": "HIGH",
+      "affectedKm": "100.000+ km",
+      "repairCost": "₺10.000 – ₺25.000"
+    },
+    {
+      "id": "nis-q11fl-2",
+      "title": "7 İleri DCT Kavrama Titreşimi",
+      "description": "Getrag 7DCT300 çift kavramalı şanzıman düşük hızda ve manevralarda titreşim yapabilir. Yazılım güncellemesi ile azaltılabilir.",
+      "category": "sanziman",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "30.000-80.000 km",
+      "repairCost": "₺3.000 – ₺10.000"
+    },
+    {
+      "id": "nis-q11fl-3",
+      "title": "ProPILOT Sensör Hassasiyeti",
+      "description": "ProPILOT yarı-otonom sürüş sistemi yağmurda veya kirli ön camda hassasiyetini kaybedebilir. Sistem devre dışı kalabilir.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0 (normal davranış)"
+    },
+    {
+      "id": "nis-q11fl-4",
+      "title": "DPF Tıkanması (1.5 dCi)",
+      "description": "1.5 dCi dizel seçenekte DPF tıkanması riski devam ediyor. Şehir içi kısa mesafe kullanımda yüksek risk.",
+      "category": "motor",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "80.000+ km",
+      "repairCost": "₺4.000 – ₺10.000"
+    },
+    {
+      "id": "nis-q11fl-5",
+      "title": "Otomatik Park Freni Arızası",
+      "description": "Elektronik park freni modülü arızalanabilir. Park freni serbest bırakılamayabilir.",
+      "category": "fren",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "80.000+ km",
+      "repairCost": "₺3.000 – ₺7.000"
+    }
+  ],
+  "pros": [
+    "1.3 DIG-T daha güçlü motor",
+    "ProPILOT yarı-otonom sürüş",
+    "Ses yalıtımı iyileşmiş",
+    "V-Motion tasarım daha modern",
+    "Dijital gösterge paneli"
+  ],
+  "cons": [
+    "1.3 DIG-T silindir aşınma riski",
+    "DCT titreşim sorunu",
+    "DPF riski (dizel)"
+  ],
+  "buyingTips": [
+    "1.3 DIG-T motor yağ tüketimini kontrol edin",
+    "DCT'yi şehir içi trafikte test edin",
+    "ProPILOT çalışıyorsa büyük avantaj",
+    "Dizel isterseniz DPF geçmişini sorun"
+  ]
+}
 ];

@@ -1102,4 +1102,884 @@ export const opelCars: Car[] = [
                     "Ucuz diye atlamayın"
             ]
     }
+,
+    {
+            "id": "opel-vectra-a-2-0",
+            "slug": "opel-vectra-a-2-0-gl",
+            "brand": "Opel",
+            "model": "Vectra A",
+            "variant": "2.0 GL",
+            "years": "1988-1995",
+            "generation": "A (J89)",
+            "price": 80000,
+            "expertNote": "C20NE 2.0 8V 115 HP. Vectra A Türkiye'de 90'ların en popüler D segment aracı. Motor çok sağlam ama elektrik tesisatı yaşlandı.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "veca-1",
+                            "title": "Elektrik Tesisatı",
+                            "description": "Yaşlanmış elektrik tesisatı. Kısa devre riski.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "1.000 - 3.000 TL"
+                    },
+                    {
+                            "id": "veca-2",
+                            "title": "Kaporta Pası",
+                            "description": "Yaygın paslanma (kapı altları, çamurluklar).",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "veca-3",
+                            "title": "Devridaim Pompası",
+                            "description": "Su pompası sızıntısı. Hararet.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "veca-4",
+                            "title": "Termostat",
+                            "description": "Termostat arızası. Motor ısınmıyor veya hararet.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "200 - 500 TL"
+                    },
+                    {
+                            "id": "veca-5",
+                            "title": "Şanzıman",
+                            "description": "Manuel şanzıman senkromece aşınması.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    }
+            ],
+            "pros": [
+                    "C20NE motor efsane",
+                    "Sağlam gövde",
+                    "D segment konfor",
+                    "Ucuz yedek parça"
+            ],
+            "cons": [
+                    "Yaşlı araç",
+                    "Pas sorunu",
+                    "Elektrik sorunları",
+                    "Konfor eski"
+            ],
+            "buyingTips": [
+                    "Motor sağlam — dinleyin yeter",
+                    "Tesisat kontrolü önemli",
+                    "Pas alttan kontrol edin",
+                    "2.0 GL en iyisi"
+            ]
+    }
+,
+    {
+            "id": "opel-vectra-b-1-6",
+            "slug": "opel-vectra-b-1-6-comfort",
+            "brand": "Opel",
+            "model": "Vectra B",
+            "variant": "1.6 16V Comfort",
+            "years": "1995-2002",
+            "generation": "B (J96)",
+            "price": 120000,
+            "expertNote": "X16XEL 1.6 16V 100 HP. Vectra B Türkiye'de çok satıldı. Motor güvenilir ama 16V versiyonlarda triger zinciri uzaması var. Sedan ve HB versiyonları.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 15000,
+            "issues": [
+                    {
+                            "id": "vecb-1",
+                            "title": "Triger Zinciri",
+                            "description": "Triger zinciri uzaması. Dıkdık sesi. Ciddi motor hasarı riski.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "vecb-2",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları ve eşik bölgesinde paslanma.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "vecb-3",
+                            "title": "Cam Kaldırma Makarası",
+                            "description": "Cam kaldırma mekanizması makarasının kırılması.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.000 TL"
+                    },
+                    {
+                            "id": "vecb-4",
+                            "title": "Radyatör Fan",
+                            "description": "Radyatör fan motoru veya termal şalter arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "vecb-5",
+                            "title": "ABS Sensörü",
+                            "description": "ABS tekerlek sensörü arızası. ABS uyarısı.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Güvenilir motor",
+                    "D segment",
+                    "Ucuz yedek parça",
+                    "Sağlam şasi"
+            ],
+            "cons": [
+                    "Triger zinciri riski",
+                    "Pas sorunu",
+                    "Yaşlı araç",
+                    "Parça azalıyor"
+            ],
+            "buyingTips": [
+                    "Triger zinciri sesi dinleyin",
+                    "Soğukta çalıştırıp dinleyin",
+                    "1.6 Comfort en mantıklısı",
+                    "HB versiyonu daha sportif"
+            ]
+    }
+,
+    {
+            "id": "opel-astra-f-1-6",
+            "slug": "opel-astra-f-1-6-gl",
+            "brand": "Opel",
+            "model": "Astra F",
+            "variant": "1.6 GL",
+            "years": "1991-1998",
+            "generation": "F (T92)",
+            "price": 90000,
+            "expertNote": "C16SE 1.6 8V 75 HP. Astra F Türkiye'de 90'ların en popüler C segment aracı. Motor basit ve dayanıklı. HB, sedan ve SW versiyonları var.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "astf-1",
+                            "title": "Motor Contası",
+                            "description": "Silindir kapağı contasının atması.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "astf-2",
+                            "title": "Kaporta Pası",
+                            "description": "Yaygın paslanma.",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "astf-3",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı kontrol zamanı.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "60.000 km",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "astf-4",
+                            "title": "Ateşleme Bobini",
+                            "description": "Ateşleme bobininin arızalanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "astf-5",
+                            "title": "Fren Diski",
+                            "description": "Ön fren disklerinin çarpması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    }
+            ],
+            "pros": [
+                    "Basit motor",
+                    "Ucuz bakım",
+                    "Yedek parça bol",
+                    "Sağlam C segment"
+            ],
+            "cons": [
+                    "Pas sorunu",
+                    "Yaşlı",
+                    "Güvenlik düşük",
+                    "Konfor az"
+            ],
+            "buyingTips": [
+                    "Conta atma geçmişi sorulmalı",
+                    "Triger kontrolü",
+                    "Pas alttan bakılmalı",
+                    "GL donanım yeterli"
+            ]
+    }
+,
+    {
+            "id": "opel-astra-g-1-6",
+            "slug": "opel-astra-g-1-6-comfort",
+            "brand": "Opel",
+            "model": "Astra G",
+            "variant": "1.6 16V Comfort",
+            "years": "1998-2004",
+            "generation": "G (T98)",
+            "price": 150000,
+            "expertNote": "Z16XE 1.6 16V 100 HP. Astra G, Astra F'nin modern halefi. İyi sürüş, güvenilir motor. HB, sedan ve cabrio versiyonları. Türkiye'de çok yaygın.",
+            "reliabilityScore": 76,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "astg-1",
+                            "title": "Triger Zinciri",
+                            "description": "Z16XE motorlarda triger zinciri uzaması sesi.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "astg-2",
+                            "title": "Termostat",
+                            "description": "Termostat arızası. Motor ısınmama veya hararet.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "astg-3",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması arızası.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "astg-4",
+                            "title": "ABS Sensörü",
+                            "description": "ABS sensörü arızası.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.000 TL"
+                    },
+                    {
+                            "id": "astg-5",
+                            "title": "Arka Amortisör",
+                            "description": "Arka amortisörlerin yorulması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "İyi sürüş dinamiği",
+                    "Güvenilir Z16XE",
+                    "Ucuz bakım",
+                    "C segment konfor"
+            ],
+            "cons": [
+                    "Triger zinciri riski",
+                    "Yaşlanıyor",
+                    "Parça azalıyor",
+                    "Pas başlıyor"
+            ],
+            "buyingTips": [
+                    "Soğukta çalıştırıp triger sesi dinleyin",
+                    "Comfort donanım tercih edin",
+                    "HB veya sedan tercih",
+                    "Z16XE motor en iyisi"
+            ]
+    }
+,
+    {
+            "id": "opel-corsa-b-1-4",
+            "slug": "opel-corsa-b-1-4-swing",
+            "brand": "Opel",
+            "model": "Corsa B",
+            "variant": "1.4 Swing",
+            "years": "1993-2000",
+            "generation": "B (S93)",
+            "price": 70000,
+            "expertNote": "C14NZ 1.4 8V 60 HP. Corsa B küçük, ekonomik şehir aracı. Motor basit ve ucuz bakımlı. Türkiye'de genç sürücülerin ilk aracı.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "corb-1",
+                            "title": "Karbüratör/Enjeksiyon",
+                            "description": "Eski modellerde karbüratör, yenilerde monopoint enjeksiyon sorunları.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 1.000 TL"
+                    },
+                    {
+                            "id": "corb-2",
+                            "title": "Kaporta Pası",
+                            "description": "Küçük gövdede bile pas oluşumu.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "corb-3",
+                            "title": "Şanzıman Sesi",
+                            "description": "Manuel şanzımandan homurtu sesi.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "corb-4",
+                            "title": "Silecek Mekanizması",
+                            "description": "Silecek mekanizması aşınması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "corb-5",
+                            "title": "Egzoz Kaçağı",
+                            "description": "Egzoz manifoldu veya boru kaçağı.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Ekonomik",
+                    "Küçük ve pratik",
+                    "Ucuz bakım",
+                    "İlk araç ideali"
+            ],
+            "cons": [
+                    "Çok küçük",
+                    "60 HP az",
+                    "Güvenlik düşük",
+                    "Yaşlı"
+            ],
+            "buyingTips": [
+                    "İlk araç olarak ideal",
+                    "Pas kontrolü",
+                    "Swing donanım yeterli",
+                    "LPG'li ise dönüşüm kalitesi"
+            ]
+    }
+,
+    {
+            "id": "opel-omega-b-2-0",
+            "slug": "opel-omega-b-2-0-gls",
+            "brand": "Opel",
+            "model": "Omega B",
+            "variant": "2.0 16V GLS",
+            "years": "1994-2003",
+            "generation": "B",
+            "price": 130000,
+            "expertNote": "X20XEV 2.0 16V 136 HP. Omega B büyük E segment sedan/SW. Konforlu ve güçlü. Almanya'dan ithal araçlar çok. Otoban kruvazörü.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 8000,
+            "issues": [
+                    {
+                            "id": "omgb-1",
+                            "title": "Triger Zinciri",
+                            "description": "Triger zinciri ve gergisi aşınması.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "omgb-2",
+                            "title": "Otomatik Şanzıman",
+                            "description": "4AT şanzıman kayması (otomatik varsa).",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "8.000 - 15.000 TL"
+                    },
+                    {
+                            "id": "omgb-3",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön alt kol burçlarının aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "omgb-4",
+                            "title": "Klima Kompresörü",
+                            "description": "Klima kompresörü arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "omgb-5",
+                            "title": "Yağ Kaçağı",
+                            "description": "Valf kapağı contasından yağ sızıntısı.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Konforlu E segment",
+                    "Güçlü motor",
+                    "Otoban aracı",
+                    "SW versiyonu çok geniş"
+            ],
+            "cons": [
+                    "Triger zinciri maliyeti",
+                    "Büyük araç yakıt",
+                    "Parça pahalılaştı",
+                    "Yaşlı"
+            ],
+            "buyingTips": [
+                    "Triger zinciri sesi kontrol",
+                    "Manuel şanzıman tercih edin",
+                    "Almanya ithalat geçmişi kontrol",
+                    "GLS donanım iyi"
+            ]
+    }
+,
+    {
+            "id": "opel-astra-j-1-6-cdti",
+            "slug": "opel-astra-j-1-6-cdti-sport",
+            "brand": "Opel",
+            "model": "Astra J",
+            "variant": "1.6 CDTi Sport",
+            "years": "2009-2015",
+            "generation": "J",
+            "price": 350000,
+            "expertNote": "LVL 1.6 CDTi 136 HP. Astra J iyi C segment. Sport donanım 7 inç IntelliLink, spor süspansiyon. GTC çok sportif. İyi sürüş dinamiği.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "aj-1",
+                            "title": "Triger Zinciri",
+                            "description": "1.6 motorlarda triger zinciri uzaması.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "aj-2",
+                            "title": "Su Pompası",
+                            "description": "Su pompası plastik çark kırılması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "aj-3",
+                            "title": "EGR",
+                            "description": "EGR valfi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "aj-4",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "aj-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör gıcırtısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "İyi sürüş",
+                    "Sport donanım",
+                    "GTC sportif",
+                    "C segment"
+            ],
+            "cons": [
+                    "Triger zinciri riski",
+                    "Parça pahalılaştı",
+                    "EGR sorunu",
+                    "GM kalitesi düştü"
+            ],
+            "buyingTips": [
+                    "Triger zinciri sesi dinleyin",
+                    "Sport donanım güzel",
+                    "GTC coupe çok sportif",
+                    "CDTi ekonomik"
+            ]
+    }
+,
+    {
+            "id": "opel-corsa-d-1-3-cdti",
+            "slug": "opel-corsa-d-1-3-cdti-enjoy",
+            "brand": "Opel",
+            "model": "Corsa D",
+            "variant": "1.3 CDTi Enjoy",
+            "years": "2006-2014",
+            "generation": "D",
+            "price": 220000,
+            "expertNote": "Z13DTJ 1.3 CDTi 75 HP. Corsa D küçük şehir aracı. Fiat 1.3 Multijet motor. 75 HP şehir için yeterli. Enjoy donanım klima, ABS, ESP.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "cd-1",
+                            "title": "Turbo",
+                            "description": "Turbo yağ kaçağı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "cd-2",
+                            "title": "EGR",
+                            "description": "EGR valfi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "cd-3",
+                            "title": "Fren Disk",
+                            "description": "Ön fren disklerinin çarpması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "30.000+ km",
+                            "repairCost": "500 - 1.000 TL"
+                    },
+                    {
+                            "id": "cd-4",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma klipsi kırılması.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "cd-5",
+                            "title": "Direksiyon",
+                            "description": "Elektrikli direksiyon arızası.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Küçük ve ekonomik",
+                    "Fiat motor güvenilir",
+                    "Şehir aracı",
+                    "Ucuz bakım"
+            ],
+            "cons": [
+                    "75 HP az",
+                    "EGR sorunu",
+                    "Elektrikli direksiyon pahalı",
+                    "Plastik kalite"
+            ],
+            "buyingTips": [
+                    "Fiat 1.3 motor sağlam",
+                    "Enjoy donanım yeterli",
+                    "EGR kontrol edin",
+                    "Benzinli 1.4 daha sorunsuz"
+            ]
+    }
+,
+    {
+            "id": "opel-insignia-1-6-cdti",
+            "slug": "opel-insignia-a-1-6-cdti-cosmo",
+            "brand": "Opel",
+            "model": "Insignia A",
+            "variant": "1.6 CDTi Cosmo",
+            "years": "2009-2017",
+            "generation": "A (G09)",
+            "price": 400000,
+            "expertNote": "LVL 1.6 CDTi 136 HP. Insignia Vectra'nın halefi. D segment. Cosmo donanım deri, navigasyon, xenon. İyi otoban aracı.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "ins-1",
+                            "title": "Triger Zinciri",
+                            "description": "Triger zinciri uzaması sesi.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "ins-2",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "ins-3",
+                            "title": "EGR",
+                            "description": "EGR soğutucu ve valfi.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "ins-4",
+                            "title": "Otomatik Şanzıman",
+                            "description": "6AT şanzıman kayması.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "ins-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör ve bilyalar.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.000 - 2.500 TL"
+                    }
+            ],
+            "pros": [
+                    "D segment konfor",
+                    "Cosmo donanım zengin",
+                    "Otoban aracı",
+                    "Güzel tasarım"
+            ],
+            "cons": [
+                    "Triger zinciri riski",
+                    "EGR sorunu",
+                    "Parça pahalı",
+                    "Değer kaybı"
+            ],
+            "buyingTips": [
+                    "Triger zinciri sesi kontrol",
+                    "Manuel tercih edin",
+                    "Cosmo donanım güzel",
+                    "CDTi 136 HP yeterli"
+            ]
+    }
+,
+    {
+            "id": "opel-mokka-1-6-cdti",
+            "slug": "opel-mokka-1-6-cdti-enjoy",
+            "brand": "Opel",
+            "model": "Mokka",
+            "variant": "1.6 CDTi Enjoy",
+            "years": "2012-2019",
+            "generation": "J13",
+            "price": 500000,
+            "expertNote": "LVL 1.6 CDTi 136 HP. Mokka küçük SUV. B-SUV segmentinin popüler aracı. Enjoy donanım IntelliLink 7 inç, park sensörü. 4x4 seçeneği var.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "mok-1",
+                            "title": "Triger Zinciri",
+                            "description": "1.6 CDTi triger zinciri.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "mok-2",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "mok-3",
+                            "title": "Su Pompası",
+                            "description": "Su pompası sızıntısı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "mok-4",
+                            "title": "4x4 Sistem",
+                            "description": "Haldex 4x4 kavrama arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "mok-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "B-SUV pratikliği",
+                    "CDTi güçlü",
+                    "4x4 seçeneği",
+                    "Kompakt boyut"
+            ],
+            "cons": [
+                    "Triger zinciri riski",
+                    "4x4 pahalı tamir",
+                    "Dar iç mekan",
+                    "Parça pahalılaştı"
+            ],
+            "buyingTips": [
+                    "Triger zinciri kontrol",
+                    "2WD yeterli",
+                    "Enjoy donanım iyi",
+                    "CDTi 136 HP güçlü"
+            ]
+    }
+,
+{
+  "id": "opel-astra-j-fl",
+  "slug": "opel-astra-j-facelift-1-6-cdti-sport",
+  "brand": "Opel",
+  "model": "Astra",
+  "variant": "Astra J Facelift 1.6 CDTi Sport",
+  "years": "2012-2015",
+  "generation": "Ara Kasa (2012-2015)",
+  "price": 450000,
+  "expertNote": "Astra J facelift'te 1.3 CDTi yerine 1.6 CDTi (B16DTH) motor geldi — daha güçlü ve güvenilir. IntelliLink infotainment eklendi. DPF yazılımı iyileştirildi. Start-stop sistemi standart oldu ancak akü tüketimi arttı.",
+  "reliabilityScore": 68,
+  "totalIssues": 5,
+  "searchCount": 9500,
+  "issues": [
+    {
+      "id": "opel-ajfl-1",
+      "title": "1.6 CDTi Zamanlama Zinciri Gerilmesi",
+      "description": "B16DTH motorun zamanlama zinciri 100 bin km sonra gerilme gösterebilir. Çıngırak sesi soğuk çalıştırmada belirgin. Erken müdahale edilmezse motor hasarı riski.",
+      "category": "motor",
+      "riskLevel": "HIGH",
+      "affectedKm": "100.000-160.000 km",
+      "repairCost": "₺5.000 – ₺12.000"
+    },
+    {
+      "id": "opel-ajfl-2",
+      "title": "Start-Stop AGM Akü Ömrü",
+      "description": "Start-stop sistemi AGM akü gerektirir. Normal aküye göre 2-3 kat pahalı ve 3-4 yılda değişim gerekir.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺3.000 – ₺5.000 (AGM akü)"
+    },
+    {
+      "id": "opel-ajfl-3",
+      "title": "IntelliLink Bağlantı Kopması",
+      "description": "IntelliLink multimedya sistemi Bluetooth ve telefon bağlantısını kaybedebilir. Yazılım güncellemesi ile iyileşir.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0 – ₺500"
+    },
+    {
+      "id": "opel-ajfl-4",
+      "title": "DPF Rejenerasyon (İyileşmiş)",
+      "description": "Facelift'te DPF yazılımı güncellenmiş. Pre-facelift'e göre tıkanma riski azalmış ama şehir içi kısa mesafede hâlâ dikkat gerekir.",
+      "category": "motor",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "80.000-130.000 km",
+      "repairCost": "₺3.000 – ₺8.000"
+    },
+    {
+      "id": "opel-ajfl-5",
+      "title": "Ön Fren Disk Çarpıklığı",
+      "description": "Ön fren diskleri sert frenleme sonrası çarpılabilir. Direksiyon titremesi yapar. Kaliteli aftermarket disk tavsiye edilir.",
+      "category": "fren",
+      "riskLevel": "LOW",
+      "affectedKm": "40.000-70.000 km",
+      "repairCost": "₺1.500 – ₺3.500"
+    }
+  ],
+  "pros": [
+    "1.6 CDTi, 1.3 CDTi'den daha güçlü ve güvenilir",
+    "IntelliLink modern multimedya",
+    "DPF yazılımı iyileşmiş",
+    "Daha iyi iç mekan kalitesi",
+    "Start-stop yakıt tasarrufu"
+  ],
+  "cons": [
+    "Zamanlama zinciri riski var",
+    "AGM akü pahalı",
+    "Start-stop Can-Bus sorunları olabilir"
+  ],
+  "buyingTips": [
+    "Zamanlama zinciri sesi kontrol edin — çıngırak varsa kaçın",
+    "1.6 CDTi MUTLAKA tercih edin, 1.3 CDTi'dan kaçının",
+    "IntelliLink yazılım sürümünü kontrol edin",
+    "Start-stop devre dışı bırakılabilir — sorun değil"
+  ]
+}
 ];

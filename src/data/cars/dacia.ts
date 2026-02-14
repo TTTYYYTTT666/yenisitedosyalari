@@ -791,4 +791,164 @@ export const daciaCars: Car[] = [
                     "Pas kontrolü"
             ]
     }
+,
+    {
+            "id": "dacia-duster-1-5-dci",
+            "slug": "dacia-duster-mk1-1-5-dci-laureate",
+            "brand": "Dacia",
+            "model": "Duster",
+            "variant": "Mk1 1.5 dCi Laureate",
+            "years": "2010-2017",
+            "generation": "HS",
+            "price": 400000,
+            "expertNote": "K9K 1.5 dCi 110 HP. Duster ucuz SUV devrimi yarattı. Laureate donanım multimedya, park sensörü. 4x4 seçeneği. Renault K9K motor güvenilir.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 18000,
+            "issues": [
+                    {
+                            "id": "dus-1",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "dus-2",
+                            "title": "Enjektör",
+                            "description": "K9K enjektör tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "dus-3",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör ve bilyalar. Sert kullanım.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "dus-4",
+                            "title": "Transfer Kutusu",
+                            "description": "4x4 transfer kutusu arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "dus-5",
+                            "title": "Gürültü Yalıtımı",
+                            "description": "İç mekan gürültü yalıtımı çok kötü.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Tasarım",
+                            "repairCost": "Normal"
+                    }
+            ],
+            "pros": [
+                    "Ucuz SUV",
+                    "K9K güvenilir",
+                    "4x4 seçeneği",
+                    "Yüksek taban"
+            ],
+            "cons": [
+                    "İç mekan kalitesiz",
+                    "Gürültülü",
+                    "Sert süspansiyon",
+                    "Konfor düşük"
+            ],
+            "buyingTips": [
+                    "2WD yeterli",
+                    "K9K motor ekonomik",
+                    "Laureate donanım iyi",
+                    "Sert kullanıma dayanıklı"
+            ]
+    }
+,
+    {
+            "id": "dacia-sandero-1-5-dci",
+            "slug": "dacia-sandero-mk2-1-5-dci-stepway",
+            "brand": "Dacia",
+            "model": "Sandero",
+            "variant": "Mk2 1.5 dCi Stepway",
+            "years": "2012-2020",
+            "generation": "B52",
+            "price": 350000,
+            "expertNote": "K9K 1.5 dCi 90 HP. Sandero Stepway SUV görünümlü HB. Çok ekonomik. Stepway donanım yüksek taban, tavan rayları, MediaNav ekran.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "san-1",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "san-2",
+                            "title": "Enjektör",
+                            "description": "K9K enjektör.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "san-3",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "san-4",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "san-5",
+                            "title": "MediaNav",
+                            "description": "MediaNav donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Çok ucuz",
+                    "Ekonomik",
+                    "Stepway SUV görünüm",
+                    "Pratik HB"
+            ],
+            "cons": [
+                    "Plastik kalite düşük",
+                    "Gürültülü",
+                    "Konfor az",
+                    "İç mekan sade"
+            ],
+            "buyingTips": [
+                    "Stepway yüksek taban güzel",
+                    "K9K ekonomik",
+                    "MediaNav yeterli",
+                    "Benzinli 0.9 TCe daha sorunsuz"
+            ]
+    }
 ];

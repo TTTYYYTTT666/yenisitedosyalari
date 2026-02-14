@@ -1645,4 +1645,413 @@ export const fiatCars: Car[] = [
                     "500L başka bir şey 500 başka"
             ]
     }
+,
+    {
+            "id": "fiat-tempra-1-6-sx",
+            "slug": "fiat-tempra-1-6-sx",
+            "brand": "Fiat",
+            "model": "Tempra",
+            "variant": "1.6 SX i.e.",
+            "years": "1991-1999",
+            "generation": "159",
+            "price": 80000,
+            "expertNote": "Tipo'nun sedan versiyonu. Tofaş Bursa üretimi. 1.6 8V enjeksiyonlu motor güvenilir. Dönemine göre konforlu sedan. Türkiye'de çok satıldı.",
+            "reliabilityScore": 70,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "tmp-1",
+                            "title": "Motor Conta",
+                            "description": "Silindir kapağı contasının atması. Hararet problemi.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "tmp-2",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları ve çamurluk bölgesinde paslanma.",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "tmp-3",
+                            "title": "Elektrik Tesisatı",
+                            "description": "Elektrik tesisatında yaşlanma kaynaklı kısa devreler.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 2.000 TL"
+                    },
+                    {
+                            "id": "tmp-4",
+                            "title": "Şanzıman Senkromece",
+                            "description": "2. vites senkromece aşınması.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "tmp-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör ve rotillerin aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Tofaş üretimi",
+                    "Ucuz bakım",
+                    "Sağlam motor",
+                    "Geniş sedan"
+            ],
+            "cons": [
+                    "Pas sorunu",
+                    "Eski teknoloji",
+                    "Güvenlik düşük",
+                    "Yedek parça azalıyor"
+            ],
+            "buyingTips": [
+                    "Conta atma geçmişi sorulmalı",
+                    "Pas kontrolü şart",
+                    "Tesisat kontrolü",
+                    "LPG dönüşüm kalitesi"
+            ]
+    }
+,
+    {
+            "id": "fiat-marea-1-6-elx",
+            "slug": "fiat-marea-1-6-16v-elx",
+            "brand": "Fiat",
+            "model": "Marea",
+            "variant": "1.6 16V ELX",
+            "years": "1997-2007",
+            "generation": "185",
+            "price": 130000,
+            "expertNote": "Tempra'nın halefi. 1.6 16V 103 HP motor canlı. Tofaş Bursa üretimi. Dönemine göre lüks donanım ve iyi sürüş. Weekend SW versiyonu çok aranır.",
+            "reliabilityScore": 65,
+            "totalIssues": 6,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "mar-1",
+                            "title": "Yağ Keçesi Kaçağı",
+                            "description": "Motor yağ keçelerinden sızıntı. Valf kapağı ve karter.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "1.000 - 3.000 TL"
+                    },
+                    {
+                            "id": "mar-2",
+                            "title": "Elektrik Arızaları",
+                            "description": "Gösterge paneli, cam kaldırma ve merkezi kilit arızaları.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 2.000 TL"
+                    },
+                    {
+                            "id": "mar-3",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları, çamurluklar ve eşik bölgesinde paslanma.",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "mar-4",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı kopması. Motor hasarı riski.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "60.000 km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "mar-5",
+                            "title": "Radyatör Fan Motoru",
+                            "description": "Radyatör fan motorunun yanması. Hararet.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "800 - 2.000 TL"
+                    },
+                    {
+                            "id": "mar-6",
+                            "title": "Arka Davlumbaz Çürümesi",
+                            "description": "Arka davlumbaz iç kısmının tamamen çürümesi.",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Kaynak + Boya"
+                    }
+            ],
+            "pros": [
+                    "Canlı 16V motor",
+                    "Tofaş üretimi",
+                    "ELX donanım zengin",
+                    "Weekend SW çok pratik"
+            ],
+            "cons": [
+                    "Elektrik arızaları",
+                    "Pas sorunu ağır",
+                    "Triger riski",
+                    "Yedek parça azalıyor"
+            ],
+            "buyingTips": [
+                    "Triger ne zaman değişti sorulmalı",
+                    "Davlumbaz çürüğü kontrol",
+                    "Weekend varsa tercih edin",
+                    "Elektrik taraması şart"
+            ]
+    }
+,
+    {
+            "id": "fiat-linea-1-3-multijet",
+            "slug": "fiat-linea-1-3-multijet-pop",
+            "brand": "Fiat",
+            "model": "Linea",
+            "variant": "1.3 Multijet Pop",
+            "years": "2007-2017",
+            "generation": "323",
+            "price": 250000,
+            "expertNote": "Fiat 1.3 Multijet 95 HP. Linea Tofaş Bursa üretimi sedan. Pop donanım temel. 1.3 Multijet motor çok ekonomik. Türkiye'de çok satıldı.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "lin-1",
+                            "title": "Turbo",
+                            "description": "Turbo yağ kaçağı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "lin-2",
+                            "title": "EGR",
+                            "description": "EGR valfi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "lin-3",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör ve bilyalar.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "lin-4",
+                            "title": "Firen Disk",
+                            "description": "Ön fren diskleri çarpması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "30.000+ km",
+                            "repairCost": "500 - 1.000 TL"
+                    },
+                    {
+                            "id": "lin-5",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    }
+            ],
+            "pros": [
+                    "Bursa üretimi",
+                    "Ekonomik Multijet",
+                    "Ucuz bakım",
+                    "Geniş sedan"
+            ],
+            "cons": [
+                    "Pop donanım fakir",
+                    "Plastik kalite",
+                    "Sürüş keyfi düşük",
+                    "Değer kaybı"
+            ],
+            "buyingTips": [
+                    "1.3 Multijet ekonomik",
+                    "Pop yeterli ama Active daha iyi",
+                    "Bursa üretimi kaliteli",
+                    "Turbo kontrolü"
+            ]
+    }
+,
+    {
+            "id": "fiat-egea-1-3-multijet",
+            "slug": "fiat-egea-1-3-multijet-easy",
+            "brand": "Fiat",
+            "model": "Egea",
+            "variant": "1.3 MultiJet Easy",
+            "years": "2015-2024",
+            "generation": "356",
+            "price": 550000,
+            "expertNote": "Fiat 1.3 MultiJet 95 HP. Egea Tofaş Bursa üretimi. Türkiye'nin EN ÇOK SATAN arabası yıllarca. Easy donanım 5 inç ekran, klima, ESP. Sedan, HB, SW versiyonları.",
+            "reliabilityScore": 75,
+            "totalIssues": 5,
+            "searchCount": 25000,
+            "issues": [
+                    {
+                            "id": "ege-1",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "ege-2",
+                            "title": "EGR",
+                            "description": "EGR valfi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "ege-3",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör gıcırtısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "30.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "ege-4",
+                            "title": "Fren Diskleri",
+                            "description": "Ön fren diskleri çarpması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "25.000+ km",
+                            "repairCost": "500 - 1.000 TL"
+                    },
+                    {
+                            "id": "ege-5",
+                            "title": "Dualogic",
+                            "description": "Dualogic robotize şanzıman titreşimi.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Satış şampiyonu",
+                    "Bursa üretimi",
+                    "Ekonomik",
+                    "Sedan/HB/SW seçeneği"
+            ],
+            "cons": [
+                    "Dualogic şanzıman KABUSu",
+                    "Plastik kalite düşük",
+                    "İç mekan sade",
+                    "Fren diskleri çabuk biter"
+            ],
+            "buyingTips": [
+                    "MANUEL ŞANZIMAN ŞART",
+                    "Dualogic'ten KAÇININ",
+                    "Easy yeterli ama Urban daha iyi",
+                    "HB versiyonu sportif"
+            ]
+    }
+,
+    {
+            "id": "fiat-500x-1-6-multijet",
+            "slug": "fiat-500x-1-6-multijet-cross-plus",
+            "brand": "Fiat",
+            "model": "500X",
+            "variant": "1.6 MultiJet Cross Plus",
+            "years": "2015-2022",
+            "generation": "334",
+            "price": 600000,
+            "expertNote": "1.6 MultiJet 120 HP. 500X B-SUV segment. Jeep Renegade platformu. Cross Plus donanım 7 inç Uconnect, geri kamera, çift bölgeli klima.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 8000,
+            "issues": [
+                    {
+                            "id": "500x-1",
+                            "title": "DDCT Şanzıman",
+                            "description": "DDCT çift kavrama şanzıman titreşimi.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "8.000 - 18.000 TL"
+                    },
+                    {
+                            "id": "500x-2",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "500x-3",
+                            "title": "EGR",
+                            "description": "EGR valfi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "500x-4",
+                            "title": "Infotainment",
+                            "description": "Uconnect donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 2.000 TL"
+                    },
+                    {
+                            "id": "500x-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör gıcırtısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Şık tasarım",
+                    "500 ikonu",
+                    "Cross Plus zengin",
+                    "Jeep platformu"
+            ],
+            "cons": [
+                    "DDCT riski",
+                    "EGR sorunu",
+                    "Parça pahalı",
+                    "Yakıt tüketimi"
+            ],
+            "buyingTips": [
+                    "MANUEL tercih edin",
+                    "DDCT'den kaçının",
+                    "Cross Plus en iyi donanım",
+                    "1.6 MultiJet yeterli"
+            ]
+    }
 ];

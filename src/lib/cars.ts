@@ -126,3 +126,14 @@ export async function getTotalCarsCount(): Promise<number> {
     }
 }
 
+export async function getRelatedCars(currentSlug: string, brand: string, model: string, limit = 6): Promise<Car[]> {
+    const allCars = await getAllCars();
+    // 1. Same model, different variant
+    const sameModel = allCars.filter(c => c.slug !== currentSlug && c.brand === brand && c.model === model);
+    // 2. Same brand, different model  
+    const sameBrand = allCars.filter(c => c.slug !== currentSlug && c.brand === brand && c.model !== model);
+    // Combine: same model first, then same brand
+    const combined = [...sameModel, ...sameBrand];
+    return combined.slice(0, limit);
+}
+

@@ -30,9 +30,11 @@ export default async function BrandsPage() {
                                 </span>
                             </div>
 
-                            <h2 className="text-xl font-bold text-stone-900 dark:text-stone-100 mb-3">
-                                {brand.name}
-                            </h2>
+                            <Link href={`/markalar/${brand.id}`}>
+                                <h2 className="text-xl font-bold text-stone-900 dark:text-stone-100 mb-3 hover:text-orange-600 dark:hover:text-orange-400 transition-colors">
+                                    {brand.name}
+                                </h2>
+                            </Link>
 
                             <div className="space-y-2.5">
                                 {brand.models.map((model) => (

@@ -1234,4 +1234,413 @@ export const citroenCars: Car[] = [
                     "DPF taraması"
             ]
     }
+,
+    {
+            "id": "citroen-saxo-1-4i",
+            "slug": "citroen-saxo-1-4i-sx",
+            "brand": "Citroën",
+            "model": "Saxo",
+            "variant": "1.4i SX",
+            "years": "1996-2004",
+            "generation": "S0",
+            "price": 60000,
+            "expertNote": "TU3JP 1.4 75 HP. Saxo Peugeot 106'nın ikizi. Küçük, çevik, ekonomik. VTS versiyonu (120 HP) sportif efsane. Türkiye'de nadir ama aranan araç.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 6000,
+            "issues": [
+                    {
+                            "id": "sax-1",
+                            "title": "Debriyaj Teli",
+                            "description": "Debriyaj telinin kopması.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "200 - 500 TL"
+                    },
+                    {
+                            "id": "sax-2",
+                            "title": "Kaporta Pası",
+                            "description": "Paslanma sorunu.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "sax-3",
+                            "title": "Motor Takozları",
+                            "description": "Motor takozlarının yorulması.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.000 TL"
+                    },
+                    {
+                            "id": "sax-4",
+                            "title": "Elektrik",
+                            "description": "Gösterge ve aydınlatma sorunları.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "sax-5",
+                            "title": "Egzoz",
+                            "description": "Egzoz manifoldu çatlağı.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.200 TL"
+                    }
+            ],
+            "pros": [
+                    "Çevik sürüş",
+                    "Ekonomik",
+                    "VTS sportif",
+                    "106 ile ortak parça"
+            ],
+            "cons": [
+                    "Çok küçük",
+                    "Nadir araç",
+                    "Parça zor",
+                    "Konfor yok"
+            ],
+            "buyingTips": [
+                    "VTS varsa koleksiyonluk",
+                    "TU3 motor güvenilir",
+                    "106 ile parça ortaklığı",
+                    "Pas kontrolü"
+            ]
+    }
+,
+    {
+            "id": "citroen-xsara-1-6-16v",
+            "slug": "citroen-xsara-1-6-16v-sx",
+            "brand": "Citroën",
+            "model": "Xsara",
+            "variant": "1.6 16V SX",
+            "years": "1997-2006",
+            "generation": "N1",
+            "price": 80000,
+            "expertNote": "TU5JP4 1.6 16V 110 HP. Xsara WRC şampiyonu Citroen'in yol aracı. İyi sürüş, konforlu. HB, sedan (Berline) ve Break versiyonları. Picasso MPV versiyonu da çok satıldı.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "xsa-1",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı kontrol zamanı.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "60.000 km",
+                            "repairCost": "800 - 1.500 TL"
+                    },
+                    {
+                            "id": "xsa-2",
+                            "title": "Kaporta Pası",
+                            "description": "Paslanma sorunu (özellikle arka çamurluklar).",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "xsa-3",
+                            "title": "Airbag Sargısı",
+                            "description": "Direksiyon airbag spiral kablo kopması.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "xsa-4",
+                            "title": "Süspansiyon",
+                            "description": "Ön süspansiyon bilyaları ve amortisör.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "xsa-5",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması arızası.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.200 TL"
+                    }
+            ],
+            "pros": [
+                    "WRC DNA",
+                    "İyi sürüş",
+                    "Konforlu C segment",
+                    "Ucuz yedek parça"
+            ],
+            "cons": [
+                    "Pas sorunu",
+                    "Elektrik arızaları",
+                    "Yaşlı",
+                    "Parça azalıyor"
+            ],
+            "buyingTips": [
+                    "Triger kontrolü şart",
+                    "SX donanım yeterli",
+                    "HB daha sportif",
+                    "Break pratik"
+            ]
+    }
+,
+    {
+            "id": "citroen-c5-mk1-2-0-hdi",
+            "slug": "citroen-c5-mk1-2-0-hdi-exclusive",
+            "brand": "Citroën",
+            "model": "C5",
+            "variant": "Mk1 2.0 HDi Exclusive",
+            "years": "2001-2008",
+            "generation": "DC/DE",
+            "price": 120000,
+            "expertNote": "DW10 2.0 HDi 109 HP. C5 Mk1 Citroen'in D segment aracı. Hidroaktif süspansiyon (otomatik seviye ayarı). Çok konforlu ama bakım gerektirir.",
+            "reliabilityScore": 65,
+            "totalIssues": 6,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "c5-1",
+                            "title": "Hidroaktif Süspansiyon",
+                            "description": "Hidroaktif süspansiyon küreleri ve pompa arızası.",
+                            "category": "suspansiyon",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "c5-2",
+                            "title": "DPF Filtresi",
+                            "description": "DPF filtresinin tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "c5-3",
+                            "title": "Turbo",
+                            "description": "Turbo yağ sızıntısı ve arızası.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "c5-4",
+                            "title": "Elektrik",
+                            "description": "BSI (Body Systems Interface) modülü arızaları.",
+                            "category": "elektronik",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "c5-5",
+                            "title": "Enjektör",
+                            "description": "HDi enjektör tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "c5-6",
+                            "title": "Kaporta Pası",
+                            "description": "Paslanma sorunu.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    }
+            ],
+            "pros": [
+                    "Hidroaktif konfor",
+                    "D segment",
+                    "Exclusive donanım zengin",
+                    "Farklı araç"
+            ],
+            "cons": [
+                    "Süspansiyon ÇOK pahalı",
+                    "BSI kabusu",
+                    "DPF sorunu",
+                    "Bakım maliyetli"
+            ],
+            "buyingTips": [
+                    "Hidroaktif süspansiyon küreleri ne zaman değişti",
+                    "BSI arızası kontrol",
+                    "DPF temizliği yapılmış mı",
+                    "Exclusive donanım güzel ama dikkatli olun"
+            ]
+    }
+,
+    {
+            "id": "citroen-c-elysee-1-6-hdi",
+            "slug": "citroen-c-elysee-1-6-hdi-shine",
+            "brand": "Citroën",
+            "model": "C-Elysée",
+            "variant": "1.6 HDi Shine",
+            "years": "2012-2020",
+            "generation": "B",
+            "price": 350000,
+            "expertNote": "DV6DTED 1.6 HDi 92 HP. C-Elysée 301'in ikizi. Ucuz sedan. Shine donanım 7 inç, geri kamera, park sensörü. WRC dünya şampiyonu araç (yarış versiyonu).",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "cel-1",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "cel-2",
+                            "title": "DPF",
+                            "description": "DPF filtresi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "cel-3",
+                            "title": "Enjektör",
+                            "description": "HDi enjektör.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "cel-4",
+                            "title": "Süspansiyon",
+                            "description": "Arka amortisör.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "cel-5",
+                            "title": "Elektrik",
+                            "description": "Gösterge arızaları.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Ucuz sedan",
+                    "WRC DNA",
+                    "Ekonomik HDi",
+                    "301 ile ortak parça"
+            ],
+            "cons": [
+                    "Plastik kalite",
+                    "İç mekan sade",
+                    "Sürüş keyfi düşük",
+                    "DPF sorunu"
+            ],
+            "buyingTips": [
+                    "301 ile karşılaştırın",
+                    "HDi ekonomik",
+                    "Shine donanım güzel",
+                    "Benzinli daha sorunsuz"
+            ]
+    }
+,
+    {
+            "id": "citroen-c4-cactus-1-6-hdi",
+            "slug": "citroen-c4-cactus-1-6-bluehdi-shine",
+            "brand": "Citroën",
+            "model": "C4 Cactus",
+            "variant": "1.6 BlueHDi Shine",
+            "years": "2014-2020",
+            "generation": "E3",
+            "price": 450000,
+            "expertNote": "DV6FE 1.6 BlueHDi 100 HP. C4 Cactus farklı tasarımıyla dikkat çekti. Airbump paneller. Shine donanım 7 inç, park sensörü. Hafif ve ekonomik.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 8000,
+            "issues": [
+                    {
+                            "id": "cac-1",
+                            "title": "Airbump Sararması",
+                            "description": "Airbump panellerin sararması ve sertleşmesi.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "1.000 - 3.000 TL"
+                    },
+                    {
+                            "id": "cac-2",
+                            "title": "DPF",
+                            "description": "DPF filtresi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "cac-3",
+                            "title": "ETG Şanzıman",
+                            "description": "ETG6 robotize şanzıman.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "cac-4",
+                            "title": "Süspansiyon",
+                            "description": "Ön süspansiyon gıcırtısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "cac-5",
+                            "title": "Infotainment",
+                            "description": "Multimedya donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Farklı tasarım",
+                    "Hafif ve ekonomik",
+                    "Airbump koruma",
+                    "Rahat süspansiyon"
+            ],
+            "cons": [
+                    "ETG şanzıman kabus",
+                    "Airbump sararması",
+                    "DPF sorunu",
+                    "Dar iç mekan"
+            ],
+            "buyingTips": [
+                    "MANUEL şanzıman ŞART",
+                    "ETG'den KAÇININ",
+                    "1.2 PureTech daha iyi",
+                    "Airbump durumunu kontrol"
+            ]
+    }
 ];

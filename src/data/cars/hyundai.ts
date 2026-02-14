@@ -1286,4 +1286,555 @@ export const hyundaiCars: Car[] = [
                     "Klima kontrolü"
             ]
     }
+,
+    {
+            "id": "hyundai-accent-lc-1-5-crdi",
+            "slug": "hyundai-accent-lc-1-5-crdi-admire",
+            "brand": "Hyundai",
+            "model": "Accent",
+            "variant": "LC 1.5 CRDi Admire",
+            "years": "1999-2005",
+            "generation": "LC",
+            "price": 110000,
+            "expertNote": "D3EA 1.5 CRDi 82 HP. Accent LC Türkiye'de çok satılan ekonomik sedan. CRDi dizel motor güvenilir ve ekonomik. Admire donanım yeterli.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "alc-1",
+                            "title": "Turbo Arızası",
+                            "description": "Turbo yağ kaçağı ve arızası.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "alc-2",
+                            "title": "Enjektör Tıkanması",
+                            "description": "CRDi enjektörlerin tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "alc-3",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları ve çamurluk paslanması.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "alc-4",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön amortisör ve rotil aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "alc-5",
+                            "title": "Elektrik Tesisatı",
+                            "description": "Elektrik sorunları (cam kaldırma, merkezi kilit).",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Ekonomik dizel",
+                    "Ucuz araç",
+                    "Basit mekanik",
+                    "Yedek parça ucuz"
+            ],
+            "cons": [
+                    "Turbo riski",
+                    "Düşük kalite hissi",
+                    "Gürültülü",
+                    "Güvenlik düşük"
+            ],
+            "buyingTips": [
+                    "CRDi motor ekonomik",
+                    "Turbo kontrolü şart",
+                    "Admire donanım yeterli",
+                    "Ex-ticari mi kontrol edin"
+            ]
+    }
+,
+    {
+            "id": "hyundai-elantra-xd-1-6",
+            "slug": "hyundai-elantra-xd-1-6-gl",
+            "brand": "Hyundai",
+            "model": "Elantra",
+            "variant": "XD 1.6 GL",
+            "years": "2000-2006",
+            "generation": "XD",
+            "price": 120000,
+            "expertNote": "G4ED 1.6 107 HP. Elantra XD Hyundai'nin C segment sedan aracı. Motor güvenilir, fiyat avantajlı. GL donanım standart. Türkiye'de ticari kullanım çok.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "exd-1",
+                            "title": "Motor Conta",
+                            "description": "Silindir kapağı contası atma riski.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "exd-2",
+                            "title": "Otomatik Şanzıman",
+                            "description": "4 vitesli otomatik şanzıman kayması.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "exd-3",
+                            "title": "Kaporta Pası",
+                            "description": "Paslanma sorunu.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "exd-4",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör ve bilyaların aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "exd-5",
+                            "title": "Elektrik",
+                            "description": "Cam kaldırma ve gösterge arızaları.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 1.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Ucuz araç",
+                    "Geniş sedan",
+                    "Basit mekanik",
+                    "Yedek parça ucuz"
+            ],
+            "cons": [
+                    "Düşük kalite hissi",
+                    "Otomat riskli",
+                    "Pas sorunu",
+                    "Değer kaybı"
+            ],
+            "buyingTips": [
+                    "Manuel şanzıman tercih edin",
+                    "Conta geçmişi sorulmalı",
+                    "GL donanım yeterli",
+                    "Ticari kullanılmış mı kontrol"
+            ]
+    }
+,
+    {
+            "id": "hyundai-i20-1-4-crdi",
+            "slug": "hyundai-i20-mk1-1-4-crdi-style",
+            "brand": "Hyundai",
+            "model": "i20",
+            "variant": "Mk1 1.4 CRDi Style",
+            "years": "2009-2014",
+            "generation": "PB",
+            "price": 280000,
+            "expertNote": "U-II 1.4 CRDi 75 HP. i20 Mk1 küçük şehir aracı. Ekonomik dizel. 5 yıl garanti ile satıldı. Style donanım klima, ABS, airbag.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "i20-1",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "i20-2",
+                            "title": "Enjektör",
+                            "description": "CRDi enjektör tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "i20-3",
+                            "title": "Direksiyon Pompası",
+                            "description": "Elektrikli direksiyon arızası.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "i20-4",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "i20-5",
+                            "title": "Klima",
+                            "description": "Klima gazı kaçağı.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Ekonomik",
+                    "5 yıl garanti",
+                    "Ucuz bakım",
+                    "Şehir aracı"
+            ],
+            "cons": [
+                    "75 HP az",
+                    "Küçük araç",
+                    "Plastik kalite düşük",
+                    "Gürültülü"
+            ],
+            "buyingTips": [
+                    "1.4 CRDi ekonomik",
+                    "Style donanım yeterli",
+                    "Garanti geçmişi kontrol",
+                    "Benzinli 1.4 daha sorunsuz"
+            ]
+    }
+,
+    {
+            "id": "hyundai-i30-1-6-crdi",
+            "slug": "hyundai-i30-mk2-1-6-crdi-elite",
+            "brand": "Hyundai",
+            "model": "i30",
+            "variant": "Mk2 1.6 CRDi Elite",
+            "years": "2012-2017",
+            "generation": "GD",
+            "price": 420000,
+            "expertNote": "U-II 1.6 CRDi 128 HP. i30 Mk2 Hyundai'nin C segment aracı. İzmit üretimi. Peter Schreyer tasarımı. Elite donanım 7 inç ekran, deri, panoramik tavan.",
+            "reliabilityScore": 76,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "i30-1",
+                            "title": "DCT Şanzıman",
+                            "description": "7DCT çift kavrama şanzıman titreşimi.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "8.000 - 18.000 TL"
+                    },
+                    {
+                            "id": "i30-2",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "i30-3",
+                            "title": "Enjektör",
+                            "description": "CRDi enjektör sorunları.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "i30-4",
+                            "title": "Süspansiyon",
+                            "description": "Arka süspansiyon burçları.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "i30-5",
+                            "title": "Multimedya",
+                            "description": "Multimedya sistemi donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "İzmit üretimi",
+                    "C segment",
+                    "Elite donanım zengin",
+                    "İyi tasarım"
+            ],
+            "cons": [
+                    "DCT şanzıman riskli",
+                    "Dizel bakım pahalı",
+                    "Değer kaybı",
+                    "Plastik kalite"
+            ],
+            "buyingTips": [
+                    "Manuel şanzıman tercih edin",
+                    "DCT'den kaçının",
+                    "Elite en iyi donanım",
+                    "İzmit üretimi kaliteli"
+            ]
+    }
+,
+    {
+            "id": "hyundai-tucson-tl-1-6-crdi",
+            "slug": "hyundai-tucson-tl-1-6-crdi-elite",
+            "brand": "Hyundai",
+            "model": "Tucson",
+            "variant": "TL 1.6 CRDi Elite",
+            "years": "2015-2020",
+            "generation": "TL",
+            "price": 800000,
+            "expertNote": "D4FE 1.6 CRDi 136 HP. Tucson TL SUV trendinin en popüler araçlarından. Elite donanım 8 inç ekran, CarPlay, şerit takip, kör nokta. Güzel tasarım.",
+            "reliabilityScore": 76,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "tuc-1",
+                            "title": "DCT Şanzıman",
+                            "description": "7DCT çift kavrama şanzıman titreşimi.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "8.000 - 18.000 TL"
+                    },
+                    {
+                            "id": "tuc-2",
+                            "title": "Turbo",
+                            "description": "Turbo wastegate arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "tuc-3",
+                            "title": "EGR",
+                            "description": "EGR valfi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "tuc-4",
+                            "title": "Infotainment",
+                            "description": "Multimedya donması ve GPS sorunları.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 2.000 TL"
+                    },
+                    {
+                            "id": "tuc-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör gıcırtısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Güzel tasarım",
+                    "Elite donanım süper",
+                    "C-SUV",
+                    "5 yıl garanti"
+            ],
+            "cons": [
+                    "DCT riskli",
+                    "Dizel bakım pahalı",
+                    "Fiyatı yüksek",
+                    "Yakıt tüketimi"
+            ],
+            "buyingTips": [
+                    "Otomatik yerine manuel alın",
+                    "DCT kontrolü",
+                    "1.6 CRDi yeterli",
+                    "Benzinli 1.6 T-GDi daha sorunsuz"
+            ]
+    }
+,
+    {
+            "id": "hyundai-accent-blue-1-6-crdi",
+            "slug": "hyundai-accent-blue-1-6-crdi-mode-plus",
+            "brand": "Hyundai",
+            "model": "Accent Blue",
+            "variant": "1.6 CRDi Mode Plus",
+            "years": "2011-2018",
+            "generation": "RB",
+            "price": 350000,
+            "expertNote": "D4FB 1.6 CRDi 128 HP. Accent Blue İzmit üretimi sedan. İç pazar aracı. Mode Plus donanım 7 inç, geri kamera, park sensörü. Ekonomik ve geniş.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "ab-1",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "ab-2",
+                            "title": "Enjektör",
+                            "description": "CRDi enjektör sorunları.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "ab-3",
+                            "title": "DCT",
+                            "description": "6DCT çift kavrama şanzıman.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "8.000 - 18.000 TL"
+                    },
+                    {
+                            "id": "ab-4",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör ve bilyalar.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "ab-5",
+                            "title": "Klima",
+                            "description": "Klima kompresörü.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    }
+            ],
+            "pros": [
+                    "İzmit üretimi",
+                    "Ekonomik",
+                    "Geniş sedan",
+                    "Ucuz bakım"
+            ],
+            "cons": [
+                    "DCT riskli",
+                    "Plastik iç mekan",
+                    "Değer kaybı",
+                    "Gürültü yalıtımı"
+            ],
+            "buyingTips": [
+                    "Manuel şanzıman tercih",
+                    "İzmit üretimi kaliteli",
+                    "Mode Plus donanım iyi",
+                    "Benzinli 1.4 daha güvenilir"
+            ]
+    }
+,
+{
+  "id": "hyundai-tucson-tl-fl",
+  "slug": "hyundai-tucson-tl-facelift-1-6-crdi-elite-plus",
+  "brand": "Hyundai",
+  "model": "Tucson",
+  "variant": "Tucson TL Facelift 1.6 CRDi Elite Plus",
+  "years": "2018-2020",
+  "generation": "Ara Kasa (2018-2020)",
+  "price": 925000,
+  "expertNote": "TL facelift'te 7 ileri DCT kaldırılıp 6 ileri torque converter otomatik geldi — DCT Tucson TL'nin en büyük sorunuydu. Kaskad ön ızgara tasarımı, LED farlar ve daha büyük multimedya ekranı eklendi.",
+  "reliabilityScore": 72,
+  "totalIssues": 4,
+  "searchCount": 16800,
+  "issues": [
+    {
+      "id": "hy-ttfl-1",
+      "title": "1.6 CRDi Motor Titreşimi (Azalmış)",
+      "description": "1.6 CRDi diesel motor titreşimi facelift'te motor takozları iyileştirilerek azaltıldı ama tam çözülmedi. Rölantide hafif titreşim devam edebilir.",
+      "category": "motor",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0 (normal)"
+    },
+    {
+      "id": "hy-ttfl-2",
+      "title": "6AT Şanzıman Uyum Sorunu (Nadir)",
+      "description": "6AT torque converter, DCT'ye göre çok daha güvenilir. Nadiren soğuk havalarda 1-2 vites arası sert geçiş yapabilir.",
+      "category": "sanziman",
+      "riskLevel": "LOW",
+      "affectedKm": "50.000+ km",
+      "repairCost": "₺0 – ₺2.000 (yazılım)"
+    },
+    {
+      "id": "hy-ttfl-3",
+      "title": "Navegasyon Harita Güncellemesi",
+      "description": "Yerleşik navigasyon haritaları güncelliayetini yitirebilir. Güncelleme ücreti yüksek olabilir.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺500 – ₺2.000"
+    },
+    {
+      "id": "hy-ttfl-4",
+      "title": "Arka Süspansiyon Takırtısı",
+      "description": "Arka süspansiyon burçları 50-80 bin km'de sertleşip takırtı yapabilir. Pre-facelift'te de olan sorun.",
+      "category": "suspansiyon",
+      "riskLevel": "LOW",
+      "affectedKm": "50.000-80.000 km",
+      "repairCost": "₺2.000 – ₺4.000"
+    }
+  ],
+  "pros": [
+    "DCT KALDIRILDI — en kritik iyileşme",
+    "6AT çok daha güvenilir",
+    "Modern kaskad ızgara tasarımı",
+    "LED farlar standart",
+    "Motor titreşimi azaltılmış"
+  ],
+  "cons": [
+    "Diesel motor gürültüsü hâlâ var",
+    "Navigasyon güncelleme maliyeti",
+    "Arka süspansiyon takırtısı"
+  ],
+  "buyingTips": [
+    "MUTLAKA facelift (2018+) alın — DCT'li pre-facelift'ten kaçının",
+    "6AT şanzıman sağlığını test edin",
+    "LED far modülleri çalışıyor mu kontrol edin",
+    "Pre-facelift TL'ye göre çok daha güvenilir"
+  ]
+}
 ];

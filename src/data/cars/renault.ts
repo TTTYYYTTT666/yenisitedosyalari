@@ -1597,4 +1597,1089 @@ export const renaultCars: Car[] = [
                     "Elektronik tarama yaptırın"
             ]
     }
+,
+    {
+            "id": "renault-12-toros",
+            "slug": "renault-12-toros-1-4",
+            "brand": "Renault",
+            "model": "12 Toros",
+            "variant": "1.4 TX",
+            "years": "1971-2000",
+            "generation": "R12",
+            "price": 100000,
+            "expertNote": "Oyak-Renault Bursa üretimi efsane. Türkiye'nin en uzun üretilen arabası (29 yıl). 1.4 motor çok basit ve dayanıklı. Tamir edilemeyecek arızası yok.",
+            "reliabilityScore": 75,
+            "totalIssues": 5,
+            "searchCount": 30000,
+            "issues": [
+                    {
+                            "id": "r12-1",
+                            "title": "Karbüratör",
+                            "description": "Karbüratör ayarı ve membran değişimi.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "200 - 500 TL"
+                    },
+                    {
+                            "id": "r12-2",
+                            "title": "Kaporta Pası",
+                            "description": "Geniş çaplı paslanma (özellikle taban).",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Kaynak + Boya"
+                    },
+                    {
+                            "id": "r12-3",
+                            "title": "Fren Merkezi",
+                            "description": "Fren ana merkezi sızıntısı.",
+                            "category": "fren",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "r12-4",
+                            "title": "Debriyaj Teli",
+                            "description": "Debriyaj telinin kopması.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "100 - 300 TL"
+                    },
+                    {
+                            "id": "r12-5",
+                            "title": "Amortisör",
+                            "description": "Amortisörlerin tamamen bitik olması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Efsanevi araç",
+                    "Tamir edilemeyecek arızası yok",
+                    "Yedek parça her yerde",
+                    "Koleksiyoner değeri arttı"
+            ],
+            "cons": [
+                    "Güvenlik sıfır",
+                    "Konfor yok",
+                    "Pas kabusu",
+                    "Yaşlı araç"
+            ],
+            "buyingTips": [
+                    "Taban pasını mutlaka kontrol edin",
+                    "Orijinale yakın araçlar değerli",
+                    "TX versiyonu tercih edin",
+                    "Koleksiyoner parçası olarak alın"
+            ]
+    }
+,
+    {
+            "id": "renault-9-broadway",
+            "slug": "renault-9-broadway-1-4",
+            "brand": "Renault",
+            "model": "9 Broadway",
+            "variant": "1.4 RNi",
+            "years": "1987-1999",
+            "generation": "L42",
+            "price": 80000,
+            "expertNote": "Oyak-Renault Bursa üretimi. R12'nin halefi olarak tasarlandı. 1.4 enjeksiyonlu motor (RNi) güvenilir. GTE versiyonu sportif. Türkiye'de taksi olarak çok kullanıldı.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 18000,
+            "issues": [
+                    {
+                            "id": "r9-1",
+                            "title": "Enjeksiyon Beyni",
+                            "description": "Monopoint enjeksiyon ECU arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "1.000 - 2.500 TL"
+                    },
+                    {
+                            "id": "r9-2",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları ve çamurluk paslanması.",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "r9-3",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı kopması riski.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "60.000 km",
+                            "repairCost": "800 - 1.500 TL"
+                    },
+                    {
+                            "id": "r9-4",
+                            "title": "Şanzıman Senkromece",
+                            "description": "2. ve 3. vites senkromece aşınması.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "r9-5",
+                            "title": "Kalorifer Peteği",
+                            "description": "Kalorifer peteğinden su kaçağı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Ekonomik",
+                    "Basit mekanik",
+                    "Enjeksiyonlu güvenilir",
+                    "Ucuz yedek parça"
+            ],
+            "cons": [
+                    "Pas sorunu",
+                    "Eski teknoloji",
+                    "Güvenlik düşük",
+                    "Ex-taksi olabilir"
+            ],
+            "buyingTips": [
+                    "Ex-taksi mi kontrol edin",
+                    "Triger kayışı ne zaman değişti",
+                    "Pas kontrolü",
+                    "GTE versiyonu koleksiyonluk"
+            ]
+    }
+,
+    {
+            "id": "renault-19-europa",
+            "slug": "renault-19-europa-1-6",
+            "brand": "Renault",
+            "model": "19 Europa",
+            "variant": "1.6 8V RNE",
+            "years": "1988-2003",
+            "generation": "X53",
+            "price": 90000,
+            "expertNote": "R9'un halefi. Oyak-Renault üretimi. Europa (facelift) versiyonu en yaygını. 1.6 8V motor basit ve güvenilir. Türkiye'de sedan ve HB versiyonları satıldı.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "r19-1",
+                            "title": "Motor Hararet",
+                            "description": "Termostat ve devirdaim pompası arızaları. Hararet.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 2.000 TL"
+                    },
+                    {
+                            "id": "r19-2",
+                            "title": "Kaporta Pası",
+                            "description": "Geniş çaplı paslanma.",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "r19-3",
+                            "title": "Elektrik Tesisatı",
+                            "description": "Tesisat yaşlanması kaynaklı elektrik sorunları.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 2.000 TL"
+                    },
+                    {
+                            "id": "r19-4",
+                            "title": "Debriyaj Hidrolik",
+                            "description": "Debriyaj merkezi ve hortum sızıntısı.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "r19-5",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön süspansiyon rotil ve bilyalarının aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Sağlam motor",
+                    "Ucuz bakım",
+                    "Europa facelift iyi",
+                    "Basit mekanik"
+            ],
+            "cons": [
+                    "Pas sorunu",
+                    "Eski teknoloji",
+                    "Konfor düşük",
+                    "Parça azalıyor"
+            ],
+            "buyingTips": [
+                    "Hararet geçmişi sorulmalı",
+                    "Pas kontrolü",
+                    "Europa (facelift) tercih edin",
+                    "RNE enjeksiyon tercih edin"
+            ]
+    }
+,
+    {
+            "id": "renault-megane-1-1-6",
+            "slug": "renault-megane-1-1-6-rte",
+            "brand": "Renault",
+            "model": "Megane I",
+            "variant": "1.6 16V RTE",
+            "years": "1996-2003",
+            "generation": "X64",
+            "price": 120000,
+            "expertNote": "K4M 1.6 16V 107 HP. Megane I Türkiye'de çok satılan C segment. HB, sedan ve SW versiyonları var. Motor güvenilir ama elektronik arızalar yaşa bağlı artıyor.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "meg1-1",
+                            "title": "Gösterge Paneli",
+                            "description": "Gösterge panelinin söndüğü veya hatalı bilgi gösterir.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "1.000 - 3.000 TL"
+                    },
+                    {
+                            "id": "meg1-2",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları ve çamurluk paslanması.",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "meg1-3",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı kopması. Motor hasarı riski.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "60.000 km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "meg1-4",
+                            "title": "Bobinler",
+                            "description": "Ateşleme bobinlerinin yanması. Misfire.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "meg1-5",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizmasının kırılması.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "K4M motor güvenilir",
+                    "C segment konfor",
+                    "Geniş iç mekan",
+                    "Ucuz yedek parça"
+            ],
+            "cons": [
+                    "Gösterge arızaları",
+                    "Pas sorunu",
+                    "Elektrik sorunları",
+                    "Yaşlı araç"
+            ],
+            "buyingTips": [
+                    "Triger ne zaman değişti",
+                    "Gösterge panelini test edin",
+                    "Pas kontrolü",
+                    "Sedan versiyonu pratik"
+            ]
+    }
+,
+    {
+            "id": "renault-megane-2-1-5-dci",
+            "slug": "renault-megane-2-1-5-dci-privilege",
+            "brand": "Renault",
+            "model": "Megane II",
+            "variant": "1.5 dCi Privilege",
+            "years": "2003-2009",
+            "generation": "X84",
+            "price": 200000,
+            "expertNote": "K9K 1.5 dCi 100 HP. Megane II güzel tasarım, iyi sürüş. dCi motor ekonomik ve güvenilir. Ama elektronik arızalar ve cam tavan su kaçağı ünlü.",
+            "reliabilityScore": 70,
+            "totalIssues": 6,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "meg2-1",
+                            "title": "Enjektör Arızası",
+                            "description": "dCi enjektörlerin tıkanması veya kaçırması.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "meg2-2",
+                            "title": "Kart Anahtar",
+                            "description": "Renault kart anahtarın tanınmaması.",
+                            "category": "elektronik",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "meg2-3",
+                            "title": "Cam Tavan Su Kaçağı",
+                            "description": "Panoramik cam tavan sızıntısı. İç mekan ıslanır.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "meg2-4",
+                            "title": "Turbo Aktuatör",
+                            "description": "Turbo basınç aktuatörü arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "meg2-5",
+                            "title": "Gösterge Paneli",
+                            "description": "Gösterge paneli arızaları devam ediyor.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Kronik",
+                            "repairCost": "1.500 - 4.000 TL"
+                    },
+                    {
+                            "id": "meg2-6",
+                            "title": "DPF Tıkanması",
+                            "description": "DPF filtresi tıkanması (sonraki modellerde).",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "5.000 - 10.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Ekonomik dCi",
+                    "Güzel tasarım",
+                    "İyi sürüş",
+                    "C segment konfor"
+            ],
+            "cons": [
+                    "Kart anahtar sorunu",
+                    "Cam tavan kaçağı",
+                    "Enjektör maliyeti",
+                    "Elektronik arızalar"
+            ],
+            "buyingTips": [
+                    "2 kart anahtar çalışıyor mu",
+                    "Cam tavanlı almayın",
+                    "Enjektör testi",
+                    "Privilege donanım zengin"
+            ]
+    }
+,
+    {
+            "id": "renault-laguna-2-1-6",
+            "slug": "renault-laguna-2-1-6-16v-expression",
+            "brand": "Renault",
+            "model": "Laguna II",
+            "variant": "1.6 16V Expression",
+            "years": "2001-2007",
+            "generation": "X74",
+            "price": 130000,
+            "expertNote": "K4M 1.6 16V 107 HP. Laguna II güzel D segment ama elektronik kabusu ile ünlü. Kart anahtar, gösterge paneli, elektrikli el freni — hepsi sorun. Ucuz ama riskli.",
+            "reliabilityScore": 60,
+            "totalIssues": 6,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "lag2-1",
+                            "title": "Kart Anahtar",
+                            "description": "Renault kart anahtarın tanınmaması. Araç çalışmıyor.",
+                            "category": "elektronik",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "lag2-2",
+                            "title": "Gösterge Paneli",
+                            "description": "Gösterge panelinin söndüğü veya hatalı bilgi gösterir.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "lag2-3",
+                            "title": "Elektrikli El Freni",
+                            "description": "Otomatik el freni çalışmıyor veya bırakmıyor.",
+                            "category": "fren",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "lag2-4",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı kopması. Motor hasarı.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "60.000 km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "lag2-5",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması arızası.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "lag2-6",
+                            "title": "Yağmur Sensörü",
+                            "description": "Otomatik silecek / yağmur sensörü arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Geniş D segment",
+                    "Konforlu",
+                    "Ucuz ikinci el",
+                    "K4M motor güvenilir"
+            ],
+            "cons": [
+                    "Elektronik KABUS",
+                    "Kart anahtar sorunu",
+                    "El freni felaketi",
+                    "Gösterge arızaları"
+            ],
+            "buyingTips": [
+                    "2 kart anahtar çalışıyor mu test edin",
+                    "El frenini 10 kez test edin",
+                    "Cam tavansız tercih edin",
+                    "Çok ucuz olmasının sebebi var"
+            ]
+    }
+,
+    {
+            "id": "renault-fluence-1-5-dci",
+            "slug": "renault-fluence-1-5-dci-icon",
+            "brand": "Renault",
+            "model": "Fluence",
+            "variant": "1.5 dCi Icon",
+            "years": "2009-2017",
+            "generation": "L38",
+            "price": 350000,
+            "expertNote": "K9K 1.5 dCi 110 HP. Fluence Megane III'ün sedan versiyonu. Türkiye Bursa üretimi. Icon donanım zengin (navigasyon, deri). dCi motor ekonomik ama enjektör riski var.",
+            "reliabilityScore": 72,
+            "totalIssues": 6,
+            "searchCount": 18000,
+            "issues": [
+                    {
+                            "id": "flu-1",
+                            "title": "Enjektör Arızası",
+                            "description": "K9K enjektörlerin tıkanması veya kaçırması. Dizel sis.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "flu-2",
+                            "title": "Turbo Aktuatör",
+                            "description": "Turbo basınç aktuatörü arızası. Güç kaybı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "flu-3",
+                            "title": "DPF Filtresi",
+                            "description": "DPF filtresi tıkanması. Şehir içi kullanımda kronik.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "flu-4",
+                            "title": "Kart Anahtar",
+                            "description": "Renault kart anahtarın tanınmaması.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "flu-5",
+                            "title": "Süspansiyon Sesleri",
+                            "description": "Ön süspansiyon bilyaları ve amortisör gıcırtıları.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "flu-6",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması arızası.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.200 TL"
+                    }
+            ],
+            "pros": [
+                    "Ekonomik dCi",
+                    "Bursa üretimi",
+                    "Geniş sedan",
+                    "Icon donanım zengin"
+            ],
+            "cons": [
+                    "Enjektör maliyetli",
+                    "DPF sorunu",
+                    "Kart anahtar",
+                    "Dizel bakım pahalı"
+            ],
+            "buyingTips": [
+                    "Enjektör testi mutlaka",
+                    "DPF temizliği yapılmış mı",
+                    "1.5 dCi 110 HP en yaygın",
+                    "Benzinli 1.6 daha sorunsuz"
+            ]
+    }
+,
+    {
+            "id": "renault-clio-4-1-2-turbo",
+            "slug": "renault-clio-4-1-2-turbo-icon",
+            "brand": "Renault",
+            "model": "Clio IV",
+            "variant": "1.2 Turbo Icon",
+            "years": "2012-2019",
+            "generation": "X98",
+            "price": 350000,
+            "expertNote": "H5F 1.2 TCe 120 HP. Clio IV modern tasarım, iyi teknoloji. 1.2 Turbo motor performanslı ama yağ tüketimi bilinen sorun. Icon donanım MediaNav ekranlı.",
+            "reliabilityScore": 71,
+            "totalIssues": 6,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "c4-1",
+                            "title": "Yağ Tüketimi",
+                            "description": "H5F 1.2 Turbo motorlarda kronik yağ tüketimi. Segman tasarım sorunu.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "c4-2",
+                            "title": "Turbo Arızası",
+                            "description": "Turbo yağ kaçağı ve arızası.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "c4-3",
+                            "title": "CVT Şanzıman",
+                            "description": "EDC (çift kavrama) şanzıman titreşimi ve arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "8.000 - 20.000 TL"
+                    },
+                    {
+                            "id": "c4-4",
+                            "title": "MediaNav Donması",
+                            "description": "MediaNav multimedya sisteminin donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "1.000 - 3.000 TL"
+                    },
+                    {
+                            "id": "c4-5",
+                            "title": "Motor Takozları",
+                            "description": "Motor takozlarının sertleşmesi. Titreşim.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "c4-6",
+                            "title": "Klima Kompresörü",
+                            "description": "Klima kompresörü arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Modern tasarım",
+                    "Güçlü 1.2 Turbo",
+                    "Icon donanım iyi",
+                    "Kompakt ve çevik"
+            ],
+            "cons": [
+                    "Yağ tüketimi KRONIK",
+                    "EDC şanzıman riskli",
+                    "Turbo maliyetli",
+                    "Küçük iç mekan"
+            ],
+            "buyingTips": [
+                    "Manuel şanzıman ŞART tercih edin",
+                    "Yağ seviyesi 2x kontrol",
+                    "1.0 SCe motor daha güvenilir",
+                    "EDC'den KAÇININ"
+            ]
+    }
+,
+    {
+            "id": "renault-symbol-1-5-dci",
+            "slug": "renault-symbol-3-1-5-dci-joy",
+            "brand": "Renault",
+            "model": "Symbol III",
+            "variant": "1.5 dCi Joy",
+            "years": "2013-2021",
+            "generation": "L52",
+            "price": 380000,
+            "expertNote": "K9K 1.5 dCi 90 HP. Symbol III (Clio tabanlı sedan) Türkiye'de çok satıldı. Ucuz sedan. Joy donanım temel ama yeterli. dCi motor ekonomik.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "sym-1",
+                            "title": "Enjektör",
+                            "description": "K9K enjektör tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "sym-2",
+                            "title": "Turbo",
+                            "description": "Turbo yağ sızıntısı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "sym-3",
+                            "title": "DPF",
+                            "description": "DPF filtresi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "5.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "sym-4",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör ve bilyalar.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "sym-5",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Ekonomik dizel",
+                    "Ucuz sedan",
+                    "Yedek parça ucuz",
+                    "Basit mekanik"
+            ],
+            "cons": [
+                    "Joy donanım fakir",
+                    "Plastik kalitesi düşük",
+                    "DPF sorunu",
+                    "İç mekan dar"
+            ],
+            "buyingTips": [
+                    "K9K motor ekonomik",
+                    "Joy yeterli ama Touch daha iyi",
+                    "Enjektör testi",
+                    "Benzinli 1.0 SCe daha güvenilir"
+            ]
+    }
+,
+    {
+            "id": "renault-megane-3-1-5-dci",
+            "slug": "renault-megane-3-1-5-dci-dynamique",
+            "brand": "Renault",
+            "model": "Megane III",
+            "variant": "1.5 dCi Dynamique",
+            "years": "2009-2016",
+            "generation": "X95",
+            "price": 300000,
+            "expertNote": "K9K 1.5 dCi 110 HP. Megane III güzel tasarım, iyi sürüş. Dynamique donanım deri direksiyon, klima, cruise control. HB, sedan ve GT Line versiyonları.",
+            "reliabilityScore": 71,
+            "totalIssues": 6,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "meg3-1",
+                            "title": "Enjektör",
+                            "description": "K9K enjektör arızaları.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "meg3-2",
+                            "title": "EDC Şanzıman",
+                            "description": "EDC çift kavrama şanzıman titreşimi.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "8.000 - 20.000 TL"
+                    },
+                    {
+                            "id": "meg3-3",
+                            "title": "DPF",
+                            "description": "DPF filtresi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "meg3-4",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "meg3-5",
+                            "title": "Kart Anahtar",
+                            "description": "Kart anahtar tanıma sorunu.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "meg3-6",
+                            "title": "El Freni Kablosu",
+                            "description": "El freni kablosunun kopması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    }
+            ],
+            "pros": [
+                    "Güzel tasarım",
+                    "İyi sürüş",
+                    "Dynamique donanım iyi",
+                    "HB sportif"
+            ],
+            "cons": [
+                    "EDC şanzıman KABUSu",
+                    "Enjektör pahalı",
+                    "DPF sorunu",
+                    "Kart anahtar"
+            ],
+            "buyingTips": [
+                    "MANUEL ŞANZIMAN tercih edin",
+                    "EDC'den KAÇININ",
+                    "Enjektör testi",
+                    "HB daha sportif"
+            ]
+    }
+,
+    {
+            "id": "renault-kadjar-1-5-dci",
+            "slug": "renault-kadjar-1-5-dci-icon",
+            "brand": "Renault",
+            "model": "Kadjar",
+            "variant": "1.5 dCi Icon",
+            "years": "2015-2022",
+            "generation": "HFE",
+            "price": 600000,
+            "expertNote": "K9K 1.5 dCi 110 HP. Kadjar Nissan Qashqai platformu. SUV trendi ile çok satıldı. Icon donanım 7 inç ekran, geri görüş kamerası. Pratik aile SUV'u.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "kad-1",
+                            "title": "Enjektör",
+                            "description": "K9K enjektör sorunları.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "kad-2",
+                            "title": "EDC Şanzıman",
+                            "description": "EDC çift kavrama şanzıman sorunları.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "8.000 - 20.000 TL"
+                    },
+                    {
+                            "id": "kad-3",
+                            "title": "Süspansiyon Sesleri",
+                            "description": "Ön süspansiyon gıcırtıları.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "30.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "kad-4",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "kad-5",
+                            "title": "Multimedya",
+                            "description": "R-Link multimedya donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "1.000 - 3.000 TL"
+                    }
+            ],
+            "pros": [
+                    "SUV pratikliği",
+                    "Nissan platformu",
+                    "Icon donanım iyi",
+                    "Geniş bagaj"
+            ],
+            "cons": [
+                    "EDC şanzıman riski",
+                    "Enjektör maliyeti",
+                    "Plastik iç mekan",
+                    "Yol tutuşu orta"
+            ],
+            "buyingTips": [
+                    "Manuel şanzıman tercih",
+                    "1.6 dCi 130 HP daha güçlü",
+                    "EDC'den kaçının",
+                    "Qashqai ile parça ortaklığı"
+            ]
+    }
+,
+{
+  "id": "renault-clio4-ph2",
+  "slug": "renault-clio-4-phase-2-1-5-dci-icon",
+  "brand": "Renault",
+  "model": "Clio",
+  "variant": "Clio IV Phase 2 1.5 dCi Icon",
+  "years": "2016-2019",
+  "generation": "Ara Kasa (2016-2019)",
+  "price": 525000,
+  "expertNote": "Phase 2 facelift'te ön tampon, farlar ve arka stoplar değişti. MediaNav Evolution daha stabil. LED gündüz farı standart. 1.5 dCi K9K motor aynı ancak EDC (çift kavramalı otomatik) yazılımı iyileştirildi.",
+  "reliabilityScore": 65,
+  "totalIssues": 5,
+  "searchCount": 15800,
+  "issues": [
+    {
+      "id": "r-c4p2-1",
+      "title": "EDC Şanzıman Kavrama Aşınması (Azalmış)",
+      "description": "Phase 1'deki EDC kavrama sorunu Phase 2'de yazılım güncellemesiyle azaldı ama tamamen çözülmedi. Yüksek km'de hâlâ kavrama seti değişimi gerekebilir.",
+      "category": "sanziman",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "80.000-130.000 km",
+      "repairCost": "₺8.000 – ₺15.000"
+    },
+    {
+      "id": "r-c4p2-2",
+      "title": "1.5 dCi Turbo Actuator",
+      "description": "Turbo actuator elektronik arızası. Check engine yanar, turbo basıncı düşer. Phase 1'den devam eden sorun.",
+      "category": "motor",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "100.000+ km",
+      "repairCost": "₺3.000 – ₺6.000"
+    },
+    {
+      "id": "r-c4p2-3",
+      "title": "MediaNav Evolution Donma (Azalmış)",
+      "description": "Phase 1'deki MediaNav çok daha sorunluydu. Evolution versiyonu daha stabil ancak GPS güncellemesi sonrası nadiren donma yaşanabilir.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0 – ₺1.000"
+    },
+    {
+      "id": "r-c4p2-4",
+      "title": "Arka Fren Kampana Paslanması",
+      "description": "Arka kampanalı frenler nemli iklimlerde paslanıp ses yapabilir. Periyodik temizlik gerekir.",
+      "category": "fren",
+      "riskLevel": "LOW",
+      "affectedKm": "30.000+ km",
+      "repairCost": "₺500 – ₺2.000"
+    },
+    {
+      "id": "r-c4p2-5",
+      "title": "Direksiyon Kolonu Gıcırtısı",
+      "description": "Soğuk havalarda direksiyon kolonu gıcırtı sesi çıkarabilir. Yağlama ile çözülür.",
+      "category": "suspansiyon",
+      "riskLevel": "LOW",
+      "affectedKm": "40.000+ km",
+      "repairCost": "₺200 – ₺800"
+    }
+  ],
+  "pros": [
+    "EDC yazılımı Phase 1'e göre iyileşmiş",
+    "MediaNav Evolution daha stabil",
+    "LED DRL standart",
+    "Daha modern ön görünüm",
+    "1.5 dCi güvenilir motor"
+  ],
+  "cons": [
+    "EDC kavrama sorunu tam çözülmemiş",
+    "Turbo actuator riski devam",
+    "Kampanalı arka fren"
+  ],
+  "buyingTips": [
+    "Ph1 ve Ph2 farkını bilin: 2016 Eylül sonrası üretim Phase 2",
+    "EDC kavrama seti değişmiş mi sorgulan",
+    "MediaNav'ı test edin — daha iyi ama mükemmel değil",
+    "Manuel şanzıman tercih ediliyorsa çok daha az sorun"
+  ]
+}
+,
+{
+  "id": "renault-megane3-ph2",
+  "slug": "renault-megane-3-phase-2-1-5-dci-gt-line",
+  "brand": "Renault",
+  "model": "Megane",
+  "variant": "Megane III Phase 2 1.5 dCi GT Line",
+  "years": "2012-2016",
+  "generation": "Ara Kasa (2012-2016)",
+  "price": 450000,
+  "expertNote": "Phase 2'de en kritik değişiklik: CVT şanzıman kaldırılıp EDC çift kavrama geldi. CVT Megane 3'ün en büyük kabusuydu. Ayrıca ön tampon, farlar ve iç mekan yenilendi. R-Link multimedya geldi.",
+  "reliabilityScore": 62,
+  "totalIssues": 5,
+  "searchCount": 11200,
+  "issues": [
+    {
+      "id": "r-m3p2-1",
+      "title": "EDC Çift Kavrama Aşınması",
+      "description": "CVT gitti ama EDC çift kavrama şanzıman kendi sorunlarını getirdi. 80-120 bin km'de kavrama seti değişimi gerekebilir. CVT kadar feci değil ama ucuz da değil.",
+      "category": "sanziman",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "80.000-120.000 km",
+      "repairCost": "₺8.000 – ₺15.000"
+    },
+    {
+      "id": "r-m3p2-2",
+      "title": "1.5 dCi DPF Rejenerasyon Sorunu (Azalmış)",
+      "description": "Phase 1'deki DPF sorunları hâlâ var ama yazılım güncellemesiyle rejenerasyon döngüleri iyileştirildi. Şehir içi kısa mesafe kullanımda hâlâ dikkat.",
+      "category": "motor",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "100.000+ km",
+      "repairCost": "₺4.000 – ₺10.000"
+    },
+    {
+      "id": "r-m3p2-3",
+      "title": "R-Link Multimedya Donma",
+      "description": "R-Link multimedya sistemi sık sık donabilir, yavaşlayabilir. SD kart üzerinden güncelleme gerekir.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0 – ₺1.000"
+    },
+    {
+      "id": "r-m3p2-4",
+      "title": "Kapı Menteşesi Paslanması (Devam)",
+      "description": "Phase 1'den devam eden sorun. Özellikle sürücü kapısı menteşesi zamana bağlı paslanıp sıkışabilir.",
+      "category": "govde",
+      "riskLevel": "LOW",
+      "affectedKm": "80.000+ km",
+      "repairCost": "₺800 – ₺2.500"
+    },
+    {
+      "id": "r-m3p2-5",
+      "title": "Arka Amortisör Sızıntısı",
+      "description": "Arka amortisörler 60-80 bin km'de yağ sızıntısı yapabilir. Takırtı sesi ve yol tutuş bozulması.",
+      "category": "suspansiyon",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "60.000-80.000 km",
+      "repairCost": "₺2.500 – ₺5.000"
+    }
+  ],
+  "pros": [
+    "CVT KALDIRILDI — en kritik iyileşme",
+    "EDC, CVT'den çok daha iyi",
+    "R-Link multimedya",
+    "Daha modern tasarım",
+    "1.5 dCi güvenilir motor"
+  ],
+  "cons": [
+    "EDC kendi sorunlarını getirdi",
+    "R-Link yavaş ve buggy",
+    "DPF sorunu devam"
+  ],
+  "buyingTips": [
+    "ASLA Phase 1 CVT'li Megane 3 almayın, Phase 2 EDC'yi tercih edin",
+    "EDC kavrama seti km'sini sorun",
+    "DPF temizliği yapılmış mı kontrol edin",
+    "Manuel şanzıman en güvenli seçenek"
+  ]
+}
 ];

@@ -99,6 +99,6 @@ export async function createPost(formData: FormData) {
         }
     });
 
-    revalidatePath('/blog');
-    redirect('/blog');
+    revalidatePath('/forum');
+    redirect('/forum');
 }

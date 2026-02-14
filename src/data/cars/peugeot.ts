@@ -928,4 +928,555 @@ export const peugeotCars: Car[] = [
                     "Boya kontrol edin"
             ]
     }
+,
+    {
+            "id": "peugeot-106-1-4",
+            "slug": "peugeot-106-1-4-xr",
+            "brand": "Peugeot",
+            "model": "106",
+            "variant": "1.4 XR",
+            "years": "1991-2003",
+            "generation": "106",
+            "price": 60000,
+            "expertNote": "TU3JP 1.4 75 HP. Peugeot 106 küçük, hafif ve çevik şehir aracı. Rally versiyonu efsane. Motor basit ve güvenilir. Yol tutuşu çok iyi.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 8000,
+            "issues": [
+                    {
+                            "id": "p106-1",
+                            "title": "Debriyaj Teli",
+                            "description": "Debriyaj telinin kopması.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Rastgele",
+                            "repairCost": "200 - 500 TL"
+                    },
+                    {
+                            "id": "p106-2",
+                            "title": "Kaporta Pası",
+                            "description": "Küçük gövdede pas oluşumu.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "p106-3",
+                            "title": "Motor Takozları",
+                            "description": "Motor takozlarının yorulması.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.000 TL"
+                    },
+                    {
+                            "id": "p106-4",
+                            "title": "Elektrik",
+                            "description": "Gösterge aydınlatması ve tesisat sorunları.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "p106-5",
+                            "title": "Piston Segmanı",
+                            "description": "Yüksek km'de yağ tüketimi — segman aşınması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Hafif ve çevik",
+                    "İyi yol tutuşu",
+                    "Basit motor",
+                    "Rally efsanesi"
+            ],
+            "cons": [
+                    "Çok küçük",
+                    "Güvenlik düşük",
+                    "Yaşlı",
+                    "Konfor yok"
+            ],
+            "buyingTips": [
+                    "Rally S16 koleksiyonluk",
+                    "TU3 motor güvenilir",
+                    "İlk araç olarak iyi",
+                    "Pas kontrolü"
+            ]
+    }
+,
+    {
+            "id": "peugeot-206-1-4",
+            "slug": "peugeot-206-1-4-xt",
+            "brand": "Peugeot",
+            "model": "206",
+            "variant": "1.4 XT",
+            "years": "1998-2010",
+            "generation": "206",
+            "price": 120000,
+            "expertNote": "TU3JP 1.4 75 HP. Peugeot 206 dünya çapında en çok satan Peugeot. Şık tasarım, iyi sürüş. CC cabrio versiyonu çok aranır. Türkiye'de çok popüler.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "p206-1",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı kopma riski.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "60.000 km",
+                            "repairCost": "800 - 1.500 TL"
+                    },
+                    {
+                            "id": "p206-2",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları ve çamurluk paslanması.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "p206-3",
+                            "title": "Süspansiyon Gıcırtısı",
+                            "description": "Arka burç ve süspansiyon gıcırtıları.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "p206-4",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma kablo kopması.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "p206-5",
+                            "title": "Kalorifer Kontrol",
+                            "description": "Kalorifer kontrol paneli veya motor arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Şık tasarım",
+                    "İyi sürüş",
+                    "CC cabrio",
+                    "Ucuz yedek parça"
+            ],
+            "cons": [
+                    "Pas sorunu",
+                    "Triger riski",
+                    "Küçük bagaj",
+                    "Parça azalıyor"
+            ],
+            "buyingTips": [
+                    "Triger ne zaman değişti",
+                    "Pas kontrolü",
+                    "CC versiyonu sorunlu",
+                    "XT veya Premium tercih"
+            ]
+    }
+,
+    {
+            "id": "peugeot-306-1-6",
+            "slug": "peugeot-306-1-6-xt",
+            "brand": "Peugeot",
+            "model": "306",
+            "variant": "1.6 XT",
+            "years": "1993-2002",
+            "generation": "306",
+            "price": 90000,
+            "expertNote": "TU5JP 1.6 90 HP. Peugeot 306 mükemmel C segmentti. Rally şampiyonu WRC araçlarla aynı platform. Hot Hatch GTI-6 efsane. Sürüş keyfi çok iyi.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "p306-1",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı ve gergi kontrol zamanı.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "60.000 km",
+                            "repairCost": "800 - 1.500 TL"
+                    },
+                    {
+                            "id": "p306-2",
+                            "title": "Kaporta Pası",
+                            "description": "Yaygın paslanma (çamurluklar, kapı altları).",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "p306-3",
+                            "title": "Gösterge Paneli",
+                            "description": "Gösterge piksellerinin sönmesi.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.000 TL"
+                    },
+                    {
+                            "id": "p306-4",
+                            "title": "Su Pompası",
+                            "description": "Devridaim pompası sızıntısı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "p306-5",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön bilyalar ve rotil aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    }
+            ],
+            "pros": [
+                    "Mükemmel sürüş",
+                    "WRC DNA",
+                    "GTI-6 efsane",
+                    "Çevik handling"
+            ],
+            "cons": [
+                    "Pas sorunu ağır",
+                    "Yaşlı araç",
+                    "Parça azalıyor",
+                    "Konfor az"
+            ],
+            "buyingTips": [
+                    "Triger kontrolü şart",
+                    "GTI-6 koleksiyonluk",
+                    "Pas alttan kontrol",
+                    "XT donanım yeterli"
+            ]
+    }
+,
+    {
+            "id": "peugeot-405-1-6-sri",
+            "slug": "peugeot-405-1-6-sri",
+            "brand": "Peugeot",
+            "model": "405",
+            "variant": "1.6 SRi",
+            "years": "1987-1997",
+            "generation": "405",
+            "price": 70000,
+            "expertNote": "XU5 1.6 90 HP. Peugeot 405 Türkiye'de çok satılan D segment. İran'da hâlâ üretiliyor (IKCO). Konforlu, ekonomik. SRi sportif versiyonu.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "p405-1",
+                            "title": "Motor Conta",
+                            "description": "Silindir kapağı contasının atması.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "p405-2",
+                            "title": "Kaporta Pası",
+                            "description": "Ciddi paslanma problemi.",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "p405-3",
+                            "title": "Direksiyon Kutusu",
+                            "description": "Direksiyon kutusu sızıntısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "p405-4",
+                            "title": "Yağ Keçesi",
+                            "description": "Motor yağ keçelerinden sızıntı.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "p405-5",
+                            "title": "Elektrik Tesisatı",
+                            "description": "Tesisat yaşlanması kaynaklı sorunlar.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Ekonomik D segment",
+                    "Konforlu",
+                    "Ucuz parça",
+                    "SRi sportif"
+            ],
+            "cons": [
+                    "Pas sorunu ciddi",
+                    "Yaşlı araç",
+                    "Güvenlik düşük",
+                    "Conta riski"
+            ],
+            "buyingTips": [
+                    "Conta atma geçmişi sorulmalı",
+                    "Pas kontrolü şart",
+                    "Mi16 motor koleksiyonluk",
+                    "SRi tercih edin"
+            ]
+    }
+,
+    {
+            "id": "peugeot-308-1-6-hdi",
+            "slug": "peugeot-308-mk2-1-6-bluehdi-active",
+            "brand": "Peugeot",
+            "model": "308",
+            "variant": "Mk2 1.6 BlueHDi Active",
+            "years": "2013-2021",
+            "generation": "T9",
+            "price": 550000,
+            "expertNote": "DV6FC 1.6 BlueHDi 120 HP. 308 Mk2 Avrupa'da Yılın Otomobili (2014). i-Cockpit dijital gösterge. Active donanım 9.7 inç dikey ekran. Mükemmel sürüş.",
+            "reliabilityScore": 75,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "p308-1",
+                            "title": "AdBlue",
+                            "description": "AdBlue enjektörü ve tank arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "p308-2",
+                            "title": "DPF",
+                            "description": "DPF filtresi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "p308-3",
+                            "title": "i-Cockpit Donma",
+                            "description": "Dijital gösterge ve ekran donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 2.000 TL"
+                    },
+                    {
+                            "id": "p308-4",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "p308-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör gıcırtısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Yılın Otomobili",
+                    "i-Cockpit inovatif",
+                    "Mükemmel sürüş",
+                    "9.7 inç ekran"
+            ],
+            "cons": [
+                    "AdBlue sorunu",
+                    "DPF tıkanma",
+                    "Parça pahalı",
+                    "Küçük direksiyon tartışmalı"
+            ],
+            "buyingTips": [
+                    "1.2 PureTech benzinli daha güvenilir",
+                    "Active donanım ideal",
+                    "i-Cockpit test edin",
+                    "BlueHDi ekonomik ama bakımlı"
+            ]
+    }
+,
+    {
+            "id": "peugeot-2008-1-6-hdi",
+            "slug": "peugeot-2008-mk1-1-6-e-hdi-allure",
+            "brand": "Peugeot",
+            "model": "2008",
+            "variant": "Mk1 1.6 e-HDi Allure",
+            "years": "2013-2019",
+            "generation": "A94",
+            "price": 500000,
+            "expertNote": "DV6DTED 1.6 e-HDi 92 HP. 2008 Mk1 B-SUV crossover. 208 tabanlı. Allure donanım grip control, 7 inç ekran, park sensörü. SUV trendi ile popüler.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "p2008-1",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "p2008-2",
+                            "title": "DPF",
+                            "description": "DPF filtresi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "p2008-3",
+                            "title": "ETG Şanzıman",
+                            "description": "ETG robotize şanzıman titreşimi ve gecikmesi.",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "p2008-4",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "p2008-5",
+                            "title": "Elektrik",
+                            "description": "Gösterge arızaları.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "B-SUV",
+                    "Grip Control",
+                    "Allure donanım iyi",
+                    "208 tabanlı çevik"
+            ],
+            "cons": [
+                    "ETG şanzıman KABUSu",
+                    "DPF sorunu",
+                    "92 HP az",
+                    "Plastik kalite"
+            ],
+            "buyingTips": [
+                    "MANUEL şanzıman ŞART",
+                    "ETG'den KAÇININ",
+                    "1.2 PureTech daha iyi",
+                    "Allure donanım güzel"
+            ]
+    }
+,
+{
+  "id": "peugeot-3008-fl",
+  "slug": "peugeot-3008-facelift-1-5-bluehdi-allure",
+  "brand": "Peugeot",
+  "model": "3008",
+  "variant": "3008 II Facelift 1.5 BlueHDi Allure",
+  "years": "2021-2023",
+  "generation": "Ara Kasa (2021-2023)",
+  "price": 1250000,
+  "expertNote": "Facelift'te çerçevesiz ön ızgara, yeni LED farlar ve 10 inç HD multimedya ekranı geldi. EAT8 şanzıman yazılımı iyileştirildi. 1.5 BlueHDi DV5 motor aynı kaldı ancak emisyon yazılımı güncellendi.",
+  "reliabilityScore": 70,
+  "totalIssues": 4,
+  "searchCount": 11300,
+  "issues": [
+    {
+      "id": "peu-30fl-1",
+      "title": "EAT8 Şanzıman Titreşimi (Azalmış)",
+      "description": "Aisin EAT8 şanzıman facelift'te yazılım güncellemesiyle iyileştirildi. Pre-facelift'teki düşük hızdaki sarsıntı azaldı ama tam gitmedi.",
+      "category": "sanziman",
+      "riskLevel": "LOW",
+      "affectedKm": "30.000+ km",
+      "repairCost": "₺0 – ₺2.000 (yazılım)"
+    },
+    {
+      "id": "peu-30fl-2",
+      "title": "AdBlue Seviye Sensörü",
+      "description": "SCR katalizör için AdBlue seviye sensörü hatalı okuma yapabilir. Yanlış uyarı vererek aracı çalıştırmayı engelleyebilir.",
+      "category": "motor",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "60.000+ km",
+      "repairCost": "₺2.000 – ₺5.000"
+    },
+    {
+      "id": "peu-30fl-3",
+      "title": "i-Cockpit Dijital Gösterge Yansıması",
+      "description": "Küçük direksiyon+yüksek gösterge paneli kombinasyonu güneş ışığında yansıma yapabilir. Polarize güneşlikle azaltılabilir.",
+      "category": "govde",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0"
+    },
+    {
+      "id": "peu-30fl-4",
+      "title": "Geri Görüş Kamerası Buğulanma",
+      "description": "Geri görüş kamerası nemli havalarda buğulanabilir. Lens contası değişimi ile düzelir.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "30.000+ km",
+      "repairCost": "₺500 – ₺2.000"
+    }
+  ],
+  "pros": [
+    "EAT8 yazılımı iyileşmiş",
+    "10 inç HD ekran",
+    "Daha modern dış tasarım",
+    "i-Cockpit 2. nesil",
+    "DPF rejenerasyon döngüsü iyileştirilmiş"
+  ],
+  "cons": [
+    "AdBlue sensörü problem potansiyeli",
+    "i-Cockpit alışma süreci",
+    "İkinci el fiyatları yüksek"
+  ],
+  "buyingTips": [
+    "AdBlue sistemi test edin",
+    "EAT8 vites geçişlerini düşük hızda kontrol edin",
+    "Pre-facelift'e göre daha az sorunlu ama fiyat farkı fazla",
+    "i-Cockpit'e alışma süreniz olacak — test sürüşü şart"
+  ]
+}
 ];

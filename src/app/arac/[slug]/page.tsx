@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { getCategoryLabel } from '@/data/cars';
-import { getCarBySlug, getAllCars } from '@/lib/cars';
+import { getCarBySlug, getAllCars, getRelatedCars } from '@/lib/cars';
 import ReliabilityGauge from '@/components/ReliabilityGauge';
 import IssueCard from '@/components/IssueCard';
 import AdSpace from '@/components/AdSpace';
@@ -11,6 +11,13 @@ import { auth } from '@/auth';
 import { prisma } from '@/lib/db';
 import CommentsSection from '@/components/comments/CommentsSection';
 import JsonLd from '@/components/JsonLd';
+import IssueVoteButtons from '@/components/IssueVoteButtons';
+import FavoriteButton from '@/components/FavoriteButton';
+import CarRatingSection from '@/components/CarRatingSection';
+import IssueReportForm from '@/components/IssueReportForm';
+import { getIssueVotes, getUserIssueVotes } from '@/actions/issue-actions';
+import { getCarRatings } from '@/actions/rating-actions';
+import { isFavorited } from '@/actions/favorite-actions';
 
 
 interface PageProps {
@@ -34,24 +41,37 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         };
     }
 
+    const topIssues = car.issues.slice(0, 3).map(i => i.title).join(', ');
+    const yearStr = car.years ? ` (${car.years})` : '';
+
     return {
-        title: `${car.brand} ${car.model} ${car.variant} Sorunları ve Güvenilirlik | OTORAPORU.NET`,
-        description: `${car.brand} ${car.model} ${car.variant} kronik sorunları, yaygın arızaları, şanzıman ve motor problemleri. Güvenilirlik puanı: ${car.reliabilityScore}/100. ${car.expertNote ? `Uzman yorumu: ${car.expertNote}` : ''}`,
+        title: `${car.brand} ${car.model} ${car.variant} Kronik Sorunları ve Arızaları${yearStr} | OTORAPORU.NET`,
+        description: `${car.brand} ${car.model} ${car.variant} kronik sorunları, yaygın arızaları ve alım rehberi. ${topIssues}. Güvenilirlik: ${car.reliabilityScore}/100. Alınır mı? Detaylı inceleme ve uzman yorumları.`,
+        keywords: [
+            `${car.brand} ${car.model} kronik sorunları`,
+            `${car.brand} ${car.model} arıza`,
+            `${car.brand} ${car.model} alınır mı`,
+            `${car.brand} ${car.model} sorunları`,
+            `${car.model} ${car.variant} yorum`,
+            `${car.brand} ${car.model} bakım maliyeti`,
+            `${car.model} güvenilirlik`,
+        ],
         alternates: {
-            canonical: `/arac/${slug}`,
+            canonical: `https://otoraporu.net/arac/${slug}`,
+            languages: { 'tr-TR': `https://otoraporu.net/arac/${slug}` },
         },
         openGraph: {
-            title: `${car.brand} ${car.model} Kronik Sorunlar ve İnceleme`,
-            description: `${car.brand} ${car.model} alınır mı? Kronik arızaları neler? ${car.reliabilityScore}/100 Güvenilirlik Puanı ile detaylı inceleme.`,
-            url: `/arac/${slug}`,
+            title: `${car.brand} ${car.model} Alınır mı? Kronik Sorunlar ve Detaylı İnceleme`,
+            description: `${car.brand} ${car.model} ${car.variant} — ${car.issues.length} bilinen kronik sorun. Güvenilirlik: ${car.reliabilityScore}/100. Arıza riskleri, bakım maliyetleri ve alım önerileri.`,
+            url: `https://otoraporu.net/arac/${slug}`,
             type: 'article',
-            authors: ['Otoraporu Ekibi'],
+            authors: ['Otoraporu Uzman Ekibi'],
             images: [
                 {
                     url: `/arac/${slug}/opengraph-image`,
                     width: 1200,
                     height: 630,
-                    alt: `${car.brand} ${car.model} İncelemesi`,
+                    alt: `${car.brand} ${car.model} Kronik Sorun İncelemesi`,
                 },
             ],
         },
@@ -61,6 +81,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export default async function CarDetailPage({ params }: PageProps) {
     const { slug } = await params;
     const car = await getCarBySlug(slug);
+    const relatedCars = car ? await getRelatedCars(slug, car.brand, car.model) : [];
 
     if (!car) {
         notFound();
@@ -81,6 +102,7 @@ export default async function CarDetailPage({ params }: PageProps) {
 
     // Fetch Session and Comments
     const session = await auth();
+    const isLoggedIn = !!session?.user?.id;
 
     const currentUser = session?.user?.id ? {
         id: session.user.id,
@@ -88,11 +110,18 @@ export default async function CarDetailPage({ params }: PageProps) {
         image: session.user.image
     } : null;
 
-    const comments = await prisma.comment.findMany({
-        where: { carSlug: slug },
-        include: { user: true },
-        orderBy: { createdAt: 'desc' }
-    });
+    // Fetch all engagement data in parallel
+    const [comments, issueVotes, userIssueVotes, ratingData, isFav] = await Promise.all([
+        prisma.comment.findMany({
+            where: { carSlug: slug },
+            include: { user: true },
+            orderBy: { createdAt: 'desc' }
+        }),
+        getIssueVotes(slug),
+        getUserIssueVotes(slug),
+        getCarRatings(slug),
+        isFavorited(slug),
+    ]);
 
     return (
         <div className="min-h-screen bg-stone-100 dark:bg-[#0c0a09]">
@@ -125,6 +154,72 @@ export default async function CarDetailPage({ params }: PageProps) {
                     '@type': 'Brand',
                     name: car.brand
                 }
+            }} />
+            {/* FAQ Schema for Google Rich Snippets */}
+            <JsonLd data={{
+                '@context': 'https://schema.org',
+                '@type': 'FAQPage',
+                mainEntity: [
+                    {
+                        '@type': 'Question',
+                        name: `${car.brand} ${car.model} ${car.variant} kronik sorunları nelerdir?`,
+                        acceptedAnswer: {
+                            '@type': 'Answer',
+                            text: car.issues.map(i => `${i.title}: ${i.description}`).join(' ')
+                        }
+                    },
+                    {
+                        '@type': 'Question',
+                        name: `${car.brand} ${car.model} alınır mı?`,
+                        acceptedAnswer: {
+                            '@type': 'Answer',
+                            text: `${car.brand} ${car.model} güvenilirlik puanı ${car.reliabilityScore}/100. Artıları: ${car.pros.join(', ')}. Eksileri: ${car.cons.join(', ')}. ${car.expertNote || ''}`
+                        }
+                    },
+                    {
+                        '@type': 'Question',
+                        name: `${car.brand} ${car.model} bakım maliyeti ne kadar?`,
+                        acceptedAnswer: {
+                            '@type': 'Answer',
+                            text: car.issues.map(i => `${i.title}: tahmini maliyet ${i.repairCost}`).join('. ')
+                        }
+                    },
+                    {
+                        '@type': 'Question',
+                        name: `${car.brand} ${car.model} alırken nelere dikkat edilmeli?`,
+                        acceptedAnswer: {
+                            '@type': 'Answer',
+                            text: car.buyingTips.join('. ')
+                        }
+                    }
+                ]
+            }} />
+            {/* Review Schema for Star Ratings in Google */}
+            <JsonLd data={{
+                '@context': 'https://schema.org',
+                '@type': 'Review',
+                itemReviewed: {
+                    '@type': 'Vehicle',
+                    name: `${car.brand} ${car.model} ${car.variant}`,
+                    brand: { '@type': 'Brand', name: car.brand }
+                },
+                reviewRating: {
+                    '@type': 'Rating',
+                    ratingValue: Math.round(car.reliabilityScore / 20 * 10) / 10,
+                    bestRating: '5',
+                    worstRating: '1',
+                },
+                author: {
+                    '@type': 'Organization',
+                    name: 'OTORAPORU.NET'
+                },
+                publisher: {
+                    '@type': 'Organization',
+                    name: 'OTORAPORU.NET',
+                    url: 'https://otoraporu.net'
+                },
+                reviewBody: car.expertNote || `${car.brand} ${car.model} detaylı kronik sorun analizi ve güvenilirlik raporu.`,
+                datePublished: '2025-01-01',
             }} />
             <JsonLd data={{
                 '@context': 'https://schema.org',
@@ -182,9 +277,12 @@ export default async function CarDetailPage({ params }: PageProps) {
                                     <span className="inline-block px-2.5 py-1 bg-stone-100 border border-stone-200 dark:bg-stone-800 dark:border-stone-700 rounded-md text-stone-500 dark:text-stone-400 text-xs font-medium mb-2">
                                         {car.generation}
                                     </span>
-                                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-stone-900 dark:text-white leading-tight">
-                                        {car.brand} {car.model}
-                                    </h1>
+                                    <div className="flex items-center gap-3">
+                                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-stone-900 dark:text-white leading-tight">
+                                            {car.brand} {car.model}
+                                        </h1>
+                                        <FavoriteButton carSlug={slug} isFav={isFav} />
+                                    </div>
                                 </div>
                             </div>
 
@@ -276,13 +374,28 @@ export default async function CarDetailPage({ params }: PageProps) {
                                         <span className="text-stone-400 dark:text-stone-500 font-normal">({issues.length})</span>
                                     </h3>
                                     <div className="space-y-3">
-                                        {issues.map((issue) => (
-                                            <IssueCard key={issue.id} issue={issue} />
-                                        ))}
+                                        {issues.map((issue) => {
+                                            const voteData = issueVotes[issue.id] || { confirms: 0, denies: 0 };
+                                            const userVote = userIssueVotes[issue.id];
+                                            return (
+                                                <IssueCard key={issue.id} issue={issue}>
+                                                    <IssueVoteButtons
+                                                        issueId={issue.id}
+                                                        carSlug={slug}
+                                                        confirms={voteData.confirms}
+                                                        denies={voteData.denies}
+                                                        userVote={userVote}
+                                                    />
+                                                </IssueCard>
+                                            );
+                                        })}
                                     </div>
                                 </div>
                             ))}
                         </section>
+
+                        {/* Sorun Bildirme */}
+                        <IssueReportForm carSlug={slug} isLoggedIn={isLoggedIn} />
 
                         <AdSpace type="expert" />
 
@@ -357,6 +470,9 @@ export default async function CarDetailPage({ params }: PageProps) {
                             </ul>
                         </div>
 
+                        {/* Kullanıcı Puanları */}
+                        <CarRatingSection carSlug={slug} ratingData={ratingData} isLoggedIn={isLoggedIn} />
+
                         {/* Back to Search - bigger */}
                         <Link
                             href="/"
@@ -366,6 +482,50 @@ export default async function CarDetailPage({ params }: PageProps) {
                         </Link>
                     </div>
                 </div>
+
+                {/* Related Cars — SEO Internal Linking */}
+                {relatedCars.length > 0 && (
+                    <section className="mt-12">
+                        <h2 className="text-xl md:text-2xl font-bold text-stone-900 dark:text-stone-100 mb-6 flex items-center gap-3">
+                            <div className="w-10 h-10 bg-orange-100 dark:bg-orange-950/30 rounded-xl flex items-center justify-center shrink-0">
+                                <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                                </svg>
+                            </div>
+                            Benzer Araçlar
+                        </h2>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                            {relatedCars.map((rc) => (
+                                <Link
+                                    key={rc.slug}
+                                    href={`/arac/${rc.slug}`}
+                                    className="group bg-white dark:bg-stone-900 rounded-xl border border-stone-200 dark:border-stone-800 p-4 hover:border-orange-300 dark:hover:border-orange-700 transition-all hover:shadow-md"
+                                >
+                                    <div className="flex items-center gap-3 mb-2">
+                                        <div className="w-8 h-8 bg-stone-100 dark:bg-stone-800 rounded-lg flex items-center justify-center p-1.5 shrink-0">
+                                            <BrandLogo brand={rc.brand} className="w-full h-full" />
+                                        </div>
+                                        <div className="min-w-0">
+                                            <h3 className="text-sm font-bold text-stone-900 dark:text-stone-100 truncate group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors">
+                                                {rc.brand} {rc.model}
+                                            </h3>
+                                            <p className="text-xs text-stone-500 dark:text-stone-400 truncate">{rc.variant}</p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center justify-between text-xs">
+                                        <span className="text-stone-400 dark:text-stone-500">{rc.years}</span>
+                                        <span className={`font-bold ${rc.reliabilityScore >= 75 ? 'text-green-600 dark:text-green-400' :
+                                            rc.reliabilityScore >= 60 ? 'text-amber-600 dark:text-amber-400' :
+                                                'text-red-600 dark:text-red-400'
+                                            }`}>
+                                            {rc.reliabilityScore}/100
+                                        </span>
+                                    </div>
+                                </Link>
+                            ))}
+                        </div>
+                    </section>
+                )}
 
                 <div className="mt-12">
                     <AdSpace type="insurance" />

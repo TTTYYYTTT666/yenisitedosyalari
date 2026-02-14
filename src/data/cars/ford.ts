@@ -1577,4 +1577,884 @@ export const fordCars: Car[] = [
                     "Bu şanzımanı olan hiçbir Ford almayın"
             ]
     }
+,
+    {
+            "id": "ford-taunus-2-0-gl",
+            "slug": "ford-taunus-2-0-gl-oto",
+            "brand": "Ford",
+            "model": "Taunus",
+            "variant": "2.0 GL Otomatik",
+            "years": "1970-1994",
+            "generation": "TC/GBT",
+            "price": 120000,
+            "expertNote": "Ford Otosan üretimi efsane. Türkiye'de 1994'e kadar üretildi. 2.0 OHC motor çok sağlam. Otomatik şanzıman (C3) da güvenilir. Koleksiyoner değeri hızla artıyor.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 20000,
+            "issues": [
+                    {
+                            "id": "tau-1",
+                            "title": "Karbüratör Ayarı",
+                            "description": "Weber karbüratör sürekli ayar istiyor.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "200 - 500 TL"
+                    },
+                    {
+                            "id": "tau-2",
+                            "title": "Kaporta Pası",
+                            "description": "Ciddi paslanma problemi (50 yıllık araç).",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Restorasyon"
+                    },
+                    {
+                            "id": "tau-3",
+                            "title": "Fren Sistemi",
+                            "description": "Ön disk, arka kampana. Fren merkezi kaçırması.",
+                            "category": "fren",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 2.000 TL"
+                    },
+                    {
+                            "id": "tau-4",
+                            "title": "Elektrik Tesisatı",
+                            "description": "Tamamen yaşlanmış tesisat.",
+                            "category": "elektronik",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "tau-5",
+                            "title": "Süspansiyon",
+                            "description": "Tüm süspansiyon parçaları aşınmış.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 5.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Efsanevi araç",
+                    "2.0 OHC sağlam",
+                    "Koleksiyoner değeri",
+                    "Ford Otosan üretimi"
+            ],
+            "cons": [
+                    "50 yıllık araç",
+                    "Pas kabusu",
+                    "Güvenlik sıfır",
+                    "Restorasyon şart"
+            ],
+            "buyingTips": [
+                    "Restorasyon bütçesi ayırın",
+                    "Orijinallik önemli",
+                    "Çürük şase = kaçın",
+                    "TC3 kasa en aranan"
+            ]
+    }
+,
+    {
+            "id": "ford-escort-1-6-clx",
+            "slug": "ford-escort-1-6-clx-zetec",
+            "brand": "Ford",
+            "model": "Escort",
+            "variant": "1.6 CLX Zetec",
+            "years": "1990-2000",
+            "generation": "Mk5/6",
+            "price": 90000,
+            "expertNote": "1.6 Zetec 90 HP. Escort Ford'un dünya çapında en çok satan arabası. Mk5/6 Türkiye'de çok satıldı. CVH yerine Zetec motor daha güvenilir.",
+            "reliabilityScore": 73,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "esc-1",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı kopması riski.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "60.000 km",
+                            "repairCost": "800 - 1.500 TL"
+                    },
+                    {
+                            "id": "esc-2",
+                            "title": "Kaporta Pası",
+                            "description": "Yaygın paslanma.",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "esc-3",
+                            "title": "Su Pompası",
+                            "description": "Devridaim pompası sızıntısı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "esc-4",
+                            "title": "Ön Rotiller",
+                            "description": "Ön süspansiyon rotilleri aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000 km",
+                            "repairCost": "400 - 800 TL"
+                    },
+                    {
+                            "id": "esc-5",
+                            "title": "Egzoz Manifoldu",
+                            "description": "Egzoz manifoldu çatlağı.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Zetec motor güvenilir",
+                    "Ucuz bakım",
+                    "Sportif sürüş",
+                    "Yedek parça var"
+            ],
+            "cons": [
+                    "Pas sorunu",
+                    "Yaşlı araç",
+                    "Güvenlik düşük",
+                    "Parça azalıyor"
+            ],
+            "buyingTips": [
+                    "Zetec motorlu tercih edin",
+                    "Triger kontrolü",
+                    "CVH motordan kaçının",
+                    "CLX donanım yeterli"
+            ]
+    }
+,
+    {
+            "id": "ford-mondeo-mk2-2-0",
+            "slug": "ford-mondeo-mk2-2-0-ghia",
+            "brand": "Ford",
+            "model": "Mondeo",
+            "variant": "Mk2 2.0 Ghia",
+            "years": "1996-2000",
+            "generation": "Mk2",
+            "price": 100000,
+            "expertNote": "2.0 Zetec-E 130 HP. Mondeo Mk2 güzel tasarım ve iyi sürüş. Ghia donanım deri koltuk, klima, ABS. D segment. Almanya'dan ithal araçlar çok.",
+            "reliabilityScore": 72,
+            "totalIssues": 5,
+            "searchCount": 9000,
+            "issues": [
+                    {
+                            "id": "mon2-1",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı ve gergi mekanizması.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "80.000 km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "mon2-2",
+                            "title": "Ön Alt Kol Burçları",
+                            "description": "Ön süspansiyon alt kol burçlarının aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "1.000 - 2.500 TL"
+                    },
+                    {
+                            "id": "mon2-3",
+                            "title": "Kalorifer Peteği",
+                            "description": "Kalorifer peteğinden su kaçağı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "1.000 - 2.500 TL"
+                    },
+                    {
+                            "id": "mon2-4",
+                            "title": "Elektrik Arızaları",
+                            "description": "Cam kaldırma ve merkezi kilit arızaları.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "mon2-5",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları paslanması.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    }
+            ],
+            "pros": [
+                    "İyi sürüş",
+                    "Güçlü motor",
+                    "Ghia donanım zengin",
+                    "D segment konfor"
+            ],
+            "cons": [
+                    "Triger riski",
+                    "Yaşlı araç",
+                    "Parça azalıyor",
+                    "Yakıt tüketimi"
+            ],
+            "buyingTips": [
+                    "Triger ne zaman değişti",
+                    "Ghia veya GLX tercih edin",
+                    "Almanya ithalatı kontrol",
+                    "Manuel şanzıman tercih"
+            ]
+    }
+,
+    {
+            "id": "ford-focus-mk1-1-6",
+            "slug": "ford-focus-mk1-1-6-ghia",
+            "brand": "Ford",
+            "model": "Focus",
+            "variant": "Mk1 1.6 Ghia",
+            "years": "1998-2005",
+            "generation": "Mk1 (C170)",
+            "price": 140000,
+            "expertNote": "1.6 Zetec-SE 100 HP. Focus Mk1 devrim yaratan C segment. Mükemmel yol tutuşu. HB, sedan ve SW versiyonları. Türkiye'de çok satıldı.",
+            "reliabilityScore": 76,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "fmk1-1",
+                            "title": "Termostat",
+                            "description": "Termostat arızası. Hararet veya ısınmama.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "fmk1-2",
+                            "title": "Arka Teker Mekanizması",
+                            "description": "Arka çok noktalı süspansiyon burçları aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "1.000 - 2.500 TL"
+                    },
+                    {
+                            "id": "fmk1-3",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması arızası.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "fmk1-4",
+                            "title": "Katalitik Konvertör",
+                            "description": "Katalitik konvertör tıkanması veya bozulması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "fmk1-5",
+                            "title": "Motor Takozları",
+                            "description": "Motor takozlarının sertleşmesi/kırılması.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Efsane yol tutuşu",
+                    "Güzel sürüş",
+                    "Sportif tasarım",
+                    "HB ikonu"
+            ],
+            "cons": [
+                    "Yaşlanıyor",
+                    "Süspansiyon maliyetli",
+                    "Parça kısmen zor",
+                    "Yakıt ortanın üstü"
+            ],
+            "buyingTips": [
+                    "HB tercih edin (sportif)",
+                    "Süspansiyon sesleri dinleyin",
+                    "Ghia donanım en iyisi",
+                    "Zetec-SE motor güvenilir"
+            ]
+    }
+,
+    {
+            "id": "ford-fiesta-mk4-1-25",
+            "slug": "ford-fiesta-mk4-1-25-flair",
+            "brand": "Ford",
+            "model": "Fiesta",
+            "variant": "Mk4 1.25 Flair",
+            "years": "1995-2002",
+            "generation": "Mk4",
+            "price": 70000,
+            "expertNote": "1.25 Zetec-SE 75 HP. Fiesta Mk4 küçük, çevik şehir aracı. Motor güvenilir ve ekonomik. Yol tutuşu iyi (Focus tabanlı).",
+            "reliabilityScore": 75,
+            "totalIssues": 5,
+            "searchCount": 8000,
+            "issues": [
+                    {
+                            "id": "fie4-1",
+                            "title": "Triger Kayışı",
+                            "description": "Triger kayışı kontrol zamanı.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "60.000 km",
+                            "repairCost": "600 - 1.200 TL"
+                    },
+                    {
+                            "id": "fie4-2",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları ve arka çamurluk pası.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "fie4-3",
+                            "title": "Şanzıman Senkromece",
+                            "description": "2. vites senkromece aşınması.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "fie4-4",
+                            "title": "Arka Fren Kampanası",
+                            "description": "Arka kampana frenlerin tutmaması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "400 - 800 TL"
+                    },
+                    {
+                            "id": "fie4-5",
+                            "title": "Kalorifer Peteği",
+                            "description": "Kalorifer peteğinden su kaçağı.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.200 TL"
+                    }
+            ],
+            "pros": [
+                    "Ekonomik",
+                    "Çevik sürüş",
+                    "1.25 güvenilir",
+                    "Şehir aracı"
+            ],
+            "cons": [
+                    "Küçük araç",
+                    "75 HP az",
+                    "Yaşlı",
+                    "Parça azalıyor"
+            ],
+            "buyingTips": [
+                    "1.25 Zetec-SE tercih edin",
+                    "Triger kontrolü",
+                    "İlk araç idealdir",
+                    "Flair donanım yeterli"
+            ]
+    }
+,
+    {
+            "id": "ford-focus-mk3-1-6-tdci",
+            "slug": "ford-focus-mk3-1-6-tdci-trend-x",
+            "brand": "Ford",
+            "model": "Focus",
+            "variant": "Mk3 1.6 TDCi Trend X",
+            "years": "2011-2018",
+            "generation": "Mk3 (DYB)",
+            "price": 430000,
+            "expertNote": "HHJD 1.6 TDCi 115 HP. Focus Mk3 mükemmel C segment. İyi sürüş dinamiği. Trend X donanım SYNC ekran, geri kamera. Ford Otosan Gölcük üretimi.",
+            "reliabilityScore": 75,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "fmk3-1",
+                            "title": "PowerShift Şanzıman",
+                            "description": "PowerShift 6DCT450 çift kavrama şanzıman titreşimi ve arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "10.000 - 25.000 TL"
+                    },
+                    {
+                            "id": "fmk3-2",
+                            "title": "EGR Soğutucu",
+                            "description": "EGR soğutucu çatlağı. Soğutma sıvısı kaçağı.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "fmk3-3",
+                            "title": "Su Pompası",
+                            "description": "Su pompası sızıntısı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "fmk3-4",
+                            "title": "Arka Süspansiyon",
+                            "description": "Arka süspansiyon burçları sıkışması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "fmk3-5",
+                            "title": "SYNC Donması",
+                            "description": "Ford SYNC multimedya donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Mükemmel sürüş",
+                    "Ford Otosan üretimi",
+                    "SYNC teknolojisi",
+                    "C segment kralı"
+            ],
+            "cons": [
+                    "PowerShift FELAKET",
+                    "EGR sorunu",
+                    "Parça pahalılaştı",
+                    "İç mekan plastik"
+            ],
+            "buyingTips": [
+                    "MANUEL ŞANZIMAN ŞART",
+                    "PowerShift'den KAÇININ",
+                    "1.6 TDCi yeterli",
+                    "Trend X donanım ideal"
+            ]
+    }
+,
+    {
+            "id": "ford-fiesta-mk7-1-4-tdci",
+            "slug": "ford-fiesta-mk7-1-4-tdci-titanium",
+            "brand": "Ford",
+            "model": "Fiesta",
+            "variant": "Mk7 1.4 TDCi Titanium",
+            "years": "2009-2017",
+            "generation": "Mk7 (JA8)",
+            "price": 320000,
+            "expertNote": "KVJA 1.4 TDCi 70 HP. Fiesta Mk7 şık küçük araç. İyi sürüş, ekonomik. Titanium donanım otomatik klima, Bluetooth, yol bilgisayarı.",
+            "reliabilityScore": 77,
+            "totalIssues": 5,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "fie7-1",
+                            "title": "EGR Valfi",
+                            "description": "EGR valfi tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "fie7-2",
+                            "title": "Gösterge Arızası",
+                            "description": "Gösterge paneli piksel sönmesi.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "fie7-3",
+                            "title": "Su Pompası",
+                            "description": "Su pompası sızıntısı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "fie7-4",
+                            "title": "Arka Fren",
+                            "description": "Arka kampana fren ayarı.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "fie7-5",
+                            "title": "Motor Takozları",
+                            "description": "Motor takozları sertleşmesi.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    }
+            ],
+            "pros": [
+                    "Şık tasarım",
+                    "Ekonomik",
+                    "İyi sürüş",
+                    "Titanium donanım güzel"
+            ],
+            "cons": [
+                    "70 HP az",
+                    "Küçük iç mekan",
+                    "Dizel partikül",
+                    "Parça pahalılaştı"
+            ],
+            "buyingTips": [
+                    "1.0 EcoBoost çok daha iyi motor",
+                    "Titanium donanım tercih",
+                    "70 HP şehir içine yeter",
+                    "Manuel şanzıman güvenilir"
+            ]
+    }
+,
+    {
+            "id": "ford-courier-1-5-tdci",
+            "slug": "ford-courier-1-5-tdci-trend",
+            "brand": "Ford",
+            "model": "Courier",
+            "variant": "1.5 TDCi Trend",
+            "years": "2014-2024",
+            "generation": "JU2",
+            "price": 600000,
+            "expertNote": "XVCA 1.5 TDCi 75/95 HP. Courier Ford Otosan'ın Türkiye tasarımı. Küçük ticari → aile arabası dönüşümü. Çok pratik, ekonomik, geniş. Trend donanım klima, ses sistemi.",
+            "reliabilityScore": 78,
+            "totalIssues": 5,
+            "searchCount": 22000,
+            "issues": [
+                    {
+                            "id": "cou-1",
+                            "title": "Triger Kayışı",
+                            "description": "1.5 TDCi triger kayışı kontrol/değişimi.",
+                            "category": "motor",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "150.000 km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "cou-2",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "cou-3",
+                            "title": "Sürgülü Kapı",
+                            "description": "Sürgülü kapı mekanizması arızası.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kullanım kaynaklı",
+                            "repairCost": "1.000 - 2.500 TL"
+                    },
+                    {
+                            "id": "cou-4",
+                            "title": "Süspansiyon",
+                            "description": "Arka yaprak yay (ticari versiyon).",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yüklü kullanım",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "cou-5",
+                            "title": "Klima",
+                            "description": "Klima gazı kaçağı.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Çok pratik",
+                    "Ekonomik",
+                    "Ford Otosan kalitesi",
+                    "Geniş iç mekan"
+            ],
+            "cons": [
+                    "Ticari DNA",
+                    "Gürültü yalıtımı kötü",
+                    "Sürüş konforu düşük",
+                    "Küçük motor"
+            ],
+            "buyingTips": [
+                    "95 HP versiyonu tercih edin",
+                    "Tourneo Courier aile versiyonu",
+                    "Triger kontrolü",
+                    "Ford Otosan yerli üretim"
+            ]
+    }
+,
+    {
+            "id": "ford-kuga-1-5-tdci",
+            "slug": "ford-kuga-mk2-1-5-tdci-titanium",
+            "brand": "Ford",
+            "model": "Kuga",
+            "variant": "Mk2 1.5 TDCi Titanium",
+            "years": "2013-2020",
+            "generation": "Mk2 (DM2)",
+            "price": 700000,
+            "expertNote": "XWMC 1.5 TDCi 120 HP. Kuga Mk2 Ford'un C-SUV'u. Mükemmel sürüş dinamiği (SUV için). Titanium donanım SYNC 3, Apple CarPlay, deri koltuk. PowerShift risk!",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "kug-1",
+                            "title": "PowerShift",
+                            "description": "PowerShift çift kavrama şanzıman arızası.",
+                            "category": "sanziman",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "10.000 - 25.000 TL"
+                    },
+                    {
+                            "id": "kug-2",
+                            "title": "Motor Soğutma",
+                            "description": "Su pompası ve termostat arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "kug-3",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön alt kol burçları.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "1.000 - 2.500 TL"
+                    },
+                    {
+                            "id": "kug-4",
+                            "title": "Turbo",
+                            "description": "Turbo wastegate arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "kug-5",
+                            "title": "SYNC",
+                            "description": "SYNC 3 donma ve yazılım sorunları.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 2.000 TL"
+                    }
+            ],
+            "pros": [
+                    "İyi sürüş dinamiği",
+                    "SYNC 3 mükemmel",
+                    "Titanium donanım zengin",
+                    "Güzel tasarım"
+            ],
+            "cons": [
+                    "PowerShift FELAKET",
+                    "Turbo maliyetli",
+                    "Parça pahalı",
+                    "Yakıt tüketimi"
+            ],
+            "buyingTips": [
+                    "MANUEL ŞANZIMAN tercih edin",
+                    "PowerShift'den KAÇININ",
+                    "1.5 TDCi yeterli",
+                    "Titanium en iyi donanım/fiyat"
+            ]
+    }
+,
+    {
+            "id": "ford-transit-connect-1-5-tdci",
+            "slug": "ford-transit-connect-1-5-tdci-trend",
+            "brand": "Ford",
+            "model": "Transit Connect",
+            "variant": "1.5 TDCi Trend",
+            "years": "2013-2024",
+            "generation": "V408",
+            "price": 600000,
+            "expertNote": "XVCC 1.5 TDCi 100/120 HP. Transit Connect büyük ticari araç. Deluxe yolcu versiyonu da var. Ford Otosan kalitesi. 120 HP motor yeterli güçte.",
+            "reliabilityScore": 77,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "tc-1",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "tc-2",
+                            "title": "Enjektör",
+                            "description": "Enjektör tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "tc-3",
+                            "title": "Sürgülü Kapı",
+                            "description": "Sürgülü kapı rayı ve mekanizma.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kullanım",
+                            "repairCost": "1.000 - 2.500 TL"
+                    },
+                    {
+                            "id": "tc-4",
+                            "title": "Süspansiyon",
+                            "description": "Arka yaprak yay (yüklü kullanım).",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yüklü kullanım",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "tc-5",
+                            "title": "Klima",
+                            "description": "Klima kompresörü arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Ford Otosan kalitesi",
+                    "Geniş yük alanı",
+                    "120 HP yeterli",
+                    "Sağlam yapı"
+            ],
+            "cons": [
+                    "Ticari araç",
+                    "Konfor düşük",
+                    "Yakıt tüketimi",
+                    "Gürültü"
+            ],
+            "buyingTips": [
+                    "120 HP tercih edin",
+                    "Yolcu versiyonu daha konforlu",
+                    "Ford Otosan yerli",
+                    "Manuel şanzıman güvenilir"
+            ]
+    }
+,
+{
+  "id": "ford-focus-mk35-fl",
+  "slug": "ford-focus-mk3-5-1-5-tdci-facelift",
+  "brand": "Ford",
+  "model": "Focus",
+  "variant": "Focus Mk3.5 Facelift 1.5 TDCi Titanium",
+  "years": "2015-2018",
+  "generation": "Ara Kasa (2015-2018)",
+  "price": 700000,
+  "expertNote": "Mk3.5 facelift Ford'un en önemli düzeltmesi: PowerShift DCT kaldırılıp 6 ileri torque converter otomatik şanzıman geldi. Bu tek başına büyük bir iyileşme. 1.5 TDCi motor 1.6 TDCi'ın yerini aldı — daha verimli ama EGR sorunları devam edebilir.",
+  "reliabilityScore": 70,
+  "totalIssues": 5,
+  "searchCount": 12500,
+  "issues": [
+    {
+      "id": "ford-fmk35-1",
+      "title": "1.5 TDCi EGR Valve Tıkanması",
+      "description": "1.6 TDCi'da da olan EGR tıkanma sorunu 1.5 TDCi'da azaldı ama tamamen çözülmedi. Şehir içi kısa mesafe kullanımda EGR valfı karbon biriktirir.",
+      "category": "motor",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "80.000-150.000 km",
+      "repairCost": "₺3.000 – ₺6.000"
+    },
+    {
+      "id": "ford-fmk35-2",
+      "title": "6AT Şanzıman Vites Geçiş Gecikmesi",
+      "description": "Torque converter 6AT, PowerShift'e göre çok daha güvenilir ancak düşük hızlarda vites geçiş kararlarında gecikme yaşanabilir. Performans açısından DCT kadar keskin değil.",
+      "category": "sanziman",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0 (normal davranış)"
+    },
+    {
+      "id": "ford-fmk35-3",
+      "title": "Enjektör Sızıntısı",
+      "description": "1.5 TDCi enjektörleri yüksek km'de sızıntı yapabilir. Motor bölgesinde dizel kokusu ve güç kaybı belirtisi.",
+      "category": "motor",
+      "riskLevel": "HIGH",
+      "affectedKm": "120.000+ km",
+      "repairCost": "₺4.000 – ₺12.000"
+    },
+    {
+      "id": "ford-fmk35-4",
+      "title": "SYNC 2 Multimedya Yavaşlama",
+      "description": "SYNC 2 infotainment sistemi zamanla yavaşlar. Dokunmatik ekran tepki süreleri uzar.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0 – ₺1.500"
+    },
+    {
+      "id": "ford-fmk35-5",
+      "title": "Süspansiyon Bijon Gevşemesi",
+      "description": "Ön süspansiyon alt salıncak bijonları zamanla gevşeyebilir. Direksiyon titremesi ve gürültü yapar.",
+      "category": "suspansiyon",
+      "riskLevel": "MEDIUM",
+      "affectedKm": "60.000-100.000 km",
+      "repairCost": "₺1.500 – ₺3.500"
+    }
+  ],
+  "pros": [
+    "PowerShift DCT KALDIRILDI — en büyük iyileşme",
+    "6AT güvenilir otomatik",
+    "1.5 TDCi daha verimli",
+    "Daha modern ön tasarım",
+    "SYNC 2 dokunmatik ekran"
+  ],
+  "cons": [
+    "EGR sorunu devam ediyor",
+    "1.5 TDCi enjektör riski var",
+    "SYNC 2 zamanla yavaşlıyor"
+  ],
+  "buyingTips": [
+    "MUTLAKA facelift olduğunu teyit edin — PowerShift DCT olan Mk3 ile karıştırmayın",
+    "EGR valfı temizliği yapılmış mı kontrol edin",
+    "6AT şanzıman sağlığını düz yolda test edin",
+    "PowerShift'li Mk3'ten çok daha güvenilir"
+  ]
+}
 ];

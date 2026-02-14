@@ -1477,7 +1477,7 @@ export const volkswagenCars: Car[] = [
         cons: ["Binek konforu düşük", "PD enjektör pahalı", "Gürültü yalıtımı yok"],
         buyingTips: ["Enjektör sesini dinleyin", "Volan sesini kontrol edin", "Sürgülü kapıları test edin"]
     }
-,
+    ,
 
     // ─── Eski new-cars dosyasından taşındı ───
     {
@@ -1505,7 +1505,7 @@ export const volkswagenCars: Car[] = [
         cons: ["Twincharger motor karmaşık", "DSG riski", "Bakım maliyeti yüksek"],
         buyingTips: ["DSG kavrama testini mutlaka yapın", "Süperşarj zincir sesini dinleyin", "Devirdaim pompası kontrol ettirin"]
     }
-,
+    ,
 
     // ─── Eski new-cars dosyasından taşındı ───
     {
@@ -1533,7 +1533,7 @@ export const volkswagenCars: Car[] = [
         cons: ["DSG riski", "Bakım maliyeti yüksek", "Parça fiyatları artıyor"],
         buyingTips: ["DSG'den kaçın, manuel tercih edin", "Devirdaim pompası kontrol ettirin", "Volan sesini soğuk motorla dinleyin"]
     }
-,
+    ,
 
     // ─── Eski new-cars dosyasından taşındı ───
     {
@@ -1561,394 +1561,1275 @@ export const volkswagenCars: Car[] = [
         cons: ["DSG masraf riski", "Bakım maliyeti yüksek", "Ağır kasa (Yakıt tüketimi)"],
         buyingTips: ["DSG kavrama testini mutlaka yapın (Yokuş kalkışı)", "Volan sesini dinleyin (Motor dururken şıkırtı)", "Sürgülü kapıları açıp kapatın"]
     }
-,
+    ,
     {
-            "id": "vw-passat-b8-2-0-tdi",
-            "slug": "vw-passat-b8-2-0-tdi",
-            "brand": "Volkswagen",
-            "model": "Passat (B8)",
-            "variant": "2.0 TDI DSG",
-            "years": "2015-2023",
-            "generation": "B8",
-            "price": 1800000,
-            "expertNote": "EA288 2.0 TDI 150 HP + DSG7. Türkiye'nin en çok satan D segment dizel sedan/SW. AdBlue ve DSG mecburettik bakım kalemleri. Uzun yol canavarı, 4L/100km yakar.",
-            "reliabilityScore": 82,
-            "totalIssues": 5,
-            "searchCount": 25000,
-            "issues": [
-                    {
-                            "id": "pb8-1",
-                            "title": "DSG Mechatronik",
-                            "description": "DSG7 şanzıman mechatronik ünitesi arızası. Vites geçişlerinde sarsıntı.",
-                            "category": "sanziman",
-                            "riskLevel": "HIGH",
-                            "affectedKm": "100.000+ km",
-                            "repairCost": "20.000 - 40.000 TL"
-                    },
-                    {
-                            "id": "pb8-2",
-                            "title": "AdBlue Pompası",
-                            "description": "AdBlue dozaj pompası arızası. Motor güç kısıtlaması.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "10.000 - 20.000 TL"
-                    },
-                    {
-                            "id": "pb8-3",
-                            "title": "DPF Tıkanması",
-                            "description": "Şehir içi kullanımda partikül filtresi dolması.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "Şehir içi",
-                            "repairCost": "5.000 - 12.000 TL"
-                    },
-                    {
-                            "id": "pb8-4",
-                            "title": "Süspansiyon Burcu",
-                            "description": "Ön süspansiyon burçlarının aşınması, vuruntu sesi.",
-                            "category": "suspansiyon",
-                            "riskLevel": "LOW",
-                            "affectedKm": "60.000+ km",
-                            "repairCost": "2.000 - 5.000 TL"
-                    },
-                    {
-                            "id": "pb8-5",
-                            "title": "Discover Pro Donma",
-                            "description": "Multimedya ekranının donması ve yeniden başlaması.",
-                            "category": "elektronik",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım Güncelleme"
-                    }
-            ],
-            "pros": [
-                    "Uzun yol konforu",
-                    "Düşük yakıt (4L/100km)",
-                    "Geniş bagaj",
-                    "Prestij"
-            ],
-            "cons": [
-                    "DSG bakımı pahalı",
-                    "AdBlue sistemi",
-                    "Parça fiyatları"
-            ],
-            "buyingTips": [
-                    "DSG yağ değişim geçmişini sorun",
-                    "AdBlue pompası kontrol ettirin",
-                    "Highline donanım tercih edin"
-            ]
+        "id": "vw-passat-b8-2-0-tdi",
+        "slug": "vw-passat-b8-2-0-tdi",
+        "brand": "Volkswagen",
+        "model": "Passat (B8)",
+        "variant": "2.0 TDI DSG",
+        "years": "2015-2023",
+        "generation": "B8",
+        "price": 1800000,
+        "expertNote": "EA288 2.0 TDI 150 HP + DSG7. Türkiye'nin en çok satan D segment dizel sedan/SW. AdBlue ve DSG mecburettik bakım kalemleri. Uzun yol canavarı, 4L/100km yakar.",
+        "reliabilityScore": 82,
+        "totalIssues": 5,
+        "searchCount": 25000,
+        "issues": [
+            {
+                "id": "pb8-1",
+                "title": "DSG Mechatronik",
+                "description": "DSG7 şanzıman mechatronik ünitesi arızası. Vites geçişlerinde sarsıntı.",
+                "category": "sanziman",
+                "riskLevel": "HIGH",
+                "affectedKm": "100.000+ km",
+                "repairCost": "20.000 - 40.000 TL"
+            },
+            {
+                "id": "pb8-2",
+                "title": "AdBlue Pompası",
+                "description": "AdBlue dozaj pompası arızası. Motor güç kısıtlaması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "10.000 - 20.000 TL"
+            },
+            {
+                "id": "pb8-3",
+                "title": "DPF Tıkanması",
+                "description": "Şehir içi kullanımda partikül filtresi dolması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "Şehir içi",
+                "repairCost": "5.000 - 12.000 TL"
+            },
+            {
+                "id": "pb8-4",
+                "title": "Süspansiyon Burcu",
+                "description": "Ön süspansiyon burçlarının aşınması, vuruntu sesi.",
+                "category": "suspansiyon",
+                "riskLevel": "LOW",
+                "affectedKm": "60.000+ km",
+                "repairCost": "2.000 - 5.000 TL"
+            },
+            {
+                "id": "pb8-5",
+                "title": "Discover Pro Donma",
+                "description": "Multimedya ekranının donması ve yeniden başlaması.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Rastgele",
+                "repairCost": "Yazılım Güncelleme"
+            }
+        ],
+        "pros": [
+            "Uzun yol konforu",
+            "Düşük yakıt (4L/100km)",
+            "Geniş bagaj",
+            "Prestij"
+        ],
+        "cons": [
+            "DSG bakımı pahalı",
+            "AdBlue sistemi",
+            "Parça fiyatları"
+        ],
+        "buyingTips": [
+            "DSG yağ değişim geçmişini sorun",
+            "AdBlue pompası kontrol ettirin",
+            "Highline donanım tercih edin"
+        ]
+    },
+    {
+        "id": "vw-tiguan-2-0-tdi-mk2",
+        "slug": "vw-tiguan-2-0-tdi-mk2",
+        "brand": "Volkswagen",
+        "model": "Tiguan (Mk2)",
+        "variant": "2.0 TDI DSG 4Motion",
+        "years": "2016-2024",
+        "generation": "AD1",
+        "price": 2000000,
+        "expertNote": "EA288 2.0 TDI 150 HP + DSG7 + 4Motion. Tiguan Mk2 Türkiye'nin en çok aranan SUV'u. VW kalitesi + DSG konfor + 4Motion güvenliği. AdBlue ve DSG bakımı önemli.",
+        "reliabilityScore": 81,
+        "totalIssues": 5,
+        "searchCount": 22000,
+        "issues": [
+            {
+                "id": "tig2-1",
+                "title": "DSG Kavrama Titremesi",
+                "description": "DSG7 şanzımanda düşük devirde titreşim.",
+                "category": "sanziman",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "50.000+ km",
+                "repairCost": "10.000 - 25.000 TL"
+            },
+            {
+                "id": "tig2-2",
+                "title": "AdBlue Pompası",
+                "description": "AdBlue dozaj pompası arızası.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "10.000 - 20.000 TL"
+            },
+            {
+                "id": "tig2-3",
+                "title": "DPF Tıkanması",
+                "description": "Şehir içi kullanımda DPF dolması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "Şehir içi",
+                "repairCost": "5.000 - 12.000 TL"
+            },
+            {
+                "id": "tig2-4",
+                "title": "Panoramik Tavan Sesi",
+                "description": "Panoramik cam tavandan kasis sesler.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "Bozuk yollar",
+                "repairCost": "Fitil ayarı"
+            },
+            {
+                "id": "tig2-5",
+                "title": "Discover Pro Donma",
+                "description": "Multimedya ekranının donması.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Rastgele",
+                "repairCost": "Yazılım"
+            }
+        ],
+        "pros": [
+            "VW kalitesi",
+            "DSG + 4Motion",
+            "Geniş iç mekan",
+            "Yüksek ikinci el değeri"
+        ],
+        "cons": [
+            "DSG bakım maliyeti",
+            "AdBlue riski",
+            "Fiyatı yüksek"
+        ],
+        "buyingTips": [
+            "DSG yağ değişim geçmişi",
+            "Highline R-Line alın",
+            "4Motion tercih edin"
+        ]
     }
-,
+    ,
     {
-            "id": "vw-golf-7-5-1-5-tsi",
-            "slug": "vw-golf-7-5-1-5-tsi",
-            "brand": "Volkswagen",
-            "model": "Golf (Mk7.5)",
-            "variant": "1.5 TSI ACT DSG",
-            "years": "2017-2020",
-            "generation": "Mk7.5",
-            "price": 1400000,
-            "expertNote": "EA211 Evo 1.5 TSI 150 HP. Silindir devre dışı bırakma (ACT) teknolojisi. Golf 7.5 facelift LED farlar ve dijital gösterge paneli ile geldi. DSG7 şanzıman standart.",
-            "reliabilityScore": 81,
-            "totalIssues": 5,
-            "searchCount": 18000,
-            "issues": [
-                    {
-                            "id": "g75-1",
-                            "title": "Turbo Aktuatör",
-                            "description": "1.5 TSI motorlarda turbo wastegate aktuatör arızası.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "60.000+ km",
-                            "repairCost": "8.000 - 15.000 TL"
-                    },
-                    {
-                            "id": "g75-2",
-                            "title": "DSG Titremesi",
-                            "description": "Düşük devirde DSG7 kavrama titremesi.",
-                            "category": "sanziman",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "40.000+ km",
-                            "repairCost": "10.000 - 25.000 TL"
-                    },
-                    {
-                            "id": "g75-3",
-                            "title": "Yağ Tüketimi",
-                            "description": "1.5 TSI motorlarda yağ eksiltme sorunu.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "50.000+ km",
-                            "repairCost": "Takip / Segman"
-                    },
-                    {
-                            "id": "g75-4",
-                            "title": "ACT Sistemi",
-                            "description": "Silindir devre dışı bırakma sisteminde titreşim.",
-                            "category": "motor",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Karakteristik",
-                            "repairCost": "Normal"
-                    },
-                    {
-                            "id": "g75-5",
-                            "title": "Far Buğulanması",
-                            "description": "LED far modüllerinde nem birikimi.",
-                            "category": "govde",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Rastgele",
-                            "repairCost": "2.000 - 5.000 TL"
-                    }
-            ],
-            "pros": [
-                    "Sınıfının en iyisi",
-                    "DSG performans",
-                    "LED farlar",
-                    "Active Info Display"
-            ],
-            "cons": [
-                    "Turbo aktuatör riski",
-                    "Yağ eksiltme",
-                    "Parça fiyatları"
-            ],
-            "buyingTips": [
-                    "Turbo sesi dinleyin",
-                    "Yağ tüketimini sorun",
-                    "Highline R-Line tercih edin"
-            ]
+        "id": "vw-polo-6r-1-4-tdi",
+        "slug": "vw-polo-6r-1-4-tdi",
+        "brand": "Volkswagen",
+        "model": "Polo (6R/6C)",
+        "variant": "1.4 TDI Comfortline",
+        "years": "2009-2017",
+        "generation": "6R/6C",
+        "price": 500000,
+        "expertNote": "EA288 1.4 TDI 90 HP + DSG7. Polo 6R Türkiye'de B segment dizel olarak çok satıldı. Küçük ama kaliteli. DSG7 hassas ama motor çok güvenilir ve ekonomik.",
+        "reliabilityScore": 80,
+        "totalIssues": 5,
+        "searchCount": 14000,
+        "issues": [
+            {
+                "id": "polo6r-1",
+                "title": "DSG7 Mechatronik",
+                "description": "DSG7 şanzıman mechatronik ünitesi arızası.",
+                "category": "sanziman",
+                "riskLevel": "HIGH",
+                "affectedKm": "80.000+ km",
+                "repairCost": "15.000 - 30.000 TL"
+            },
+            {
+                "id": "polo6r-2",
+                "title": "EGR Tıkanması",
+                "description": "EGR valfinde karbon birikimi.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "3.000 - 6.000 TL"
+            },
+            {
+                "id": "polo6r-3",
+                "title": "Cam Kaldırma",
+                "description": "Cam kaldırma mekanizması arızası.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "60.000+ km",
+                "repairCost": "1.500 - 3.000 TL"
+            },
+            {
+                "id": "polo6r-4",
+                "title": "Arka Fren Kampanası",
+                "description": "Arka kampanalı fren aşınması.",
+                "category": "fren",
+                "riskLevel": "LOW",
+                "affectedKm": "50.000+ km",
+                "repairCost": "1.500 - 3.000 TL"
+            },
+            {
+                "id": "polo6r-5",
+                "title": "Klima Kompresörü",
+                "description": "Klima kompresörü arızası.",
+                "category": "elektronik",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "5.000 - 10.000 TL"
+            }
+        ],
+        "pros": [
+            "VW kalitesi",
+            "Ekonomik TDI",
+            "Kompakt boyut",
+            "DSG konfor"
+        ],
+        "cons": [
+            "DSG hassasiyeti",
+            "Arka alan dar",
+            "Parça fiyatları"
+        ],
+        "buyingTips": [
+            "DSG yağ bakımı yapılmış mı",
+            "Manuel alırsanız sorun yok",
+            "Comfortline minimum donanım"
+        ]
     }
-,
+    ,
     {
-            "id": "vw-tiguan-2-0-tdi-mk2",
-            "slug": "vw-tiguan-2-0-tdi-mk2",
-            "brand": "Volkswagen",
-            "model": "Tiguan (Mk2)",
-            "variant": "2.0 TDI DSG 4Motion",
-            "years": "2016-2024",
-            "generation": "AD1",
-            "price": 2000000,
-            "expertNote": "EA288 2.0 TDI 150 HP + DSG7 + 4Motion. Tiguan Mk2 Türkiye'nin en çok aranan SUV'u. VW kalitesi + DSG konfor + 4Motion güvenliği. AdBlue ve DSG bakımı önemli.",
-            "reliabilityScore": 81,
-            "totalIssues": 5,
-            "searchCount": 22000,
-            "issues": [
-                    {
-                            "id": "tig2-1",
-                            "title": "DSG Kavrama Titremesi",
-                            "description": "DSG7 şanzımanda düşük devirde titreşim.",
-                            "category": "sanziman",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "50.000+ km",
-                            "repairCost": "10.000 - 25.000 TL"
-                    },
-                    {
-                            "id": "tig2-2",
-                            "title": "AdBlue Pompası",
-                            "description": "AdBlue dozaj pompası arızası.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "10.000 - 20.000 TL"
-                    },
-                    {
-                            "id": "tig2-3",
-                            "title": "DPF Tıkanması",
-                            "description": "Şehir içi kullanımda DPF dolması.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "Şehir içi",
-                            "repairCost": "5.000 - 12.000 TL"
-                    },
-                    {
-                            "id": "tig2-4",
-                            "title": "Panoramik Tavan Sesi",
-                            "description": "Panoramik cam tavandan kasis sesler.",
-                            "category": "govde",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Bozuk yollar",
-                            "repairCost": "Fitil ayarı"
-                    },
-                    {
-                            "id": "tig2-5",
-                            "title": "Discover Pro Donma",
-                            "description": "Multimedya ekranının donması.",
-                            "category": "elektronik",
-                            "riskLevel": "LOW",
-                            "affectedKm": "Rastgele",
-                            "repairCost": "Yazılım"
-                    }
-            ],
-            "pros": [
-                    "VW kalitesi",
-                    "DSG + 4Motion",
-                    "Geniş iç mekan",
-                    "Yüksek ikinci el değeri"
-            ],
-            "cons": [
-                    "DSG bakım maliyeti",
-                    "AdBlue riski",
-                    "Fiyatı yüksek"
-            ],
-            "buyingTips": [
-                    "DSG yağ değişim geçmişi",
-                    "Highline R-Line alın",
-                    "4Motion tercih edin"
-            ]
+        "id": "vw-caddy-2k-1-6-tdi",
+        "slug": "vw-caddy-2k-1-6-tdi",
+        "brand": "Volkswagen",
+        "model": "Caddy (2K)",
+        "variant": "1.6 TDI Trendline",
+        "years": "2010-2015",
+        "generation": "2K",
+        "price": 600000,
+        "expertNote": "CAYC 1.6 TDI 102 HP + 5MT/DSG7. Caddy 2K Türkiye'de hem ticari hem aile aracı. Motor güvenilir. DSG7'den uzak durun, 5MT tercih edin. Geniş iç mekan.",
+        "reliabilityScore": 78,
+        "totalIssues": 5,
+        "searchCount": 14000,
+        "issues": [
+            {
+                "id": "cad2k-1",
+                "title": "DSG7 Mechatronik",
+                "description": "DSG7 şanzıman mechatronik arızası (DSG varsa).",
+                "category": "sanziman",
+                "riskLevel": "HIGH",
+                "affectedKm": "80.000+ km",
+                "repairCost": "15.000 - 30.000 TL"
+            },
+            {
+                "id": "cad2k-2",
+                "title": "EGR Tıkanması",
+                "description": "EGR valfinde kurum birikimi.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "2.000 - 5.000 TL"
+            },
+            {
+                "id": "cad2k-3",
+                "title": "Sürgülü Kapı Rayı",
+                "description": "Sürgülü kapı ray mekanizması aşınması.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "80.000+ km",
+                "repairCost": "3.000 - 6.000 TL"
+            },
+            {
+                "id": "cad2k-4",
+                "title": "Devridaim Pompası",
+                "description": "Su pompası sızıntısı.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "2.000 - 5.000 TL"
+            },
+            {
+                "id": "cad2k-5",
+                "title": "Arka Yaprak Yay",
+                "description": "Arka yaprak yaylarının kırılması (yüklü).",
+                "category": "suspansiyon",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "Yüklü kullanım",
+                "repairCost": "2.000 - 4.000 TL"
+            }
+        ],
+        "pros": [
+            "Geniş iç mekan",
+            "VW kalitesi",
+            "Ekonomik TDI",
+            "Sürgülü kapılar"
+        ],
+        "cons": [
+            "DSG7 riski",
+            "Ticari araç hissi",
+            "Parça fiyatları"
+        ],
+        "buyingTips": [
+            "MUTLAKA 5MT alın DSG7 ALMAYIN",
+            "EGR kontrolü",
+            "Sürgülü kapı testi"
+        ]
     }
-,
+    ,
     {
-            "id": "vw-polo-6r-1-4-tdi",
-            "slug": "vw-polo-6r-1-4-tdi",
-            "brand": "Volkswagen",
-            "model": "Polo (6R/6C)",
-            "variant": "1.4 TDI Comfortline",
-            "years": "2009-2017",
-            "generation": "6R/6C",
-            "price": 500000,
-            "expertNote": "EA288 1.4 TDI 90 HP + DSG7. Polo 6R Türkiye'de B segment dizel olarak çok satıldı. Küçük ama kaliteli. DSG7 hassas ama motor çok güvenilir ve ekonomik.",
-            "reliabilityScore": 80,
-            "totalIssues": 5,
-            "searchCount": 14000,
-            "issues": [
-                    {
-                            "id": "polo6r-1",
-                            "title": "DSG7 Mechatronik",
-                            "description": "DSG7 şanzıman mechatronik ünitesi arızası.",
-                            "category": "sanziman",
-                            "riskLevel": "HIGH",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "15.000 - 30.000 TL"
-                    },
-                    {
-                            "id": "polo6r-2",
-                            "title": "EGR Tıkanması",
-                            "description": "EGR valfinde karbon birikimi.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "3.000 - 6.000 TL"
-                    },
-                    {
-                            "id": "polo6r-3",
-                            "title": "Cam Kaldırma",
-                            "description": "Cam kaldırma mekanizması arızası.",
-                            "category": "govde",
-                            "riskLevel": "LOW",
-                            "affectedKm": "60.000+ km",
-                            "repairCost": "1.500 - 3.000 TL"
-                    },
-                    {
-                            "id": "polo6r-4",
-                            "title": "Arka Fren Kampanası",
-                            "description": "Arka kampanalı fren aşınması.",
-                            "category": "fren",
-                            "riskLevel": "LOW",
-                            "affectedKm": "50.000+ km",
-                            "repairCost": "1.500 - 3.000 TL"
-                    },
-                    {
-                            "id": "polo6r-5",
-                            "title": "Klima Kompresörü",
-                            "description": "Klima kompresörü arızası.",
-                            "category": "elektronik",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "5.000 - 10.000 TL"
-                    }
-            ],
-            "pros": [
-                    "VW kalitesi",
-                    "Ekonomik TDI",
-                    "Kompakt boyut",
-                    "DSG konfor"
-            ],
-            "cons": [
-                    "DSG hassasiyeti",
-                    "Arka alan dar",
-                    "Parça fiyatları"
-            ],
-            "buyingTips": [
-                    "DSG yağ bakımı yapılmış mı",
-                    "Manuel alırsanız sorun yok",
-                    "Comfortline minimum donanım"
-            ]
+        "id": "vw-golf-3-1-6",
+        "slug": "vw-golf-3-1-6-cl",
+        "brand": "Volkswagen",
+        "model": "Golf III",
+        "variant": "1.6 CL",
+        "years": "1991-1997",
+        "generation": "Mk3 (1H)",
+        "price": 100000,
+        "expertNote": "ABU 1.6 75 HP. Golf 3 Türkiye'de çok satıldı. Motor basit ve güvenilir. HB ve Variant versiyonları. VR6 versiyonu koleksiyonluk.",
+        "reliabilityScore": 74,
+        "totalIssues": 5,
+        "searchCount": 14000,
+        "issues": [
+            {
+                "id": "g3-1",
+                "title": "Triger Kayışı",
+                "description": "Triger kayışı kontrol zamanı.",
+                "category": "motor",
+                "riskLevel": "CRITICAL",
+                "affectedKm": "60.000 km",
+                "repairCost": "600 - 1.200 TL"
+            },
+            {
+                "id": "g3-2",
+                "title": "Kaporta Pası",
+                "description": "Kapı altları ve arka çamurluk pası.",
+                "category": "govde",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "Boya / Kaynak"
+            },
+            {
+                "id": "g3-3",
+                "title": "Termostat",
+                "description": "Termostat arızası.",
+                "category": "motor",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "200 - 500 TL"
+            },
+            {
+                "id": "g3-4",
+                "title": "Cam Kaldırma",
+                "description": "Cam kaldırma mekanizması arızası.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "500 - 1.200 TL"
+            },
+            {
+                "id": "g3-5",
+                "title": "Valf Kapağı Contası",
+                "description": "Valf kapağından yağ sızıntısı.",
+                "category": "motor",
+                "riskLevel": "LOW",
+                "affectedKm": "100.000+ km",
+                "repairCost": "300 - 800 TL"
+            }
+        ],
+        "pros": [
+            "Güvenilir motor",
+            "VW kalitesi",
+            "Ucuz bakım",
+            "Yedek parça bol"
+        ],
+        "cons": [
+            "Yaşlı araç",
+            "Pas başlıyor",
+            "Konfor az",
+            "Güvenlik eski"
+        ],
+        "buyingTips": [
+            "ABU motor güvenilir",
+            "Triger kontrolü",
+            "CL veya GL tercih",
+            "VR6 varsa koleksiyonluk"
+        ]
     }
-,
+    ,
     {
-            "id": "vw-caddy-2k-1-6-tdi",
-            "slug": "vw-caddy-2k-1-6-tdi",
-            "brand": "Volkswagen",
-            "model": "Caddy (2K)",
-            "variant": "1.6 TDI Trendline",
-            "years": "2010-2015",
-            "generation": "2K",
-            "price": 600000,
-            "expertNote": "CAYC 1.6 TDI 102 HP + 5MT/DSG7. Caddy 2K Türkiye'de hem ticari hem aile aracı. Motor güvenilir. DSG7'den uzak durun, 5MT tercih edin. Geniş iç mekan.",
-            "reliabilityScore": 78,
-            "totalIssues": 5,
-            "searchCount": 14000,
-            "issues": [
-                    {
-                            "id": "cad2k-1",
-                            "title": "DSG7 Mechatronik",
-                            "description": "DSG7 şanzıman mechatronik arızası (DSG varsa).",
-                            "category": "sanziman",
-                            "riskLevel": "HIGH",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "15.000 - 30.000 TL"
-                    },
-                    {
-                            "id": "cad2k-2",
-                            "title": "EGR Tıkanması",
-                            "description": "EGR valfinde kurum birikimi.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "2.000 - 5.000 TL"
-                    },
-                    {
-                            "id": "cad2k-3",
-                            "title": "Sürgülü Kapı Rayı",
-                            "description": "Sürgülü kapı ray mekanizması aşınması.",
-                            "category": "govde",
-                            "riskLevel": "LOW",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "3.000 - 6.000 TL"
-                    },
-                    {
-                            "id": "cad2k-4",
-                            "title": "Devridaim Pompası",
-                            "description": "Su pompası sızıntısı.",
-                            "category": "motor",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "80.000+ km",
-                            "repairCost": "2.000 - 5.000 TL"
-                    },
-                    {
-                            "id": "cad2k-5",
-                            "title": "Arka Yaprak Yay",
-                            "description": "Arka yaprak yaylarının kırılması (yüklü).",
-                            "category": "suspansiyon",
-                            "riskLevel": "MEDIUM",
-                            "affectedKm": "Yüklü kullanım",
-                            "repairCost": "2.000 - 4.000 TL"
-                    }
-            ],
-            "pros": [
-                    "Geniş iç mekan",
-                    "VW kalitesi",
-                    "Ekonomik TDI",
-                    "Sürgülü kapılar"
-            ],
-            "cons": [
-                    "DSG7 riski",
-                    "Ticari araç hissi",
-                    "Parça fiyatları"
-            ],
-            "buyingTips": [
-                    "MUTLAKA 5MT alın DSG7 ALMAYIN",
-                    "EGR kontrolü",
-                    "Sürgülü kapı testi"
-            ]
+        "id": "vw-golf-4-1-6",
+        "slug": "vw-golf-4-1-6-comfortline",
+        "brand": "Volkswagen",
+        "model": "Golf IV",
+        "variant": "1.6 Comfortline",
+        "years": "1997-2003",
+        "generation": "Mk4 (1J)",
+        "price": 170000,
+        "expertNote": "AKL/APF 1.6 100 HP. Golf 4 modern VW çağını başlattı. Kaliteli iç mekan, iyi sürüş. HB ve Variant. R32 versiyonu efsane. Türkiye'de çok yaygın.",
+        "reliabilityScore": 77,
+        "totalIssues": 5,
+        "searchCount": 18000,
+        "issues": [
+            {
+                "id": "g4-1",
+                "title": "Bobinler",
+                "description": "Ateşleme bobini arızası. Misfire.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "g4-2",
+                "title": "Cam Kaldırma",
+                "description": "Cam kaldırma mekanizması klipsi kırılması.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "300 - 800 TL"
+            },
+            {
+                "id": "g4-3",
+                "title": "Su Pompası",
+                "description": "Devridaim pompası sızıntısı.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "g4-4",
+                "title": "Yağ Tüketimi",
+                "description": "AKL motorlarda yağ tüketimi artışı.",
+                "category": "motor",
+                "riskLevel": "LOW",
+                "affectedKm": "150.000+ km",
+                "repairCost": "Takip"
+            },
+            {
+                "id": "g4-5",
+                "title": "Süspansiyon Burçları",
+                "description": "Ön süspansiyon burçlarının aşınması.",
+                "category": "suspansiyon",
+                "riskLevel": "LOW",
+                "affectedKm": "60.000+ km",
+                "repairCost": "500 - 1.500 TL"
+            }
+        ],
+        "pros": [
+            "VW kalitesi",
+            "İyi sürüş",
+            "Kaliteli iç mekan",
+            "Güvenilir 1.6"
+        ],
+        "cons": [
+            "Parça pahalılaştı",
+            "Yaşlanıyor",
+            "Yağ tüketimi",
+            "Fiyatı arttı"
+        ],
+        "buyingTips": [
+            "AKL motor tercih edin",
+            "Comfortline donanım ideal",
+            "Yağ seviyesi kontrol",
+            "HB versiyonu daha sportif"
+        ]
+    }
+    ,
+    {
+        "id": "vw-passat-b5-1-8t",
+        "slug": "vw-passat-b5-1-8t-comfortline",
+        "brand": "Volkswagen",
+        "model": "Passat",
+        "variant": "B5 1.8T Comfortline",
+        "years": "1996-2005",
+        "generation": "B5/B5.5 (3B)",
+        "price": 170000,
+        "expertNote": "APU/AEB 1.8T 150 HP. Passat B5 en kaliteli D segment araçlardan biri. Audi A4 B5 tabanlı. 1.8T motor güçlü ama turbo ve yağ tüketimi bilinen sorunlar.",
+        "reliabilityScore": 72,
+        "totalIssues": 6,
+        "searchCount": 15000,
+        "issues": [
+            {
+                "id": "pb5-1",
+                "title": "Turbo Arızası",
+                "description": "K03 turbo arızası. Yağ keçesi ve hareket kolu.",
+                "category": "motor",
+                "riskLevel": "HIGH",
+                "affectedKm": "120.000+ km",
+                "repairCost": "5.000 - 10.000 TL"
+            },
+            {
+                "id": "pb5-2",
+                "title": "Yağ Tüketimi",
+                "description": "1.8T motorlarda kronik yağ tüketimi.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "100.000+ km",
+                "repairCost": "Segman / Supap"
+            },
+            {
+                "id": "pb5-3",
+                "title": "Su Pompası",
+                "description": "Plastik çarklı su pompası kırılması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "1.000 - 2.000 TL"
+            },
+            {
+                "id": "pb5-4",
+                "title": "Triger Kayışı",
+                "description": "Triger kayışı kopması. Motor hasarı.",
+                "category": "motor",
+                "riskLevel": "CRITICAL",
+                "affectedKm": "60.000 km",
+                "repairCost": "1.500 - 3.000 TL"
+            },
+            {
+                "id": "pb5-5",
+                "title": "Cam Kaldırma",
+                "description": "Cam kaldırma mekanizması arızası.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "pb5-6",
+                "title": "Gösterge Pikselleri",
+                "description": "Gösterge paneli piksellerinin sönmesi.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "500 - 1.500 TL"
+            }
+        ],
+        "pros": [
+            "Audi tabanlı kalite",
+            "1.8T güçlü",
+            "D segment konfor",
+            "VW güvenilirliği"
+        ],
+        "cons": [
+            "Turbo maliyetli",
+            "Yağ tüketimi",
+            "Triger riski",
+            "Parça pahalı"
+        ],
+        "buyingTips": [
+            "Turbo sesi dinleyin",
+            "Yağ tüketimi sorulmalı",
+            "Triger ne zaman değişti",
+            "B5.5 facelift tercih edin"
+        ]
+    }
+    ,
+    {
+        "id": "vw-bora-1-6-pacific",
+        "slug": "vw-bora-1-6-pacific",
+        "brand": "Volkswagen",
+        "model": "Bora",
+        "variant": "1.6 Pacific",
+        "years": "1998-2005",
+        "generation": "1J",
+        "price": 170000,
+        "expertNote": "AKL 1.6 100 HP. Bora = Golf 4'ün sedan versiyonu. Pacific özel seri donanım. Türkiye'de çok popüler sedan. Golf 4 ile aynı güvenilirlik.",
+        "reliabilityScore": 77,
+        "totalIssues": 5,
+        "searchCount": 14000,
+        "issues": [
+            {
+                "id": "bor-1",
+                "title": "Bobinler",
+                "description": "Ateşleme bobini arızası.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "bor-2",
+                "title": "Cam Kaldırma",
+                "description": "Cam kaldırma klipsi kırılması.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "300 - 800 TL"
+            },
+            {
+                "id": "bor-3",
+                "title": "Yağ Tüketimi",
+                "description": "Motor yağ tüketimi artışı.",
+                "category": "motor",
+                "riskLevel": "LOW",
+                "affectedKm": "150.000+ km",
+                "repairCost": "Takip"
+            },
+            {
+                "id": "bor-4",
+                "title": "Su Pompası",
+                "description": "Devridaim pompası sızıntısı.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "bor-5",
+                "title": "Merkezi Kilit",
+                "description": "Merkezi kilit motoru arızası.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "300 - 800 TL"
+            }
+        ],
+        "pros": [
+            "Golf 4 güvenilirliği",
+            "Sedan konfor",
+            "Pacific donanım zengin",
+            "VW kalitesi"
+        ],
+        "cons": [
+            "Yaşlanıyor",
+            "Parça pahalılaştı",
+            "Fiyatı yüksek",
+            "Yağ tüketimi"
+        ],
+        "buyingTips": [
+            "Pacific donanım tercih edin",
+            "AKL motor güvenilir",
+            "Sedan konfor isteyenlere",
+            "Golf 4 ile aynı yedek parça"
+        ]
+    }
+    ,
+    {
+        "id": "vw-polo-6n-1-6",
+        "slug": "vw-polo-6n-1-6-comfortline",
+        "brand": "Volkswagen",
+        "model": "Polo",
+        "variant": "6N 1.6 Comfortline",
+        "years": "1994-2001",
+        "generation": "6N",
+        "price": 80000,
+        "expertNote": "AEE 1.6 75 HP. Polo 6N küçük ama kaliteli VW. İyi iç mekan kalitesi, güvenilir motor. Şehir aracı olarak ideal.",
+        "reliabilityScore": 75,
+        "totalIssues": 5,
+        "searchCount": 10000,
+        "issues": [
+            {
+                "id": "p6n-1",
+                "title": "Triger Kayışı",
+                "description": "Triger kayışı kontrol zamanı.",
+                "category": "motor",
+                "riskLevel": "CRITICAL",
+                "affectedKm": "60.000 km",
+                "repairCost": "500 - 1.000 TL"
+            },
+            {
+                "id": "p6n-2",
+                "title": "Cam Kaldırma",
+                "description": "Cam kaldırma mekanizması arızası.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "400 - 800 TL"
+            },
+            {
+                "id": "p6n-3",
+                "title": "Radyatör",
+                "description": "Radyatör sızıntısı.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "p6n-4",
+                "title": "Fren Diskleri",
+                "description": "Ön fren disklerinin çarpması.",
+                "category": "fren",
+                "riskLevel": "LOW",
+                "affectedKm": "40.000+ km",
+                "repairCost": "500 - 1.000 TL"
+            },
+            {
+                "id": "p6n-5",
+                "title": "Kaporta Pası",
+                "description": "Arka çamurluk pası.",
+                "category": "govde",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "Boya"
+            }
+        ],
+        "pros": [
+            "VW kalitesi",
+            "Güvenilir 1.6",
+            "Küçük ama kaliteli",
+            "Ekonomik"
+        ],
+        "cons": [
+            "Küçük araç",
+            "75 HP az",
+            "Yaşlı",
+            "Parça kısmen zor"
+        ],
+        "buyingTips": [
+            "AEE motor tercihi",
+            "6N2 facelift daha iyi",
+            "Comfortline donanım şart",
+            "Triger kontrolü"
+        ]
+    }
+    ,
+    {
+        "id": "vw-jetta-1-6-tdi",
+        "slug": "vw-jetta-mk6-1-6-tdi-comfortline",
+        "brand": "Volkswagen",
+        "model": "Jetta",
+        "variant": "Mk6 1.6 TDI Comfortline",
+        "years": "2011-2018",
+        "generation": "Mk6 (5C6)",
+        "price": 500000,
+        "expertNote": "CAYC/CLHA 1.6 TDI 105 HP. Jetta Mk6 Golf'ün sedan versiyonu. VW kalitesi, DSG şanzıman seçeneği. Comfortline donanım yeterli. Türkiye'de çok satıldı.",
+        "reliabilityScore": 76,
+        "totalIssues": 5,
+        "searchCount": 18000,
+        "issues": [
+            {
+                "id": "jet-1",
+                "title": "DSG Şanzıman",
+                "description": "7 ileri DSG (DQ200) mekatro arızası.",
+                "category": "sanziman",
+                "riskLevel": "HIGH",
+                "affectedKm": "80.000+ km",
+                "repairCost": "10.000 - 25.000 TL"
+            },
+            {
+                "id": "jet-2",
+                "title": "EGR Valfi",
+                "description": "EGR valfi tıkanması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "2.000 - 5.000 TL"
+            },
+            {
+                "id": "jet-3",
+                "title": "Turbo",
+                "description": "Turbo aktuatör arızası.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "120.000+ km",
+                "repairCost": "3.000 - 8.000 TL"
+            },
+            {
+                "id": "jet-4",
+                "title": "Süspansiyon",
+                "description": "Ön alt kol burçları aşınması.",
+                "category": "suspansiyon",
+                "riskLevel": "LOW",
+                "affectedKm": "50.000+ km",
+                "repairCost": "1.000 - 2.500 TL"
+            },
+            {
+                "id": "jet-5",
+                "title": "Klima Kompresörü",
+                "description": "Klima kompresörü arızası.",
+                "category": "elektronik",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "100.000+ km",
+                "repairCost": "3.000 - 6.000 TL"
+            }
+        ],
+        "pros": [
+            "VW kalitesi",
+            "Geniş sedan",
+            "1.6 TDI ekonomik",
+            "Comfortline iyi"
+        ],
+        "cons": [
+            "DSG ÇOK RİSKLİ",
+            "Parça pahalı",
+            "EGR sorunu",
+            "Plastikler sertleşiyor"
+        ],
+        "buyingTips": [
+            "MANUEL ŞANZIMAN tercih edin",
+            "DSG'li alıyorsanız mekatro kontrolü",
+            "1.6 TDI en ekonomik",
+            "Comfortline yeterli"
+        ]
+    }
+    ,
+    {
+        "id": "vw-passat-b7-1-6-tdi",
+        "slug": "vw-passat-b7-1-6-tdi-comfortline",
+        "brand": "Volkswagen",
+        "model": "Passat",
+        "variant": "B7 1.6 TDI Comfortline",
+        "years": "2010-2015",
+        "generation": "B7 (3C)",
+        "price": 500000,
+        "expertNote": "CAYC 1.6 TDI 105 HP. Passat B7 aslında B6 facelift. D segment VW kalitesi. Comfortline donanım 5.8 inç ekran, park sensörü. DSG veya 6MT seçeneği.",
+        "reliabilityScore": 75,
+        "totalIssues": 5,
+        "searchCount": 16000,
+        "issues": [
+            {
+                "id": "pb7-1",
+                "title": "DSG Şanzıman",
+                "description": "DQ200 7 ileri DSG mekatro arızası.",
+                "category": "sanziman",
+                "riskLevel": "HIGH",
+                "affectedKm": "80.000+ km",
+                "repairCost": "10.000 - 25.000 TL"
+            },
+            {
+                "id": "pb7-2",
+                "title": "Triger Kayışı",
+                "description": "1.6 TDI motorlarda triger kayışı kontrolü.",
+                "category": "motor",
+                "riskLevel": "CRITICAL",
+                "affectedKm": "120.000 km",
+                "repairCost": "2.000 - 4.000 TL"
+            },
+            {
+                "id": "pb7-3",
+                "title": "EGR Valfi",
+                "description": "EGR valfi tıkanması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "2.000 - 5.000 TL"
+            },
+            {
+                "id": "pb7-4",
+                "title": "Yağ Pompası Zinciri",
+                "description": "Yağ pompası zinciri uzaması (bazı motorlarda).",
+                "category": "motor",
+                "riskLevel": "HIGH",
+                "affectedKm": "100.000+ km",
+                "repairCost": "5.000 - 10.000 TL"
+            },
+            {
+                "id": "pb7-5",
+                "title": "Süspansiyon",
+                "description": "Ön süspansiyon burçları.",
+                "category": "suspansiyon",
+                "riskLevel": "LOW",
+                "affectedKm": "50.000+ km",
+                "repairCost": "1.000 - 2.500 TL"
+            }
+        ],
+        "pros": [
+            "D segment VW",
+            "Kaliteli yapı",
+            "1.6 TDI ekonomik",
+            "Comfortline donanım iyi"
+        ],
+        "cons": [
+            "DSG riski çok yüksek",
+            "EGR sorunu",
+            "Triger kayışı",
+            "Parça pahalı"
+        ],
+        "buyingTips": [
+            "MANUEL tercih edin",
+            "DSG mekatro kontrolü",
+            "Triger ne zaman değişti",
+            "B7 esasen B6 facelift"
+        ]
+    }
+    ,
+    {
+        "id": "vw-polo-6r-1-4-tdi",
+        "slug": "vw-polo-6r-1-4-tdi-comfortline",
+        "brand": "Volkswagen",
+        "model": "Polo",
+        "variant": "6R 1.4 TDI Comfortline",
+        "years": "2009-2017",
+        "generation": "6R/6C",
+        "price": 350000,
+        "expertNote": "CUSA 1.4 TDI 75/90 HP. Polo 6R/6C küçük ama kaliteli VW. 1.4 TDI yeni nesil motor güvenilir. Comfortline donanım 6.5 inç ekran, klima.",
+        "reliabilityScore": 78,
+        "totalIssues": 5,
+        "searchCount": 14000,
+        "issues": [
+            {
+                "id": "p6r-1",
+                "title": "DSG Şanzıman",
+                "description": "DQ200 7 ileri DSG mekatro arızası (DSG varsa).",
+                "category": "sanziman",
+                "riskLevel": "HIGH",
+                "affectedKm": "80.000+ km",
+                "repairCost": "10.000 - 20.000 TL"
+            },
+            {
+                "id": "p6r-2",
+                "title": "Triger Kayışı",
+                "description": "Triger kayışı kontrol/değişim.",
+                "category": "motor",
+                "riskLevel": "CRITICAL",
+                "affectedKm": "120.000 km",
+                "repairCost": "1.500 - 3.000 TL"
+            },
+            {
+                "id": "p6r-3",
+                "title": "Bobinler",
+                "description": "Ateşleme bobini arızası (benzinli).",
+                "category": "motor",
+                "riskLevel": "LOW",
+                "affectedKm": "80.000+ km",
+                "repairCost": "500 - 1.500 TL"
+            },
+            {
+                "id": "p6r-4",
+                "title": "Cam Kaldırma",
+                "description": "Cam kaldırma mekanizması klips.",
+                "category": "govde",
+                "riskLevel": "LOW",
+                "affectedKm": "Yaş kaynaklı",
+                "repairCost": "300 - 800 TL"
+            },
+            {
+                "id": "p6r-5",
+                "title": "EGR",
+                "description": "EGR valfi tıkanması.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "1.500 - 3.000 TL"
+            }
+        ],
+        "pros": [
+            "VW kalitesi",
+            "Güvenilir 1.4 TDI",
+            "Kompakt ve kaliteli",
+            "Ucuz bakım"
+        ],
+        "cons": [
+            "DSG riski",
+            "Küçük araç",
+            "Parça pahalılaştı",
+            "Bagaj küçük"
+        ],
+        "buyingTips": [
+            "Manuel şanzıman tercih",
+            "6C facelift daha iyi",
+            "1.4 TDI ekonomik",
+            "Comfortline yeterli"
+        ]
+    }
+    ,
+    {
+        "id": "vw-golf-7-1-6-tdi",
+        "slug": "vw-golf-7-1-6-tdi-comfortline",
+        "brand": "Volkswagen",
+        "model": "Golf VII",
+        "variant": "1.6 TDI Comfortline",
+        "years": "2012-2019",
+        "generation": "Mk7 (5G)",
+        "price": 650000,
+        "expertNote": "CLHA/DGTE 1.6 TDI 110 HP. Golf 7 dünyanın en iyi C segmenti. MQB platformu. Comfortline donanım 6.5 inç Discovery, ACC, park sensörü. Kalite standartı.",
+        "reliabilityScore": 78,
+        "totalIssues": 5,
+        "searchCount": 20000,
+        "issues": [
+            {
+                "id": "g7-1",
+                "title": "DSG Şanzıman",
+                "description": "DQ200 7 ileri DSG mekatro arızası.",
+                "category": "sanziman",
+                "riskLevel": "HIGH",
+                "affectedKm": "80.000+ km",
+                "repairCost": "10.000 - 25.000 TL"
+            },
+            {
+                "id": "g7-2",
+                "title": "AdBlue Sistemi",
+                "description": "AdBlue enjektörü ve pompa arızası.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "3.000 - 6.000 TL"
+            },
+            {
+                "id": "g7-3",
+                "title": "Turbo",
+                "description": "Turbo aktuatör arızası.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "120.000+ km",
+                "repairCost": "3.000 - 8.000 TL"
+            },
+            {
+                "id": "g7-4",
+                "title": "Su Pompası",
+                "description": "Elektrikli su pompası arızası.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "2.000 - 5.000 TL"
+            },
+            {
+                "id": "g7-5",
+                "title": "Multimedya",
+                "description": "Discover multimedya donması.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Kronik",
+                "repairCost": "500 - 2.000 TL"
+            }
+        ],
+        "pros": [
+            "En iyi C segment",
+            "MQB kalitesi",
+            "Comfortline donanım süper",
+            "Sürüş keyfi"
+        ],
+        "cons": [
+            "DSG riski",
+            "AdBlue sorunu",
+            "Fiyatı çok yüksek",
+            "VW parça maliyeti"
+        ],
+        "buyingTips": [
+            "Manuel şanzıman altın değerinde",
+            "DSG mekatro kontrolü",
+            "Comfortline yeterli, Highline gereksiz",
+            "1.6 TDI en mantıklı motor"
+        ]
+    }
+    ,
+    {
+        "id": "vw-tiguan-1-4-tsi",
+        "slug": "vw-tiguan-mk2-1-4-tsi-comfortline",
+        "brand": "Volkswagen",
+        "model": "Tiguan",
+        "variant": "Mk2 1.4 TSI Comfortline",
+        "years": "2016-2024",
+        "generation": "Mk2 (AD1)",
+        "price": 1100000,
+        "expertNote": "CZEA 1.4 TSI 150 HP. Tiguan Mk2 VW'nin en çok satan SUV'u. MQB platformu. Comfortline donanım 8 inç Discover, park asistanı, LED far. Premium C-SUV.",
+        "reliabilityScore": 77,
+        "totalIssues": 5,
+        "searchCount": 18000,
+        "issues": [
+            {
+                "id": "tig-1",
+                "title": "DSG Şanzıman",
+                "description": "DQ250 6 ileri DSG ıslak kavrama sorunları.",
+                "category": "sanziman",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "100.000+ km",
+                "repairCost": "8.000 - 15.000 TL"
+            },
+            {
+                "id": "tig-2",
+                "title": "Su Pompası",
+                "description": "Elektrikli su pompası arızası.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "80.000+ km",
+                "repairCost": "2.000 - 5.000 TL"
+            },
+            {
+                "id": "tig-3",
+                "title": "Turbo",
+                "description": "Turbo wastegate arızası.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "120.000+ km",
+                "repairCost": "5.000 - 10.000 TL"
+            },
+            {
+                "id": "tig-4",
+                "title": "Infotainment",
+                "description": "Discover Pro donma ve bug.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Kronik",
+                "repairCost": "500 - 2.000 TL"
+            },
+            {
+                "id": "tig-5",
+                "title": "Ön Süspansiyon",
+                "description": "Ön alt kol ve bilyalar.",
+                "category": "suspansiyon",
+                "riskLevel": "LOW",
+                "affectedKm": "50.000+ km",
+                "repairCost": "1.500 - 3.000 TL"
+            }
+        ],
+        "pros": [
+            "Premium C-SUV",
+            "MQB kalitesi",
+            "Comfortline zengin",
+            "1.4 TSI güçlü"
+        ],
+        "cons": [
+            "Fiyatı çok yüksek",
+            "DSG bakım maliyeti",
+            "VW parça pahalı",
+            "Yakıt tüketimi"
+        ],
+        "buyingTips": [
+            "DSG 6 ileri ıslak kavrama daha güvenli",
+            "1.4 TSI yeterli güçte",
+            "Comfortline en iyi donanım/fiyat",
+            "İkinci el değer kaybı düşük"
+        ]
+    }
+    ,
+    {
+        "id": "vw-golf-75-fl",
+        "slug": "vw-golf-7-5-1-5-tsi-facelift",
+        "brand": "Volkswagen",
+        "model": "Golf",
+        "variant": "Golf 7.5 Facelift 1.5 TSI Comfortline",
+        "years": "2017-2020",
+        "generation": "Ara Kasa (2017-2020)",
+        "price": 1125000,
+        "expertNote": "Golf 7.5, 1.4 TSI yerine gelen 1.5 TSI EA211 Evo motorla geldi. Silindır deaktivasyonu (ACT) yakıt tasarrufu sağlıyor ancak düşük devirde titreşim yapabilir. DQ381 DSG yedi ileri şanzıman DQ200'e göre çok daha güvenilir. MIB2+ multimedya ve full LED farlar standart.",
+        "reliabilityScore": 72,
+        "totalIssues": 5,
+        "searchCount": 18500,
+        "issues": [
+            {
+                "id": "vw-g75-1",
+                "title": "1.5 TSI Silindır Deaktivasyonu Titreşimi",
+                "description": "ACT (Active Cylinder Management) sistemi 2 silindiri devre dışı bıraktığında özellikle düşük devirde (1200-1800 rpm) belirgin titreşim ve gürültü hissedilir. Yazılım güncellemesiyle kısmen azaltılabilir.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "0-150.000 km",
+                "repairCost": "₺0 – ₺2.000 (yazılım güncelleme)"
+            },
+            {
+                "id": "vw-g75-2",
+                "title": "DQ381 7 İleri DSG Adaptasyon Sorunu",
+                "description": "DQ200'e göre çok daha güvenilir olan DQ381, nadiren adaptasyon kaybı yaşayabilir. Vites geçişlerinde hafif sarsıntı olabilir. Yazılım sıfırlama ve yeniden adaptasyon genellikle çözer.",
+                "category": "sanziman",
+                "riskLevel": "LOW",
+                "affectedKm": "50.000-120.000 km",
+                "repairCost": "₺1.000 – ₺3.000"
+            },
+            {
+                "id": "vw-g75-3",
+                "title": "Turbo Wastegate Gıcırtısı",
+                "description": "1.5 TSI motorun elektronik wastegate'i soğuk havalarda veya motor soğukken gıcırtı sesi çıkarabilir. Performansı etkilemez ama rahatsız edici olabilir.",
+                "category": "motor",
+                "riskLevel": "LOW",
+                "affectedKm": "30.000-100.000 km",
+                "repairCost": "₺2.000 – ₺5.000"
+            },
+            {
+                "id": "vw-g75-4",
+                "title": "MIB2+ Multimedya Donma",
+                "description": "Infotainment sistemi zaman zaman donabilir veya yavaşlayabilir. Yazılım güncellemesiyle büyük ölçüde düzeltilebilir.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Tüm km",
+                "repairCost": "₺0 – ₺500"
+            },
+            {
+                "id": "vw-g75-5",
+                "title": "Arka Fren Disk Aşınması",
+                "description": "Arka fren diskleri 40-50 bin km civarında aşınabilir. Ön disklere göre daha sık değişim gerektirir.",
+                "category": "fren",
+                "riskLevel": "LOW",
+                "affectedKm": "40.000-60.000 km",
+                "repairCost": "₺2.500 – ₺4.000"
+            }
+        ],
+        "pros": [
+            "1.5 TSI motor Golf 7'deki 1.4'ten daha verimli",
+            "DQ381 DSG çok daha güvenilir",
+            "Full LED farlar standart",
+            "ACT yakıt tasarrufu sağlıyor",
+            "Daha modern MIB2+ multimedya"
+        ],
+        "cons": [
+            "ACT titreşimi rahatsız edici olabilir",
+            "Yedek parça fiyatları yüksek",
+            "Sigorta primleri yüksek"
+        ],
+        "buyingTips": [
+            "Silindır deaktivasyonu test edin, aşırı titreşim varsa yazılım güncellemesi yapılmamış olabilir",
+            "DSG adaptasyon testini mutlaka yapın",
+            "Son yazılım güncellemelerinin yüklendiğinden emin olun",
+            "Golf 7'ye göre daha az sorunlu ama fiyat farkı çok — değerlendir"
+        ]
+    }
+    ,
+    {
+        "id": "vw-passat-b85-fl",
+        "slug": "vw-passat-b8-5-1-5-tsi-facelift",
+        "brand": "Volkswagen",
+        "model": "Passat",
+        "variant": "Passat B8.5 Facelift 1.5 TSI Elegance",
+        "years": "2019-2023",
+        "generation": "Ara Kasa (2019-2023)",
+        "price": 1500000,
+        "expertNote": "B8.5 facelift'te en büyük değişiklik Digital Cockpit (dijital gösterge paneli), Travel Assist yarı-otonom sürüş ve IQ.Light LED matrix farlar. 1.5 TSI motor 1.4 TSI'nin yerini aldı. DSG DQ381 7 ileri şanzıman artık standard. DPF sorunları büyük ölçüde çözüldü.",
+        "reliabilityScore": 75,
+        "totalIssues": 4,
+        "searchCount": 14200,
+        "issues": [
+            {
+                "id": "vw-pb85-1",
+                "title": "1.5 TSI ACT Titreşim",
+                "description": "Golf 7.5 ile aynı 1.5 TSI EA211 Evo motor. Silindır deaktivasyonu düşük devirde titreşim yapabilir. Özellikle D viteste durma anında hissedilir.",
+                "category": "motor",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "0-150.000 km",
+                "repairCost": "₺0 – ₺2.000"
+            },
+            {
+                "id": "vw-pb85-2",
+                "title": "Digital Cockpit Yazılım Hataları",
+                "description": "12.3 inç dijital gösterge panelinde nadiren yazılım hataları, donma veya ekran titremesi yaşanabilir. OTA güncelleme ile düzeltilebilir.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "Tüm km",
+                "repairCost": "₺0 – ₺2.000"
+            },
+            {
+                "id": "vw-pb85-3",
+                "title": "Travel Assist Sensör Kalibrasyonu",
+                "description": "Yarı-otonom sürüş sistemi cam değişiminden sonra kalibrasyon gerektirir. Doğru kalibre edilmezse şerit takip ve adaptif hız sabitleme düzgün çalışmaz.",
+                "category": "elektronik",
+                "riskLevel": "MEDIUM",
+                "affectedKm": "Tüm km",
+                "repairCost": "₺3.000 – ₺7.000 (cam+kalibrasyon)"
+            },
+            {
+                "id": "vw-pb85-4",
+                "title": "IQ.Light LED Matrix Far Modül Arızası",
+                "description": "Matrix LED far modülleri arızalanabilir. Tek LED segment sönebilir. Modül değişimi yüksek maliyetli.",
+                "category": "elektronik",
+                "riskLevel": "LOW",
+                "affectedKm": "60.000+ km",
+                "repairCost": "₺8.000 – ₺20.000"
+            }
+        ],
+        "pros": [
+            "DSG DQ381 çok güvenilir",
+            "Digital Cockpit modern görünüm",
+            "Travel Assist konforu",
+            "DPF sorunları B8'e göre çözülmüş",
+            "1.5 TSI verimli motor"
+        ],
+        "cons": [
+            "Matrix far tamiri çok pahalı",
+            "ACT titreşimi devam ediyor",
+            "İkinci el fiyatları hâlâ yüksek"
+        ],
+        "buyingTips": [
+            "Matrix farların tüm segmentlerinin çalıştığını kontrol edin",
+            "Digital Cockpit'i test edin",
+            "Cam değişimi yapılmışsa sensör kalibrasyonu sorulmalı",
+            "B8'e göre daha az kronik sorun — fiyat farkına değer"
+        ]
     }
 ];

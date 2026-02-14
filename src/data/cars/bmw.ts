@@ -1799,4 +1799,253 @@ export const bmwCars: Car[] = [
                     "LCI tercih edin"
             ]
     }
+,
+    {
+            "id": "bmw-e36-316i",
+            "slug": "bmw-e36-316i-m43",
+            "brand": "BMW",
+            "model": "3 Serisi",
+            "variant": "E36 316i M43",
+            "years": "1990-2000",
+            "generation": "E36",
+            "price": 250000,
+            "expertNote": "M43B16 1.6 102 HP. E36 Türkiye'de çok yaygın. 316i en ekonomik versiyonu. M43 motor güvenilir ve ucuz bakımlı. Drift kültürünün sembolü.",
+            "reliabilityScore": 75,
+            "totalIssues": 5,
+            "searchCount": 20000,
+            "issues": [
+                    {
+                            "id": "e36-1",
+                            "title": "Soğutma Sistemi",
+                            "description": "Plastik su deposu, termostat ve radyatör sızıntısı.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Kronik",
+                            "repairCost": "1.000 - 3.000 TL"
+                    },
+                    {
+                            "id": "e36-2",
+                            "title": "Arka Süspansiyon Burçları",
+                            "description": "Arka süspansiyon trailing arm burçlarının aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "e36-3",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları, jant kenarları ve tavan paslanması.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "e36-4",
+                            "title": "VANOS Contası",
+                            "description": "VANOS ünitesinin contasının sertleşmesi.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "e36-5",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması klipsi kırılması.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    }
+            ],
+            "pros": [
+                    "BMW sürüş keyfi",
+                    "M43 güvenilir",
+                    "Drift/spor potansiyeli",
+                    "Koleksiyoner değeri arttı"
+            ],
+            "cons": [
+                    "Soğutma sistemi kronik",
+                    "Pas sorunu",
+                    "BMW parça maliyeti",
+                    "Yaşlı araç"
+            ],
+            "buyingTips": [
+                    "Soğutma sistemi yenilenmiş mi",
+                    "Arka burçları kontrol edin",
+                    "316i en ekonomik BMW",
+                    "Coupe versiyonu koleksiyonluk"
+            ]
+    }
+,
+    {
+            "id": "bmw-e36-318is",
+            "slug": "bmw-e36-318is-m42",
+            "brand": "BMW",
+            "model": "3 Serisi",
+            "variant": "E36 318is M42/M44",
+            "years": "1990-2000",
+            "generation": "E36",
+            "price": 300000,
+            "expertNote": "M42/M44 1.8 140 HP. 318is Coupe E36'nın sportif versiyonu. VANOS'lu M44 daha güçlü. Çift kapılı coupe çok aranan versiyon. Drift ve pist aracı.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 15000,
+            "issues": [
+                    {
+                            "id": "e36is-1",
+                            "title": "VANOS Contası",
+                            "description": "M44 motorlarda VANOS contası sertleşmesi. Performans kaybı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "e36is-2",
+                            "title": "Soğutma Sistemi",
+                            "description": "Plastik parçaların çatlaması. Hararet riski.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Kronik",
+                            "repairCost": "1.000 - 3.000 TL"
+                    },
+                    {
+                            "id": "e36is-3",
+                            "title": "Yağ Filtresi Contası",
+                            "description": "Yağ filtresi yuvasından yağ kaçağı.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "200 - 500 TL"
+                    },
+                    {
+                            "id": "e36is-4",
+                            "title": "Arka Diferansiyel",
+                            "description": "Arka diferansiyel homurtusu (drift kullanımı).",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Kullanıma bağlı",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "e36is-5",
+                            "title": "Triger Zinciri",
+                            "description": "M42 motorlarda triger zinciri gergi kılavuz aşınması.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Sportif coupe",
+                    "VANOS M44 güçlü",
+                    "BMW sürüş keyfi",
+                    "Koleksiyoner arttı"
+            ],
+            "cons": [
+                    "Soğutma kronik",
+                    "Drift'le yıpranmış olabilir",
+                    "Parça pahalı",
+                    "Fiyatı çok arttı"
+            ],
+            "buyingTips": [
+                    "Drift aracı olarak kullanılmış mı",
+                    "VANOS sesi dinleyin",
+                    "M44 motor tercih edin",
+                    "Coupe kaporta hasarı kontrol"
+            ]
+    }
+,
+    {
+            "id": "bmw-e39-520i-m52",
+            "slug": "bmw-e39-520i-m52",
+            "brand": "BMW",
+            "model": "5 Serisi",
+            "variant": "E39 520i M52",
+            "years": "1996-2003",
+            "generation": "E39",
+            "price": 350000,
+            "expertNote": "M52B20 2.0 150 HP. E39 birçok otomobil gazetecisine göre en iyi 5 Serisi. Mükemmel sürüş, kaliteli yapı. 520i en ekonomik versiyonu. Touring çok aranır.",
+            "reliabilityScore": 74,
+            "totalIssues": 6,
+            "searchCount": 18000,
+            "issues": [
+                    {
+                            "id": "e39-1",
+                            "title": "Soğutma Sistemi",
+                            "description": "Genleşme kabı, termostat, su pompası. Plastik parçalar.",
+                            "category": "motor",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Kronik",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "e39-2",
+                            "title": "VANOS Contası",
+                            "description": "VANOS ünitesi contası sertleşmesi. Gürültü ve güç kaybı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "e39-3",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön alt kol ve burçların aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "e39-4",
+                            "title": "Kaporta Pası",
+                            "description": "Tavan, kapı altları ve bagaj kenarları paslanması.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "e39-5",
+                            "title": "Yağ Kaçağı",
+                            "description": "Valf kapağı ve karter contasından yağ kaçağı.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "1.000 - 2.500 TL"
+                    },
+                    {
+                            "id": "e39-6",
+                            "title": "Piksel Sorunu",
+                            "description": "Gösterge paneli ve OBC piksellerinin sönmesi.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "En iyi 5 Serisi",
+                    "Mükemmel sürüş",
+                    "M52 motor güvenilir",
+                    "Touring efsane"
+            ],
+            "cons": [
+                    "Soğutma sistemi",
+                    "BMW bakım maliyeti",
+                    "Yaşlı araç",
+                    "Süspansiyon maliyetli"
+            ],
+            "buyingTips": [
+                    "Soğutma sistemi komple yenilenmiş mi",
+                    "VANOS sesi kontrol",
+                    "Touring çok talep gördü",
+                    "Sedan de konforlu"
+            ]
+    }
 ];

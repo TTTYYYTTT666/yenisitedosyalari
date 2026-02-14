@@ -1031,4 +1031,315 @@ export const hondaCars: Car[] = [
                     "Kaporta boyası kontrol edin"
             ]
     }
+,
+    {
+            "id": "honda-civic-ek-1-6",
+            "slug": "honda-civic-ek-1-6-vtec-virs",
+            "brand": "Honda",
+            "model": "Civic",
+            "variant": "EK 1.6 ViRS VTEC",
+            "years": "1996-2000",
+            "generation": "EK",
+            "price": 200000,
+            "expertNote": "D16Y 1.6 125 HP VTEC. EK Civic JDM kültürünün sembolü. VTEC devreye girdiğindeki ses efsane. Type R (B16B) koleksiyonluk. Türkiye'de ViRS çok aranır.",
+            "reliabilityScore": 82,
+            "totalIssues": 5,
+            "searchCount": 18000,
+            "issues": [
+                    {
+                            "id": "ek-1",
+                            "title": "VTEC Solenoid",
+                            "description": "VTEC solenoid contası sızıntısı. VTEC devreye girmeme.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "ek-2",
+                            "title": "Distribütör",
+                            "description": "Distribütör arızası. Ateşleme sorunu.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "ek-3",
+                            "title": "Arka Teker Yatağı",
+                            "description": "Arka tekerlek rulmanı gürültüsü.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.000 TL"
+                    },
+                    {
+                            "id": "ek-4",
+                            "title": "Motor Takozları",
+                            "description": "Motor takozlarının sertleşmesi.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "ek-5",
+                            "title": "Kaporta Pası",
+                            "description": "Minimal ama arka çamurluklar kontrol edilmeli.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya"
+                    }
+            ],
+            "pros": [
+                    "VTEC efsanesi",
+                    "Honda güvenilirliği",
+                    "Sportif sürüş",
+                    "JDM kültür ikonu"
+            ],
+            "cons": [
+                    "Fiyatı çok arttı",
+                    "Modifiyeli olabilir",
+                    "Çalınma riski",
+                    "Parça pahalılaştı"
+            ],
+            "buyingTips": [
+                    "Orijinal VTEC mi kontrol edin",
+                    "Modifiye geçmişi sorulmalı",
+                    "ViRS versiyonu en değerli",
+                    "Hırsızlık riski yüksek"
+            ]
+    }
+,
+    {
+            "id": "honda-accord-cg-2-0",
+            "slug": "honda-accord-cg-2-0-es",
+            "brand": "Honda",
+            "model": "Accord",
+            "variant": "CG 2.0 ES",
+            "years": "1998-2003",
+            "generation": "CG",
+            "price": 170000,
+            "expertNote": "F20B6 2.0 147 HP. Accord CG büyük, konforlu D segment. Honda güvenilirliği D segmente taşınmış. VTEC motor canlı ve güvenilir. Sedan ve coupe versiyonları.",
+            "reliabilityScore": 80,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "acc-1",
+                            "title": "Otomatik Şanzıman",
+                            "description": "Otomatik şanzıman kayması (yüksek km).",
+                            "category": "sanziman",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "200.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "acc-2",
+                            "title": "Motor Takozları",
+                            "description": "Motor takozlarının sertleşmesi. Titreşim.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "acc-3",
+                            "title": "Direksiyon Pompası",
+                            "description": "Hidrolik direksiyon pompası sızıntısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "acc-4",
+                            "title": "Klima Kompresörü",
+                            "description": "Klima kompresörü arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "acc-5",
+                            "title": "Kaporta Pası",
+                            "description": "Minimal paslanma (Honda kalitesi).",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya"
+                    }
+            ],
+            "pros": [
+                    "Honda güvenilirliği",
+                    "VTEC motor",
+                    "D segment konfor",
+                    "Az arıza"
+            ],
+            "cons": [
+                    "Otomat riskli",
+                    "Yakıt yüksek",
+                    "Parça pahalı",
+                    "Popüler değil"
+            ],
+            "buyingTips": [
+                    "Manuel şanzıman tercih edin",
+                    "F20B motor güvenilir",
+                    "ES donanım zengin",
+                    "Otomat geçmişi sorulmalı"
+            ]
+    }
+,
+    {
+            "id": "honda-civic-fc-1-6-vtec",
+            "slug": "honda-civic-fc-1-6-i-vtec-eco-elegance",
+            "brand": "Honda",
+            "model": "Civic",
+            "variant": "FC 1.6 i-VTEC Eco Elegance",
+            "years": "2016-2021",
+            "generation": "FC",
+            "price": 800000,
+            "expertNote": "R16B 1.6 i-VTEC 125 HP. FC Civic 10. nesil. Çok şık tasarım. Honda Sensing güvenlik paketi. Elegance donanım 7 inç, CarPlay, LED far. T ürkiye'nin en çok satan sedanı oldu.",
+            "reliabilityScore": 80,
+            "totalIssues": 5,
+            "searchCount": 18000,
+            "issues": [
+                    {
+                            "id": "fc-1",
+                            "title": "CVT Şanzıman",
+                            "description": "CVT titreşim ve yavaşlama hissi.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Tasarım",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "fc-2",
+                            "title": "AC Kompresörü",
+                            "description": "Klima kompresörü gürültü.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "fc-3",
+                            "title": "Ön Süspansiyon",
+                            "description": "Ön amortisör gıcırtısı recall.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "30.000+ km",
+                            "repairCost": "Recall / 1.500 TL"
+                    },
+                    {
+                            "id": "fc-4",
+                            "title": "Motor Takozları",
+                            "description": "Motor takozları titreşim.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "fc-5",
+                            "title": "Infotainment",
+                            "description": "Honda Connect donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Çok şık tasarım",
+                    "Honda güvenilirliği",
+                    "Honda Sensing",
+                    "1.6 VTEC ekonomik"
+            ],
+            "cons": [
+                    "CVT sıkıcı",
+                    "1.6 yavaş hissediyor",
+                    "Parça pahalı",
+                    "Fiyatı çok arttı"
+            ],
+            "buyingTips": [
+                    "1.0 Turbo daha performanslı",
+                    "Elegance donanım ideal",
+                    "CVT'ye alışmak lazım",
+                    "Honda Sensing hayat kurtarır"
+            ]
+    }
+,
+    {
+            "id": "honda-hr-v-1-5-vtec",
+            "slug": "honda-hr-v-ru-1-5-i-vtec-executive",
+            "brand": "Honda",
+            "model": "HR-V",
+            "variant": "RU 1.5 i-VTEC Executive",
+            "years": "2015-2021",
+            "generation": "RU",
+            "price": 700000,
+            "expertNote": "L15B 1.5 i-VTEC 130 HP. HR-V B-SUV segment. Magic Seat sistemi (arka koltuk katlanma). Executive donanım deri, navigasyon, LaneWatch kamera.",
+            "reliabilityScore": 80,
+            "totalIssues": 4,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "hrv-1",
+                            "title": "CVT",
+                            "description": "CVT titreşim hissi.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Tasarım",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "hrv-2",
+                            "title": "AC Kompresörü",
+                            "description": "Klima kompresörü gürültü.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "3.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "hrv-3",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör gıcırtısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "hrv-4",
+                            "title": "Infotainment",
+                            "description": "Multimedya donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Magic Seat efsane",
+                    "Honda güvenilirliği",
+                    "B-SUV",
+                    "Az arıza"
+            ],
+            "cons": [
+                    "CVT sıkıcı",
+                    "130 HP yeterli ama az",
+                    "Parça pahalı",
+                    "Gürültü yalıtımı"
+            ],
+            "buyingTips": [
+                    "Magic Seat çok pratik",
+                    "Executive en iyi donanım",
+                    "CVT'ye alışın",
+                    "Honda güvenilirliği"
+            ]
+    }
 ];

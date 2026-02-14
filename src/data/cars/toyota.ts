@@ -1324,4 +1324,599 @@ export const toyotaCars: Car[] = [
                     "Sakarya üretimi avantaj"
             ]
     }
+,
+    {
+            "id": "toyota-corolla-e100-1-6",
+            "slug": "toyota-corolla-e100-1-6-xei",
+            "brand": "Toyota",
+            "model": "Corolla",
+            "variant": "E100 1.6 XEi",
+            "years": "1991-1997",
+            "generation": "E100",
+            "price": 100000,
+            "expertNote": "4A-FE 1.6 105 HP. E100 Corolla dünya çapında efsane. Toyota güvenilirliğinin simgesi. Motor ölmez, gövde çürümez. 30 yıllık araçlar hâlâ sorunsuz çalışır.",
+            "reliabilityScore": 85,
+            "totalIssues": 4,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "e100-1",
+                            "title": "Kaporta Pası",
+                            "description": "30 yıllık araçta bile minimal pas. Ama kontrol şart.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya"
+                    },
+                    {
+                            "id": "e100-2",
+                            "title": "Distribütör",
+                            "description": "Distribütör kapağı ve rotoru aşınması.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "e100-3",
+                            "title": "Amortisörler",
+                            "description": "Orijinal amortisörlerin bitik olması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "e100-4",
+                            "title": "Cam Fitili",
+                            "description": "Kapı ve cam fitillerinin sertleşmesi.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    }
+            ],
+            "pros": [
+                    "Toyota güvenilirliği",
+                    "4A-FE ölmez motor",
+                    "Pas tutmaz",
+                    "Bakım ucuz"
+            ],
+            "cons": [
+                    "Çok eski",
+                    "Güvenlik düşük",
+                    "Konfor az",
+                    "Yavaş"
+            ],
+            "buyingTips": [
+                    "Motor sağlamlığı efsane",
+                    "Pas kontrolü şart değil ama yapın",
+                    "XEi donanım en iyisi",
+                    "Koleksiyoner değeri arttı"
+            ]
+    }
+,
+    {
+            "id": "toyota-corolla-e110-1-6",
+            "slug": "toyota-corolla-e110-1-6-terra",
+            "brand": "Toyota",
+            "model": "Corolla",
+            "variant": "E110 1.6 Terra",
+            "years": "1997-2002",
+            "generation": "E110",
+            "price": 140000,
+            "expertNote": "4A-FE/3ZZ-FE 1.6 110 HP. E110 Corolla daha modern ama aynı güvenilirlik. Terra donanım iyi. Sedan çok yaygın, HB nadir. Toyota kalitesi devam ediyor.",
+            "reliabilityScore": 83,
+            "totalIssues": 5,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "e110-1",
+                            "title": "Yağ Keçesi",
+                            "description": "Motor yağ keçelerinden hafif sızıntı (yaşa bağlı).",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "e110-2",
+                            "title": "Kaporta Pası",
+                            "description": "Minimal pas ama arka çamurluklar kontrol edilmeli.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya"
+                    },
+                    {
+                            "id": "e110-3",
+                            "title": "Ön Süspansiyon",
+                            "description": "Rotil ve bilyaların aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "e110-4",
+                            "title": "Klima Kompresörü",
+                            "description": "Klima kompresörü arızası (yaşa bağlı).",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 4.000 TL"
+                    },
+                    {
+                            "id": "e110-5",
+                            "title": "Egzoz Sistemi",
+                            "description": "Egzoz susturucunun çürümesi.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Toyota güvenilirliği",
+                    "Sağlam motor",
+                    "Az arıza",
+                    "Değer kaybetmez"
+            ],
+            "cons": [
+                    "Sıkıcı tasarım",
+                    "Konfor orta",
+                    "Yedek parça pahalılaştı",
+                    "Plastik iç mekan"
+            ],
+            "buyingTips": [
+                    "Terra donanım tercih edin",
+                    "Motor km'ye bakmayın, bakıma bakın",
+                    "Sedan çok yaygın",
+                    "Değer kaybı az"
+            ]
+    }
+,
+    {
+            "id": "toyota-avensis-t22-1-6",
+            "slug": "toyota-avensis-t22-1-6-sol",
+            "brand": "Toyota",
+            "model": "Avensis",
+            "variant": "T22 1.6 Sol",
+            "years": "1997-2003",
+            "generation": "T22",
+            "price": 130000,
+            "expertNote": "4A-FE/1ZZ-FE 1.6/1.8. Avensis T22 Toyota'nın Avrupa D segmenti. Corolla güvenilirliğini D segmente taşıdı. Sol donanım zengin. Carina E'nin halefi.",
+            "reliabilityScore": 80,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "t22-1",
+                            "title": "Yağ Tüketimi (1ZZ)",
+                            "description": "1ZZ-FE motorlarda yağ tüketimi. Piston segman tasarım sorunu.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "t22-2",
+                            "title": "Arka Fren",
+                            "description": "Arka disk frenlerin aşınması.",
+                            "category": "fren",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "t22-3",
+                            "title": "Kaporta",
+                            "description": "Minimal paslanma (Toyota kalitesi).",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya"
+                    },
+                    {
+                            "id": "t22-4",
+                            "title": "Direksiyon Pompası",
+                            "description": "Hidrolik direksiyon pompası sızıntısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "1.000 - 2.500 TL"
+                    },
+                    {
+                            "id": "t22-5",
+                            "title": "Gösterge Paneli",
+                            "description": "Gösterge aydınlatması sönmesi.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    }
+            ],
+            "pros": [
+                    "Toyota güvenilirliği",
+                    "D segment konfor",
+                    "Az arıza",
+                    "Geniş bagaj"
+            ],
+            "cons": [
+                    "Sıkıcı tasarım",
+                    "1ZZ yağ tüketiyor",
+                    "Yedek parça zor",
+                    "Popüler değil"
+            ],
+            "buyingTips": [
+                    "4A-FE motor tercih (1ZZ yağ yer)",
+                    "Sol donanım en iyisi",
+                    "Sedan ve SW var",
+                    "Toyota servisi kullanın"
+            ]
+    }
+,
+    {
+            "id": "toyota-corolla-e150-1-4-d4d",
+            "slug": "toyota-corolla-e150-1-4-d4d-elegant",
+            "brand": "Toyota",
+            "model": "Corolla",
+            "variant": "E150 1.4 D-4D Elegant",
+            "years": "2007-2013",
+            "generation": "E150",
+            "price": 350000,
+            "expertNote": "1ND-TV 1.4 D-4D 90 HP. E150 Corolla Toyota güvenilirliği devam ediyor. Sakarya Adapazarı üretimi. Elegant donanım deri, klima, CD. Değer kaybı düşük.",
+            "reliabilityScore": 80,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "e150-1",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "e150-2",
+                            "title": "DPF",
+                            "description": "DPF filtresi tıkanması (varsa).",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "e150-3",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör ve bilyalar.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "e150-4",
+                            "title": "Enjektör",
+                            "description": "D-4D enjektör sorunları.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "e150-5",
+                            "title": "Klima",
+                            "description": "Klima kompresörü.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "2.000 - 4.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Toyota güvenilirliği",
+                    "Sakarya üretimi",
+                    "Az arıza",
+                    "Değer kaybı düşük"
+            ],
+            "cons": [
+                    "90 HP az",
+                    "Sıkıcı tasarım",
+                    "D-4D parça pahalı",
+                    "İç mekan eski"
+            ],
+            "buyingTips": [
+                    "1.33 benzinli daha güvenilir",
+                    "Elegant donanım iyi",
+                    "Toyota servisi tercih",
+                    "Km yüksek olsa da güvenilir"
+            ]
+    }
+,
+    {
+            "id": "toyota-corolla-e160-1-4-d4d",
+            "slug": "toyota-corolla-e160-1-4-d4d-advance",
+            "brand": "Toyota",
+            "model": "Corolla",
+            "variant": "E160 1.4 D-4D Advance",
+            "years": "2013-2019",
+            "generation": "E160/E170",
+            "price": 550000,
+            "expertNote": "1ND-TV 1.4 D-4D 90 HP. E160 Corolla modern tasarım. Sakarya üretimi. Advance donanım 7 inç Touch 2, geri kamera, Toyota Safety Sense.",
+            "reliabilityScore": 82,
+            "totalIssues": 4,
+            "searchCount": 18000,
+            "issues": [
+                    {
+                            "id": "e160-1",
+                            "title": "Turbo",
+                            "description": "Turbo aktuatör.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "120.000+ km",
+                            "repairCost": "3.000 - 6.000 TL"
+                    },
+                    {
+                            "id": "e160-2",
+                            "title": "DPF",
+                            "description": "DPF tıkanması.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Şehir içi",
+                            "repairCost": "4.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "e160-3",
+                            "title": "CVT Şanzıman",
+                            "description": "CVT titreşimi (CVT varsa).",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "e160-4",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Toyota güvenilirliği",
+                    "Modern tasarım",
+                    "Safety Sense",
+                    "Sakarya üretimi"
+            ],
+            "cons": [
+                    "90 HP az",
+                    "D-4D parça pahalı",
+                    "İç mekan plastik",
+                    "CVT tartışmalı"
+            ],
+            "buyingTips": [
+                    "1.33 veya 1.6 benzinli çok daha iyi",
+                    "Advance donanım ideal",
+                    "Manuel şanzıman tercih",
+                    "Toyota'ya özgü düşük değer kaybı"
+            ]
+    }
+,
+    {
+            "id": "toyota-yaris-1-33",
+            "slug": "toyota-yaris-xp130-1-33-fun",
+            "brand": "Toyota",
+            "model": "Yaris",
+            "variant": "XP130 1.33 Fun",
+            "years": "2011-2019",
+            "generation": "XP130",
+            "price": 350000,
+            "expertNote": "1NR-FE 1.33 99 HP. Yaris XP130 küçük ama güvenilir. Toyota kalitesi B segmentte. Fun donanım 6.1 inç ekran, geri kamera. Hybrid versiyonu çok ekonomik.",
+            "reliabilityScore": 82,
+            "totalIssues": 4,
+            "searchCount": 12000,
+            "issues": [
+                    {
+                            "id": "yar-1",
+                            "title": "CVT Şanzıman",
+                            "description": "CVT yavaşlama hissi (performans beklentisi).",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Tasarım",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "yar-2",
+                            "title": "Süspansiyon",
+                            "description": "Arka amortisör.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    },
+                    {
+                            "id": "yar-3",
+                            "title": "Klima",
+                            "description": "Klima gazı kaçağı.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.000 TL"
+                    },
+                    {
+                            "id": "yar-4",
+                            "title": "Motor Takozları",
+                            "description": "Motor takozları sertleşmesi.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    }
+            ],
+            "pros": [
+                    "Toyota güvenilirliği",
+                    "Az arıza",
+                    "Ekonomik",
+                    "Hybrid seçeneği"
+            ],
+            "cons": [
+                    "Küçük araç",
+                    "99 HP yeterli ama az",
+                    "Plastik iç mekan",
+                    "CVT sıkıcı"
+            ],
+            "buyingTips": [
+                    "Hybrid varsa kesinlikle tercih edin",
+                    "Fun donanım yeterli",
+                    "1.33 motor güvenilir",
+                    "CVT sorunsuz ama sıkıcı"
+            ]
+    }
+,
+    {
+            "id": "toyota-c-hr-1-2-turbo",
+            "slug": "toyota-c-hr-1-2-turbo-advance",
+            "brand": "Toyota",
+            "model": "C-HR",
+            "variant": "1.2 Turbo Advance",
+            "years": "2016-2023",
+            "generation": "AX10",
+            "price": 800000,
+            "expertNote": "8NR-FTS 1.2 Turbo 116 HP. C-HR Toyota'nın ilk B-SUV/crossover'ı. Çığır açan tasarım. Advance donanım 8 inç, JBL ses, Safety Sense. Hybrid 1.8 çok ekonomik.",
+            "reliabilityScore": 80,
+            "totalIssues": 4,
+            "searchCount": 14000,
+            "issues": [
+                    {
+                            "id": "chr-1",
+                            "title": "CVT Şanzıman",
+                            "description": "CVT titreşim hissi.",
+                            "category": "sanziman",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Tasarım",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "chr-2",
+                            "title": "Arka Görüş",
+                            "description": "Dar arka cam nedeniyle kör nokta fazla.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Tasarım",
+                            "repairCost": "Normal"
+                    },
+                    {
+                            "id": "chr-3",
+                            "title": "Süspansiyon",
+                            "description": "Ön amortisör gıcırtısı.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "40.000+ km",
+                            "repairCost": "1.000 - 2.000 TL"
+                    },
+                    {
+                            "id": "chr-4",
+                            "title": "Infotainment",
+                            "description": "Multimedya donması.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Kronik",
+                            "repairCost": "500 - 1.500 TL"
+                    }
+            ],
+            "pros": [
+                    "Çığır açan tasarım",
+                    "Toyota güvenilirliği",
+                    "Hybrid çok ekonomik",
+                    "Safety Sense"
+            ],
+            "cons": [
+                    "Arka koltuk dar",
+                    "Görüş alanı kısıtlı",
+                    "1.2T yağ tüketimi",
+                    "Fiyatı yüksek"
+            ],
+            "buyingTips": [
+                    "Hybrid kesinlikle tercih edin",
+                    "1.2 Turbo yağ tüketimi var",
+                    "Advance donanım ideal",
+                    "Arka koltuk test edin"
+            ]
+    }
+,
+{
+  "id": "toyota-chr-fl",
+  "slug": "toyota-c-hr-facelift-1-8-hybrid",
+  "brand": "Toyota",
+  "model": "C-HR",
+  "variant": "C-HR Facelift 1.8 Hybrid Passion X-Pack",
+  "years": "2020-2023",
+  "generation": "Ara Kasa (2020-2023)",
+  "price": 1075000,
+  "expertNote": "Facelift'te ön ve arka tasarım belirgin şekilde değişti. 2.0 Hybrid (184hp) motor seçeneği eklendi. Multimedya 8 inç'e büyüdü, Android Auto/CarPlay eklendi. CVT kalibrasyonu iyileştirildi.",
+  "reliabilityScore": 82,
+  "totalIssues": 4,
+  "searchCount": 14500,
+  "issues": [
+    {
+      "id": "toy-chrfl-1",
+      "title": "CVT Yüksek DevirdaGürültü (Azalmış)",
+      "description": "E-CVT kalibrasyonu facelift ile iyileştirildi. Hızlı hızlanmada motor devri eskisi kadar yükselmiyor ama yine de konvansiyonel şanzımana göre farklı hissettiriyor.",
+      "category": "sanziman",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0 (normal)"
+    },
+    {
+      "id": "toy-chrfl-2",
+      "title": "Multimedya Sistem Gecikmesi",
+      "description": "Yeni 8 inç multimedya sistemi karmaşık menülerde zaman zaman yavaşlayabilir. Pre-facelift'e göre çok daha iyi.",
+      "category": "elektronik",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0"
+    },
+    {
+      "id": "toy-chrfl-3",
+      "title": "Arka Görüş Sınırlılığı (Tasarım)",
+      "description": "C-HR'nin coupe tarzı arka tasarımı görüş alanını ciddi şekilde sınırlar. Facelift'te değişmedi. Park sensörü/kamera zorunlu.",
+      "category": "govde",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0 (tasarım)"
+    },
+    {
+      "id": "toy-chrfl-4",
+      "title": "Süspansiyon Sertliği (Aynı)",
+      "description": "Facelift'te süspansiyon ayarları değişmedi. Özellikle 18 inç jantlarda sert sürüş hissi devam ediyor.",
+      "category": "suspansiyon",
+      "riskLevel": "LOW",
+      "affectedKm": "Tüm km",
+      "repairCost": "₺0 (tasarım tercihi)"
+    }
+  ],
+  "pros": [
+    "Android Auto/CarPlay geldi",
+    "CVT kalibrasyonu iyileştirildi",
+    "Daha agresif tasarım",
+    "2.0 Hybrid seçeneği (daha güçlü)",
+    "Toyota güvenilirliği"
+  ],
+  "cons": [
+    "Arka görüş hâlâ sınırlı",
+    "Süspansiyon hâlâ sert",
+    "Fiyatlar yüksek"
+  ],
+  "buyingTips": [
+    "CarPlay/Android Auto'yu test edin",
+    "1.8 vs 2.0 Hybrid: 2.0 daha dinamik ama daha pahalı",
+    "Arka koltuk darlığı kabul edilmeli",
+    "Pre-facelift'e göre daha modern multimedya"
+  ]
+}
 ];

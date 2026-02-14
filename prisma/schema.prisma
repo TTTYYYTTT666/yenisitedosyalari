@@ -26,6 +26,11 @@ model User {
   posts         BlogPost[]
   experiences   Experience[]
   systemLogs    SystemLog[]
+  issueVotes    IssueVote[]
+  carRatings    CarRating[]
+  favorites     FavoriteCar[]
+  issueReports  IssueReport[]
+  forumReplies  ForumReply[]
   createdAt     DateTime    @default(now())
   updatedAt     DateTime    @updatedAt
 }
@@ -102,12 +107,18 @@ model BlogPost {
   content   String
   image     String?
   category  String
-  published Boolean  @default(true) // User posts might need approval, but defaulting to true for now as requested
+  carSlug   String?  // Link to a car for forum discussions
+  viewCount Int      @default(0)
+  published Boolean  @default(true)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
   authorId  String
   author    User     @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  replies   ForumReply[]
+
+  @@index([category])
+  @@index([carSlug])
 }
 
 model Experience {
@@ -219,9 +230,83 @@ model CarIssue {
   car         Car      @relation(fields: [carId], references: [id], onDelete: Cascade)
 }
 
+// Sorun Onay Sistemi — Ben de yaşadım / Yaşamadım
+model IssueVote {
+  id        String   @id @default(cuid())
+  type      String   // 'CONFIRM' or 'DENY'
+  issueId   String   // CarIssue id or static issue id
+  carSlug   String
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, issueId])
+  @@index([carSlug])
+}
+
+// Araç Puanlama — 5 yıldız kategorili
+model CarRating {
+  id       String   @id @default(cuid())
+  carSlug  String
+  userId   String
+  overall  Int      // 1-5
+  motor    Int      // 1-5
+  konfor   Int      // 1-5
+  yakit    Int      // 1-5
+  bakim    Int      // 1-5
+  comment  String?
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, carSlug])
+  @@index([carSlug])
+}
+
+// Favori Araçlar
+model FavoriteCar {
+  id      String   @id @default(cuid())
+  userId  String
+  carSlug String
+  user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, carSlug])
+  @@index([userId])
+}
+
+// Kullanıcı Sorun Bildirimi
+model IssueReport {
+  id          String   @id @default(cuid())
+  carSlug     String
+  userId      String
+  title       String
+  description String
+  category    String
+  km          String?
+  status      String   @default("PENDING") // PENDING, APPROVED, REJECTED
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now())
+
+  @@index([carSlug])
+  @@index([status])
+}
+
+// Forum Yanıt Sistemi
+model ForumReply {
+  id        String   @id @default(cuid())
+  content   String
+  postId    String
+  post      BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@index([postId])
+}
+
 model SystemSettings {
   id             String   @id @default(cuid())
-  key            String   @unique // e.g., 'maintenance_mode', 'site_title'
+  key            String   @unique
   value          String
   description    String?
 }

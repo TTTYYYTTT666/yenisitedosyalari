@@ -1793,4 +1793,253 @@ export const mercedesCars: Car[] = [
                     "AMG Line tercih edin"
             ]
     }
+,
+    {
+            "id": "mercedes-w202-c180",
+            "slug": "mercedes-w202-c180-m111",
+            "brand": "Mercedes-Benz",
+            "model": "C-Serisi",
+            "variant": "W202 C180 M111",
+            "years": "1993-2000",
+            "generation": "W202",
+            "price": 250000,
+            "expertNote": "M111 1.8 122 HP. W202 Mercedes'in ilk C Serisi. Sağlam yapı, güvenilir M111 motor. Türkiye'de çok satıldı. Elegance ve Classic donanımları.",
+            "reliabilityScore": 76,
+            "totalIssues": 5,
+            "searchCount": 16000,
+            "issues": [
+                    {
+                            "id": "w202-1",
+                            "title": "Pas (Özellikle Tavan)",
+                            "description": "W202'nin bilinen tavan çürüğü. Tavan çıtaları altında pas.",
+                            "category": "govde",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "3.000 - 8.000 TL"
+                    },
+                    {
+                            "id": "w202-2",
+                            "title": "Krank Mili Sensörü",
+                            "description": "Krank mili pozisyon sensörü arızası. Çalışmama.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "w202-3",
+                            "title": "Otomatik Şanzıman",
+                            "description": "722.6 otomatik şanzıman kayması veya geç vites geçmesi.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "w202-4",
+                            "title": "Motor Takozları",
+                            "description": "Motor ve şanzıman takozlarının sertleşmesi.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "1.500 - 3.000 TL"
+                    },
+                    {
+                            "id": "w202-5",
+                            "title": "Klima Kompresörü",
+                            "description": "Klima kompresörü arızası.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "3.000 - 6.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Mercedes kalitesi",
+                    "Sağlam M111",
+                    "Güvenilir yapı",
+                    "Prestij"
+            ],
+            "cons": [
+                    "Tavan pası ünlü",
+                    "Otomat pahalı",
+                    "Parça maliyeti",
+                    "Yaşlı"
+            ],
+            "buyingTips": [
+                    "TAVAN PASINI MUTLAKA KONTROL EDİN",
+                    "Manuel tercih edin",
+                    "Elegance donanım güzel",
+                    "M111 motor sağlam"
+            ]
+    }
+,
+    {
+            "id": "mercedes-w210-e200",
+            "slug": "mercedes-w210-e200-m111",
+            "brand": "Mercedes-Benz",
+            "model": "E-Serisi",
+            "variant": "W210 E200 M111",
+            "years": "1995-2003",
+            "generation": "W210",
+            "price": 300000,
+            "expertNote": "M111.957 2.0 136 HP. W210 dört göz E Serisi. İkonik tasarım. M111 motor güvenilir. Elegance ve Avantgarde donanımları. Pas konusunda ünlü.",
+            "reliabilityScore": 72,
+            "totalIssues": 6,
+            "searchCount": 18000,
+            "issues": [
+                    {
+                            "id": "w210-1",
+                            "title": "Pas (Çok Ciddi)",
+                            "description": "W210 Mercedes tarihinin en çok pas tutan modeli. Çamurluklar, kapı altları, tavan.",
+                            "category": "govde",
+                            "riskLevel": "CRITICAL",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "5.000 - 15.000 TL"
+                    },
+                    {
+                            "id": "w210-2",
+                            "title": "SBC Fren Sistemi",
+                            "description": "Sensotronic fren sistemi arızası (otomatik modellerde).",
+                            "category": "fren",
+                            "riskLevel": "HIGH",
+                            "affectedKm": "100.000+ km",
+                            "repairCost": "5.000 - 10.000 TL"
+                    },
+                    {
+                            "id": "w210-3",
+                            "title": "Krank Mili Sensörü",
+                            "description": "Krank sensörü arızası. Motor çalışmama.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "w210-4",
+                            "title": "Otomatik Şanzıman",
+                            "description": "722.6 şanzıman kayması.",
+                            "category": "sanziman",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "150.000+ km",
+                            "repairCost": "5.000 - 12.000 TL"
+                    },
+                    {
+                            "id": "w210-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön alt kol ve burç aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "60.000+ km",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "w210-6",
+                            "title": "Elektrik Tesisatı",
+                            "description": "SAM modülü ve tesisat arızaları.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 5.000 TL"
+                    }
+            ],
+            "pros": [
+                    "İkonik dört göz tasarım",
+                    "E segment konfor",
+                    "M111 motor güvenilir",
+                    "Mercedes prestij"
+            ],
+            "cons": [
+                    "PAS CANAVARI",
+                    "SBC fren pahalı",
+                    "Otomat maliyetli",
+                    "Bakım pahalı"
+            ],
+            "buyingTips": [
+                    "PAS KONTROLÜ HAYAT KURTARIR",
+                    "SBC fren testi",
+                    "Manuel varsa tercih edin",
+                    "Facelift (2000+) daha iyi"
+            ]
+    }
+,
+    {
+            "id": "mercedes-w124-e200",
+            "slug": "mercedes-w124-e200-m111",
+            "brand": "Mercedes-Benz",
+            "model": "E-Serisi",
+            "variant": "W124 E200 M111",
+            "years": "1984-1997",
+            "generation": "W124",
+            "price": 400000,
+            "expertNote": "M111 2.0 136 HP. W124 Mercedes'in en sağlam aracı olarak kabul edilir. 'Tank' lakaplı. Yıllarca sorunsuz çalışır. Koleksiyoner değeri sürekli artıyor.",
+            "reliabilityScore": 82,
+            "totalIssues": 5,
+            "searchCount": 22000,
+            "issues": [
+                    {
+                            "id": "w124-1",
+                            "title": "Kaporta Pası",
+                            "description": "W210 kadar olmasa da yaşa bağlı pas. Özellikle tekerlek davlumbazları.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "w124-2",
+                            "title": "Amortisörler",
+                            "description": "Orijinal amortisörlerin tamamen bitik olması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "2.000 - 5.000 TL"
+                    },
+                    {
+                            "id": "w124-3",
+                            "title": "Termostat",
+                            "description": "Termostat kaçırması veya açılmaması.",
+                            "category": "motor",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "300 - 800 TL"
+                    },
+                    {
+                            "id": "w124-4",
+                            "title": "Elektrik Tesisatı",
+                            "description": "30+ yıllık tesisatın yaşlanması.",
+                            "category": "elektronik",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "1.000 - 3.000 TL"
+                    },
+                    {
+                            "id": "w124-5",
+                            "title": "Klima Gaz Tipi",
+                            "description": "R12 klima gazı — R134a'ya dönüşüm gerekli.",
+                            "category": "elektronik",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Tasarım",
+                            "repairCost": "1.500 - 3.000 TL"
+                    }
+            ],
+            "pros": [
+                    "Mercedes'in en sağlam aracı",
+                    "'Tank' lakaplı",
+                    "Koleksiyoner değeri yükseldi",
+                    "M111 motor efsane"
+            ],
+            "cons": [
+                    "30+ yıllık araç",
+                    "Parça pahalılaştı",
+                    "Yakıt tüketimi",
+                    "Restorasyon gerekebilir"
+            ],
+            "buyingTips": [
+                    "Orijinallik önemli",
+                    "Servis geçmişi arayın",
+                    "M111 motor tercih edin",
+                    "Koleksiyoner değeri var"
+            ]
+    }
 ];

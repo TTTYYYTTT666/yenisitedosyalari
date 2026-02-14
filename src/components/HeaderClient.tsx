@@ -11,6 +11,8 @@ const toolsMenu = [
     { href: '/ekspertiz', label: 'Ekspertiz Checklist', desc: 'Alım öncesi kontrol listesi' },
     { href: '/parcalar', label: 'Parça Fiyatları', desc: 'Marka bazlı karşılaştırma' },
     { href: '/deneyimler', label: 'Kullanıcı Deneyimleri', desc: 'Gerçek sahip yorumları' },
+    { href: '/forum', label: 'Forum', desc: 'Tartışma ve deneyim paylaşımı' },
+    { href: '/favorilerim', label: 'Favorilerim', desc: 'Kaydettiğiniz araçlar' },
 ];
 
 interface HeaderClientProps {

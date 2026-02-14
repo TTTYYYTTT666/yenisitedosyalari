@@ -777,4 +777,84 @@ export const seatCars: Car[] = [
                     "EGR temizliği"
             ]
     }
+,
+    {
+            "id": "seat-cordoba-1-6-stella",
+            "slug": "seat-cordoba-1-6-stella",
+            "brand": "Seat",
+            "model": "Cordoba",
+            "variant": "1.6 Stella",
+            "years": "1999-2009",
+            "generation": "6K/6L",
+            "price": 80000,
+            "expertNote": "AKL/BGU 1.6 100 HP. Cordoba VW/Seat platformu. Polo/Ibiza ile ortak parçalar. Ekonomik sedan. Stella donanım Türkiye'ye özel seri.",
+            "reliabilityScore": 74,
+            "totalIssues": 5,
+            "searchCount": 10000,
+            "issues": [
+                    {
+                            "id": "scor-1",
+                            "title": "Bobinler",
+                            "description": "Ateşleme bobini arızası.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "scor-2",
+                            "title": "Cam Kaldırma",
+                            "description": "Cam kaldırma mekanizması arızası.",
+                            "category": "govde",
+                            "riskLevel": "LOW",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "400 - 1.000 TL"
+                    },
+                    {
+                            "id": "scor-3",
+                            "title": "Kaporta Pası",
+                            "description": "Kapı altları ve çamurluk pası.",
+                            "category": "govde",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "Yaş kaynaklı",
+                            "repairCost": "Boya / Kaynak"
+                    },
+                    {
+                            "id": "scor-4",
+                            "title": "Su Pompası",
+                            "description": "Devridaim pompası sızıntısı.",
+                            "category": "motor",
+                            "riskLevel": "MEDIUM",
+                            "affectedKm": "80.000+ km",
+                            "repairCost": "500 - 1.500 TL"
+                    },
+                    {
+                            "id": "scor-5",
+                            "title": "Süspansiyon",
+                            "description": "Ön süspansiyon burçları aşınması.",
+                            "category": "suspansiyon",
+                            "riskLevel": "LOW",
+                            "affectedKm": "50.000+ km",
+                            "repairCost": "500 - 1.200 TL"
+                    }
+            ],
+            "pros": [
+                    "VW platformu",
+                    "Ucuz sedan",
+                    "VW/Seat ortak parça",
+                    "Ekonomik"
+            ],
+            "cons": [
+                    "Pas sorunu",
+                    "Ibiza'dan daha az sportif",
+                    "Yaşlanıyor",
+                    "Görünüş sade"
+            ],
+            "buyingTips": [
+                    "AKL motor güvenilir",
+                    "VW yedek parça kullanılabilir",
+                    "Stella donanım yeterli",
+                    "Sedan pratik"
+            ]
+    }
 ];
