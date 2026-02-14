@@ -24,11 +24,12 @@ export default function FavoriteButton({ carSlug, isFav }: FavoriteButtonProps) 
             onClick={handleToggle}
             disabled={isPending}
             className={`group flex items-center gap-1.5 px-3 py-2 rounded-xl border transition-all ${favorited
-                    ? 'bg-red-50 border-red-200 text-red-600 dark:bg-red-950/30 dark:border-red-800 dark:text-red-400'
-                    : 'bg-white border-stone-200 text-stone-400 hover:text-red-500 hover:border-red-200 dark:bg-stone-800 dark:border-stone-700 dark:hover:text-red-400'
+                ? 'bg-orange-50 border-orange-200 text-orange-600 dark:bg-orange-950/30 dark:border-orange-800 dark:text-orange-400'
+                : 'bg-white border-stone-200 text-stone-400 hover:text-orange-500 hover:border-orange-200 dark:bg-stone-800 dark:border-stone-700 dark:hover:text-orange-400'
                 }`}
-            title={favorited ? 'Favorilerden Çıkar' : 'Favorilere Ekle'}
+            title={favorited ? 'Favorilerden Cikar' : 'Favorilere Ekle'}
         >
+            {/* Bookmark icon - Instagram/TikTok style */}
             <svg
                 className={`w-5 h-5 transition-transform ${favorited ? 'scale-110' : 'group-hover:scale-110'}`}
                 fill={favorited ? 'currentColor' : 'none'}
@@ -39,11 +40,11 @@ export default function FavoriteButton({ carSlug, isFav }: FavoriteButtonProps) 
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"
                 />
             </svg>
             <span className="text-xs font-medium hidden sm:inline">
-                {favorited ? 'Favorilerde' : 'Favori'}
+                {favorited ? 'Kaydedildi' : 'Kaydet'}
             </span>
         </button>
     );

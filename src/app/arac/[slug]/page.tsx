@@ -379,37 +379,21 @@ export default async function CarDetailPage({ params }: PageProps) {
                             ))}
                         </section>
 
-                        {/* Forum & Parça Fiyatları */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                            {/* Forum */}
-                            <Link
-                                href={`/forum?arac=${slug}`}
-                                className="bg-white dark:bg-stone-900 rounded-xl border border-stone-200 dark:border-stone-800 p-5 hover:border-orange-300 dark:hover:border-orange-600 transition-all group"
-                            >
-                                <h3 className="text-sm font-bold text-stone-900 dark:text-stone-100 mb-1 group-hover:text-orange-600 transition-colors">
-                                    Kullanici Forumlari
-                                </h3>
-                                <p className="text-xs text-stone-400 mb-3">
-                                    Bu arac hakkinda deneyimler, sorular ve tartismalar.
-                                </p>
-                                <span className="text-xs font-semibold text-orange-600">
-                                    Forum&apos;a Git &rarr;
-                                </span>
-                            </Link>
-
-                            {/* Parça Fiyatları */}
-                            <div className="bg-white dark:bg-stone-900 rounded-xl border border-stone-200 dark:border-stone-800 p-5">
-                                <h3 className="text-sm font-bold text-stone-900 dark:text-stone-100 mb-1">
-                                    Parca Fiyatlari
-                                </h3>
-                                <p className="text-xs text-stone-400 mb-3">
-                                    Yedek parca ve bakim maliyetleri.
-                                </p>
-                                <span className="text-xs text-stone-400">
-                                    Yakin zamanda eklenecek
-                                </span>
-                            </div>
-                        </div>
+                        {/* Forum */}
+                        <Link
+                            href={`/forum?arac=${slug}`}
+                            className="block bg-white dark:bg-stone-900 rounded-xl border border-stone-200 dark:border-stone-800 p-5 hover:border-orange-300 dark:hover:border-orange-600 transition-all group"
+                        >
+                            <h3 className="text-sm font-bold text-stone-900 dark:text-stone-100 mb-1 group-hover:text-orange-600 transition-colors">
+                                Kullanici Forumlari
+                            </h3>
+                            <p className="text-xs text-stone-400 mb-2">
+                                Bu arac hakkinda deneyimler, sorular ve tartismalar.
+                            </p>
+                            <span className="text-xs font-semibold text-orange-600">
+                                Forum&apos;a Git &rarr;
+                            </span>
+                        </Link>
                     </div>
 
                     {/* Sidebar - bigger, stickier */}

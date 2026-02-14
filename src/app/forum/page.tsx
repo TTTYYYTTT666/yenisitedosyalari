@@ -2,29 +2,31 @@ import Link from 'next/link';
 import { prisma } from '@/lib/db';
 import { Metadata } from 'next';
 import { getAllCars } from '@/lib/cars';
+import ForumCarFilter from '@/components/ForumCarFilter';
 
 export const metadata: Metadata = {
     title: 'Forum | OTORAPORU.NET',
-    description: 'Otomobil deneyimlerinizi paylaşın, sorular sorun ve diğer araç sahipleriyle tartışın.',
+    description: 'Otomobil deneyimlerinizi paylasin, sorular sorun ve diger arac sahipleriyle tartisin.',
 };
 
 const CATEGORIES = [
     { id: 'all', label: 'Tümü' },
-    { id: 'Deneyim', label: 'Kullanıcı Deneyimleri' },
-    { id: 'Bakım', label: 'Bakım ve Onarım' },
+    { id: 'Deneyim', label: 'Kullanici Deneyimleri' },
+    { id: 'Bakım', label: 'Bakim ve Onarim' },
     { id: 'Soru', label: 'Soru-Cevap' },
-    { id: 'Rehber', label: 'Alım Rehberi' },
+    { id: 'Rehber', label: 'Alim Rehberi' },
     { id: 'Haber', label: 'Haberler' },
 ];
 
 interface ForumPageProps {
-    searchParams: Promise<{ arac?: string; kategori?: string; sayfa?: string }>;
+    searchParams: Promise<{ arac?: string; kategori?: string; sayfa?: string; marka?: string }>;
 }
 
 export default async function ForumPage({ searchParams }: ForumPageProps) {
     const params = await searchParams;
     const carFilter = params.arac || null;
     const categoryFilter = params.kategori || null;
+    const brandFilter = params.marka || null;
     const page = parseInt(params.sayfa || '1', 10);
     const perPage = 25;
 
@@ -36,11 +38,9 @@ export default async function ForumPage({ searchParams }: ForumPageProps) {
     // Fetch posts + counts
     let posts: any[] = [];
     let totalPosts = 0;
-    let totalAllPosts = 0;
-    let totalReplies = 0;
 
     try {
-        [posts, totalPosts, totalAllPosts] = await Promise.all([
+        [posts, totalPosts] = await Promise.all([
             prisma.blogPost.findMany({
                 where,
                 include: {
@@ -51,9 +51,7 @@ export default async function ForumPage({ searchParams }: ForumPageProps) {
                 skip: (page - 1) * perPage,
             }),
             prisma.blogPost.count({ where }),
-            prisma.blogPost.count({ where: { published: true } }),
         ]);
-        try { totalReplies = await (prisma as any).forumReply.count(); } catch { totalReplies = 0; }
     } catch {
         posts = [];
     }
@@ -89,7 +87,7 @@ export default async function ForumPage({ searchParams }: ForumPageProps) {
         }
     } catch { /* */ }
 
-    // Car info
+    // Car info for filter display
     let carInfo: any = null;
     if (carFilter) {
         const allCars = await getAllCars();
@@ -98,40 +96,50 @@ export default async function ForumPage({ searchParams }: ForumPageProps) {
 
     // Category counts
     let categoryCounts: Record<string, number> = {};
+    let totalAllPosts = 0;
     try {
         const catPosts = await prisma.blogPost.findMany({
             where: { published: true },
             select: { category: true },
         });
+        totalAllPosts = catPosts.length;
         for (const p of catPosts) {
             categoryCounts[p.category] = (categoryCounts[p.category] || 0) + 1;
         }
     } catch { /* */ }
 
-    // Unique members
-    const uniqueMembers = new Set(posts.map((p: any) => p.authorId)).size;
+    // Get unique brands for filter
+    const allCars = await getAllCars();
+    const brandsMap: Record<string, { brand: string; models: { model: string; slug: string }[] }> = {};
+    for (const car of allCars) {
+        if (!brandsMap[car.brand]) {
+            brandsMap[car.brand] = { brand: car.brand, models: [] };
+        }
+        brandsMap[car.brand].models.push({ model: `${car.model} ${car.variant}`, slug: car.slug });
+    }
+    const brands = Object.values(brandsMap).sort((a: any, b: any) => a.brand.localeCompare(b.brand, 'tr'));
 
     return (
-        <div className="min-h-screen bg-stone-50 dark:bg-[#0c0a09]">
-            {/* Header */}
-            <div className="bg-white dark:bg-stone-900 border-b border-stone-200 dark:border-stone-800">
+        <div className="min-h-screen bg-stone-50 dark:bg-[#0a0a0a]">
+            {/* Top Header - OTORAPORU.NET FORUM branding */}
+            <div className="bg-stone-900 dark:bg-black border-b border-stone-700">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
                     <div className="flex items-center justify-between">
                         <div>
                             {carInfo ? (
                                 <>
                                     <div className="text-xs text-stone-400 mb-1">
-                                        <Link href="/forum" className="hover:text-orange-600 transition-colors">Forum</Link>
+                                        <Link href="/forum" className="hover:text-orange-500 transition-colors">Forum</Link>
                                         <span className="mx-1.5">/</span>
                                         <span>{carInfo.brand} {carInfo.model}</span>
                                     </div>
-                                    <h1 className="text-xl font-bold text-stone-900 dark:text-white">
-                                        {carInfo.brand} {carInfo.model} {carInfo.variant} Forum
+                                    <h1 className="text-xl font-bold text-white">
+                                        {carInfo.brand} {carInfo.model} {carInfo.variant}
                                     </h1>
                                 </>
                             ) : (
-                                <h1 className="text-xl font-bold text-stone-900 dark:text-white">
-                                    Forum
+                                <h1 className="text-xl font-bold text-white">
+                                    <span className="text-orange-500">OTORAPORU.NET</span> FORUM
                                 </h1>
                             )}
                         </div>
@@ -139,7 +147,7 @@ export default async function ForumPage({ searchParams }: ForumPageProps) {
                             href={carFilter ? `/forum/yeni?arac=${carFilter}` : '/forum/yeni'}
                             className="px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white text-sm font-semibold rounded-lg transition-colors"
                         >
-                            Yeni Konu Aç
+                            Yeni Konu Ac
                         </Link>
                     </div>
                 </div>
@@ -150,25 +158,6 @@ export default async function ForumPage({ searchParams }: ForumPageProps) {
 
                     {/* Sidebar */}
                     <div className="hidden lg:block lg:col-span-1 space-y-4">
-                        {/* Stats */}
-                        <div className="bg-white dark:bg-stone-900 rounded-lg border border-stone-200 dark:border-stone-800 p-4">
-                            <h3 className="text-xs font-bold text-stone-400 uppercase tracking-wider mb-3">Forum Istatistikleri</h3>
-                            <div className="space-y-2.5 text-sm">
-                                <div className="flex justify-between">
-                                    <span className="text-stone-500">Toplam Konu</span>
-                                    <span className="font-bold text-stone-900 dark:text-white">{totalAllPosts}</span>
-                                </div>
-                                <div className="flex justify-between">
-                                    <span className="text-stone-500">Toplam Yanit</span>
-                                    <span className="font-bold text-stone-900 dark:text-white">{totalReplies}</span>
-                                </div>
-                                <div className="flex justify-between">
-                                    <span className="text-stone-500">Aktif Yazar</span>
-                                    <span className="font-bold text-stone-900 dark:text-white">{uniqueMembers}</span>
-                                </div>
-                            </div>
-                        </div>
-
                         {/* Categories */}
                         <div className="bg-white dark:bg-stone-900 rounded-lg border border-stone-200 dark:border-stone-800 p-4">
                             <h3 className="text-xs font-bold text-stone-400 uppercase tracking-wider mb-3">Kategoriler</h3>
@@ -196,6 +185,9 @@ export default async function ForumPage({ searchParams }: ForumPageProps) {
                                 })}
                             </nav>
                         </div>
+
+                        {/* Brand/Model Filter */}
+                        <ForumCarFilter brands={brands} currentCar={carFilter} currentCategory={categoryFilter} />
                     </div>
 
                     {/* Main Content */}
@@ -222,10 +214,22 @@ export default async function ForumPage({ searchParams }: ForumPageProps) {
                             })}
                         </div>
 
+                        {/* Active filter notice */}
+                        {carFilter && carInfo && (
+                            <div className="bg-orange-50 dark:bg-orange-900/10 border border-orange-200 dark:border-orange-800 rounded-lg px-4 py-2.5 mb-4 flex items-center justify-between">
+                                <span className="text-sm text-stone-700 dark:text-stone-300">
+                                    <span className="font-semibold">{carInfo.brand} {carInfo.model}</span> konulari filtreleniyor
+                                </span>
+                                <Link href="/forum" className="text-xs text-orange-600 hover:underline font-medium">
+                                    Filtreyi Kaldir
+                                </Link>
+                            </div>
+                        )}
+
                         {posts.length === 0 ? (
                             <div className="bg-white dark:bg-stone-900 rounded-lg border border-stone-200 dark:border-stone-800 p-12 text-center">
                                 <h2 className="text-lg font-bold text-stone-700 dark:text-stone-300 mb-2">
-                                    {carFilter ? 'Bu arac icin henüz konu yok' : 'Henüz konu acilmamis'}
+                                    Henüz konu yok
                                 </h2>
                                 <p className="text-sm text-stone-500 mb-6">
                                     Ilk konuyu acarak toplulugu baslatin.
@@ -255,7 +259,7 @@ export default async function ForumPage({ searchParams }: ForumPageProps) {
                                         const lastReply = lastReplies[post.id];
 
                                         return (
-                                            <div key={post.id} className="grid grid-cols-1 sm:grid-cols-12 gap-2 sm:gap-4 px-4 py-3.5 hover:bg-stone-50 dark:hover:bg-stone-800/30 transition-colors group">
+                                            <div key={post.id} className="grid grid-cols-1 sm:grid-cols-12 gap-2 sm:gap-4 px-4 py-3.5 hover:bg-stone-50 dark:hover:bg-stone-800/30 transition-colors">
                                                 {/* Topic */}
                                                 <div className="sm:col-span-6 flex items-start gap-3">
                                                     <div className="w-9 h-9 rounded-full bg-stone-100 dark:bg-stone-800 flex items-center justify-center shrink-0 overflow-hidden mt-0.5">
@@ -333,7 +337,7 @@ export default async function ForumPage({ searchParams }: ForumPageProps) {
                                 {totalPages > 1 && (
                                     <div className="flex items-center justify-between px-4 py-3 border-t border-stone-200 dark:border-stone-800 bg-stone-50 dark:bg-stone-800/30">
                                         <span className="text-xs text-stone-400">
-                                            Toplam {totalPosts} konu, sayfa {page}/{totalPages}
+                                            Sayfa {page}/{totalPages}
                                         </span>
                                         <div className="flex gap-1">
                                             {page > 1 && (
@@ -383,7 +387,6 @@ function getTimeAgo(date: Date): string {
     if (diffMin < 1) return 'az önce';
     if (diffMin < 60) return `${diffMin} dk önce`;
     if (diffHour < 24) return `${diffHour} saat önce`;
-    if (diffDay < 7) return `${diffDay} gün önce`;
     if (diffDay < 30) return `${diffDay} gün önce`;
     return new Date(date).toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' });
 }
