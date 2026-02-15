@@ -3,6 +3,7 @@ import SearchBar from '@/components/SearchBar';
 
 import { cars, getTotalIssuesCount, getAllBrands } from '@/data/cars';
 import BrandPattern from '@/components/BrandPattern';
+import JsonLd from '@/components/JsonLd';
 
 export default async function Home() {
 
@@ -12,13 +13,41 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-stone-100 dark:bg-[#0c0a09]">
+      {/* Structured Data for Google */}
+      <JsonLd data={{
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'OTORAPORU.NET',
+        alternateName: 'Oto Raporu',
+        url: 'https://otoraporu.net',
+        description: 'Araç satın almadan önce kronik sorunları ve yaygın arızaları öğrenin. Türkiye\'nin en kapsamlı araç güvenilirlik veritabanı.',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: 'https://otoraporu.net/?q={search_term_string}'
+          },
+          'query-input': 'required name=search_term_string'
+        }
+      }} />
+      <JsonLd data={{
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'OTORAPORU.NET',
+        url: 'https://otoraporu.net',
+        logo: 'https://otoraporu.net/logo-transparent.png',
+        description: 'Türkiye\'nin en kapsamlı araç güvenilirlik veritabanı ve kronik sorun rehberi.',
+        sameAs: []
+      }} />
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-24 pb-16 lg:pt-36 lg:pb-24">
         {/* Warm gradient background */}
         <div className="absolute inset-0 bg-gradient-to-b from-stone-200 via-stone-100 to-stone-50 dark:from-[#0c0a09] dark:via-[#0c0a09] dark:to-[#0c0a09]" />
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#a8a29e15_1px,transparent_1px),linear-gradient(to_bottom,#a8a29e15_1px,transparent_1px)] dark:bg-[linear-gradient(to_right,#ffffff06_1px,transparent_1px),linear-gradient(to_bottom,#ffffff06_1px,transparent_1px)] bg-[size:48px_48px]" />
-
-        <BrandPattern />
+        {/* Brand logos - hidden on mobile for performance */}
+        <div className="hidden md:block">
+          <BrandPattern />
+        </div>
 
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 

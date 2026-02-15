@@ -62,6 +62,8 @@ export default function HeaderClient({ user }: HeaderClientProps) {
                                 src="/logo-transparent.png"
                                 alt="OTORAPORU"
                                 fill
+                                priority
+                                sizes="32px"
                                 className="object-contain"
                             />
                         </div>

@@ -204,7 +204,7 @@ export default async function CarDetailPage({ params }: PageProps) {
                     url: 'https://otoraporu.net'
                 },
                 reviewBody: car.expertNote || `${car.brand} ${car.model} detaylı kronik sorun analizi ve güvenilirlik raporu.`,
-                datePublished: '2025-01-01',
+                datePublished: '2026-01-01',
             }} />
             <JsonLd data={{
                 '@context': 'https://schema.org',

@@ -22,6 +22,7 @@ export interface Car {
     generation?: string;
     image?: string; // Opting out of images as per user request
     expertNote?: string; // "Sanayi Notu" - Master mechanic's advice
+    price?: number;
     reliabilityScore: number;
     totalIssues: number;
     issues: Issue[];

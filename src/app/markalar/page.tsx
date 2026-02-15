@@ -1,13 +1,51 @@
 import Link from 'next/link';
+import { Metadata } from 'next';
 import { brands } from '@/data/cars';
 import { getTotalIssuesCount } from '@/lib/cars';
 import BrandLogo from '@/components/BrandLogo';
+import JsonLd from '@/components/JsonLd';
+
+export const metadata: Metadata = {
+    title: 'Tüm Markalar — Araç Kronik Sorunları ve Güvenilirlik Rehberi | OTORAPORU.NET',
+    description: `${brands.length} farklı araç markasının kronik sorunları, yaygın arızaları ve güvenilirlik analizleri. BMW, Mercedes, Volkswagen, Fiat, Renault ve daha fazlası.`,
+    alternates: {
+        canonical: 'https://otoraporu.net/markalar',
+    },
+    openGraph: {
+        title: 'Tüm Araç Markaları — Kronik Sorunlar ve Güvenilirlik',
+        description: `${brands.length} araç markasının kronik sorunları ve güvenilirlik analizleri.`,
+        url: 'https://otoraporu.net/markalar',
+        type: 'website',
+    },
+};
 
 export default async function BrandsPage() {
     const totalIssues = await getTotalIssuesCount();
 
     return (
         <div className="min-h-screen bg-stone-50 dark:bg-[#0c0a09] py-10 lg:py-16">
+            {/* Brand List Structured Data */}
+            <JsonLd data={{
+                '@context': 'https://schema.org',
+                '@type': 'ItemList',
+                name: 'Araç Markaları — Kronik Sorun Rehberi',
+                description: 'Tüm araç markalarının kronik sorunları ve güvenilirlik analizleri',
+                numberOfItems: brands.length,
+                itemListElement: brands.map((brand, index) => ({
+                    '@type': 'ListItem',
+                    position: index + 1,
+                    name: brand.name,
+                    url: `https://otoraporu.net/markalar/${brand.id}`,
+                })),
+            }} />
+            <JsonLd data={{
+                '@context': 'https://schema.org',
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                    { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: 'https://otoraporu.net' },
+                    { '@type': 'ListItem', position: 2, name: 'Markalar', item: 'https://otoraporu.net/markalar' },
+                ],
+            }} />
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
                     <h1 className="text-3xl md:text-4xl font-bold text-stone-900 dark:text-stone-100 mb-4">

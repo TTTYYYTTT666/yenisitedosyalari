@@ -7,7 +7,7 @@ const prisma = new PrismaClient();
 async function main() {
     console.log(`Starting migration of ${cars.length} cars...`);
 
-    for (const car of cars) {
+    for (const car of cars as any[]) {
         console.log(`Migrating: ${car.brand} ${car.model} (${car.slug})`);
 
         try {
@@ -34,7 +34,7 @@ async function main() {
                 buyingTips: JSON.stringify(car.buyingTips || []),
             };
 
-            const issueData = car.issues?.map(issue => ({
+            const issueData = car.issues?.map((issue: any) => ({
                 title: issue.title,
                 description: issue.description,
                 category: issue.category,

@@ -77,7 +77,7 @@ export default function Footer() {
 
                 <div className="border-t border-stone-200 dark:border-stone-800 mt-8 pt-6 flex flex-col md:flex-row justify-between items-center gap-2">
                     <p className="text-stone-600 text-xs">
-                        © 2025 OTORAPORU.NET. Tüm hakları saklıdır.
+                        © {new Date().getFullYear()} OTORAPORU.NET. Tüm hakları saklıdır.
                     </p>
                     <p className="text-stone-700 text-xs">
                         Bu site yalnızca bilgilendirme amaçlıdır.

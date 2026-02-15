@@ -72,8 +72,9 @@ body {
   background: #57534e;
 }
 
-/* Smooth transition only on color properties */
-* {
+/* Smooth transition only on interactive elements */
+a, button, input, select, textarea,
+summary, [role="button"], [tabindex] {
   transition-property: background-color, border-color, color, box-shadow;
   transition-duration: 200ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
