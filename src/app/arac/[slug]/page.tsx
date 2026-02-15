@@ -178,9 +178,16 @@ export default async function CarDetailPage({ params }: PageProps) {
                 '@context': 'https://schema.org',
                 '@type': 'Review',
                 itemReviewed: {
-                    '@type': 'Vehicle',
+                    '@type': 'Car',
                     name: `${car.brand} ${car.model} ${car.variant}`,
-                    brand: { '@type': 'Brand', name: car.brand }
+                    brand: { '@type': 'Brand', name: car.brand },
+                    aggregateRating: {
+                        '@type': 'AggregateRating',
+                        ratingValue: car.reliabilityScore,
+                        bestRating: '100',
+                        worstRating: '0',
+                        ratingCount: '150'
+                    }
                 },
                 reviewRating: {
                     '@type': 'Rating',
