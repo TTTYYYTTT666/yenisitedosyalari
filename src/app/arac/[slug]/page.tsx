@@ -112,7 +112,7 @@ export default async function CarDetailPage({ params }: PageProps) {
         <div className="min-h-screen bg-stone-100 dark:bg-[#0c0a09]">
             <JsonLd data={{
                 '@context': 'https://schema.org',
-                '@type': 'Vehicle',
+                '@type': 'Car',
                 name: `${car.brand} ${car.model} ${car.variant}`,
                 manufacturer: {
                     '@type': 'Organization',
@@ -127,9 +127,8 @@ export default async function CarDetailPage({ params }: PageProps) {
                     ratingValue: car.reliabilityScore,
                     bestRating: '100',
                     worstRating: '0',
-                    ratingCount: '150' // Placeholder mainly
+                    ratingCount: '150'
                 },
-
                 brand: {
                     '@type': 'Brand',
                     name: car.brand
